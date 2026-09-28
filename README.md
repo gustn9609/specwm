@@ -1,6 +1,6 @@
-# SpecWM — project page
+# Speculative World Models — project page
 
-Static project page for **SpecWM: Speculative Decoding for World Models**.
+Static project page for **Speculative World Models** (repo/URL slug: `specwm`).
 No build step: `index.html` + `static/` + `assets/`. Served with GitHub Pages from the `main` branch root.
 
 - Live URL: `https://gustn9609.github.io/specwm/`

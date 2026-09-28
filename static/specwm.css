@@ -25,3 +25,8 @@
 
 /* cards without step icon */
 .cards.three .card h3{margin-top:2px}
+
+/* contributions list */
+.contrib{margin:0;padding-left:1.4em;color:var(--ink-2);font-size:1.02rem;line-height:1.7}
+.contrib li{margin-bottom:.55em}
+.contrib li::marker{font-weight:800;color:#6d5ce7}

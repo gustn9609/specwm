@@ -1,315 +1,304 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 940" width="1600" height="940" font-family="Noto Sans, Helvetica, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" width="1600" height="760" font-family="Noto Sans, Helvetica, Arial, sans-serif">
   <defs>
-    <linearGradient id="gDraft" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#ec4899"/>
-    </linearGradient>
-    <linearGradient id="gTarget" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/>
-    </linearGradient>
-    <linearGradient id="gSky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#eff6ff"/>
-    </linearGradient>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
-      <path d="M0 0 L10 5 L0 10 z" fill="#4a4a4a"/>
-    </marker>
-    <marker id="arrD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
-      <path d="M0 0 L10 5 L0 10 z" fill="#f97316"/>
-    </marker>
-    <marker id="arrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
-      <path d="M0 0 L10 5 L0 10 z" fill="#6d5ce7"/>
-    </marker>
-    <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
-      <path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/>
-    </marker>
-    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity=".10"/>
-    </filter>
-    <!-- a tiny landscape used as a "frame" glyph -->
+    <linearGradient id="gDraft" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fb923c"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <linearGradient id="gTarget" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="gSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#eff6ff"/></linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#4a4a4a"/></marker>
+    <marker id="arrD" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#f97316"/></marker>
+    <marker id="arrT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6d5ce7"/></marker>
+    <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#16a34a"/></marker>
+    <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#dc2626"/></marker>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000" flood-opacity=".10"/></filter>
     <symbol id="frame" viewBox="0 0 60 40">
-      <rect x="0" y="0" width="60" height="40" rx="6" fill="url(#gSky)"/>
-      <circle cx="46" cy="11" r="5" fill="#fbbf24"/>
-      <path d="M2 34 L16 18 L26 28 L36 16 L58 34 Z" fill="#60a5fa"/>
-      <path d="M2 40 L2 34 L58 34 L58 40 Z" fill="#34d399"/>
+      <rect width="60" height="40" rx="6" fill="url(#gSky)"/><circle cx="46" cy="11" r="5" fill="#fbbf24"/>
+      <path d="M2 34 L16 18 L26 28 L36 16 L58 34 Z" fill="#60a5fa"/><path d="M2 40 L2 34 L58 34 L58 40 Z" fill="#34d399"/>
     </symbol>
     <symbol id="frameDraft" viewBox="0 0 60 40">
-      <rect x="0" y="0" width="60" height="40" rx="6" fill="#fff7ed"/>
-      <circle cx="46" cy="11" r="5" fill="#fdba74" opacity=".9"/>
-      <path d="M2 34 L16 18 L26 28 L36 16 L58 34 Z" fill="#fdba74" opacity=".85"/>
-      <path d="M2 40 L2 34 L58 34 L58 40 Z" fill="#fed7aa"/>
+      <rect width="60" height="40" rx="6" fill="#fff7ed"/><circle cx="46" cy="11" r="5" fill="#fdba74"/>
+      <path d="M2 34 L16 18 L26 28 L36 16 L58 34 Z" fill="#fdba74" opacity=".9"/><path d="M2 40 L2 34 L58 34 L58 40 Z" fill="#fed7aa"/>
     </symbol>
     <symbol id="frameFix" viewBox="0 0 60 40">
-      <rect x="0" y="0" width="60" height="40" rx="6" fill="#f5f3ff"/>
-      <circle cx="46" cy="11" r="5" fill="#c4b5fd"/>
-      <path d="M2 34 L16 18 L26 28 L36 16 L58 34 Z" fill="#a78bfa"/>
-      <path d="M2 40 L2 34 L58 34 L58 40 Z" fill="#c4b5fd"/>
+      <rect width="60" height="40" rx="6" fill="#f5f3ff"/><circle cx="46" cy="11" r="5" fill="#c4b5fd"/>
+      <path d="M2 34 L16 18 L26 28 L36 16 L58 34 Z" fill="#a78bfa"/><path d="M2 40 L2 34 L58 34 L58 40 Z" fill="#c4b5fd"/>
+    </symbol>
+    <symbol id="frameDrift" viewBox="0 0 60 40">
+      <rect width="60" height="40" rx="6" fill="#fff1f2"/><circle cx="46" cy="11" r="5" fill="#fca5a5"/>
+      <path d="M2 34 L18 22 L28 30 L40 24 L58 34 Z" fill="#fca5a5" opacity=".9"/><path d="M2 40 L2 34 L58 34 L58 40 Z" fill="#fecaca"/>
     </symbol>
   </defs>
+  <rect width="1600" height="760" fill="#fff"/>
 
-  <rect width="1600" height="940" fill="#ffffff"/>
+  <!-- ============ TITLE ============ -->
+  <text x="800" y="44" text-anchor="middle" font-size="28" font-weight="800" fill="#2a2a2a" letter-spacing="-.4">Speculative World Models</text>
+  <text x="800" y="70" text-anchor="middle" font-size="15" fill="#6b6b6b">A few-step <tspan fill="#ea580c" font-weight="700">causal draft</tspan> streams every chunk. A large <tspan fill="#6d5ce7" font-weight="700">bidirectional target</tspan> verifies each chunk with one pass and, when it rejects, writes its own chunk into the draft's KV cache.</text>
 
-  <!-- ====================== TITLE ====================== -->
-  <text x="800" y="52" text-anchor="middle" font-size="30" font-weight="800" fill="#2a2a2a" letter-spacing="-.5">SpecWM: Speculative Decoding for World Models</text>
-  <text x="800" y="82" text-anchor="middle" font-size="16" fill="#6b6b6b">A fast <tspan fill="#ea580c" font-weight="700">autoregressive</tspan> world model drafts K future frames; an accurate <tspan fill="#6d5ce7" font-weight="700">bidirectional</tspan> world model verifies them all in a single pass.</text>
+  <!-- ============ (a) STREAMING LOOP ============ -->
+  <g transform="translate(40,96)">
+    <text x="0" y="14" font-size="14" font-weight="800" fill="#2a2a2a">(a) Draft, verify, and correct the cache</text>
 
-  <!-- ====================== MAIN LOOP (y 120 .. 560) ====================== -->
-
-  <!-- Context -->
-  <g transform="translate(40,150)">
-    <text x="105" y="0" text-anchor="middle" font-size="13" font-weight="700" fill="#7a7a7a" letter-spacing="1.5">CONTEXT</text>
-    <rect x="0" y="14" width="210" height="380" rx="16" fill="#fafafb" stroke="#e6e6e6"/>
-    <text x="105" y="42" text-anchor="middle" font-size="13" fill="#4a4a4a">past frames  x<tspan baseline-shift="sub" font-size="9">≤t</tspan></text>
-    <use href="#frame" x="30" y="56" width="150" height="100" filter="url(#sh)"/>
-    <use href="#frame" x="30" y="150" width="150" height="100" opacity=".85" transform="translate(6,-8)"/>
-    <use href="#frame" x="30" y="150" width="150" height="100" filter="url(#sh)"/>
-    <text x="105" y="290" text-anchor="middle" font-size="13" fill="#4a4a4a">actions  a<tspan baseline-shift="sub" font-size="9">t+1..t+K</tspan></text>
-    <g transform="translate(24,304)" font-size="12" font-family="JetBrains Mono, Menlo, monospace" fill="#4a4a4a">
-      <rect x="0" y="0" width="38" height="26" rx="6" fill="#fff" stroke="#e6e6e6"/><text x="19" y="17" text-anchor="middle">a₁</text>
-      <rect x="42" y="0" width="38" height="26" rx="6" fill="#fff" stroke="#e6e6e6"/><text x="61" y="17" text-anchor="middle">a₂</text>
-      <rect x="84" y="0" width="38" height="26" rx="6" fill="#fff" stroke="#e6e6e6"/><text x="103" y="17" text-anchor="middle">a₃</text>
-      <rect x="126" y="0" width="38" height="26" rx="6" fill="#fff" stroke="#e6e6e6"/><text x="145" y="17" text-anchor="middle">a₄</text>
+    <!-- display strip -->
+    <g transform="translate(360,30)">
+      <rect x="0" y="0" width="640" height="56" rx="12" fill="#fafafb" stroke="#e6e6e6"/>
+      <g transform="translate(12,10)">
+        <rect x="0" y="0" width="34" height="26" rx="4" fill="#363636"/><rect x="4" y="4" width="26" height="16" rx="2" fill="#93c5fd"/><rect x="13" y="26" width="8" height="4" fill="#363636"/><rect x="8" y="30" width="18" height="3" rx="1" fill="#363636"/>
+      </g>
+      <text x="58" y="20" font-size="12" font-weight="700" fill="#4a4a4a">Display</text>
+      <text x="58" y="38" font-size="10.5" fill="#9a9a9a">the draft's stream · never stalls</text>
+      <g transform="translate(200,9)">
+        <use href="#frame" x="0" y="0" width="52" height="36"/><use href="#frame" x="58" y="0" width="52" height="36"/><use href="#frame" x="116" y="0" width="52" height="36"/>
+        <use href="#frame" x="174" y="0" width="52" height="36"/><use href="#frameDraft" x="232" y="0" width="52" height="36"/><use href="#frameDraft" x="290" y="0" width="52" height="36"/>
+        <rect x="348" y="0" width="52" height="36" rx="5" fill="none" stroke="#fb923c" stroke-dasharray="4 3"/>
+        <text x="374" y="23" text-anchor="middle" font-size="11" fill="#ea580c" font-weight="700">ẑᵏ</text>
+      </g>
+      <text x="628" y="50" text-anchor="end" font-size="10" fill="#9a9a9a">lags the cache by one verification</text>
     </g>
-    <text x="105" y="366" text-anchor="middle" font-size="11" fill="#9a9a9a">shared by both models</text>
+
+    <!-- DRAFT box -->
+    <g transform="translate(20,110)">
+      <rect x="0" y="0" width="290" height="260" rx="16" fill="#fff" stroke="url(#gDraft)" stroke-width="2.4" filter="url(#sh)"/>
+      <text x="145" y="28" text-anchor="middle" font-size="16" font-weight="800" fill="#2a2a2a">Draft 𝒟</text>
+      <text x="145" y="46" text-anchor="middle" font-size="11.5" fill="#7a7a7a">few-step causal student · streams at frame rate</text>
+      <!-- causal mask -->
+      <g transform="translate(16,64)">
+        <g fill="#fed7aa" stroke="#fff"><rect width="11" height="11"/><rect y="12" width="11" height="11"/><rect x="12" y="12" width="11" height="11"/><rect y="24" width="11" height="11"/><rect x="12" y="24" width="11" height="11"/><rect x="24" y="24" width="11" height="11"/><rect y="36" width="11" height="11"/><rect x="12" y="36" width="11" height="11"/><rect x="24" y="36" width="11" height="11"/><rect x="36" y="36" width="11" height="11"/></g>
+        <g fill="#f4f4f5"><rect x="12" width="11" height="11"/><rect x="24" width="11" height="11"/><rect x="36" width="11" height="11"/><rect x="24" y="12" width="11" height="11"/><rect x="36" y="12" width="11" height="11"/><rect x="36" y="24" width="11" height="11"/></g>
+        <text x="23" y="60" text-anchor="middle" font-size="9.5" fill="#9a9a9a">causal</text>
+      </g>
+      <!-- 4-node chain -->
+      <g transform="translate(80,66)">
+        <text x="98" y="0" text-anchor="middle" font-size="10.5" fill="#7a7a7a">one chunk, 4 denoising nodes</text>
+        <g font-size="10.5" fill="#9a3412" font-weight="700" text-anchor="middle">
+          <circle cx="14" cy="22" r="10" fill="#fff7ed" stroke="#fb923c" stroke-width="1.6"/><text x="14" y="26">σ₁</text>
+          <path d="M26 22 L42 22" stroke="#fb923c" stroke-width="1.6" marker-end="url(#arrD)"/>
+          <circle cx="56" cy="22" r="10" fill="#fff7ed" stroke="#fb923c" stroke-width="1.6"/><text x="56" y="26">σ₂</text>
+          <path d="M68 22 L84 22" stroke="#fb923c" stroke-width="1.6" marker-end="url(#arrD)"/>
+          <circle cx="98" cy="22" r="11" fill="#fff" stroke="#6d5ce7" stroke-width="2.2"/><text x="98" y="26" fill="#4c1d95">σₛ</text>
+          <path d="M111 22 L127 22" stroke="#fb923c" stroke-width="1.6" marker-end="url(#arrD)"/>
+          <circle cx="141" cy="22" r="10" fill="#fff7ed" stroke="#fb923c" stroke-width="1.6"/><text x="141" y="26">σ₄</text>
+          <path d="M153 22 L169 22" stroke="#fb923c" stroke-width="1.6" marker-end="url(#arrD)"/>
+          <use href="#frameDraft" x="172" y="10" width="28" height="20"/>
+        </g>
+        <text x="98" y="52" text-anchor="middle" font-size="10" fill="#6d5ce7" font-weight="700">▲ verified here (re-noise node, see b)</text>
+        <text x="98" y="66" text-anchor="middle" font-size="10" fill="#9a9a9a">fresh noise between nodes ⇒ Gaussian transition</text>
+      </g>
+      <!-- KV cache -->
+      <g transform="translate(16,178)">
+        <text x="0" y="0" font-size="11.5" font-weight="700" fill="#4a4a4a">KV cache <tspan font-weight="400" fill="#9a9a9a">(window W · the only channel from past to future)</tspan></text>
+        <rect x="0" y="8" width="258" height="44" rx="10" fill="#fff7ed" stroke="#fed7aa"/>
+        <use href="#frame" x="8" y="14" width="46" height="32"/><use href="#frame" x="58" y="14" width="46" height="32"/><use href="#frame" x="108" y="14" width="46" height="32"/>
+        <use href="#frameFix" x="158" y="14" width="46" height="32"/>
+        <rect x="208" y="14" width="42" height="32" rx="5" fill="none" stroke="#c4c4c8" stroke-dasharray="3 3"/><text x="229" y="35" text-anchor="middle" font-size="12" fill="#b0b0b8">k</text>
+        <text x="181" y="64" text-anchor="middle" font-size="9.5" fill="#6d5ce7" font-weight="700">pinned target chunk</text>
+      </g>
+    </g>
+
+    <!-- proposal chunk -->
+    <path d="M312 240 L344 240" stroke="#f97316" stroke-width="2" marker-end="url(#arrD)"/>
+    <g transform="translate(346,212)">
+      <rect x="0" y="0" width="70" height="56" rx="8" fill="#fff" stroke="#fb923c" stroke-width="1.6" stroke-dasharray="5 4"/>
+      <use href="#frameDraft" x="7" y="9" width="56" height="38"/>
+      <text x="35" y="70" text-anchor="middle" font-size="11" font-weight="700" fill="#9a3412">proposal ẑᵏ</text>
+    </g>
+    <!-- proposal -> display -->
+    <path d="M381 210 L381 98 L708 98 L708 88" fill="none" stroke="#c9c9cf" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#arr)"/>
+    <text x="392" y="112" font-size="10" fill="#9a9a9a">shown immediately</text>
+    <!-- proposal -> target -->
+    <path d="M418 240 L456 240" stroke="#f97316" stroke-width="2" marker-end="url(#arrD)"/>
+
+    <!-- TARGET box -->
+    <g transform="translate(460,110)">
+      <rect x="0" y="0" width="290" height="260" rx="16" fill="#fff" stroke="url(#gTarget)" stroke-width="2.4" filter="url(#sh)"/>
+      <text x="145" y="28" text-anchor="middle" font-size="16" font-weight="800" fill="#2a2a2a">Target 𝒯</text>
+      <text x="145" y="46" text-anchor="middle" font-size="11.5" fill="#7a7a7a">large bidirectional teacher · consistent, too slow to stream</text>
+      <g transform="translate(16,64)">
+        <g fill="#ddd6fe" stroke="#fff"><rect width="11" height="11"/><rect x="12" width="11" height="11"/><rect x="24" width="11" height="11"/><rect x="36" width="11" height="11"/><rect y="12" width="11" height="11"/><rect x="12" y="12" width="11" height="11"/><rect x="24" y="12" width="11" height="11"/><rect x="36" y="12" width="11" height="11"/><rect y="24" width="11" height="11"/><rect x="12" y="24" width="11" height="11"/><rect x="24" y="24" width="11" height="11"/><rect x="36" y="24" width="11" height="11"/><rect y="36" width="11" height="11"/><rect x="12" y="36" width="11" height="11"/><rect x="24" y="36" width="11" height="11"/><rect x="36" y="36" width="11" height="11"/></g>
+        <text x="23" y="60" text-anchor="middle" font-size="9.5" fill="#9a9a9a">bidirectional</text>
+      </g>
+      <g transform="translate(80,62)" font-size="11.5" fill="#4a4a4a">
+        <text x="0" y="12" font-weight="700" fill="#4c1d95">One forward pass per chunk</text>
+        <text x="0" y="32">• at the draft's node σₛ, not a full 40–70-step sample</text>
+        <text x="0" y="50">• reduced resolution</text>
+        <text x="0" y="68">• short context = accepted chunks only</text>
+        <text x="0" y="90" font-weight="700" fill="#6d5ce7">→ clean estimate ẑ_𝒯 ⇒ acceptance α</text>
+      </g>
+      <g transform="translate(16,178)">
+        <rect x="0" y="8" width="258" height="44" rx="10" fill="#f5f3ff" stroke="#ddd6fe"/>
+        <text x="129" y="0" text-anchor="middle" font-size="10.5" fill="#7a7a7a">cost: a small multiple of one draft step; paid once per chunk</text>
+        <text x="129" y="35" text-anchor="middle" font-size="11" fill="#4c1d95" font-weight="700">exact rule · no retraining of 𝒟 or 𝒯</text>
+      </g>
+    </g>
+
+    <!-- decision -->
+    <path d="M752 240 L788 240" stroke="#6d5ce7" stroke-width="2" marker-end="url(#arrT)"/>
+    <g transform="translate(830,240)">
+      <path d="M0 -34 L40 0 L0 34 L-40 0 Z" fill="#fff" stroke="#4a4a4a" stroke-width="1.8"/>
+      <text x="0" y="-2" text-anchor="middle" font-size="11" font-weight="700" fill="#2a2a2a">accept</text>
+      <text x="0" y="13" text-anchor="middle" font-size="10" fill="#7a7a7a">prob. α</text>
+    </g>
+    <!-- accept path -->
+    <path d="M872 240 L906 240" stroke="#16a34a" stroke-width="2.2" marker-end="url(#arrG)"/>
+    <text x="889" y="230" text-anchor="middle" font-size="11" font-weight="800" fill="#16a34a">✓</text>
+    <g transform="translate(908,212)">
+      <rect x="0" y="0" width="92" height="56" rx="8" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+      <use href="#frameDraft" x="7" y="9" width="56" height="38"/>
+      <text x="78" y="33" text-anchor="middle" font-size="16" fill="#16a34a" font-weight="800">✓</text>
+      <text x="46" y="70" text-anchor="middle" font-size="11" font-weight="700" fill="#166534">keep ẑᵏ</text>
+    </g>
+    <!-- reject path -->
+    <path d="M830 276 L830 306" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arrR)"/>
+    <text x="842" y="298" font-size="11" font-weight="800" fill="#dc2626">✗ 1−α</text>
+    <g transform="translate(770,308)">
+      <rect x="0" y="0" width="230" height="62" rx="10" fill="#f5f3ff" stroke="url(#gTarget)" stroke-width="2"/>
+      <use href="#frameFix" x="10" y="12" width="56" height="38"/>
+      <text x="76" y="24" font-size="11.5" font-weight="700" fill="#4c1d95">𝒯 regenerates chunk k</text>
+      <text x="76" y="41" font-size="10.5" fill="#4a4a4a">conditioned on the accepted prefix</text>
+      <text x="76" y="55" font-size="10.5" fill="#4a4a4a">(residual sample, no extra pass)</text>
+    </g>
+
+    <!-- loop back into the cache -->
+    <path d="M954 270 L954 404" fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="6 4"/>
+    <path d="M885 372 L885 404" fill="none" stroke="#6d5ce7" stroke-width="2.4"/>
+    <path d="M954 404 L214 404 L214 372" fill="none" stroke="#6d5ce7" stroke-width="2.4" marker-end="url(#arrT)"/>
+    <rect x="330" y="388" width="392" height="32" rx="16" fill="#fff" stroke="#c4b5fd"/>
+    <text x="526" y="409" text-anchor="middle" font-size="12.5" font-weight="800" fill="#4c1d95">cache correction: the endorsed chunk is written into 𝒟's KV cache</text>
+    <text x="214" y="440" text-anchor="middle" font-size="10.5" fill="#7a7a7a">𝒟 continues from a state 𝒯 endorses, not from its own drift</text>
+
+    <!-- display vs cache over time -->
+    <g transform="translate(20,470)">
+      <text x="0" y="0" font-size="12" font-weight="700" fill="#4a4a4a">Over time: what is shown vs. what the draft conditions on</text>
+      <g transform="translate(0,12)" font-size="10.5" fill="#7a7a7a">
+        <text x="0" y="28" font-weight="700">display</text>
+        <text x="0" y="66" font-weight="700">KV cache</text>
+        <g transform="translate(70,6)">
+          <g>
+            <use href="#frame" x="0" y="0" width="60" height="30"/><use href="#frame" x="0" y="38" width="60" height="30"/>
+            <text x="30" y="84" text-anchor="middle">k−3 ✓</text>
+          </g>
+          <g transform="translate(74,0)">
+            <use href="#frame" x="0" y="0" width="60" height="30"/><use href="#frame" x="0" y="38" width="60" height="30"/>
+            <text x="30" y="84" text-anchor="middle">k−2 ✓</text>
+          </g>
+          <g transform="translate(148,0)">
+            <use href="#frameDrift" x="0" y="0" width="60" height="30"/>
+            <use href="#frameFix" x="0" y="38" width="60" height="30"/>
+            <rect x="-3" y="35" width="66" height="36" rx="6" fill="none" stroke="#6d5ce7" stroke-width="2"/>
+            <text x="30" y="84" text-anchor="middle" fill="#dc2626" font-weight="700">k−1 ✗ → 𝒯</text>
+          </g>
+          <g transform="translate(222,0)">
+            <use href="#frame" x="0" y="0" width="60" height="30"/><use href="#frame" x="0" y="38" width="60" height="30"/>
+            <text x="30" y="84" text-anchor="middle">k ✓</text>
+          </g>
+          <g transform="translate(296,0)">
+            <use href="#frameDraft" x="0" y="0" width="60" height="30"/>
+            <rect x="0" y="38" width="60" height="30" rx="5" fill="none" stroke="#c4c4c8" stroke-dasharray="3 3"/>
+            <text x="30" y="84" text-anchor="middle">k+1 verifying…</text>
+          </g>
+          <g transform="translate(370,0)">
+            <rect x="0" y="0" width="60" height="30" rx="5" fill="none" stroke="#fb923c" stroke-dasharray="3 3"/>
+            <text x="30" y="84" text-anchor="middle">k+2 drafting</text>
+          </g>
+          <path d="M448 34 L520 34" stroke="#9a9a9a" stroke-width="1.5" marker-end="url(#arr)"/><text x="484" y="28" text-anchor="middle" font-size="10" fill="#9a9a9a">time</text>
+          <g transform="translate(470,44)" font-size="10.5" fill="#4a4a4a">
+            <text x="0" y="8">A rejected chunk was shown once (drifted, red),</text>
+            <text x="0" y="24">but the <tspan font-weight="700" fill="#4c1d95">target's chunk</tspan> is what sits in the cache,</text>
+            <text x="0" y="40">so every later chunk inherits the correction.</text>
+          </g>
+        </g>
+      </g>
+    </g>
   </g>
 
-  <!-- arrow context -> draft -->
-  <path d="M252 340 L300 340" stroke="#4a4a4a" stroke-width="2.2" marker-end="url(#arr)"/>
-
-  <!-- ===== DRAFT model ===== -->
-  <g transform="translate(305,150)">
-    <text x="150" y="0" text-anchor="middle" font-size="13" font-weight="700" fill="#ea580c" letter-spacing="1.5">① DRAFT</text>
-    <rect x="0" y="14" width="300" height="380" rx="18" fill="#fff" stroke="url(#gDraft)" stroke-width="2.5" filter="url(#sh)"/>
-    <text x="150" y="46" text-anchor="middle" font-size="17" font-weight="800" fill="#2a2a2a">Autoregressive World Model</text>
-    <text x="150" y="66" text-anchor="middle" font-size="12.5" fill="#7a7a7a">causal attention · small · K sequential steps</text>
-
-    <!-- causal attention mask icon (lower triangle) -->
-    <g transform="translate(18,90)">
-      <g fill="#fed7aa" stroke="#fff" stroke-width="1">
-        <rect x="0" y="0" width="14" height="14"/>
-        <rect x="0" y="16" width="14" height="14"/><rect x="16" y="16" width="14" height="14"/>
-        <rect x="0" y="32" width="14" height="14"/><rect x="16" y="32" width="14" height="14"/><rect x="32" y="32" width="14" height="14"/>
-        <rect x="0" y="48" width="14" height="14"/><rect x="16" y="48" width="14" height="14"/><rect x="32" y="48" width="14" height="14"/><rect x="48" y="48" width="14" height="14"/>
-      </g>
-      <g fill="#f4f4f5">
-        <rect x="16" y="0" width="14" height="14"/><rect x="32" y="0" width="14" height="14"/><rect x="48" y="0" width="14" height="14"/>
-        <rect x="32" y="16" width="14" height="14"/><rect x="48" y="16" width="14" height="14"/>
-        <rect x="48" y="32" width="14" height="14"/>
-      </g>
-      <text x="31" y="78" text-anchor="middle" font-size="10.5" fill="#9a9a9a">causal mask</text>
+  <!-- ============ (b) SHARED KERNEL ============ -->
+  <g transform="translate(1080,96)">
+    <text x="0" y="14" font-size="14" font-weight="800" fill="#2a2a2a">(b) Where the two models meet</text>
+    <rect x="0" y="26" width="480" height="270" rx="16" fill="#fafafb" stroke="#e6e6e6"/>
+    <g transform="translate(18,44)" font-size="11.5" fill="#4a4a4a">
+      <text x="0" y="12">At the draft's node σₛ both models see the same noisy chunk</text>
+      <text x="0" y="30"><tspan font-family="JetBrains Mono, Menlo, monospace">x_{σₛ}</tspan> and return a clean estimate; re-noising to σₛ₊₁ gives</text>
+      <text x="0" y="54"><tspan fill="#ea580c" font-weight="700">q</tspan> = 𝒩((1−σₛ₊₁) ẑ_𝒟, σ²ₛ₊₁ I)   <tspan fill="#6d5ce7" font-weight="700">p</tspan> = 𝒩((1−σₛ₊₁) ẑ_𝒯, σ²ₛ₊₁ I)</text>
+      <text x="0" y="72" fill="#7a7a7a">same covariance, only the mean differs by d = ‖μ_p − μ_q‖.</text>
     </g>
-
-    <!-- sequential generation chain -->
-    <g transform="translate(96,96)">
-      <use href="#frameDraft" x="0" y="0" width="54" height="36"/>
-      <path d="M56 18 L74 18" stroke="#f97316" stroke-width="2" marker-end="url(#arrD)"/>
-      <use href="#frameDraft" x="76" y="0" width="54" height="36"/>
-      <path d="M132 18 L150 18" stroke="#f97316" stroke-width="2" marker-end="url(#arrD)"/>
-      <use href="#frameDraft" x="152" y="0" width="54" height="36"/>
-      <text x="103" y="58" text-anchor="middle" font-size="11.5" fill="#7a7a7a">x̂<tspan baseline-shift="sub" font-size="8">t+1</tspan> → x̂<tspan baseline-shift="sub" font-size="8">t+2</tspan> → … → x̂<tspan baseline-shift="sub" font-size="8">t+K</tspan></text>
+    <!-- bell curves -->
+    <g transform="translate(40,140)">
+      <line x1="0" y1="90" x2="400" y2="90" stroke="#c9c9cf"/>
+      <path d="M120 90 C160 90 175 20 200 20 C225 20 240 90 280 90 Z" fill="#bbf7d0" opacity=".7"/>
+      <path d="M40 90 C90 90 110 8 160 8 C210 8 230 90 280 90" fill="none" stroke="#f97316" stroke-width="2.4"/>
+      <path d="M120 90 C170 90 190 8 240 8 C290 8 310 90 360 90" fill="none" stroke="#6d5ce7" stroke-width="2.4"/>
+      <line x1="160" y1="8" x2="160" y2="90" stroke="#f97316" stroke-dasharray="3 3"/>
+      <line x1="240" y1="8" x2="240" y2="90" stroke="#6d5ce7" stroke-dasharray="3 3"/>
+      <path d="M160 0 L240 0" stroke="#4a4a4a" stroke-width="1.4" marker-start="url(#arr)" marker-end="url(#arr)"/>
+      <text x="200" y="-6" text-anchor="middle" font-size="11" font-weight="700" fill="#2a2a2a">d</text>
+      <text x="160" y="104" text-anchor="middle" font-size="11" fill="#ea580c" font-weight="700">μ_q (draft)</text>
+      <text x="240" y="104" text-anchor="middle" font-size="11" fill="#6d5ce7" font-weight="700">μ_p (target)</text>
+      <text x="200" y="66" text-anchor="middle" font-size="10.5" fill="#166534" font-weight="700">accept</text>
+      <text x="330" y="40" font-size="10.5" fill="#7a7a7a">width σₛ₊₁</text>
     </g>
-
-    <!-- speed / role note -->
-    <g transform="translate(18,200)">
-      <rect x="0" y="0" width="264" height="150" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
-      <text x="14" y="26" font-size="13" font-weight="700" fill="#9a3412">Role: propose cheaply</text>
-      <text x="14" y="50" font-size="12.5" fill="#4a4a4a">• KV-cached streaming rollout</text>
-      <text x="14" y="72" font-size="12.5" fill="#4a4a4a">• only sees the past ⇒ error accumulates</text>
-      <text x="14" y="94" font-size="12.5" fill="#4a4a4a">• each step costs  ≈ c<tspan baseline-shift="sub" font-size="9">draft</tspan> ≪ c<tspan baseline-shift="sub" font-size="9">target</tspan></text>
-      <text x="14" y="128" font-size="12.5" font-weight="700" fill="#ea580c">Output: K candidate frames</text>
+    <g transform="translate(18,256)" font-size="12" fill="#2a2a2a">
+      <text x="0" y="0">accept with <tspan font-family="JetBrains Mono, Menlo, monospace">min{1, p(x)/q(x)}</tspan>;  E[accept] = <tspan font-weight="800">α = 1 − TV(p,q) = 2Φ(−d / 2σₛ₊₁)</tspan></text>
+      <text x="0" y="17" font-size="10.5" fill="#7a7a7a">On rejection, sample the residual (p−q)₊ with Gaussian draws only, no extra network call.</text>
+      <text x="0" y="31" font-size="10.5" fill="#7a7a7a">Holds only where 𝒟 re-noises with fresh noise, i.e. at its intermediate nodes.</text>
     </g>
   </g>
 
-  <!-- draft frames flying to the target -->
-  <g transform="translate(618,270)">
-    <text x="88" y="-14" text-anchor="middle" font-size="12" font-weight="700" fill="#ea580c">K = 4 drafts</text>
-    <g stroke="#fb923c" stroke-width="1.6" stroke-dasharray="5 4" fill="none">
-      <rect x="0" y="0" width="80" height="54" rx="8"/>
-      <rect x="96" y="0" width="80" height="54" rx="8"/>
-      <rect x="0" y="70" width="80" height="54" rx="8"/>
-      <rect x="96" y="70" width="80" height="54" rx="8"/>
-    </g>
-    <use href="#frameDraft" x="6" y="6" width="68" height="42"/>
-    <use href="#frameDraft" x="102" y="6" width="68" height="42"/>
-    <use href="#frameDraft" x="6" y="76" width="68" height="42"/>
-    <use href="#frameDraft" x="102" y="76" width="68" height="42"/>
-    <g font-size="11" fill="#9a3412" font-weight="700" text-anchor="middle">
-      <text x="40" y="66">x̂ₜ₊₁</text><text x="136" y="66">x̂ₜ₊₂</text>
-      <text x="40" y="136">x̂ₜ₊₃</text><text x="136" y="136">x̂ₜ₊₄</text>
-    </g>
-  </g>
-  <path d="M612 335 L640 335" stroke="#f97316" stroke-width="2.2" marker-end="url(#arrD)" transform="translate(-4,0)"/>
-  <path d="M800 335 L836 335" stroke="#f97316" stroke-width="2.2" marker-end="url(#arrD)"/>
+  <!-- ============ (c) VERIFIED UNIT ============ -->
+  <g transform="translate(1080,410)">
+    <text x="0" y="14" font-size="14" font-weight="800" fill="#2a2a2a">(c) The verified unit decides whether anything is accepted</text>
+    <rect x="0" y="26" width="480" height="300" rx="16" fill="#fafafb" stroke="#e6e6e6"/>
+    <text x="240" y="46" text-anchor="middle" font-size="11" fill="#4a4a4a">d² sums over every verified dimension, so d ≈ √D·δ for a per-dimension gap δ,</text>
+    <text x="240" y="61" text-anchor="middle" font-size="11" fill="#4a4a4a">while the noise scale σ does not grow with D. Hence</text>
+    <text x="240" y="80" text-anchor="middle" font-size="12" font-weight="800" fill="#2a2a2a">α ≈ 2Φ(−√D·δ / 2σ): the same gap δ is accepted or rejected by how much is verified at once</text>
 
-  <!-- ===== TARGET model ===== -->
-  <g transform="translate(842,150)">
-    <text x="165" y="0" text-anchor="middle" font-size="13" font-weight="700" fill="#6d5ce7" letter-spacing="1.5">② VERIFY</text>
-    <rect x="0" y="14" width="330" height="380" rx="18" fill="#fff" stroke="url(#gTarget)" stroke-width="2.5" filter="url(#sh)"/>
-    <text x="165" y="46" text-anchor="middle" font-size="17" font-weight="800" fill="#2a2a2a">Bidirectional World Model</text>
-    <text x="165" y="66" text-anchor="middle" font-size="12.5" fill="#7a7a7a">full attention · large · one parallel pass</text>
-
-    <!-- full attention mask icon -->
-    <g transform="translate(18,90)">
-      <g fill="#ddd6fe" stroke="#fff" stroke-width="1">
-        <rect x="0" y="0" width="14" height="14"/><rect x="16" y="0" width="14" height="14"/><rect x="32" y="0" width="14" height="14"/><rect x="48" y="0" width="14" height="14"/>
-        <rect x="0" y="16" width="14" height="14"/><rect x="16" y="16" width="14" height="14"/><rect x="32" y="16" width="14" height="14"/><rect x="48" y="16" width="14" height="14"/>
-        <rect x="0" y="32" width="14" height="14"/><rect x="16" y="32" width="14" height="14"/><rect x="32" y="32" width="14" height="14"/><rect x="48" y="32" width="14" height="14"/>
-        <rect x="0" y="48" width="14" height="14"/><rect x="16" y="48" width="14" height="14"/><rect x="32" y="48" width="14" height="14"/><rect x="48" y="48" width="14" height="14"/>
-      </g>
-      <text x="31" y="78" text-anchor="middle" font-size="10.5" fill="#9a9a9a">full mask</text>
-    </g>
-
-    <!-- all K frames attended jointly -->
-    <g transform="translate(100,92)">
-      <use href="#frameDraft" x="0" y="0" width="46" height="31"/>
-      <use href="#frameDraft" x="54" y="0" width="46" height="31"/>
-      <use href="#frameDraft" x="108" y="0" width="46" height="31"/>
-      <use href="#frameDraft" x="162" y="0" width="46" height="31"/>
-      <!-- bidirectional arcs -->
-      <g fill="none" stroke="#8b5cf6" stroke-width="1.6" opacity=".85">
-        <path d="M23 36 Q77 62 131 36" marker-start="url(#arrT)" marker-end="url(#arrT)"/>
-        <path d="M77 36 Q131 66 185 36" marker-start="url(#arrT)" marker-end="url(#arrT)"/>
-        <path d="M23 -4 Q104 -30 185 -4" marker-start="url(#arrT)" marker-end="url(#arrT)"/>
-      </g>
-      <text x="104" y="86" text-anchor="middle" font-size="11.5" fill="#7a7a7a">every draft frame attends to all others</text>
-    </g>
-
-    <!-- role note -->
-    <g transform="translate(18,200)">
-      <rect x="0" y="0" width="294" height="150" rx="12" fill="#f5f3ff" stroke="#ddd6fe"/>
-      <text x="14" y="26" font-size="13" font-weight="700" fill="#4c1d95">Role: check &amp; correct</text>
-      <text x="14" y="50" font-size="12.5" fill="#4a4a4a">• scores all K drafts in one forward pass</text>
-      <text x="14" y="72" font-size="12.5" fill="#4a4a4a">• sees past + future ⇒ globally consistent</text>
-      <text x="14" y="94" font-size="12.5" fill="#4a4a4a">• accept x̂<tspan baseline-shift="sub" font-size="9">t+i</tspan> with prob. min(1, p<tspan baseline-shift="sub" font-size="9">tgt</tspan>/p<tspan baseline-shift="sub" font-size="9">draft</tspan>)</text>
-      <text x="14" y="128" font-size="12.5" font-weight="700" fill="#6d5ce7">Output: accept mask + corrected frame</text>
-    </g>
-  </g>
-
-  <!-- arrow target -> outcome -->
-  <path d="M1176 335 L1212 335" stroke="#6d5ce7" stroke-width="2.2" marker-end="url(#arrT)"/>
-
-  <!-- ===== OUTCOME ===== -->
-  <g transform="translate(1218,150)">
-    <text x="170" y="0" text-anchor="middle" font-size="13" font-weight="700" fill="#16a34a" letter-spacing="1.5">③ ACCEPT / RESAMPLE</text>
-    <rect x="0" y="14" width="342" height="380" rx="16" fill="#fafafb" stroke="#e6e6e6"/>
-
-    <!-- row of verdicts -->
-    <g transform="translate(22,44)">
-      <!-- accepted 1 -->
+    <g transform="translate(30,98)">
+      <!-- whole clip -->
       <g>
-        <rect x="0" y="0" width="68" height="50" rx="8" fill="#fff" stroke="#16a34a" stroke-width="2"/>
-        <use href="#frame" x="6" y="6" width="56" height="38"/>
-        <circle cx="62" cy="4" r="10" fill="#16a34a"/><path d="M57 4 L61 8 L68 0" stroke="#fff" stroke-width="2.2" fill="none"/>
-        <text x="34" y="66" text-anchor="middle" font-size="11" fill="#166534" font-weight="700">x̂ₜ₊₁ ✓</text>
+        <g>
+          <use href="#frame" x="0" y="0" width="22" height="15"/><use href="#frame" x="24" y="0" width="22" height="15"/><use href="#frame" x="48" y="0" width="22" height="15"/><use href="#frame" x="72" y="0" width="22" height="15"/>
+          <use href="#frame" x="0" y="17" width="22" height="15"/><use href="#frame" x="24" y="17" width="22" height="15"/><use href="#frame" x="48" y="17" width="22" height="15"/><use href="#frame" x="72" y="17" width="22" height="15"/>
+          <use href="#frame" x="0" y="34" width="22" height="15"/><use href="#frame" x="24" y="34" width="22" height="15"/><use href="#frame" x="48" y="34" width="22" height="15"/><use href="#frame" x="72" y="34" width="22" height="15"/>
+          <rect x="-4" y="-4" width="102" height="57" rx="6" fill="none" stroke="#dc2626" stroke-width="1.8"/>
+        </g>
+        <text x="47" y="70" text-anchor="middle" font-size="11.5" font-weight="700" fill="#2a2a2a">whole clip</text>
+        <text x="47" y="85" text-anchor="middle" font-size="10.5" fill="#7a7a7a">D ≈ 5×10⁵</text>
+        <rect x="27" y="180" width="40" height="3" fill="#dc2626"/>
+        <text x="47" y="172" text-anchor="middle" font-size="11" font-weight="800" fill="#dc2626">α ≈ 0</text>
+        <text x="47" y="200" text-anchor="middle" font-size="10" fill="#9a9a9a">rejects everything</text>
       </g>
-      <!-- accepted 2 -->
-      <g transform="translate(76,0)">
-        <rect x="0" y="0" width="68" height="50" rx="8" fill="#fff" stroke="#16a34a" stroke-width="2"/>
-        <use href="#frame" x="6" y="6" width="56" height="38"/>
-        <circle cx="62" cy="4" r="10" fill="#16a34a"/><path d="M57 4 L61 8 L68 0" stroke="#fff" stroke-width="2.2" fill="none"/>
-        <text x="34" y="66" text-anchor="middle" font-size="11" fill="#166534" font-weight="700">x̂ₜ₊₂ ✓</text>
+      <!-- one chunk -->
+      <g transform="translate(160,0)">
+        <g transform="translate(12,17)">
+          <use href="#frame" x="0" y="0" width="22" height="15"/><use href="#frame" x="24" y="0" width="22" height="15"/><use href="#frame" x="48" y="0" width="22" height="15"/>
+          <rect x="-4" y="-4" width="78" height="23" rx="6" fill="none" stroke="#f59e0b" stroke-width="1.8"/>
+        </g>
+        <text x="47" y="70" text-anchor="middle" font-size="11.5" font-weight="700" fill="#2a2a2a">one chunk (3 frames)</text>
+        <text x="47" y="85" text-anchor="middle" font-size="10.5" fill="#7a7a7a">D ≈ 10⁵</text>
+        <rect x="27" y="140" width="40" height="43" rx="3" fill="#f59e0b"/>
+        <text x="47" y="132" text-anchor="middle" font-size="11" font-weight="800" fill="#b45309">α low</text>
+        <text x="47" y="200" text-anchor="middle" font-size="10" fill="#9a9a9a">unit of cache correction</text>
       </g>
-      <!-- rejected 3 -->
-      <g transform="translate(152,0)">
-        <rect x="0" y="0" width="68" height="50" rx="8" fill="#fff" stroke="#dc2626" stroke-width="2" stroke-dasharray="4 3"/>
-        <use href="#frameDraft" x="6" y="6" width="56" height="38" opacity=".55"/>
-        <line x1="10" y1="10" x2="58" y2="40" stroke="#dc2626" stroke-width="2.4"/>
-        <line x1="58" y1="10" x2="10" y2="40" stroke="#dc2626" stroke-width="2.4"/>
-        <circle cx="62" cy="4" r="10" fill="#dc2626"/><path d="M58 0 L66 8 M66 0 L58 8" stroke="#fff" stroke-width="2.2"/>
-        <text x="34" y="66" text-anchor="middle" font-size="11" fill="#991b1b" font-weight="700">x̂ₜ₊₃ ✗</text>
+      <!-- patch -->
+      <g transform="translate(320,0)">
+        <g transform="translate(20,4)">
+          <use href="#frame" x="0" y="0" width="54" height="38"/>
+          <g stroke="#fff" stroke-width=".8" opacity=".8"><line x1="13.5" y1="0" x2="13.5" y2="38"/><line x1="27" y1="0" x2="27" y2="38"/><line x1="40.5" y1="0" x2="40.5" y2="38"/><line x1="0" y1="12.7" x2="54" y2="12.7"/><line x1="0" y1="25.3" x2="54" y2="25.3"/></g>
+          <rect x="13.5" y="12.7" width="13.5" height="12.6" fill="none" stroke="#16a34a" stroke-width="2.2"/>
+        </g>
+        <text x="47" y="70" text-anchor="middle" font-size="11.5" font-weight="700" fill="#2a2a2a">8×8 latent patch</text>
+        <text x="47" y="85" text-anchor="middle" font-size="10.5" fill="#7a7a7a">D ≈ 10³</text>
+        <rect x="27" y="96" width="40" height="87" rx="3" fill="#16a34a"/>
+        <text x="47" y="112" text-anchor="middle" font-size="11" font-weight="800" fill="#fff">α high</text>
+        <text x="47" y="200" text-anchor="middle" font-size="10" fill="#9a9a9a">kernels are diagonal ⇒ factorizes</text>
       </g>
-      <!-- discarded 4 -->
-      <g transform="translate(228,0)" opacity=".38">
-        <rect x="0" y="0" width="68" height="50" rx="8" fill="#fff" stroke="#9a9a9a" stroke-width="1.6" stroke-dasharray="4 3"/>
-        <use href="#frameDraft" x="6" y="6" width="56" height="38"/>
-        <text x="34" y="66" text-anchor="middle" font-size="11" fill="#6b6b6b" font-weight="700">x̂ₜ₊₄ (drop)</text>
-      </g>
+      <line x1="0" y1="184" x2="420" y2="184" stroke="#c9c9cf"/>
     </g>
-
-    <!-- corrected frame from target -->
-    <g transform="translate(174,140)">
-      <path d="M12 -18 L12 -4" stroke="#6d5ce7" stroke-width="2.2" marker-end="url(#arrT)" transform="translate(22,0)"/>
-      <rect x="0" y="0" width="68" height="50" rx="8" fill="#fff" stroke="url(#gTarget)" stroke-width="2.4"/>
-      <use href="#frameFix" x="6" y="6" width="56" height="38"/>
-      <text x="34" y="66" text-anchor="middle" font-size="11" fill="#4c1d95" font-weight="700">x<tspan baseline-shift="sub" font-size="8">t+3</tspan> ← target</text>
-    </g>
-    <text x="170" y="228" text-anchor="middle" font-size="12" fill="#4a4a4a">keep the accepted prefix, replace the</text>
-    <text x="170" y="246" text-anchor="middle" font-size="12" fill="#4a4a4a">first rejected frame with the target's sample</text>
-
-    <!-- committed strip -->
-    <g transform="translate(22,272)">
-      <rect x="0" y="0" width="298" height="92" rx="12" fill="#ecfdf5" stroke="#bbf7d0"/>
-      <text x="149" y="24" text-anchor="middle" font-size="12.5" font-weight="700" fill="#166534">Committed this iteration: 3 frames</text>
-      <use href="#frame" x="60" y="36" width="52" height="34"/>
-      <use href="#frame" x="122" y="36" width="52" height="34"/>
-      <use href="#frameFix" x="184" y="36" width="52" height="34"/>
-      <text x="149" y="86" text-anchor="middle" font-size="11" fill="#4a4a4a">= accepted drafts + 1 guaranteed target frame</text>
-    </g>
+    <text x="240" y="308" text-anchor="middle" font-size="11" fill="#4a4a4a">The rule stays exact at every D. Verify chunks or patches, never a clip.</text>
+    <text x="240" y="322" text-anchor="middle" font-size="10.5" fill="#7a7a7a">This is why the one prior speculative video generator fell back to a heuristic gate.</text>
   </g>
 
-  <!-- loop back arrow (outcome -> context) -->
-  <path d="M1389 560 L1389 600 L145 600 L145 548" fill="none" stroke="#16a34a" stroke-width="2.4" stroke-dasharray="7 5" marker-end="url(#arrG)"/>
-  <rect x="640" y="586" width="320" height="30" rx="15" fill="#fff" stroke="#bbf7d0"/>
-  <text x="800" y="606" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">append to context and repeat</text>
-
-  <!-- ====================== TIMELINE COMPARISON ====================== -->
-  <g transform="translate(40,660)">
-    <text x="0" y="0" font-size="14" font-weight="800" fill="#2a2a2a">Wall-clock per 8 generated frames</text>
-    <text x="0" y="20" font-size="12" fill="#7a7a7a">Illustrative. One target-sized forward pass = one wide block; a draft step is a thin block.</text>
-
-    <!-- row 1: AR (target-quality) -->
-    <g transform="translate(0,44)">
-      <text x="0" y="22" font-size="12.5" font-weight="700" fill="#4a4a4a">Target-quality AR</text>
-      <text x="0" y="38" font-size="11" fill="#9a9a9a">1 frame / pass</text>
-      <g transform="translate(160,4)">
-        <g fill="url(#gTarget)" opacity=".9">
-          <rect x="0" y="0" width="150" height="30" rx="6"/><rect x="156" y="0" width="150" height="30" rx="6"/>
-          <rect x="312" y="0" width="150" height="30" rx="6"/><rect x="468" y="0" width="150" height="30" rx="6"/>
-          <rect x="624" y="0" width="150" height="30" rx="6"/><rect x="780" y="0" width="150" height="30" rx="6"/>
-          <rect x="936" y="0" width="150" height="30" rx="6"/><rect x="1092" y="0" width="150" height="30" rx="6"/>
-        </g>
-        <g fill="#fff" font-size="11" font-weight="700" text-anchor="middle">
-          <text x="75" y="20">x₁</text><text x="231" y="20">x₂</text><text x="387" y="20">x₃</text><text x="543" y="20">x₄</text>
-          <text x="699" y="20">x₅</text><text x="855" y="20">x₆</text><text x="1011" y="20">x₇</text><text x="1167" y="20">x₈</text>
-        </g>
-        <text x="1258" y="20" font-size="12" font-weight="700" fill="#4a4a4a">8 T</text>
-      </g>
-    </g>
-
-    <!-- row 2: SpecWM -->
-    <g transform="translate(0,104)">
-      <text x="0" y="22" font-size="12.5" font-weight="700" fill="#4a4a4a">SpecWM (ours)</text>
-      <text x="0" y="38" font-size="11" fill="#9a9a9a">≈3 frames / pass</text>
-      <g transform="translate(160,4)">
-        <!-- iteration 1 -->
-        <g>
-          <g fill="url(#gDraft)"><rect x="0" y="0" width="16" height="30" rx="4"/><rect x="20" y="0" width="16" height="30" rx="4"/><rect x="40" y="0" width="16" height="30" rx="4"/><rect x="60" y="0" width="16" height="30" rx="4"/></g>
-          <rect x="82" y="0" width="150" height="30" rx="6" fill="url(#gTarget)" opacity=".9"/>
-          <text x="157" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">verify ×4 → x₁ x₂ x₃</text>
-        </g>
-        <!-- iteration 2 -->
-        <g transform="translate(240,0)">
-          <g fill="url(#gDraft)"><rect x="0" y="0" width="16" height="30" rx="4"/><rect x="20" y="0" width="16" height="30" rx="4"/><rect x="40" y="0" width="16" height="30" rx="4"/><rect x="60" y="0" width="16" height="30" rx="4"/></g>
-          <rect x="82" y="0" width="150" height="30" rx="6" fill="url(#gTarget)" opacity=".9"/>
-          <text x="157" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">verify ×4 → x₄ x₅ x₆</text>
-        </g>
-        <!-- iteration 3 -->
-        <g transform="translate(480,0)">
-          <g fill="url(#gDraft)"><rect x="0" y="0" width="16" height="30" rx="4"/><rect x="20" y="0" width="16" height="30" rx="4"/><rect x="40" y="0" width="16" height="30" rx="4"/><rect x="60" y="0" width="16" height="30" rx="4"/></g>
-          <rect x="82" y="0" width="150" height="30" rx="6" fill="url(#gTarget)" opacity=".9"/>
-          <text x="157" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">verify ×4 → x₇ x₈</text>
-        </g>
-        <text x="736" y="20" font-size="12" font-weight="700" fill="#16a34a">≈ 3 T + drafts</text>
-        <!-- saved region -->
-        <rect x="830" y="2" width="412" height="26" rx="6" fill="none" stroke="#16a34a" stroke-dasharray="5 4"/>
-        <text x="1036" y="20" text-anchor="middle" font-size="11.5" font-weight="700" fill="#16a34a">time saved · same target distribution</text>
-      </g>
-    </g>
-
-    <!-- legend -->
-    <g transform="translate(160,168)" font-size="11.5" fill="#4a4a4a">
-      <rect x="0" y="-11" width="14" height="14" rx="3" fill="url(#gDraft)"/><text x="20" y="0">draft step (AR world model)</text>
-      <rect x="220" y="-11" width="14" height="14" rx="3" fill="url(#gTarget)" opacity=".9"/><text x="240" y="0">target pass (bidirectional world model)</text>
-      <rect x="520" y="-11" width="14" height="14" rx="3" fill="#fff" stroke="#16a34a" stroke-width="2"/><text x="540" y="0">accepted</text>
-      <rect x="620" y="-11" width="14" height="14" rx="3" fill="#fff" stroke="#dc2626" stroke-width="2" stroke-dasharray="3 2"/><text x="640" y="0">rejected → resampled by target</text>
-    </g>
+  <!-- legend -->
+  <g transform="translate(40,728)" font-size="11" fill="#4a4a4a">
+    <use href="#frame" x="0" y="-11" width="22" height="14"/><text x="28" y="0">accepted / committed chunk</text>
+    <use href="#frameDraft" x="200" y="-11" width="22" height="14"/><text x="228" y="0">draft proposal (unverified)</text>
+    <use href="#frameFix" x="400" y="-11" width="22" height="14"/><text x="428" y="0">target-generated chunk (written to cache)</text>
+    <use href="#frameDrift" x="680" y="-11" width="22" height="14"/><text x="708" y="0">drifted chunk (rejected)</text>
   </g>
 </svg>

@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- TODO(publish): remove the noindex tag below when the paper is public. -->
+<!-- TODO(publish): remove the noindex tag below when the paper is public. Keeps the page out of search engines during double-blind review. -->
 <meta name="robots" content="noindex, nofollow">
-<title>SpecWM: Speculative Decoding for World Models</title>
-<meta name="description" content="SpecWM accelerates world-model rollouts with speculative decoding: a fast autoregressive world model drafts K future frames and an accurate bidirectional world model verifies all of them in a single parallel pass.">
-<meta property="og:title" content="SpecWM: Speculative Decoding for World Models">
-<meta property="og:description" content="Draft with an autoregressive world model, verify with a bidirectional world model. Bidirectional quality at autoregressive speed.">
+<title>Speculative World Models</title>
+<meta name="description" content="Speculative World Models bring the draft-and-verify structure of speculative decoding to chunk-wise video generation: a few-step causal draft streams every chunk, a large bidirectional target verifies each chunk with one pass, and rejected chunks are regenerated and written into the draft's KV cache.">
+<meta property="og:title" content="Speculative World Models">
+<meta property="og:description" content="A few-step causal draft streams. A large bidirectional target verifies each chunk with one pass and corrects the draft's KV cache when it rejects.">
 <meta property="og:image" content="assets/figures/method_overview.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Noto+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="static/style.css?v=1">
-<link rel="stylesheet" href="static/specwm.css?v=1">
+<link rel="stylesheet" href="static/style.css?v=2">
+<link rel="stylesheet" href="static/specwm.css?v=2">
 <link rel="icon" href="assets/icons/bolt.svg">
 </head>
 <body>
@@ -22,11 +22,11 @@
 <!-- ============================ HERO ============================ -->
 <header class="hero">
   <div class="container hero-inner">
-    <h1 class="title"><span class="title-main">SpecWM</span><span class="title-sub">Speculative Decoding for World Models</span></h1>
-    <p class="tagline">A fast autoregressive world model drafts. An accurate bidirectional world model verifies. Same output distribution, a fraction of the wall-clock.</p>
+    <h1 class="title"><span class="title-main">Speculative World Models</span><span class="title-sub">Streaming interactive video with a small causal draft and an occasional large bidirectional verifier</span></h1>
+    <p class="tagline">Fast like a few-step causal student. Consistent like the bidirectional teacher it was distilled from.</p>
     <div class="venue">Preprint 2026</div>
 
-    <!-- TODO(authors): fill in co-authors and affiliations. -->
+    <!-- TODO(authors): add co-authors and affiliations (paper draft: "Hyunsoo Kim \todo{coauthors}"). -->
     <div class="authors">
       <span class="author"><a href="https://gustn9609.github.io/" target="_blank" rel="noopener">Hyunsoo Kim</a><sup>1</sup></span>
     </div>
@@ -45,20 +45,20 @@
     <div class="tldr">
       <div class="tldr-cell draft">
         <div class="tldr-k">Draft</div>
-        <div class="tldr-v">Autoregressive world model</div>
-        <div class="tldr-s">causal attention, KV-cached, cheap per step. Proposes <span class="mono">K</span> future frames one after another.</div>
+        <div class="tldr-v">Few-step causal world model</div>
+        <div class="tldr-s">A distilled student streams every chunk through its KV cache at frame rate. It is fast, and it drifts: what it writes into its cache is inherited, not corrected.</div>
       </div>
       <div class="tldr-arrow" aria-hidden="true">→</div>
       <div class="tldr-cell target">
         <div class="tldr-k">Verify</div>
-        <div class="tldr-v">Bidirectional world model</div>
-        <div class="tldr-s">full attention over all <span class="mono">K</span> drafts at once. One forward pass scores every candidate frame.</div>
+        <div class="tldr-v">Large bidirectional world model</div>
+        <div class="tldr-s">One forward pass per chunk at an intermediate noise level, at reduced resolution, with a short context of accepted chunks. Exact Gaussian acceptance rule.</div>
       </div>
       <div class="tldr-arrow" aria-hidden="true">→</div>
       <div class="tldr-cell accept">
-        <div class="tldr-k">Commit</div>
-        <div class="tldr-v">Accepted prefix + 1 corrected frame</div>
-        <div class="tldr-s">rejection sampling keeps the bidirectional model's distribution exactly; several frames land per target pass.</div>
+        <div class="tldr-k">Correct the cache</div>
+        <div class="tldr-v">Rejected chunks are regenerated by the target</div>
+        <div class="tldr-s">and written into the draft's KV cache, so the draft continues from a state the target endorses. The display keeps showing the draft's stream and never stalls.</div>
       </div>
     </div>
   </div>
@@ -68,8 +68,8 @@
 <section class="section" id="abstract">
   <div class="container narrow">
     <h2>Abstract</h2>
-    <!-- TODO(abstract): replace with the final abstract from the paper. -->
-    <p class="abstract">World models come in two flavors that trade quality for speed. <em>Bidirectional</em> world models attend over an entire window of frames and produce temporally coherent, physically consistent rollouts, but every new frame requires a full pass over the window. <em>Autoregressive</em> world models stream frames causally with a KV cache and are fast, but errors compound over long horizons. We present <strong>SpecWM</strong>, which brings <em>speculative decoding</em> to world models: a small autoregressive world model acts as the <em>draft</em> model and proposes <span class="mono">K</span> future frames, and a large bidirectional world model acts as the <em>target</em> model and verifies all <span class="mono">K</span> proposals in a single parallel forward pass. Frames are accepted with a rejection-sampling rule that provably preserves the target model's distribution; at the first rejection, the target model's own sample is committed and drafting resumes from there. Because the bidirectional model reads all draft frames jointly, verification costs about one target step regardless of <span class="mono">K</span>, so several frames are committed per expensive pass. SpecWM requires no retraining of either model and reaches the rollout quality of the bidirectional world model at a wall-clock close to the autoregressive one.</p>
+    <!-- Source: main_v2.tex abstract (2026-09-27). Numbers marked TODO in the draft are left as placeholders. -->
+    <p class="abstract">Interactive video world models must render the consequence of each action at frame rate and keep the world consistent while doing so. Current models do one or the other. Few-step causal generators stream in real time, but each chunk they write into their cache conditions every later chunk, so an error is inherited rather than corrected: objects that leave the view are forgotten, and processes that continue out of sight stop. Large bidirectional models keep the world consistent, but they denoise an entire clip jointly and cannot show a frame before the clip is finished. We introduce <strong>Speculative World Models</strong>, a scheme that brings the draft and verify structure of speculative decoding to chunk-wise video generation. A small causal draft model proposes every chunk. A large target model checks each proposal with one forward pass at an intermediate noise level, at reduced resolution and with a short context, and regenerates only the chunks it rejects, conditioned on the accepted prefix. The corrected chunk is written into the draft's KV cache, so the draft continues from a state the target endorses rather than from its own drift. We derive the chunk-level acceptance rule from the maximal coupling of the two models' transition kernels at the verified noise level, and show why the same rule cannot be applied to whole clips: acceptance depends on the draft to target distance accumulated over every verified dimension and collapses as that number grows. On state evolution tasks from StEvo-Bench where the draft alone fails, Speculative World Models raise the success rate from <span class="todo">a</span>% to <span class="todo">b</span>% (target: <span class="todo">c</span>%) while calling the target on <span class="todo">k</span>% of chunks, running <span class="todo">N</span>&times; faster than the target at <span class="todo">M</span> fps on a single consumer GPU.</p>
   </div>
 </section>
 
@@ -77,27 +77,27 @@
 <section class="section alt" id="method">
   <div class="container">
     <h2>Method</h2>
-    <p class="lead narrow">Speculative decoding needs a cheap proposer and an expensive verifier that can score many proposals in one shot. World models already provide both: the causal model is the natural proposer, and the bidirectional model, which attends over a whole window anyway, is the natural verifier.</p>
+    <p class="lead narrow">Can the large model take part in streaming without being run on every chunk? Speculative decoding answers the analogous question for language models. Carrying it to a streaming world model runs into three obstacles, and the three design decisions below answer them.</p>
     <figure class="figure">
-      <img src="assets/figures/method_overview.svg" alt="Overview of SpecWM: an autoregressive world model drafts K frames sequentially; a bidirectional world model verifies all K in one parallel pass; accepted frames are committed, the first rejected frame is replaced by the target model's sample, and the loop repeats. A timeline at the bottom compares 8 target passes for a target-quality autoregressive rollout against roughly 3 target passes plus cheap draft steps for SpecWM.">
-      <figcaption><strong>SpecWM in one iteration.</strong> ① The autoregressive draft model rolls out <span class="mono">K=4</span> candidate frames from the shared context (past frames and future actions). ② The bidirectional target model receives the context and all four drafts and scores them in a single full-attention pass. ③ The accepted prefix is kept, the first rejected frame is replaced by the target model's sample, and the remaining drafts are discarded. Bottom: an illustrative wall-clock comparison for eight generated frames.</figcaption>
+      <img src="assets/figures/method_overview.svg" alt="Overview of Speculative World Models. (a) A few-step causal draft streams chunks to the display and to a bidirectional target; the target verifies each chunk with one forward pass at the draft's intermediate noise node; accepted chunks are kept, rejected chunks are regenerated by the target and written into the draft's KV cache. (b) At a shared re-noising node both models define Gaussians with the same covariance, so acceptance is 2 Phi(-d / 2 sigma). (c) Acceptance collapses with the number of verified dimensions, so chunks or patches are verified, never whole clips.">
+      <figcaption><strong>(a)</strong> One iteration. The draft proposes chunk <span class="mono">k</span>, which is displayed immediately and sent to the target. The target returns a clean estimate at the draft's node <span class="mono">&sigma;<sub>s</sub></span> in a single pass; the chunk is accepted with probability <span class="mono">&alpha;</span>, otherwise the target regenerates it from the accepted prefix. Either way the endorsed chunk is written into the draft's KV cache. The bottom strip shows that a rejected chunk may have been displayed once, but the cache, which is what the draft conditions on, holds the target's chunk. <strong>(b)</strong> Where the two models meet: a few-step student re-noises its clean estimate with fresh noise, so at that node both models define Gaussians with the same covariance and the acceptance rule applies as written. <strong>(c)</strong> The unit of verification is a design variable. The same per-dimension disagreement is a near-certain rejection for a whole clip and a likely acceptance for a patch.</figcaption>
     </figure>
 
     <div class="cards three">
       <div class="card">
-        <div class="card-step"><img src="assets/icons/draft.svg" alt=""></div>
-        <h3>① Draft with the autoregressive world model</h3>
-        <p>Given the past frames and the next <span class="mono">K</span> actions, the causal model produces <span class="mono">x̂<sub>t+1</sub>, …, x̂<sub>t+K</sub></span> step by step with its KV cache. Each step is a small fraction of a target pass, so drafting <span class="mono">K</span> frames is still cheap. The draft model only needs to be <em>roughly</em> right; its mistakes are caught in the next stage.</p>
-      </div>
-      <div class="card">
         <div class="card-step"><img src="assets/icons/verify.svg" alt=""></div>
-        <h3>② Verify with the bidirectional world model</h3>
-        <p>The target model sees the context and all <span class="mono">K</span> draft frames together. Because it is bidirectional, one forward pass yields the target likelihood of every draft frame conditioned on <em>both</em> past and future, which is exactly what is needed to decide acceptance. The cost of this pass is essentially independent of <span class="mono">K</span>.</p>
+        <h3>Obstacle 1: where do the two models share a transition?</h3>
+        <p>A token has a probability under both models; a chunk of video does not, unless the two models share a kernel. A bidirectional target that denoises a clip jointly over fifty steps and a causal draft that denoises one chunk in four share none. <strong>Answer:</strong> verify at an intermediate noise level. The few-step student re-noises its clean estimate with fresh Gaussian noise between nodes, and a target asked for a clean estimate at the same state defines a Gaussian with the same variance. At that node the two differ only in the mean, and the exact rule <span class="mono">min{1, p/q}</span> applies as written, with expected acceptance <span class="mono">2&Phi;(&minus;d/2&sigma;)</span>.</p>
       </div>
       <div class="card">
         <div class="card-step"><img src="assets/icons/accept.svg" alt=""></div>
-        <h3>③ Accept, resample, repeat</h3>
-        <p>Frame <span class="mono">i</span> is accepted with probability <span class="mono">min(1, p<sub>target</sub>/p<sub>draft</sub>)</span>, scanning left to right. At the first rejection the target model's corrected frame is committed and later drafts are dropped. The committed frames are appended to the context, and the loop restarts. The output distribution matches sampling from the target model alone.</p>
+        <h3>Obstacle 2: exact acceptance collapses with dimension</h3>
+        <p>The distance <span class="mono">d</span> in the acceptance rule sums over every verified dimension and grows like <span class="mono">&radic;D</span>, while the noise scale does not. Verifying a whole clip therefore rejects almost everything, however small the disagreement per dimension; we believe this is why the one existing speculative video generator gave up exactness for a heuristic gate. <strong>Answer:</strong> the unit of verification is one chunk, checked by a single target pass at reduced resolution with a short context of accepted chunks. Because the kernels are diagonal, the rule also factorizes over spatial patches, and both the unit and the node are chosen from the same closed form.</p>
+      </div>
+      <div class="card">
+        <div class="card-step"><img src="assets/icons/draft.svg" alt=""></div>
+        <h3>Obstacle 3: a rejected chunk cannot just be replaced on screen</h3>
+        <p>The draft has already written the chunk into its KV cache, and the cache, not the screen, is what it conditions on next. A correction that leaves the drifted chunk in the cache recovers only a fraction of the gain; a correction that does not reach the cache is forgotten by the next chunk. <strong>Answer:</strong> cache correction. The target regenerates the rejected chunk conditioned on the accepted prefix, the result is written into the draft's KV cache and pinned, and the draft continues from a state the target endorses. The screen keeps showing the draft's stream, so the display never stalls; it lags the cache by one verification.</p>
       </div>
     </div>
   </div>
@@ -106,41 +106,63 @@
 <!-- ============================ WHY ============================ -->
 <section class="section" id="why">
   <div class="container">
-    <h2>Why world models are a natural fit</h2>
+    <h2>Why this should work</h2>
+    <p class="lead narrow">We hypothesize that the drift of a distilled world model is concentrated in a minority of chunks, and that a draft continuing from a corrected chunk can be trusted for a while. If both hold, most target passes end in acceptance and cost one cheap forward, and the few that do not are exactly the chunks every later chunk would have inherited.</p>
     <div class="cards three">
       <div class="card">
-        <h3>Verification is native</h3>
-        <p>In language models, speculative decoding needs the target to run on the draft tokens in parallel, which a causal LM can do with one extra pass. A bidirectional world model does this by construction: attending over a window of frames <em>is</em> its normal forward pass, so no architectural tricks are needed to score <span class="mono">K</span> frames jointly.</p>
+        <h3>The draft is rarely wrong everywhere</h3>
+        <p>Node by node, the exact acceptance of a small draft against a large target on a published continuous autoregressive image model is high at every denoising step except the first. The same rule applied to an <span class="mono">8&times;8</span> latent patch of a 14B world model accepts most patches at every verified node, while the whole chunk is accepted almost never at the last node.</p>
       </div>
       <div class="card">
-        <h3>Actions make drafts predictable</h3>
-        <p>World models are conditioned on the action sequence. Most of the next frame is determined by the current frame and the action, so a small causal model already proposes plausible frames and the acceptance rate stays high, which is what turns <span class="mono">K</span> drafts into several committed frames per target pass.</p>
+        <h3>A corrected chunk stays good for a while</h3>
+        <p>Once a chunk generated by the target sits in the draft's cache, the draft stays close to the target's own seed-to-seed variation for many seconds without a further correction. Verification does not have to fire often; it has to fire on the chunks that would otherwise be inherited.</p>
       </div>
       <div class="card">
-        <h3>Error accumulation is bounded</h3>
-        <p>Pure autoregressive rollouts drift because every frame conditions on its own past mistakes. In SpecWM every committed frame has been accepted by, or sampled from, the bidirectional model, so the trajectory never leaves the target model's distribution no matter how long the rollout runs.</p>
+        <h3>Cost is counted in sequential target calls</h3>
+        <p>The draft runs at its own speed. The target is called once per chunk to verify, at reduced resolution, and once more for the chunks it rejects. In the deployment we care about most, a draft on a consumer device and a target on a server, latency is set by the number of sequential target calls rather than by their FLOPs, so we report time to first frame, throughput, and peak memory alongside that count.</p>
       </div>
     </div>
   </div>
 </section>
 
+<!-- ============================ CONTRIBUTIONS ============================ -->
+<section class="section alt" id="contributions">
+  <div class="container narrow">
+    <h2>Contributions</h2>
+    <ol class="contrib">
+      <li>A formulation of speculative decoding for chunk-wise autoregressive video, with an acceptance rule at a shared intermediate noise level and a stated, node-local guarantee.</li>
+      <li>An analysis showing that exact acceptance collapses with the number of verified dimensions, which explains the retreat to heuristic gates in prior work and fixes the unit of verification.</li>
+      <li>Cache correction: writing the chunks the target endorses into the draft's KV cache, which we show is what makes a correction persist.</li>
+      <li>An evaluation on StEvo-Bench and long camera trajectories that return to earlier viewpoints, in which a streaming draft approaches the target's consistency at a fraction of the target's calls.</li>
+    </ol>
+  </div>
+</section>
+
 <!-- ============================ RESULTS (placeholder) ============================ -->
-<section class="section alt" id="results">
+<section class="section" id="results">
   <div class="container">
     <h2>Results</h2>
-    <!-- TODO(results): replace the placeholders below with the numbers and videos from the paper. -->
-    <p class="lead narrow">Rollout quality of the bidirectional world model at a fraction of its wall-clock. Numbers and videos will appear here once the paper is finalized.</p>
+    <!-- TODO(results): fill from the paper. Planned tables: acceptance vs verified unit and node; correction persistence (cache vs display); StEvo-Bench success; long revisit trajectories; TTFF / fps / memory; bidirectional cost scaling. -->
+    <p class="lead narrow">We evaluate on StEvo-Bench state-evolution tasks (Ma, Liufu, Gkioxari, ECCV 2026), which occlude an evolving scene or turn the camera away and then ask whether the process went on, and on long camera trajectories that return to earlier viewpoints, against the draft alone, the target alone, and memory and retrieval baselines. Numbers and videos will appear here once the paper is finalized.</p>
     <div class="table-wrap narrow-tbl">
       <table class="tbl">
-        <thead><tr><th>Method</th><th>Quality</th><th>Frames / target pass</th><th>Speed-up</th></tr></thead>
+        <thead><tr><th>Method</th><th>Streams</th><th>StEvo success</th><th>Target calls / chunk</th><th>fps</th></tr></thead>
         <tbody>
-          <tr><td>Bidirectional WM (target)</td><td><span class="todo">TODO</span></td><td>1</td><td>1.0&times;</td></tr>
-          <tr><td>Autoregressive WM (draft)</td><td><span class="todo">TODO</span></td><td>&ndash;</td><td><span class="todo">TODO</span></td></tr>
-          <tr class="ours"><td>SpecWM (Ours)</td><td><span class="todo">TODO</span></td><td><span class="todo">TODO</span></td><td><span class="todo">TODO</span></td></tr>
+          <tr><td>Bidirectional target alone</td><td>&#10007;</td><td><span class="todo">c</span>%</td><td>full</td><td>&ndash;</td></tr>
+          <tr><td>Causal draft alone</td><td>&#10003;</td><td><span class="todo">a</span>%</td><td>0</td><td><span class="todo">TODO</span></td></tr>
+          <tr class="ours"><td>Speculative World Models (Ours)</td><td>&#10003;</td><td><span class="todo">b</span>%</td><td>1 verify + <span class="todo">k</span>% regenerate</td><td><span class="todo">M</span></td></tr>
         </tbody>
       </table>
-      <div class="tbl-note">Quality is measured against the target model; SpecWM matches it by construction.</div>
+      <div class="tbl-note">Placeholders follow the draft's notation ([a], [b], [c], [k], [M]).</div>
     </div>
+  </div>
+</section>
+
+<!-- ============================ LIMITATIONS ============================ -->
+<section class="section alt" id="limitations">
+  <div class="container narrow">
+    <h2>Limitations</h2>
+    <p class="abstract">The scheme is bounded by the draft: a draft that cannot run at frame rate on the device is not made faster by verification. The guarantee attached to acceptance is a statement about one transition of one chunk, given the accepted prefix, under a target evaluated at reduced resolution; we measure what the reduction costs rather than assume it is free. The target conditions on a prefix that the draft generated, and the guarantee is node-local.</p>
   </div>
 </section>
 
@@ -148,9 +170,9 @@
 <section class="section" id="bibtex">
   <div class="container narrow">
     <h2>BibTeX</h2>
-    <!-- TODO(bibtex): add co-authors and the arXiv id once available. -->
-    <pre class="bib"><code>@article{kim2026specwm,
-  title   = {SpecWM: Speculative Decoding for World Models},
+    <!-- TODO(bibtex): co-authors, venue, arXiv id. -->
+    <pre class="bib"><code>@article{kim2026speculativeworldmodels,
+  title   = {Speculative World Models},
   author  = {Kim, Hyunsoo},
   journal = {arXiv preprint},
   year    = {2026}
