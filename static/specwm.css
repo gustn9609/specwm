@@ -1,0 +1,27 @@
+/* SpecWM-specific additions on top of the shared style.css */
+.mono{font-family:var(--mono);font-size:.92em}
+.mono sub{font-size:.7em}
+
+/* TL;DR strip under the hero */
+.tldr{display:grid;grid-template-columns:1fr 40px 1fr 40px 1fr;align-items:stretch;gap:0;border:1.5px solid transparent;background:linear-gradient(#fff,#fff) padding-box,var(--grad-soft) border-box;border-radius:20px;padding:22px 26px;box-shadow:var(--shadow);text-align:left}
+.tldr-cell{padding:6px 10px;border-radius:12px}
+.tldr-k{font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px}
+.tldr-v{font-family:var(--display);font-weight:800;font-size:1.2rem;letter-spacing:-.02em;line-height:1.2;color:var(--ink)}
+.tldr-s{font-size:.9rem;color:var(--ink-2);margin-top:6px;line-height:1.5}
+.tldr-cell.draft .tldr-k{color:#ea580c}
+.tldr-cell.target .tldr-k{color:#6d5ce7}
+.tldr-cell.accept .tldr-k{color:#16a34a}
+.tldr-cell.draft{background:#fff7ed}
+.tldr-cell.target{background:#f5f3ff}
+.tldr-cell.accept{background:#ecfdf5}
+.tldr-arrow{display:flex;align-items:center;justify-content:center;font-size:1.6rem;color:#b0b0b8;font-weight:700}
+@media (max-width:900px){
+  .tldr{grid-template-columns:1fr;gap:10px}
+  .tldr-arrow{transform:rotate(90deg);height:26px}
+}
+
+/* method figure: SVG has its own white bg; keep border light */
+.figure img[src$=".svg"]{background:#fff}
+
+/* cards without step icon */
+.cards.three .card h3{margin-top:2px}

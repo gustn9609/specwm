@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TODO(publish): remove the noindex tag below when the paper is public. -->
+<meta name="robots" content="noindex, nofollow">
+<title>SpecWM: Speculative Decoding for World Models</title>
+<meta name="description" content="SpecWM accelerates world-model rollouts with speculative decoding: a fast autoregressive world model drafts K future frames and an accurate bidirectional world model verifies all of them in a single parallel pass.">
+<meta property="og:title" content="SpecWM: Speculative Decoding for World Models">
+<meta property="og:description" content="Draft with an autoregressive world model, verify with a bidirectional world model. Bidirectional quality at autoregressive speed.">
+<meta property="og:image" content="assets/figures/method_overview.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Noto+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/style.css?v=1">
+<link rel="stylesheet" href="static/specwm.css?v=1">
+<link rel="icon" href="assets/icons/bolt.svg">
+</head>
+<body>
+
+<!-- ============================ HERO ============================ -->
+<header class="hero">
+  <div class="container hero-inner">
+    <h1 class="title"><span class="title-main">SpecWM</span><span class="title-sub">Speculative Decoding for World Models</span></h1>
+    <p class="tagline">A fast autoregressive world model drafts. An accurate bidirectional world model verifies. Same output distribution, a fraction of the wall-clock.</p>
+    <div class="venue">Preprint 2026</div>
+
+    <!-- TODO(authors): fill in co-authors and affiliations. -->
+    <div class="authors">
+      <span class="author"><a href="https://gustn9609.github.io/" target="_blank" rel="noopener">Hyunsoo Kim</a><sup>1</sup></span>
+    </div>
+    <div class="affils"><sup>1</sup>The University of Texas at Austin</div>
+
+    <div class="links">
+      <a class="btn disabled" href="#" aria-disabled="true" title="Coming soon"><img class="ico" src="assets/icons/paper.svg" alt="">Paper</a>
+      <a class="btn disabled" href="#" aria-disabled="true" title="Coming soon"><span class="ico ico-arxiv">arXiv</span>arXiv</a>
+      <a class="btn disabled" href="#" aria-disabled="true" title="Coming soon"><img class="ico" src="assets/icons/laptop.svg" alt="">Code</a>
+      <a class="btn" href="#bibtex"><img class="ico" src="assets/icons/link.svg" alt="">BibTeX</a>
+    </div>
+  </div>
+
+  <!-- ============================ TL;DR STRIP ============================ -->
+  <div class="container">
+    <div class="tldr">
+      <div class="tldr-cell draft">
+        <div class="tldr-k">Draft</div>
+        <div class="tldr-v">Autoregressive world model</div>
+        <div class="tldr-s">causal attention, KV-cached, cheap per step. Proposes <span class="mono">K</span> future frames one after another.</div>
+      </div>
+      <div class="tldr-arrow" aria-hidden="true">→</div>
+      <div class="tldr-cell target">
+        <div class="tldr-k">Verify</div>
+        <div class="tldr-v">Bidirectional world model</div>
+        <div class="tldr-s">full attention over all <span class="mono">K</span> drafts at once. One forward pass scores every candidate frame.</div>
+      </div>
+      <div class="tldr-arrow" aria-hidden="true">→</div>
+      <div class="tldr-cell accept">
+        <div class="tldr-k">Commit</div>
+        <div class="tldr-v">Accepted prefix + 1 corrected frame</div>
+        <div class="tldr-s">rejection sampling keeps the bidirectional model's distribution exactly; several frames land per target pass.</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================ ABSTRACT ============================ -->
+<section class="section" id="abstract">
+  <div class="container narrow">
+    <h2>Abstract</h2>
+    <!-- TODO(abstract): replace with the final abstract from the paper. -->
+    <p class="abstract">World models come in two flavors that trade quality for speed. <em>Bidirectional</em> world models attend over an entire window of frames and produce temporally coherent, physically consistent rollouts, but every new frame requires a full pass over the window. <em>Autoregressive</em> world models stream frames causally with a KV cache and are fast, but errors compound over long horizons. We present <strong>SpecWM</strong>, which brings <em>speculative decoding</em> to world models: a small autoregressive world model acts as the <em>draft</em> model and proposes <span class="mono">K</span> future frames, and a large bidirectional world model acts as the <em>target</em> model and verifies all <span class="mono">K</span> proposals in a single parallel forward pass. Frames are accepted with a rejection-sampling rule that provably preserves the target model's distribution; at the first rejection, the target model's own sample is committed and drafting resumes from there. Because the bidirectional model reads all draft frames jointly, verification costs about one target step regardless of <span class="mono">K</span>, so several frames are committed per expensive pass. SpecWM requires no retraining of either model and reaches the rollout quality of the bidirectional world model at a wall-clock close to the autoregressive one.</p>
+  </div>
+</section>
+
+<!-- ============================ METHOD ============================ -->
+<section class="section alt" id="method">
+  <div class="container">
+    <h2>Method</h2>
+    <p class="lead narrow">Speculative decoding needs a cheap proposer and an expensive verifier that can score many proposals in one shot. World models already provide both: the causal model is the natural proposer, and the bidirectional model, which attends over a whole window anyway, is the natural verifier.</p>
+    <figure class="figure">
+      <img src="assets/figures/method_overview.svg" alt="Overview of SpecWM: an autoregressive world model drafts K frames sequentially; a bidirectional world model verifies all K in one parallel pass; accepted frames are committed, the first rejected frame is replaced by the target model's sample, and the loop repeats. A timeline at the bottom compares 8 target passes for a target-quality autoregressive rollout against roughly 3 target passes plus cheap draft steps for SpecWM.">
+      <figcaption><strong>SpecWM in one iteration.</strong> ① The autoregressive draft model rolls out <span class="mono">K=4</span> candidate frames from the shared context (past frames and future actions). ② The bidirectional target model receives the context and all four drafts and scores them in a single full-attention pass. ③ The accepted prefix is kept, the first rejected frame is replaced by the target model's sample, and the remaining drafts are discarded. Bottom: an illustrative wall-clock comparison for eight generated frames.</figcaption>
+    </figure>
+
+    <div class="cards three">
+      <div class="card">
+        <div class="card-step"><img src="assets/icons/draft.svg" alt=""></div>
+        <h3>① Draft with the autoregressive world model</h3>
+        <p>Given the past frames and the next <span class="mono">K</span> actions, the causal model produces <span class="mono">x̂<sub>t+1</sub>, …, x̂<sub>t+K</sub></span> step by step with its KV cache. Each step is a small fraction of a target pass, so drafting <span class="mono">K</span> frames is still cheap. The draft model only needs to be <em>roughly</em> right; its mistakes are caught in the next stage.</p>
+      </div>
+      <div class="card">
+        <div class="card-step"><img src="assets/icons/verify.svg" alt=""></div>
+        <h3>② Verify with the bidirectional world model</h3>
+        <p>The target model sees the context and all <span class="mono">K</span> draft frames together. Because it is bidirectional, one forward pass yields the target likelihood of every draft frame conditioned on <em>both</em> past and future, which is exactly what is needed to decide acceptance. The cost of this pass is essentially independent of <span class="mono">K</span>.</p>
+      </div>
+      <div class="card">
+        <div class="card-step"><img src="assets/icons/accept.svg" alt=""></div>
+        <h3>③ Accept, resample, repeat</h3>
+        <p>Frame <span class="mono">i</span> is accepted with probability <span class="mono">min(1, p<sub>target</sub>/p<sub>draft</sub>)</span>, scanning left to right. At the first rejection the target model's corrected frame is committed and later drafts are dropped. The committed frames are appended to the context, and the loop restarts. The output distribution matches sampling from the target model alone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ WHY ============================ -->
+<section class="section" id="why">
+  <div class="container">
+    <h2>Why world models are a natural fit</h2>
+    <div class="cards three">
+      <div class="card">
+        <h3>Verification is native</h3>
+        <p>In language models, speculative decoding needs the target to run on the draft tokens in parallel, which a causal LM can do with one extra pass. A bidirectional world model does this by construction: attending over a window of frames <em>is</em> its normal forward pass, so no architectural tricks are needed to score <span class="mono">K</span> frames jointly.</p>
+      </div>
+      <div class="card">
+        <h3>Actions make drafts predictable</h3>
+        <p>World models are conditioned on the action sequence. Most of the next frame is determined by the current frame and the action, so a small causal model already proposes plausible frames and the acceptance rate stays high, which is what turns <span class="mono">K</span> drafts into several committed frames per target pass.</p>
+      </div>
+      <div class="card">
+        <h3>Error accumulation is bounded</h3>
+        <p>Pure autoregressive rollouts drift because every frame conditions on its own past mistakes. In SpecWM every committed frame has been accepted by, or sampled from, the bidirectional model, so the trajectory never leaves the target model's distribution no matter how long the rollout runs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ RESULTS (placeholder) ============================ -->
+<section class="section alt" id="results">
+  <div class="container">
+    <h2>Results</h2>
+    <!-- TODO(results): replace the placeholders below with the numbers and videos from the paper. -->
+    <p class="lead narrow">Rollout quality of the bidirectional world model at a fraction of its wall-clock. Numbers and videos will appear here once the paper is finalized.</p>
+    <div class="table-wrap narrow-tbl">
+      <table class="tbl">
+        <thead><tr><th>Method</th><th>Quality</th><th>Frames / target pass</th><th>Speed-up</th></tr></thead>
+        <tbody>
+          <tr><td>Bidirectional WM (target)</td><td><span class="todo">TODO</span></td><td>1</td><td>1.0&times;</td></tr>
+          <tr><td>Autoregressive WM (draft)</td><td><span class="todo">TODO</span></td><td>&ndash;</td><td><span class="todo">TODO</span></td></tr>
+          <tr class="ours"><td>SpecWM (Ours)</td><td><span class="todo">TODO</span></td><td><span class="todo">TODO</span></td><td><span class="todo">TODO</span></td></tr>
+        </tbody>
+      </table>
+      <div class="tbl-note">Quality is measured against the target model; SpecWM matches it by construction.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ BIBTEX ============================ -->
+<section class="section" id="bibtex">
+  <div class="container narrow">
+    <h2>BibTeX</h2>
+    <!-- TODO(bibtex): add co-authors and the arXiv id once available. -->
+    <pre class="bib"><code>@article{kim2026specwm,
+  title   = {SpecWM: Speculative Decoding for World Models},
+  author  = {Kim, Hyunsoo},
+  journal = {arXiv preprint},
+  year    = {2026}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p class="muted">Page template adapted from <a href="https://gustn9609.github.io/custom-forcing/" target="_blank" rel="noopener">Custom Forcing</a>. Icons by <a href="https://github.com/jdecked/twemoji" target="_blank" rel="noopener">Twemoji</a> (CC BY 4.0).</p>
+  </div>
+</footer>
+
+</body>
+</html>
