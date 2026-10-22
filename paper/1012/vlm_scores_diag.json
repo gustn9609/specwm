@@ -1,0 +1,3998 @@
+{
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 9.0,
+"raw": [
+"75",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 5.0,
+"raw": [
+"75",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg704_s1234/spec.mp4": {
+"label": "dg704_refined",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg704_s4321/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg704_s9999/spec.mp4": {
+"label": "dg704_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 9.0,
+"raw": [
+"75",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg704_s1234/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg704_s4321/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg704_s9999/cloud/spec.mp4": {
+"label": "dg704_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 20.0,
+"quality": 4.0,
+"raw": [
+"20",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 20.0,
+"quality": 4.0,
+"raw": [
+"20",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 4.0,
+"raw": [
+"75",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 5.0,
+"raw": [
+"75",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg576_s1234/spec.mp4": {
+"label": "dg576_refined",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg576_s4321/spec.mp4": {
+"label": "dg576_refined",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg576_s9999/spec.mp4": {
+"label": "dg576_refined",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 30.0,
+"quality": 4.0,
+"raw": [
+"30",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg576_s1234/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg576_s4321/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg576_s9999/cloud/spec.mp4": {
+"label": "dg576_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 9.0,
+"raw": [
+"75",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 0.0,
+"quality": 7.0,
+"raw": [
+"0",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc704_s1234/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc704_s4321/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc576_s1234/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 30.0,
+"quality": 9.0,
+"raw": [
+"30",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 85.0,
+"quality": 4.0,
+"raw": [
+"85",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc704_s9999/cloud/spec.mp4": {
+"label": "fc704_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc576_s4321/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc576_s9999/cloud/spec.mp4": {
+"label": "fc576_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 65.0,
+"quality": 9.0,
+"raw": [
+"65",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 20.0,
+"quality": 4.0,
+"raw": [
+"20",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 100.0,
+"quality": 5.0,
+"raw": [
+"100",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc672_s1234/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc672_s4321/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/fc672_s9999/cloud/spec.mp4": {
+"label": "fc672_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 5.0,
+"raw": [
+"75",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 4.0,
+"raw": [
+"75",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 85.0,
+"quality": 5.0,
+"raw": [
+"85",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc1_704_s1234/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc1_704_s4321/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc1_704_s9999/cloud/spec.mp4": {
+"label": "pc1_704",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 85.0,
+"quality": 4.0,
+"raw": [
+"85",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc2_704_s1234/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc2_704_s4321/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc2_704_s9999/cloud/spec.mp4": {
+"label": "pc2_704",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 75.0,
+"quality": 9.0,
+"raw": [
+"75",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc1_832_s1234/cloud/spec.mp4": {
+"label": "pc1_832",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 4.0,
+"raw": [
+"75",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 20.0,
+"quality": 5.0,
+"raw": [
+"20",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 20.0,
+"quality": 4.0,
+"raw": [
+"20",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 4.0,
+"raw": [
+"75",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 3.0,
+"raw": [
+"75",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 5.0,
+"raw": [
+"75",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc1_704_s1234/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc1_704_s4321/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/pc1_704_s9999/cloud/taehv.mp4": {
+"label": "pc1_704_taehv",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 0.0,
+"quality": 7.0,
+"raw": [
+"0",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 30.0,
+"quality": 3.0,
+"raw": [
+"30",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 30.0,
+"quality": 4.0,
+"raw": [
+"30",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 5.0,
+"raw": [
+"75",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 4.0,
+"raw": [
+"75",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 85.0,
+"quality": 5.0,
+"raw": [
+"85",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg448_s1234/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg448_s4321/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg448_s9999/cloud/spec.mp4": {
+"label": "dg448_cloud",
+"drift": 95.0,
+"quality": 6.0,
+"raw": [
+"95",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 3.0,
+"raw": [
+"75",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/billiard_break/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 4.0,
+"raw": [
+"75",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 85.0,
+"quality": 4.0,
+"raw": [
+"85",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/domino_falling/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 4.0,
+"raw": [
+"75",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_dragon_night/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_greatwall/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_lake/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 30.0,
+"quality": 5.0,
+"raw": [
+"30",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_stonehenge_sunset/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 3.0,
+"raw": [
+"75",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 30.0,
+"quality": 4.0,
+"raw": [
+"30",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/easy_urban_rain/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 20.0,
+"quality": 3.0,
+"raw": [
+"20",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 100.0,
+"quality": 3.0,
+"raw": [
+"100",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 4.0,
+"raw": [
+"75",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/fused/hourglass_accumulation/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 85.0,
+"quality": 5.0,
+"raw": [
+"85",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/newtons_cradle/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/pouring_water_into_cup/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 100.0,
+"quality": 3.0,
+"raw": [
+"100",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sand_filling_up_jar/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 100.0,
+"quality": 3.0,
+"raw": [
+"100",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg384_s1234/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 85.0,
+"quality": 5.0,
+"raw": [
+"85",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg384_s4321/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/fused/sandcastle_wave_impact/dg384_s9999/cloud/spec.mp4": {
+"label": "dg384_cloud",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+}
+}

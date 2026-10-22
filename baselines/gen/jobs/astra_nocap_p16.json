@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ }
+]

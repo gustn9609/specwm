@@ -1,0 +1,11 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/abandoned_city_runner.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__abandoned_city_runner__P6_long/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__abandoned_city_runner__P6_long",
+  "seed": 1234,
+  "program": "P6",
+  "name": "wp__abandoned_city_runner__P6_long",
+  "k_yaw": null
+ }
+]

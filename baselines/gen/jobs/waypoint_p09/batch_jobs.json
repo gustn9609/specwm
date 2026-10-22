@@ -1,0 +1,74 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P5/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P5",
+  "seed": 1234,
+  "program": "P5",
+  "name": "neutral_wp__pouring_water_into_cup__P5",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P1/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P1",
+  "seed": 1234,
+  "program": "P1",
+  "name": "neutral_wp__traffic_light_green__P1",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P2/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P2",
+  "seed": 1234,
+  "program": "P2",
+  "name": "neutral_wp__traffic_light_green__P2",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P2p/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P2p",
+  "seed": 1234,
+  "program": "P2p",
+  "name": "neutral_wp__traffic_light_green__P2p",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P3/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P3",
+  "seed": 1234,
+  "program": "P3",
+  "name": "neutral_wp__traffic_light_green__P3",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P4/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P4",
+  "seed": 1234,
+  "program": "P4",
+  "name": "neutral_wp__traffic_light_green__P4",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P4p/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P4p",
+  "seed": 1234,
+  "program": "P4p",
+  "name": "neutral_wp__traffic_light_green__P4p",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P5/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P5",
+  "seed": 1234,
+  "program": "P5",
+  "name": "neutral_wp__traffic_light_green__P5",
+  "k_yaw": null
+ }
+]

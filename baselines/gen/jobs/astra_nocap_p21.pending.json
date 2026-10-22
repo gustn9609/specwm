@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ }
+]

@@ -1,0 +1,16 @@
+[
+ {
+  "id": "sf1p3b__balloon_block_cut__P1",
+  "base": "sf1p3b__balloon_block_cut__P1",
+  "image": "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/balloon_block_cut__P1/published/task/image.png",
+  "video_WM": "",
+  "camera_WM": "",
+  "pose": "program",
+  "action": "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/balloon_block_cut__P1/published/task",
+  "program": "P1",
+  "scene": "balloon_block_cut",
+  "set": "sf1p3b",
+  "poses_from": "/home/hk28965/specwm/baselines/programs/P1.npz",
+  "n_poses": 161
+ }
+]

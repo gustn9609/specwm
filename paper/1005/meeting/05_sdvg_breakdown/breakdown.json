@@ -1,0 +1,50 @@
+{
+ "Draft only": {
+  "prepare": 11.3,
+  "draft": 9.0,
+  "vae_verify": 0.0,
+  "imagereward": 0.0,
+  "target": 0.0,
+  "commit": 2.233333333333333,
+  "final_decode": 8.545,
+  "accepted": 13.0,
+  "gen": 11.300000000000002,
+  "e2e": 31.145000000000003
+ },
+ "SDVG \u03c4 \u22120.7 (default)": {
+  "prepare": 11.3,
+  "draft": 8.5,
+  "vae_verify": 5.28,
+  "imagereward": 3.8199999999999994,
+  "target": 47.31666666666667,
+  "commit": 14.999999999999998,
+  "final_decode": 8.555,
+  "accepted": 1.0,
+  "gen": 80.0,
+  "e2e": 99.85499999999999
+ },
+ "SDVG \u03c4 \u22122.2": {
+  "prepare": 11.3,
+  "draft": 8.483333333333333,
+  "vae_verify": 5.28,
+  "imagereward": 2.87,
+  "target": 36.33333333333333,
+  "commit": 15.016666666666666,
+  "final_decode": 8.571666666666667,
+  "accepted": 3.8333333333333335,
+  "gen": 68.01666666666667,
+  "e2e": 87.88833333333334
+ },
+ "Target only": {
+  "prepare": 11.3,
+  "draft": 0.0,
+  "vae_verify": 0.0,
+  "imagereward": 0.0,
+  "target": 50.56666666666667,
+  "commit": 12.600000000000001,
+  "final_decode": 8.551666666666668,
+  "accepted": 0.0,
+  "gen": 63.45000000000001,
+  "e2e": 83.30166666666668
+ }
+}

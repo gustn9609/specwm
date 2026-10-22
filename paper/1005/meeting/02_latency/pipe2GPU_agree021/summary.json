@@ -1,0 +1,140 @@
+{
+ "label": "pipe2GPU_agree021",
+ "clips": 10,
+ "frames": 1530,
+ "server_ms": {
+  "count": 1530,
+  "mean": 2394.9559281045754,
+  "std": 542.8826862978008,
+  "min": 1076.18,
+  "p50": 2533.07,
+  "p90": 2979.66,
+  "p95": 3141.09,
+  "p99": 3489.809300000002,
+  "p99_9": 3529.13,
+  "max": 3529.13,
+  "target_ms": 750.0,
+  "miss_rate": 1.0,
+  "jitter_mean": 75.99782864617397,
+  "jitter_p95": 375.4060000000001,
+  "jitter_max": 2114.0599999999995,
+  "miss_rate_1000ms": 1.0
+ },
+ "fps_mean": 8.723999999999998,
+ "chunk_period_ms_mean": 1472.4500000000003,
+ "first_frame_ms_mean": 1089.2399999999998,
+ "prepare_s_mean": 2.613,
+ "gen_s_mean": 18.201,
+ "per_clip": [
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/domino_falling/pipe2_agree021_s1234",
+   "frames": 153,
+   "first_frame_ms": 1103.8,
+   "prepare_s": 2.6,
+   "fps": 7.59,
+   "chunk_period_ms": 1669.5,
+   "gen_s": 20.52,
+   "accepted": 0,
+   "max_gap_ms": 1337.8
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/domino_falling/pipe2_agree021_s4321",
+   "frames": 153,
+   "first_frame_ms": 1104.7,
+   "prepare_s": 2.59,
+   "fps": 7.58,
+   "chunk_period_ms": 1670.5,
+   "gen_s": 20.54,
+   "accepted": 0,
+   "max_gap_ms": 1340.1
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/easy_lake/pipe2_agree021_s1234",
+   "frames": 153,
+   "first_frame_ms": 1081.0,
+   "prepare_s": 2.94,
+   "fps": 9.61,
+   "chunk_period_ms": 1318.5,
+   "gen_s": 16.4,
+   "accepted": 7,
+   "max_gap_ms": 1307.9
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/easy_lake/pipe2_agree021_s4321",
+   "frames": 153,
+   "first_frame_ms": 1081.2,
+   "prepare_s": 2.95,
+   "fps": 10.05,
+   "chunk_period_ms": 1260.6,
+   "gen_s": 15.71,
+   "accepted": 8,
+   "max_gap_ms": 1302.7
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/easy_stonehenge_sunset/pipe2_agree021_s1234",
+   "frames": 153,
+   "first_frame_ms": 1079.9,
+   "prepare_s": 2.47,
+   "fps": 8.7,
+   "chunk_period_ms": 1455.3,
+   "gen_s": 18.04,
+   "accepted": 5,
+   "max_gap_ms": 1306.0
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/easy_stonehenge_sunset/pipe2_agree021_s4321",
+   "frames": 153,
+   "first_frame_ms": 1083.6,
+   "prepare_s": 2.46,
+   "fps": 9.27,
+   "chunk_period_ms": 1367.0,
+   "gen_s": 16.98,
+   "accepted": 7,
+   "max_gap_ms": 1141.6
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/easy_urban_rain/pipe2_agree021_s1234",
+   "frames": 153,
+   "first_frame_ms": 1076.2,
+   "prepare_s": 2.46,
+   "fps": 10.35,
+   "chunk_period_ms": 1224.2,
+   "gen_s": 15.26,
+   "accepted": 9,
+   "max_gap_ms": 1114.2
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/easy_urban_rain/pipe2_agree021_s4321",
+   "frames": 153,
+   "first_frame_ms": 1079.7,
+   "prepare_s": 2.43,
+   "fps": 8.89,
+   "chunk_period_ms": 1424.2,
+   "gen_s": 17.57,
+   "accepted": 5,
+   "max_gap_ms": 1305.2
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/pouring_water_into_cup/pipe2_agree021_s1234",
+   "frames": 153,
+   "first_frame_ms": 1099.9,
+   "prepare_s": 2.59,
+   "fps": 7.6,
+   "chunk_period_ms": 1667.0,
+   "gen_s": 20.49,
+   "accepted": 0,
+   "max_gap_ms": 1337.5
+  },
+  {
+   "dir": "lingbot-world-v2/specwm_out/latency/pipe2_agree021/pouring_water_into_cup/pipe2_agree021_s4321",
+   "frames": 153,
+   "first_frame_ms": 1102.4,
+   "prepare_s": 2.64,
+   "fps": 7.6,
+   "chunk_period_ms": 1667.7,
+   "gen_s": 20.5,
+   "accepted": 0,
+   "max_gap_ms": 1335.5
+  }
+ ]
+}

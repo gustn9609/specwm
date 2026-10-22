@@ -1,0 +1,29 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/abot/suburban_house_1st.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot_t5offload/abot__suburban_house_1st__P3",
+  "prompt": "A modest, single-story suburban house with weathered stucco walls, a low-pitched shingled roof, and striped awnings over the windows sits behind a sagging chain-link fence, flanked by overgrown shrubs and a mature palm tree; distant glass-and-steel skyscrapers pierce the hazy skyline, contrasting sharply with the sun-bleached, faded earth tones of the foreground. The street is lined with cracked concrete sidewalks, utility poles strung with overhead wires, and scattered debris, while a rusted sedan rests beside a garage under a row of tall palms. Adjacent commercial structures feature peeling signage\u2014\u201cBeer \u2022 Wine\u201d and a vintage \u201cBusch\u201d billboard\u2014above corrugated metal facades, all bathed in bright, diffused daylight that casts soft shadows and emphasizes textures of aged paint, dry grass, and worn asphalt. The overall aesthetic evokes a sun-drenched, slightly neglected urban fringe, where mid-century residential architecture meets fading commercial infrastructure under a pale blue sky.",
+  "scene": "suburban_house_1st",
+  "set": "abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/abot/suburban_house_1st.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot_t5offload/abot__suburban_house_1st__P4",
+  "prompt": "A modest, single-story suburban house with weathered stucco walls, a low-pitched shingled roof, and striped awnings over the windows sits behind a sagging chain-link fence, flanked by overgrown shrubs and a mature palm tree; distant glass-and-steel skyscrapers pierce the hazy skyline, contrasting sharply with the sun-bleached, faded earth tones of the foreground. The street is lined with cracked concrete sidewalks, utility poles strung with overhead wires, and scattered debris, while a rusted sedan rests beside a garage under a row of tall palms. Adjacent commercial structures feature peeling signage\u2014\u201cBeer \u2022 Wine\u201d and a vintage \u201cBusch\u201d billboard\u2014above corrugated metal facades, all bathed in bright, diffused daylight that casts soft shadows and emphasizes textures of aged paint, dry grass, and worn asphalt. The overall aesthetic evokes a sun-drenched, slightly neglected urban fringe, where mid-century residential architecture meets fading commercial infrastructure under a pale blue sky.",
+  "scene": "suburban_house_1st",
+  "set": "abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/abot/suburban_house_1st.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot_t5offload/abot__suburban_house_1st__P5",
+  "prompt": "A modest, single-story suburban house with weathered stucco walls, a low-pitched shingled roof, and striped awnings over the windows sits behind a sagging chain-link fence, flanked by overgrown shrubs and a mature palm tree; distant glass-and-steel skyscrapers pierce the hazy skyline, contrasting sharply with the sun-bleached, faded earth tones of the foreground. The street is lined with cracked concrete sidewalks, utility poles strung with overhead wires, and scattered debris, while a rusted sedan rests beside a garage under a row of tall palms. Adjacent commercial structures feature peeling signage\u2014\u201cBeer \u2022 Wine\u201d and a vintage \u201cBusch\u201d billboard\u2014above corrugated metal facades, all bathed in bright, diffused daylight that casts soft shadows and emphasizes textures of aged paint, dry grass, and worn asphalt. The overall aesthetic evokes a sun-drenched, slightly neglected urban fringe, where mid-century residential architecture meets fading commercial infrastructure under a pale blue sky.",
+  "scene": "suburban_house_1st",
+  "set": "abot"
+ }
+]

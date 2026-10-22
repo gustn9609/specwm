@@ -1,0 +1,13 @@
+[
+ {
+  "id": "S00_s9999",
+  "base": "S00",
+  "image": "/home/hk28965/specwm/lingbot-world-v2/examples/00/image.jpg",
+  "video_WM": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "camera_WM": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "pose": "rt2_action_00",
+  "action": "/home/hk28965/specwm/rt2_action_00",
+  "category": "ours",
+  "level": 0
+ }
+]

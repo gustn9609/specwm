@@ -1,0 +1,62 @@
+#!/bin/bash
+true
+export VBENCH_CACHE_DIR=$SCRATCH/vbench_cache; export TORCH_HOME=$SCRATCH/.torch_hub; export HF_HUB_OFFLINE=1
+R=$SCRATCH/lingbot-world-v2/specwm_out
+cd $SCRATCH
+python vbench_eval.py --stage eval --out $SCRATCH/vbench_out4 --videos \
+  W18_sink6__fast_alone_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__fast_alone_s1234__gen.mp4 \
+  W18_sink6__fast_alone_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__fast_alone_s1234__post3.mp4 \
+  W18_sink6__fast_alone_s4321__gen=$SCRATCH/vbench_crops/W18_sink6__fast_alone_s4321__gen.mp4 \
+  W18_sink6__fast_alone_s4321__post3=$SCRATCH/vbench_crops/W18_sink6__fast_alone_s4321__post3.mp4 \
+  W18_sink6__fast_alone_s9999__gen=$SCRATCH/vbench_crops/W18_sink6__fast_alone_s9999__gen.mp4 \
+  W18_sink6__fast_alone_s9999__post3=$SCRATCH/vbench_crops/W18_sink6__fast_alone_s9999__post3.mp4 \
+  W18_sink6__ctrl_k6_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__ctrl_k6_s1234__gen.mp4 \
+  W18_sink6__ctrl_k6_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__ctrl_k6_s1234__post3.mp4 \
+  W18_sink6__resync_k3_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k3_s1234__gen.mp4 \
+  W18_sink6__resync_k3_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k3_s1234__post3.mp4 \
+  W18_sink6__resync_k3_s4321__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k3_s4321__gen.mp4 \
+  W18_sink6__resync_k3_s4321__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k3_s4321__post3.mp4 \
+  W18_sink6__resync_k3_s9999__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k3_s9999__gen.mp4 \
+  W18_sink6__resync_k3_s9999__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k3_s9999__post3.mp4 \
+  W18_sink6__resync_k6_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k6_s1234__gen.mp4 \
+  W18_sink6__resync_k6_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k6_s1234__post3.mp4 \
+  W18_sink6__resync_k6_s4321__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k6_s4321__gen.mp4 \
+  W18_sink6__resync_k6_s4321__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k6_s4321__post3.mp4 \
+  W18_sink6__resync_k6_s9999__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k6_s9999__gen.mp4 \
+  W18_sink6__resync_k6_s9999__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k6_s9999__post3.mp4 \
+  W18_sink6__resync_k9_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k9_s1234__gen.mp4 \
+  W18_sink6__resync_k9_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k9_s1234__post3.mp4 \
+  W18_sink6__resync_k9_s4321__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k9_s4321__gen.mp4 \
+  W18_sink6__resync_k9_s4321__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k9_s4321__post3.mp4 \
+  W18_sink6__resync_k9_s9999__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k9_s9999__gen.mp4 \
+  W18_sink6__resync_k9_s9999__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k9_s9999__post3.mp4 \
+  W18_sink6__every3_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__every3_s1234__gen.mp4 \
+  W18_sink6__every3_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__every3_s1234__post3.mp4 \
+  W18_sink6__every3_s4321__gen=$SCRATCH/vbench_crops/W18_sink6__every3_s4321__gen.mp4 \
+  W18_sink6__every3_s4321__post3=$SCRATCH/vbench_crops/W18_sink6__every3_s4321__post3.mp4 \
+  W18_sink6__every3_s9999__gen=$SCRATCH/vbench_crops/W18_sink6__every3_s9999__gen.mp4 \
+  W18_sink6__every3_s9999__post3=$SCRATCH/vbench_crops/W18_sink6__every3_s9999__post3.mp4 \
+  W18_sink6__keep_k3_L2_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__keep_k3_L2_s1234__gen.mp4 \
+  W18_sink6__keep_k3_L2_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__keep_k3_L2_s1234__post3.mp4 \
+  W18_sink6__keep_k3_L4_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__keep_k3_L4_s1234__gen.mp4 \
+  W18_sink6__keep_k3_L4_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__keep_k3_L4_s1234__post3.mp4 \
+  W18_sink6__keep_k3_L8_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__keep_k3_L8_s1234__gen.mp4 \
+  W18_sink6__resync_k6_ctx16_s1234__gen=$SCRATCH/vbench_crops/W18_sink6__resync_k6_ctx16_s1234__gen.mp4 \
+  W18_sink6__resync_k6_ctx16_s1234__post3=$SCRATCH/vbench_crops/W18_sink6__resync_k6_ctx16_s1234__post3.mp4 \
+  W36_sink6__fast_alone_s1234__gen=$SCRATCH/vbench_crops/W36_sink6__fast_alone_s1234__gen.mp4 \
+  W36_sink6__fast_alone_s1234__post3=$SCRATCH/vbench_crops/W36_sink6__fast_alone_s1234__post3.mp4 \
+  W36_sink6__resync_k6_s1234__gen=$SCRATCH/vbench_crops/W36_sink6__resync_k6_s1234__gen.mp4 \
+  W36_sink6__resync_k6_s1234__post3=$SCRATCH/vbench_crops/W36_sink6__resync_k6_s1234__post3.mp4 \
+  W18_sink0__fast_alone_s1234__gen=$SCRATCH/vbench_crops/W18_sink0__fast_alone_s1234__gen.mp4 \
+  W18_sink0__fast_alone_s1234__post3=$SCRATCH/vbench_crops/W18_sink0__fast_alone_s1234__post3.mp4 \
+  W18_sink0__resync_k6_s1234__gen=$SCRATCH/vbench_crops/W18_sink0__resync_k6_s1234__gen.mp4 \
+  W18_sink0__resync_k6_s1234__post3=$SCRATCH/vbench_crops/W18_sink0__resync_k6_s1234__post3.mp4 \
+  W24_sink6__fast_alone_s1234__gen=$SCRATCH/vbench_crops/W24_sink6__fast_alone_s1234__gen.mp4 \
+  W24_sink6__fast_alone_s1234__post3=$SCRATCH/vbench_crops/W24_sink6__fast_alone_s1234__post3.mp4 \
+  W24_sink6__resync_k6_s1234__gen=$SCRATCH/vbench_crops/W24_sink6__resync_k6_s1234__gen.mp4 \
+  W24_sink6__resync_k6_s1234__post3=$SCRATCH/vbench_crops/W24_sink6__resync_k6_s1234__post3.mp4 \
+  W24_sink18__fast_alone_s1234__gen=$SCRATCH/vbench_crops/W24_sink18__fast_alone_s1234__gen.mp4 \
+  W24_sink18__fast_alone_s1234__post3=$SCRATCH/vbench_crops/W24_sink18__fast_alone_s1234__post3.mp4 \
+  W24_sink18__resync_k6_s1234__gen=$SCRATCH/vbench_crops/W24_sink18__resync_k6_s1234__gen.mp4 \
+  W24_sink18__resync_k6_s1234__post3=$SCRATCH/vbench_crops/W24_sink18__resync_k6_s1234__post3.mp4
+echo "[VBENCH_JOB_DONE] exit=$?"

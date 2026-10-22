@@ -1,0 +1,18 @@
+sand_f/plkl_kv4_ck1612_cr_never_s1234        gen    68  motion(median)   8.6  boundary/inside max  2.1x  flicker(mean)  15.5  plan DDDDDDDDDDDDD
+sand_f/plkl_kv4_ck1612_cr_never_s4321        gen    69  motion(median)   9.4  boundary/inside max  2.4x  flicker(mean)  18.6  plan DDDDDDDDDDDDD
+sand_f/plkl_kv4_ck1612_cr_never_s9999        gen    69  motion(median)   6.9  boundary/inside max  2.8x  flicker(mean)  15.0  plan DDDDDDDDDDDDD
+sandca/plkl_kv4_ck1612_cr_never_s1234        gen    67  motion(median)  10.0  boundary/inside max  1.9x  flicker(mean)  17.4  plan DDDDDDDDDDDDD
+sandca/plkl_kv4_ck1612_cr_never_s4321        gen    67  motion(median)   6.5  boundary/inside max  3.0x  flicker(mean)  13.8  plan DDDDDDDDDDDDD
+sandca/plkl_kv4_ck1612_cr_never_s9999        gen    67  motion(median)   4.5  boundary/inside max  3.5x  flicker(mean)  10.1  plan DDDDDDDDDDDDD
+sand_f/plkl_kv4_ck1612_cr_never_s1234                motion   9.4 flicker  15.6 ssim4 0.708 maxboundary  2.1x  drift(max) 0.46  to_base(mean) 0.39
+sand_f/plkl_kv4_ck1612_cr_never_s4321                motion  11.1 flicker  18.6 ssim4 0.639 maxboundary  2.4x  drift(max) 0.38  to_base(mean) 0.79
+sand_f/plkl_kv4_ck1612_cr_never_s9999                motion   9.1 flicker  14.9 ssim4 0.755 maxboundary  2.8x  drift(max) 0.79  to_base(mean) 0.45
+sandca/plkl_kv4_ck1612_cr_never_s1234                motion  10.6 flicker  17.6 ssim4 0.675 maxboundary  1.9x  drift(max) 0.42  to_base(mean) 0.50
+sandca/plkl_kv4_ck1612_cr_never_s4321                motion   8.6 flicker  13.7 ssim4 0.713 maxboundary  3.0x  drift(max) 0.22  to_base(mean) 0.58
+sandca/plkl_kv4_ck1612_cr_never_s9999                motion   6.3 flicker  10.0 ssim4 0.819 maxboundary  3.5x  drift(max) 0.38  to_base(mean) 0.69
+sharp sand_f s1234  base 4.89  run 4.43
+sharp sand_f s4321  base 15.86  run 6.54
+sharp sand_f s9999  base 4.16  run 4.03
+sharp sandca s1234  base 7.82  run 7.06
+sharp sandca s4321  base 10.25  run 6.53
+sharp sandca s9999  base 8.51  run 4.78

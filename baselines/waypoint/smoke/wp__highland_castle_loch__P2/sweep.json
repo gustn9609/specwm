@@ -1,0 +1,32 @@
+{
+ "sweep_m0": {
+  "mouse_x_per_call": 0.0,
+  "calls": 30,
+  "frames": 120,
+  "gen_s": 2.637
+ },
+ "sweep_m60": {
+  "mouse_x_per_call": 60.0,
+  "calls": 30,
+  "frames": 120,
+  "gen_s": 2.478
+ },
+ "sweep_m120": {
+  "mouse_x_per_call": 120.0,
+  "calls": 30,
+  "frames": 120,
+  "gen_s": 2.357
+ },
+ "sweep_m240": {
+  "mouse_x_per_call": 240.0,
+  "calls": 30,
+  "frames": 120,
+  "gen_s": 2.076
+ },
+ "sweep_m480": {
+  "mouse_x_per_call": 480.0,
+  "calls": 30,
+  "frames": 120,
+  "gen_s": 2.013
+ }
+}

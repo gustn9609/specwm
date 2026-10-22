@@ -1,0 +1,16 @@
+[
+ {
+  "id": "sf1p3b__easy_lake__P2",
+  "base": "sf1p3b__easy_lake__P2",
+  "image": "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/easy_lake__P2_stream0/calibrated/task/image.png",
+  "video_WM": "",
+  "camera_WM": "",
+  "pose": "program",
+  "action": "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/easy_lake__P2_stream0/calibrated/task",
+  "program": "P2",
+  "scene": "easy_lake",
+  "set": "sf1p3b",
+  "poses_from": "/home/hk28965/specwm/baselines/programs/P2.npz",
+  "n_poses": 161
+ }
+]

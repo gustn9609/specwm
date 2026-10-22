@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P4p",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P5",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P1",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P2",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ }
+]

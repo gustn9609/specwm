@@ -1,0 +1,194 @@
+{
+ "jobs": 20,
+ "ok": 20,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 3.3,
+ "warmup_s": 20.4,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 19.3,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/wp/enchanted_swamp_torch.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.603,
+   "steady_fps_e2e": 35.66,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 17.32
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.482,
+   "steady_fps_e2e": 36.3,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.91
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_crystal_cavern__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.463,
+   "steady_fps_e2e": 35.93,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 17.06
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_crystal_cavern__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.5,
+   "steady_fps_e2e": 36.74,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.73
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_crystal_cavern__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.555,
+   "steady_fps_e2e": 33.31,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.46
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_crystal_cavern__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.562,
+   "steady_fps_e2e": 45.7,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 13.61
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_crystal_cavern__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.458,
+   "steady_fps_e2e": 36.66,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.72
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_crystal_cavern__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.484,
+   "steady_fps_e2e": 37.58,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.35
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_crystal_cavern__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.491,
+   "steady_fps_e2e": 36.79,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.7
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_valley_sniper__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.522,
+   "steady_fps_e2e": 38.05,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.19
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_valley_sniper__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.515,
+   "steady_fps_e2e": 37.75,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.31
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_valley_sniper__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.481,
+   "steady_fps_e2e": 38.17,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.11
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_valley_sniper__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.473,
+   "steady_fps_e2e": 34.17,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 17.93
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_valley_sniper__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.489,
+   "steady_fps_e2e": 37.7,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.31
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_valley_sniper__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.463,
+   "steady_fps_e2e": 33.34,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.35
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__frozen_valley_sniper__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.658,
+   "steady_fps_e2e": 31.48,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 19.6
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__highland_castle_loch__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.521,
+   "steady_fps_e2e": 37.82,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.29
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__highland_castle_loch__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.505,
+   "steady_fps_e2e": 31.11,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 19.68
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__highland_castle_loch__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.504,
+   "steady_fps_e2e": 30.57,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 20.02
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__highland_castle_loch__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.574,
+   "steady_fps_e2e": 35.49,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 17.38
+  }
+ ],
+ "date": "2026-10-17T02:29:48"
+}

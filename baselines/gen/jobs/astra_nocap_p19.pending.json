@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ }
+]

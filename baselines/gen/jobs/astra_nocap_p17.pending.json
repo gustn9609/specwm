@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ }
+]

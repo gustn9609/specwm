@@ -1,0 +1,53 @@
+{
+ "_note": "[10/19 audit] For report.py (owned by another agent): per arm, which runs dir to PREFER for the timing columns once the tier-8 re-measures (gen/queue/8) exist, and which timing.json fields to take from it. Clips missing in the preferred dir fall back to the frozen dir. Videos / quality metrics always come from the frozen dir. 'corrected_fields' = additive fields already present in the FROZEN timing.json of the spec_early arms (gen/add_dit_fields_1019.py; ours_to_timing.spec_early_dit_fields): prefer steady_fps_gen_dit / gen_s_dit over steady_fps_gen / gen_s for those arms (say so in the table caption: 'DiT-only, decode excluded by section totals').",
+ "spec_early_corrected_arms": {
+  "arms": ["sf24", "student1p3b", "sf1p3b_pub", "sf1p3b_cal"],
+  "runs_glob": "runs/ours_<arm>_<set>",
+  "prefer_fields": {"steady_fps_gen": "steady_fps_gen_dit", "gen_s": "gen_s_dit"},
+  "unchanged_fields": ["e2e_s", "ttff_s", "steady_fps_e2e"],
+  "why": "frozen chunk timer contained the previous chunk's side-stream VAE decode (spec_early.py line 100 unsynced chunk_start; two_machine solo excludes it); fps_correction field in each timing.json"
+ },
+ "remeasures": [
+  {
+   "arm": "waypoint",
+   "frozen_dir": "runs/waypoint",
+   "prefer_dir": "runs/waypoint_idle",
+   "fields": ["steady_fps_gen", "steady_fps_e2e", "gen_s", "e2e_s", "ttff_s"],
+   "clips": "all 168 10-s clips (wp__*, neutral_wp__*; not the P6 *_long clip)",
+   "queue": ["gen/queue/8/300_waypoint_idle_a.sh", "gen/queue/8/300_waypoint_idle_b.sh"],
+   "compare": "runs/waypoint_idle/COMPARE.json (md5 video frozen vs idle; Waypoint determinism unknown -> if 'differing' > 0 the idle numbers are timing-only)",
+   "why": "frozen timing.json timing_caveat: GPU shared with other jobs during the measurement (10/17), fps a lower bound"
+  },
+  {
+   "arm": "sf1p3b_pub",
+   "set": "neutral_832_nocap",
+   "frozen_dir": "runs/ours_sf1p3b_pub_neutral_832_nocap",
+   "prefer_dir": "runs/ours_sf1p3b_pub_neutral_832_nocap_idle",
+   "fields": ["steady_fps_gen", "steady_fps_gen_dit", "gen_s", "gen_s_dit", "e2e_s", "ttff_s", "steady_fps_e2e"],
+   "clips": "the 22 clips listed in gen/jobs/301_sf1p3b_pub_nocap_idle.json (frozen gen_s > 1.3 x median 14.29 s)",
+   "queue": ["gen/queue/8/301_sf1p3b_nocap_idle.sh"],
+   "why": "contended GPU on 10/17: outliers at ~27-33 s vs median 14.3 s"
+  },
+  {
+   "arm": "sf1p3b_cal",
+   "set": "neutral_832_nocap",
+   "frozen_dir": "runs/ours_sf1p3b_cal_neutral_832_nocap",
+   "prefer_dir": "runs/ours_sf1p3b_cal_neutral_832_nocap_idle",
+   "fields": ["steady_fps_gen", "steady_fps_gen_dit", "gen_s", "gen_s_dit", "e2e_s", "ttff_s", "steady_fps_e2e"],
+   "clips": "the 22 clips listed in gen/jobs/301_sf1p3b_cal_nocap_idle.json (frozen gen_s > 1.3 x median 15.33 s)",
+   "queue": ["gen/queue/8/301_sf1p3b_nocap_idle.sh"],
+   "why": "contended GPU on 10/17: outliers at ~27-37 s vs median 15.3 s"
+  },
+  {
+   "arm": "sf24",
+   "sets": ["mg2", "wp", "abot", "astra", "neutral_832"],
+   "frozen_dir": "runs/ours_sf24_<set>",
+   "prefer_dir": null,
+   "check_dir": "runs/ours_sf24_<set>_dit",
+   "fields": [],
+   "clips": "2 per set (first scene P1, P2), STREAM_DECODE=0; VALIDATION ONLY of steady_fps_gen_dit, not a timing source (ttff/e2e null there)",
+   "queue": ["gen/queue/8/302_sf24_dit_check.sh"],
+   "compare": "runs/ours_sf24_dit_CHECK.json (verdict: does steady_fps_gen_dit reproduce the decode-free fps?)"
+  }
+ ]
+}

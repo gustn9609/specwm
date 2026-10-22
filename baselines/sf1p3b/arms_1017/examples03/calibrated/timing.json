@@ -1,0 +1,150 @@
+{
+ "model": "LingBot-World 2.0 1.3B causal-fast + Speculative Forcing training-free verifier (sf1p3b_tf, token-wise early exit)",
+ "ckpt": "lingbot-world-v2-1.3b-causal-fast (HF snapshot 7e36a5f919f86cb4255cc9bfc30adb44963fbde1); T5/VAE/assets from lingbot-world-v2-14b-causal-fast",
+ "precision": "bf16 weights + activations (no FP8), fp32 x0/verifier",
+ "attention": "SageAttention (dense forwards: step 1, clean commit) / SDPA flash (active-token forwards, fast_patch.ACTIVE)",
+ "vae": "Wan2.1_VAE.pth (full decode after generation; --stream-decode 1 = second VAE instance decoding every committed chunk on a side stream)",
+ "resolution_out": "832x464",
+ "frames": 153,
+ "fps_native": 16,
+ "frames_per_call_or_chunk": 12,
+ "steps": "4-step schedule t=[1000, 937.5, 833.3, 625] with token-wise early exit: mean_steps 2.294",
+ "mean_steps": 2.294,
+ "gen_s": 13.173,
+ "gen_s_wall": 13.17,
+ "e2e_s": 27.773,
+ "prepare_s": 6.18,
+ "decode_s": 8.42,
+ "ttff_s": 6.556,
+ "steady_fps_gen": 11.22,
+ "steady_fps_e2e": 11.55,
+ "chunk_s": [
+  0.391,
+  0.916,
+  0.932,
+  1.005,
+  1.097,
+  1.195,
+  1.247,
+  1.11,
+  1.042,
+  0.955,
+  0.961,
+  0.957,
+  1.365
+ ],
+ "peak_alloc_GiB": 28.07,
+ "peak_reserved_GiB": 39.69,
+ "text_encoder_resident": true,
+ "kv_window": 18,
+ "kv_sink": 6,
+ "latent_frames_per_chunk": 3,
+ "warm": true,
+ "seed": 1234,
+ "task": "sf1p3b__image__03",
+ "mode": "tf",
+ "tau_red": 0.2919,
+ "tau_stab": 0.3112,
+ "tf_norm": "draft",
+ "verifier": "training-free (arXiv 2610.22347 \u00a73.3.1): step 1 redundancy vs clean tokens in the KV window + image latent, steps 2-3 stability; 9x9 spatial + forward temporal Gaussian smoothing; 64-dim latent tokens, distances / median token norm of the draft",
+ "per_chunk_commit_hist": [
+  [
+   43,
+   2541,
+   1440,
+   500,
+   NaN
+  ],
+  [
+   767,
+   1776,
+   998,
+   983,
+   NaN
+  ],
+  [
+   1833,
+   1572,
+   596,
+   523,
+   NaN
+  ],
+  [
+   1731,
+   823,
+   885,
+   1085,
+   NaN
+  ],
+  [
+   1169,
+   332,
+   806,
+   2217,
+   NaN
+  ],
+  [
+   498,
+   375,
+   578,
+   3073,
+   NaN
+  ],
+  [
+   45,
+   260,
+   666,
+   3553,
+   NaN
+  ],
+  [
+   582,
+   1391,
+   1075,
+   1476,
+   NaN
+  ],
+  [
+   1440,
+   1413,
+   783,
+   888,
+   NaN
+  ],
+  [
+   3653,
+   495,
+   225,
+   151,
+   NaN
+  ],
+  [
+   3074,
+   848,
+   395,
+   207,
+   NaN
+  ],
+  [
+   3428,
+   597,
+   242,
+   257,
+   NaN
+  ],
+  [
+   3610,
+   514,
+   154,
+   246,
+   NaN
+  ]
+ ],
+ "times": {
+  "denoise": 8.6,
+  "commit": 1.41,
+  "verify": 0.06
+ },
+ "stream_decode": 1,
+ "source": "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/examples03/calibrated/raw/sf1p3b__image__03/sf1p3b_tf_calibrated_s1234"
+}

@@ -1,0 +1,50 @@
+{
+ "model": "astra",
+ "written": "2026-10-17 01:20 UTC (frozen-baseline protocol v1). Measured constants + decision for the Astra baseline; merged into baselines/calib.json['astra'] by baselines/astra/calib_merge.py. Key layout follows calib.json['_merge']: 'measurement_da3' and 'translation_units_per_u_da3' are FILE_OWNED (survive `convert.py build`), the other *_da3 keys are unknown to convert.py (kept as they are); the active constants below equal convert.CALIB['astra'] (no conflict).",
+ "fps": 20,
+ "n_frames_10s": 201,
+ "latents_generated": 56,
+ "n_frames_generated": 225,
+ "latents_per_block": 8,
+ "steps": 50,
+ "resolution": [832, 480],
+ "translation_units_per_u": 0.15,
+ "translation_units_per_u_da3": 0.15,
+ "embedding_rows_da3": 57,
+ "embedding_rows_note_da3": "10/17: the embedding handed to the official sliding window has 1 + 56 rows (program built for all 225 generated frames, program_to_astra.build(pid, 20, 225)); with the 51-row (201-frame) embedding the official code zero-pads on the CPU and crashes at block 7 (torch.cat device mismatch, infer_demo.py L934), and a zero 3x4 is not 'no motion'. convert.CALIB['astra'].embedding_rows = 51 is stale.",
+ "official_stack_da3": "attention = torch SDPA (neither flash-attn nor SageAttention in Astra/requirements.txt; wan_video_dit_moe.flash_attention falls through); 50 denoising steps per 8-latent block hard-coded (infer_demo.py L1140 set_timesteps(50)), FlowMatchScheduler(shift=5, sigma_min=0, extra_one_step=True), no CFG, MoE 3 experts top-1, bf16, tiled Wan2.1 VAE",
+ "translation_status_da3": "VERIFIED 10/17 on Astra's own outputs with DA3 metric poses (measurement_da3): 1 Astra unit ~ 7.3 m, its preset forward (0.03/latent = u_scale 0.15 for 1 u/s) = 1.1 m/s walking speed on P1; under combined motion (P3) Astra drops almost all translation whatever the scale (0.00 / 0.11 / 0.17 m/s at 1x / 2x / 3x preset), so its REALISED P3 forward/turn ratio (<= 0.010 m/deg) cannot be matched to ours' 0.080 m/deg by the unit; the INPUT ratio at 0.15 (0.092 m/deg) matches ours within 15 %, and 0.15 is kept.",
+ "rotation_check_da3": "VERIFIED 10/17: the radians-per-latent mapping is exact while the generated view is still faithful (P2 first 2.5 s: 18.2 deg/s for 18 commanded; P3 first 5 s: 11.3-13.0 deg/s for 12), and the realised pan rises to 1.5-1.9x once the content is hallucinated (P2 whole clip 272.6 deg instead of 180; P3 178.7 deg instead of 120). Same picture from DA3 poses and from median DIS optical flow at DA3's focal length. Treated as drift behaviour (scored by RPE-Rot), not re-calibrated: rotation_scale 1.0. Pan direction right = correct (content flows left, flow -15 px/frame).",
+ "direction_check_da3": "VERIFIED 10/16 (frames) + 10/17 (DA3 + flow): +yaw -> camera pans RIGHT; P1 flow divergence +0.63 px/frame = forward",
+ "u_scale_decision_da3": {
+  "task": "set u_scale (Astra units per program unit per second) so that P3's forward/turn ratio matches ours",
+  "ours_reference": "14B teacher (4-step, FP8) on garden_1 stretched to 832x480 at area 399360: P3 realised 0.32 m/s forward, 4.0 deg/s yaw -> 0.080 m/deg (= the commanded 0.0833 u/deg with 1 u ~ 0.96 m: ours executes the arc shape at 1/3 of the rate); P1 0.27 m/s",
+  "astra_response": {
+   "P1_u0.15": "pure forward 0.03 units/latent -> 1.10 m/s (segments 1.04 / 1.15 / 1.13 m/s, windows 0.94-1.31) => 7.3 m per Astra unit",
+   "P3_u0.15": "forward 0.03 + yaw 2.4 deg per latent -> forward 0.00 m/s (segments -0.06 / -0.14 / +0.21 / 0.00), yaw 17.9 deg/s (11.3 / 13.0 / 22.9 / 24.3), lateral +0.23 => 0.000 m/deg",
+   "P3_u0.30": "forward 0.06 + yaw 2.4 -> forward 0.11 m/s (0.11 / 0.05 / 0.33 / -0.05; windows median 0.006), yaw 18.1 deg/s (11.7 / 13.2 / 25.8 / 21.8) => 0.006 m/deg",
+   "P3_u0.45": "forward 0.09 + yaw 2.4 -> forward 0.17 m/s (0.17 / 0.01 / 0.29 / 0.19; windows median 0.18), yaw 16.3 deg/s (12.0 / 11.9 / 17.9 / 23.5), lateral +0.49 => 0.010 m/deg; clip still coherent (hallucinated street with blossoms), no visible dolly"
+  },
+  "ratio_match": "NOT reachable: a linear extrapolation of the weak P3 translation response (0.06 m/s per +0.15 u_scale) would need u_scale ~ 2.4 = 16x Astra's preset (0.48 units/latent) for ours' 0.96 m/s at 12 deg/s, far outside its training motion; Astra executes rotation and suppresses translation when both are commanded (P1 alone moves at 1.1 m/s).",
+  "input_ratio_match": "at u_scale 0.15 Astra's INPUT per latent is 0.22 m (7.3 m/unit x 0.03) per 2.4 deg = 0.092 m/deg vs ours' realised 0.080 (ratio-matched input u_scale 0.131; 0.20 with the drifted yaw gain 1.5) - 0.15 lies inside that band and inside DA3's +-15 % metric-scale spread",
+  "chosen": 0.15,
+  "why": "Astra's own preset forward speed (its 'held W key', PROTOCOL §2 keyboard rule and rule 3: the baseline at its native operating point), equal to the input-ratio match within the measurement error; larger values do not buy translation on P3 and are outside the model's demo range; keeps the frozen P1/P3 clips valid. Override for experiments: run.sh U_SCALE=x / astra_gen.py --u-scale.",
+  "consequence_for_metrics": "Astra's RPE-Trans on P3/P4/P5 will reflect the dropped translation; P2/P3 RPE-Rot the 1.5x drifted pan; both are the model's behaviour at the protocol's rates (18 deg/s = 2.1x its preset), a slower P2' is the fair complement (PROTOCOL rule 2)"
+ },
+ "measurement_da3": {
+  "date": "2026-10-17 00:58-01:15 UTC",
+  "method": "baselines/astra/calib_da3.py: Depth Anything 3 (DA3NESTED-GIANT-LARGE-1.1, /home/hk28965/specwm/hf) on windows of 16 frames sampled every 2nd (one shared frame), nested model = metric (translations scaled by its per-window scale_factor, is_metric 1); per-step camera-frame motion with the converters' formulas (c2w = inv(w2c), yaw = atan2(Rr[0,2], Rr[2,2]), tr = R_i^T (t_{i+1}-t_i), forward = tr[2]); per 2.5 s segment and per window; cross-checks: phase-correlation shift and DIS optical flow (median horizontal px/frame for the pan at DA3's fx, radial divergence for forward). DA3 peak 9.4 GiB. Results: baselines/astra/calib/da3_calib.json (+ da3_calib*.log, batch_*.log, ours_teacher.log, strips/)",
+  "clips": {
+   "astra_P2_lat56": {"video": "baselines/runs/astra/astra__garden_1__P2/video.mp4", "commanded_deg_per_s": 18.0, "realised_deg_per_s": 27.25, "realised_total_deg": 272.6, "per_segment_deg_per_s": [18.24, 35.79, 27.51, 27.49], "flow_per_segment_deg_per_s_fx650": [16.7, 31.5, 27.0, 29.0], "flow_median_px_per_frame": -15.1, "da3_fx_px": "576-727", "pitch_total_deg": -14.8, "fwd_m_per_s": 0.378, "yaw_gain": 1.514, "sign_ok": true},
+   "astra_P1_u0.15": {"video": "baselines/astra/calib/garden_1_P1_u0.15/video.mp4", "commanded_units_per_latent": 0.03, "fwd_m_per_s_segments": [1.039, 1.154, 1.127, -0.905], "fwd_m_per_s_clean_0_7.5s": 1.10, "fwd_m_per_latent_clean": 0.22, "windows_fwd_m_per_s": [1.076, 0.941, 1.154, 1.306, 1.057, -1.534, 0.038], "lateral_m_per_s_clean": -0.47, "yaw_deg_per_s_clean": 1.4, "flow_divergence_px_per_frame": 0.63, "m_per_astra_unit": 7.3, "scene_cut_frame": 170, "note": "segment 3 / windows 6-7 are after Astra's scene cut (8.45 s) and excluded"},
+   "astra_P3_u0.15": {"video": "baselines/runs/astra/astra__garden_1__P3/video.mp4", "commanded": "fwd 0.03 units/latent, yaw 2.4 deg/latent (12 deg/s)", "fwd_m_per_s": 0.002, "fwd_m_per_s_segments": [-0.062, -0.145, 0.208, 0.005], "yaw_deg_per_s": 17.87, "yaw_deg_per_s_segments": [11.31, 12.97, 22.85, 24.34], "realised_total_deg": 178.7, "lateral_m_per_s": 0.231, "flow_divergence_px_per_frame": -0.02, "m_per_deg": 0.0001},
+   "astra_P3_u0.30": {"video": "baselines/astra/calib/garden_1_P3_u0.30/video.mp4", "commanded": "fwd 0.06 units/latent, yaw 2.4 deg/latent", "fwd_m_per_s": 0.108, "fwd_m_per_s_segments": [0.110, 0.049, 0.327, -0.053], "windows_fwd_median": 0.006, "yaw_deg_per_s": 18.12, "yaw_deg_per_s_segments": [11.72, 13.17, 25.81, 21.79], "lateral_m_per_s": -0.298, "m_per_deg": 0.006},
+   "astra_P3_u0.45": {"video": "baselines/astra/calib/garden_1_P3_u0.45/video.mp4", "commanded": "fwd 0.09 units/latent, yaw 2.4 deg/latent", "fwd_m_per_s": 0.167, "fwd_m_per_s_segments": [0.171, 0.015, 0.289, 0.194], "windows_fwd_median": 0.182, "yaw_deg_per_s": 16.31, "yaw_deg_per_s_segments": [12.02, 11.86, 17.86, 23.51], "lateral_m_per_s": 0.486, "flow_divergence_px_per_frame": 0.10, "m_per_deg": 0.010},
+   "ours_P3_teacher": {"video": "baselines/astra/calib/ours_teacher/calib_garden_1_P3/spec.mp4", "arm": "two_machine --role solo teacher nodes 0,250,500,750 fp8 window 18, area 399360, 832x464, 153 frames @16 fps, garden_1 stretched to 832x480, official prompt", "fwd_m_per_s": 0.322, "fwd_m_per_s_segments": [0.445, 0.319, 0.259, 0.250], "yaw_deg_per_s": 4.03, "yaw_deg_per_s_segments": [5.97, 3.95, 3.51, 2.36], "yaw_gain": 0.336, "flow_yaw_deg_per_s_fx416": 4.9, "m_per_deg": 0.080, "m_per_deg_segments": [0.075, 0.081, 0.074, 0.106], "m_per_u": 0.32},
+   "ours_P1_teacher": {"video": "baselines/astra/calib/ours_teacher/calib_garden_1_P1/spec.mp4", "fwd_m_per_s": 0.265, "fwd_m_per_s_segments": [0.316, 0.235, 0.250, 0.258], "yaw_deg_per_s": -0.24, "m_per_u": 0.26}
+  },
+  "timing_frozen_config": {"load_s": 11.3, "warm_block_s": 22.0, "block_s_steady": 25.2, "s_per_step_steady": 0.503, "gen_s_56_latents": 173, "decode_s_225_frames": 21.1, "e2e_s": 195, "ttff_s": 26.0, "steady_fps_gen": 1.27, "steady_fps_e2e": 1.12, "peak_alloc_GiB": 14.86, "peak_reserved_GiB": 16.13, "gpu": "RTX PRO 6000 Blackwell (GPU 5), batch of 2 clips 424 s, 1 clip 223 s"}
+ },
+ "presets_closest": {"P1": 1, "P2": 3, "P3": 5, "P4": "6 (left then right: opposite order, one reversal)", "P5": "none"},
+ "source": "tools/astra/Astra/scripts/infer_demo.py L295-655 (presets), L934 (zero-pad path), L1140 (50 steps), diffsynth/pipelines/wan_video_recammaster.py L28 (scheduler), diffsynth/models/wan_video_dit_moe.py L28-57 (attention fallback), train_single.py L366-385; commit 3fb82e1; baselines/astra/{program_to_astra.py,astra_gen.py,run.sh,calib_da3.py,ENV.md}"
+}

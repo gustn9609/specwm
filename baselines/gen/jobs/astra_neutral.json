@@ -1,0 +1,758 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P1",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P2",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P2p",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P3",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P4",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P4p",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P5",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P1",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P2",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P2p",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P3",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P4",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P4p",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P5",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P1",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P2",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P2p",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P3",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P4",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P4p",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P5",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P1",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P2",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P2p",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P3",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P4",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P4p",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__domino_falling__P5",
+  "prompt": "A finger tips over the first domino in a long standing row.",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P1",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P2",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P2p",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P3",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P4",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P4p",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P5",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P1",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P2",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P2p",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P3",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P4",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P4p",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P5",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_lake__P1",
+  "prompt": "A serene lakeside scene at Lake Wanaka: a lone willow tree stands in calm turquoise water, snow-capped mountains rise in the distance under a bright sky with drifting white clouds. Gentle ripples spread across the surface as the camera glides smoothly forward over the water toward the tree.",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_lake__P2",
+  "prompt": "A serene lakeside scene at Lake Wanaka: a lone willow tree stands in calm turquoise water, snow-capped mountains rise in the distance under a bright sky with drifting white clouds. Gentle ripples spread across the surface as the camera glides smoothly forward over the water toward the tree.",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_lake__P2p",
+  "prompt": "A serene lakeside scene at Lake Wanaka: a lone willow tree stands in calm turquoise water, snow-capped mountains rise in the distance under a bright sky with drifting white clouds. Gentle ripples spread across the surface as the camera glides smoothly forward over the water toward the tree.",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_lake__P3",
+  "prompt": "A serene lakeside scene at Lake Wanaka: a lone willow tree stands in calm turquoise water, snow-capped mountains rise in the distance under a bright sky with drifting white clouds. Gentle ripples spread across the surface as the camera glides smoothly forward over the water toward the tree.",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_lake__P4",
+  "prompt": "A serene lakeside scene at Lake Wanaka: a lone willow tree stands in calm turquoise water, snow-capped mountains rise in the distance under a bright sky with drifting white clouds. Gentle ripples spread across the surface as the camera glides smoothly forward over the water toward the tree.",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_lake__P4p",
+  "prompt": "A serene lakeside scene at Lake Wanaka: a lone willow tree stands in calm turquoise water, snow-capped mountains rise in the distance under a bright sky with drifting white clouds. Gentle ripples spread across the surface as the camera glides smoothly forward over the water toward the tree.",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_lake__P5",
+  "prompt": "A serene lakeside scene at Lake Wanaka: a lone willow tree stands in calm turquoise water, snow-capped mountains rise in the distance under a bright sky with drifting white clouds. Gentle ripples spread across the surface as the camera glides smoothly forward over the water toward the tree.",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_urban_rain__P1",
+  "prompt": "A cinematic first-person walk through a hyper-realistic urban alley in heavy rain: water streams down the graffiti-covered corrugated wall, puddles ripple on the ground, grey overcast sky, drops streak across the lens as the camera moves forward.",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_urban_rain__P2",
+  "prompt": "A cinematic first-person walk through a hyper-realistic urban alley in heavy rain: water streams down the graffiti-covered corrugated wall, puddles ripple on the ground, grey overcast sky, drops streak across the lens as the camera moves forward.",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_urban_rain__P2p",
+  "prompt": "A cinematic first-person walk through a hyper-realistic urban alley in heavy rain: water streams down the graffiti-covered corrugated wall, puddles ripple on the ground, grey overcast sky, drops streak across the lens as the camera moves forward.",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_urban_rain__P3",
+  "prompt": "A cinematic first-person walk through a hyper-realistic urban alley in heavy rain: water streams down the graffiti-covered corrugated wall, puddles ripple on the ground, grey overcast sky, drops streak across the lens as the camera moves forward.",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_urban_rain__P4",
+  "prompt": "A cinematic first-person walk through a hyper-realistic urban alley in heavy rain: water streams down the graffiti-covered corrugated wall, puddles ripple on the ground, grey overcast sky, drops streak across the lens as the camera moves forward.",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_urban_rain__P4p",
+  "prompt": "A cinematic first-person walk through a hyper-realistic urban alley in heavy rain: water streams down the graffiti-covered corrugated wall, puddles ripple on the ground, grey overcast sky, drops streak across the lens as the camera moves forward.",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_urban_rain__P5",
+  "prompt": "A cinematic first-person walk through a hyper-realistic urban alley in heavy rain: water streams down the graffiti-covered corrugated wall, puddles ripple on the ground, grey overcast sky, drops streak across the lens as the camera moves forward.",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P1",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P2",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P2p",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P3",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P4",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P4p",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P5",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P1",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P2",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P2p",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P3",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P4",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P4p",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P5",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__pouring_water_into_cup__P1",
+  "prompt": "A hand tilts a pitcher over an empty glass, beginning to pour water into it.",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__pouring_water_into_cup__P2",
+  "prompt": "A hand tilts a pitcher over an empty glass, beginning to pour water into it.",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__pouring_water_into_cup__P2p",
+  "prompt": "A hand tilts a pitcher over an empty glass, beginning to pour water into it.",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__pouring_water_into_cup__P3",
+  "prompt": "A hand tilts a pitcher over an empty glass, beginning to pour water into it.",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__pouring_water_into_cup__P4",
+  "prompt": "A hand tilts a pitcher over an empty glass, beginning to pour water into it.",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__pouring_water_into_cup__P4p",
+  "prompt": "A hand tilts a pitcher over an empty glass, beginning to pour water into it.",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__pouring_water_into_cup__P5",
+  "prompt": "A hand tilts a pitcher over an empty glass, beginning to pour water into it.",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__traffic_light_green__P1",
+  "prompt": "While the cars are out of view, the traffic light changes from red to green.",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__traffic_light_green__P2",
+  "prompt": "While the cars are out of view, the traffic light changes from red to green.",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__traffic_light_green__P2p",
+  "prompt": "While the cars are out of view, the traffic light changes from red to green.",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__traffic_light_green__P3",
+  "prompt": "While the cars are out of view, the traffic light changes from red to green.",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__traffic_light_green__P4",
+  "prompt": "While the cars are out of view, the traffic light changes from red to green.",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__traffic_light_green__P4p",
+  "prompt": "While the cars are out of view, the traffic light changes from red to green.",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__traffic_light_green__P5",
+  "prompt": "While the cars are out of view, the traffic light changes from red to green.",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ }
+]

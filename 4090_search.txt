@@ -1,0 +1,376 @@
+**단일 RTX 4090에서 실행할 만한 모델은 꽤 있습니다.** 다만 조사하면서 가장 중요했던 구분은 **“24GB에 들어간다”**, **“4090에서 실행이 검증됐다”**, **“4090에서 실시간으로 조작된다”**가 서로 다르다는 점입니다.
+
+현재 가장 먼저 확인할 모델은 **Waypoint-1.5와 ABot-World-0**입니다. 이미지와 자연어 프롬프트를 함께 주고 카메라를 제어하는 실험에는 **Astra, Yume-5B, Hunyuan-GameCraft**도 후보입니다. 단, GameCraft의 24GB 실행은 공식적으로도 매우 느린 설정입니다. [Overworld](https://over.world/waypoint-1.5)
+
+아래는 **2026년 10월 15일 기준**, 논문·공식 저장소·모델 카드·실행 설정을 대조한 결과입니다. **일반적인 데스크톱 RTX 4090 24GB 한 장에서의 추론**을 기준으로 했으며, 제가 직접 4090에서 벤치마크한 결과는 아닙니다. 따라서 저자가 보고한 수치, 공식 실행 요구사항, 아직 검증되지 않은 가능성을 구분했습니다.
+
+---
+
+# 1. 먼저 전체 후보를 정리하면
+
+표의 판정은 다음 의미입니다.
+
+**A: 저자가 데스크톱 4090 실행 또는 벤치마크를 명시.**  
+**B: 공식적으로 24GB 이하 GPU 실행을 지원하거나 다른 소비자 GPU에서 검증.**  
+**C: 공개 모델이 있고 연구용으로 유력하지만, 표준 4090 24GB 실행 근거가 부족.**
+
+여기서 **텍스트 지원**은 초기 장면 설명을 받는다는 뜻일 수 있습니다. **실행 중 프롬프트로 사건을 바꿀 수 있다는 뜻은 아닙니다.** 또한 키보드 입력을 받아도 실제로는 카메라 궤적으로 변환하는 모델과, 키보드 상태 자체를 학습하는 모델이 다릅니다.
+
+## 1.1 실행 근거가 있는 주요 후보
+
+| 모델 | 실제 입력·제어 방식 | 4090 실행 근거 | 속도에서 확인해야 할 점 | 판단 |
+|---|---|---|---|---|
+| **Waypoint-1.5** | 시작 이미지/비디오 + 키보드·마우스. 텍스트 제어는 별도 확인 필요 | **A. 공식 4090 벤치마크 존재** | 공식 웹페이지는 1024×512 INT8에서 **72.88 FPS**라고 표기하지만, 논문은 같은 숫자를 latent FPS라고 표기. 단위 불일치 주의 | **소비자 GPU용 실시간 실행을 가장 먼저 시험할 후보**. [arXiv](https://arxiv.org/html/2609.37107v1) |
+| **ABot-World-0, 5B-LF** | 이미지·텍스트 조건 + **WASD/IJKL 8개 키** | **A. 공식 FAQ에서 4090 추론 검증**, 약 19GB, 시스템 RAM 64GB 권장 | **720p·최대 16 FPS·1.2초 지연은 5090 수치**. 4090 FPS는 별도 확인 필요 | **장시간 rollout과 캐릭터/카메라 조작에 우선 검토**. [GitHub](https://github.com/amap-cvlab/ABot-World/blob/main/FAQ.md) |
+| **Astra** | 이미지 + 프롬프트 + 카메라 궤적 | **B. 공식적으로 단일 24GB GPU 지원** | 832×480 실행 예제. 공식 4090 FPS는 확인하지 못함 | **이미지·프롬프트·카메라 조건 실험에 적합**. [GitHub](https://github.com/EternalEvan/Astra) |
+| **Yume-5B** | 이미지/텍스트 + 모션·조작 조건, 웹 데모 | **B. RTX 4090 Laptop 16GB에서 공식 테스트** | 데스크톱 4090과 다른 GPU임. 4–50 sampling steps를 선택하며, 실시간 속도는 보장하지 않음 | **16–24GB 환경에서 이미지·텍스트 기반 상호작용을 시험할 후보**. [GitHub](https://raw.githubusercontent.com/stdstu12/YUME/main/README.md) |
+| **Matrix-Game 2.0** | 이미지 + 키보드·마우스. **텍스트 입력 없음** | **B. 공식 요구사항 GPU ≥24GB** | 논문의 **25 FPS는 H100 한 장** | **action-conditioned streaming baseline으로 유용**. [GitHub](https://raw.githubusercontent.com/SkyworkAI/Matrix-Game/main/Matrix-Game-2/README.md) |
+| **Hunyuan-GameCraft 1.0** | 이미지 + 프롬프트 + 키보드/마우스를 변환한 카메라 제어 | **B. 24GB용 공식 CPU offload 실행 경로** | 저자가 **“very slow”**라고 명시 | **실시간 플레이보다는 오프라인 생성·비교 실험용**. [GitHub](https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0/main/README.md) |
+| **DIAMOND, CSGO** | 게임 초기 상태 + 키보드 등 게임 액션 | **B. 공식 RTX 3090 실행 수치 존재** | 고품질 설정 **10 FPS on 3090**. 4090 수치로 바꾸어 쓰면 안 됨 | **작고 명확한 게임 world model baseline**. [GitHub](https://raw.githubusercontent.com/eloialonso/diamond/csgo/README.md) |
+| **Interactive World Simulator** | 관측 이미지 + 로봇 액션. 키보드로 로봇 조작 가능 | **A. 단일 4090, 15 FPS 명시** | 기본 해상도 **128×128**. 480p/720p 탐험 모델과 직접 비교 불가 | **로봇·물체 상호작용 연구에서는 매우 좋은 후보**. [yixuanwang.me](https://www.yixuanwang.me/interactive_world_sim/texts/main.pdf) |
+| **CLAP** | 관측 이미지 + 로봇 pose/latent action/언어 조건 중 해당 모드 | **B. 단일 ≥12GB GPU 지원, 모델 단독 약 10GB** | 25-step chunk prediction으로 실시간 게임형 모델은 아님 | **다양한 embodiment의 물리적 상호작용 예측용**. [GitHub](https://raw.githubusercontent.com/omni-CLAP/clap/main/README.md) |
+
+**실행 가능한 완성형 모델을 찾는 것과, 내부 구조를 바꾸며 연구할 코드를 찾는 것은 조금 다릅니다.** 후자라면 아래의 **ForgeWM과 minWM**도 중요합니다. 다만 이 둘은 공개 코드가 있다는 이유만으로 “4090 24GB 검증 완료”로 분류하지 않았습니다.
+
+---
+
+# 2. 범용적인 이미지·액션 기반 모델: 상세 검토
+
+## 2.1 Waypoint-1.5 — 소비자 GPU용 interactive runtime을 가장 먼저 볼 후보
+
+**공식 저장소:** `Overworldai/world_engine`  
+**주요 체크포인트:** `Overworld/Waypoint-1.5-1B`, `Overworld/Waypoint-1.5-1B-360P`
+
+Waypoint-1.5는 약 **1.28B 규모의 causal DiT**를 사용하는 소비자 GPU 지향 모델입니다. 시작 이미지나 비디오에 키보드·마우스 입력을 붙여 다음 화면을 생성하는 것이 핵심이며, 일반적인 T2V 모델에 카메라 제어만 추가한 것과 달리 컨트롤러 입력과 실행 지연을 중심으로 설계되어 있습니다. [Hugging Face](https://huggingface.co/Overworld/Waypoint-1.5-1B)
+
+### 실제로 유용한 부분
+
+공식 `world_engine`은 모델 호출만 제공하는 단발성 스크립트가 아니라, 프레임을 넣어 초기화하고 컨트롤 입력을 받아 다음 프레임들을 생성하는 인터페이스를 제공합니다. **Waypoint-1.5는 컨트롤 입력 한 번에 출력 프레임 4장을 반환**합니다. 따라서 실제 연구에서는 생성 FPS뿐 아니라 **컨트롤 입력을 새로 반영할 수 있는 빈도**도 함께 측정해야 합니다. [GitHub](https://github.com/Wayfarer-Labs/world_engine)
+
+논문에서는 rolling KV cache, local/global attention, GQA 등을 이용해 문맥 처리와 메모리 비용을 제한합니다. 이는 긴 영상을 생성할 때 GPU 메모리가 계속 증가하는 문제를 피하려는 설계지만, **고정 크기 cache가 곧 영구적인 공간 기억을 의미하지는 않습니다.** [arXiv](https://arxiv.org/html/2609.37107v1)
+
+### 4090 성능 수치에 중요한 불일치가 있음
+
+| 자료 | 4090 관련 표기 |
+|---|---|
+| 공식 프로젝트 웹페이지 | **1024×512, INT8: 72.88 Video FPS**, BF16: 66.60 |
+| 논문 Table 2 | 같은 수치를 **latent FPS**라고 표기하고, 해상도 열은 720P/360P로 표기 |
+| Hugging Face 모델 카드 | 720p/360p 모델 구분과 별도의 3090·5090 성능표 제공 |
+
+이 자료들은 **같은 조건의 완전히 일관된 벤치마크 설명이 아닙니다.** 따라서 “4090에서 720p 영상을 정확히 73 FPS로 출력한다”라고 단정하거나, latent FPS라는 표현을 보고 수치에 4를 곱하는 것은 모두 피해야 합니다. **4090 실행 근거는 강하지만, 최종 영상 FPS는 로컬에서 다시 측정할 필요가 있습니다.** [Overworld](https://over.world/waypoint-1.5)
+
+### 프롬프트 입력은 어떻게 봐야 하나?
+
+런타임에는 `set_prompt(...)` 같은 API가 있지만, 해당 모델 카드가 주요 입력으로 명시한 것은 **시작 이미지/비디오와 키보드·마우스**입니다. 따라서 API에 prompt 인자가 있다는 사실만으로 **“실행 중 ‘비가 내려라’라고 하면 환경을 의미적으로 바꾸는 모델”**이라고 분류하지는 않겠습니다. [GitHub](https://github.com/Wayfarer-Labs/world_engine)
+
+**내 판단:** 현재 목적이 “내 이미지에서 시작해서 키보드와 마우스로 실시간 탐험”이라면 가장 먼저 실행할 후보입니다. 다만 **텍스트 이벤트 제어 연구의 기본 모델로 바로 확정하기보다는**, 해당 기능을 별도로 검증하는 것이 좋습니다.
+
+---
+
+## 2.2 ABot-World-0 — 4090 실행 검증과 장시간 rollout 근거가 명확함
+
+**공식 저장소:** `amap-cvlab/ABot-World`  
+**체크포인트:** `acvlab/ABot-World-0-5B-LF`
+
+이름의 `World-0-5B`는 **0.5B가 아니라, World-0 버전의 5B 모델**입니다. 공개된 것은 LongForcing을 적용한 causal student입니다. 공식 FAQ에 **RTX 4090에서 inference를 검증했다**는 문장이 명시되어 있고, 약 19GB GPU 메모리와 시스템 RAM 64GB 이상을 권장합니다. [GitHub](https://raw.githubusercontent.com/amap-cvlab/ABot-World/main/README.md)
+
+### 입력과 action representation
+
+이미지·텍스트 조건을 사용하며, 액션은 **W/A/S/D와 I/J/K/L의 8차원 multi-hot keyboard state**입니다. WASD는 이동, IJKL은 카메라 회전에 해당합니다. 논문상으로는 연속적인 mouse delta가 아니라 **키보드가 단일 액션 인터페이스**입니다. 1인칭 공간 이동과 3인칭 캐릭터 제어를 함께 다루고, 캐릭터 reference image memory도 사용합니다. [arXiv](https://arxiv.org/html/2607.19191v1)
+
+공개 설정은 **4-step denoising**을 사용합니다. [GitHub](https://raw.githubusercontent.com/amap-cvlab/ABot-World/main/configs/long_forcing_dmd.yaml)
+
+### “720p 16 FPS”를 그대로 4090 성능으로 쓰면 안 됨
+
+공식 headline은 **5090에서 최대 16 FPS, action-to-first-frame latency 1.2초**입니다. 여기의 지연은 생성뿐 아니라 디코딩까지 포함한 응답 지연이라는 점에서 의미가 있습니다. 하지만 **4090의 FPS와 지연 수치는 별도로 공개 확인되지 않았습니다.** [arXiv](https://arxiv.org/html/2607.19191v1)
+
+또한 논문의 최적화 분석에서는 FP8 구성에 따라 약 **12.4–13.3 FPS**, 더 공격적인 저비트 설정에서 최대 16 FPS를 보고합니다. 즉, **기본 full-precision 경로와 최적화된 배포 경로를 구분해야 합니다.** LightVAE와 저비트 실행 설정을 빼고 모델만 불러온 뒤 동일한 메모리·속도를 기대하면 안 됩니다. [arXiv](https://arxiv.org/html/2607.19191v1)
+
+### 연구용으로 알아둘 제한
+
+공식 저장소에는 긴 uninterrupted rollout 데모가 있지만, 이는 “오랜 시간 생성이 지속된다”는 근거이지 **몇 분 전에 본 물체의 위치를 정확히 기억한다는 증거와 동일하지 않습니다.** 또한 현재 공개 목록에서 **bidirectional teacher는 미공개 항목**으로 남아 있습니다. teacher/student를 모두 수정하는 연구라면 이 점이 중요합니다. [GitHub](https://raw.githubusercontent.com/amap-cvlab/ABot-World/main/README.md)
+
+**내 판단:** Waypoint가 저지연 조작 시스템 쪽의 우선 후보라면, ABot은 **장시간 action-conditioned rollout, 캐릭터 일관성, 저메모리 배포**를 함께 살펴볼 후보입니다. 단, 1.2초라는 보고 지연 자체도 빠른 게임 조작보다는 비교적 느린 탐험에 더 적합한지 평가해야 합니다.
+
+---
+
+## 2.3 Matrix-Game 2.0 — 이미지와 키보드·마우스 기반 baseline
+
+**공식 저장소 내 위치:** `SkyworkAI/Matrix-Game/Matrix-Game-2`  
+**체크포인트:** `Skywork/Matrix-Game-2.0`
+
+Matrix-Game 2.0은 이미지와 action을 입력으로 받아 autoregressive하게 영상을 생성합니다. Self-Forcing 계열의 few-step causal generation과 KV cache를 사용하며, 공식 저장소에는 **사용자 입력을 받는 streaming 실행 스크립트**가 있습니다. 요구사항은 GPU 메모리 **24GB 이상**입니다. [GitHub](https://raw.githubusercontent.com/SkyworkAI/Matrix-Game/main/Matrix-Game-2/README.md)
+
+### 가장 중요한 특징: 텍스트 입력을 제거한 모델
+
+논문은 **text branch를 제거했다**고 명시합니다. 즉 다음 두 모델링 설정을 구분해야 합니다.
+
+- `이미지 + 키보드/마우스 → 다음 영상`: 지원.
+- `이미지 + “밤이 되고 비가 내린다” + 키보드 → 다음 영상`: 해당 공개 모델의 기본 기능이 아님.
+
+이 때문에 텍스트 조건 없이 **시각적 상태와 액션만으로 dynamics를 예측하는 연구**에는 오히려 비교 대상이 명확합니다. [arXiv](https://arxiv.org/html/2508.13009v1)
+
+### 4090 실행과 속도
+
+24GB 요구사항은 공식적으로 명시되어 있지만, 논문의 **25 FPS는 단일 H100 결과**입니다. 이를 4090 성능으로 인용해서는 안 됩니다. 실행 시에는 random action으로 비디오를 만드는 `inference.py`와 사용자 입력을 받는 `inference_streaming.py`를 구분해야 합니다. [GitHub](https://raw.githubusercontent.com/SkyworkAI/Matrix-Game/main/Matrix-Game-2/README.md)
+
+**내 판단:** **image + keyboard/mouse 기반의 공개 streaming baseline**으로 우선순위가 높습니다. 특히 텍스트 제어가 필요 없는 실험에서 사용하기 좋습니다. 저장소 루트가 최신 버전을 가리킬 수 있으므로 반드시 **2.0 하위 디렉터리와 checkpoint를 고정**해야 합니다.
+
+---
+
+## 2.4 Astra — 이미지·프롬프트·카메라 조건을 함께 쓰기 좋음
+
+**공식 저장소:** `EternalEvan/Astra`  
+**논문:** *Astra: General Interactive World Model with Autoregressive Denoising*, ICLR 2026
+
+Astra의 공개 예제는 Wan2.1-T2V-1.3B를 기반으로 하며, **`condition_image`, `prompt`, `cam_type`**을 입력받습니다. 공식적으로 **단일 24GB GPU에서 실행 가능**하다고 명시하고, 생성 해상도는 832×480입니다. [GitHub](https://github.com/EternalEvan/Astra)
+
+공개된 카메라 제어에는 전진, 좌우 회전, 전진하면서 회전, S자 경로 등이 있습니다. 사용자 정의 궤적도 만들 수 있습니다. 다만 이는 기본적으로 **카메라 궤적을 조건으로 주는 실행 인터페이스**이지, 공식 예제만으로 고주파 live keyboard input까지 구현되어 있다고 볼 수는 없습니다. [GitHub](https://raw.githubusercontent.com/EternalEvan/Astra/main/README.md)
+
+따라서 다음과 같은 실험에 더 잘 맞습니다.
+
+> 같은 이미지와 프롬프트에서 카메라 경로만 바꾸면, 배경·물체·시점 변화가 얼마나 일관되게 생성되는가?
+
+학습 코드도 있지만, 공식 training 요구량은 약 **60GB VRAM**으로 안내됩니다. **24GB inference 지원과 24GB training 지원을 혼동하면 안 됩니다.** [GitHub](https://raw.githubusercontent.com/EternalEvan/Astra/main/README.md)
+
+**내 판단:** 실시간 플레이보다 **image-conditioned camera control, autoregressive consistency, 생성 결과 분석**이 목적이라면 매우 실용적인 후보입니다.
+
+---
+
+## 2.5 Yume-5B — 16GB GPU에서 검증된 이미지·텍스트 기반 후보
+
+**공식 저장소:** `stdstu12/YUME`  
+**체크포인트:** `stdstu123/Yume-5B-720P`
+
+Yume 계열에서는 **기존 14B 모델과 5B 모델을 구분**해야 합니다. 4090 관점에서 우선 볼 것은 Yume-5B입니다. 공식 README는 Windows one-click 웹 데모를 **RTX 4090 Laptop 16GB에서 성공적으로 테스트**했다고 설명합니다. 이는 데스크톱 4090과 같은 GPU라는 뜻은 아니지만, 메모리 측면에서는 상당히 유용한 근거입니다. [GitHub](https://raw.githubusercontent.com/stdstu12/YUME/main/README.md)
+
+이미지 입력과 텍스트 조건을 지원하며, 공개 설명에는 **각 caption이 2초 단위 영상 출력을 제어하는 방식**, 카메라·이동 관련 조작 조건, T2V 실행 설정이 포함되어 있습니다. sampling step은 4–50 사이에서 선택하도록 안내합니다. [GitHub](https://raw.githubusercontent.com/stdstu12/YUME/main/README.md)
+
+다만 **텍스트나 segment 단위 제어가 가능하다는 것과, 매 프레임 새 액션을 반영하는 low-latency 제어는 다릅니다.** 따라서 Waypoint나 Matrix-Game과 비교할 때는 입력 반영 단위부터 맞춰야 합니다.
+
+**내 판단:** **이미지·텍스트·조작 조건을 조합하는 데모를 소비자 GPU에서 시작하려는 목적**에 적합합니다. 반면 “빠른 키보드 조작”의 성능은 별도로 확인해야 합니다.
+
+---
+
+## 2.6 Hunyuan-GameCraft 1.0 — 24GB에서 가능하지만, 오프라인 실험용에 가까움
+
+**공식 저장소:** `Tencent-Hunyuan/Hunyuan-GameCraft-1.0`
+
+GameCraft는 **reference image + prompt + keyboard/mouse**를 받되, 키보드와 마우스를 **공통 카메라 표현 공간**으로 변환합니다. 즉 게임의 임의 액션 전체를 학습하는 방식보다는 카메라와 이동 제어를 중심으로 이해하는 것이 정확합니다. [GitHub](https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0/main/README.md)
+
+공식적으로 **1216×704 출력의 24GB single-GPU 실행**을 지원합니다. 그러나 CPU offload와 FP8 경로를 사용하며, README는 이 구성을 **매우 느리다**고 명시합니다. base 모델과 **8-step distilled 모델**의 저메모리 실행 예제가 모두 있습니다. [GitHub](https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0/main/README.md)
+
+한 액션이 **33프레임**을 담당하는 예제가 제공되는데, 함께 적힌 **25 FPS는 생성 영상의 시간축 설정**이지 4090의 실제 생성 처리량이라고 해석하면 안 됩니다. [GitHub](https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0/main/README.md)
+
+**내 판단:** 4090에서 **화질·카메라 제어·history conditioning을 비교하는 오프라인 baseline**으로는 의미가 있습니다. 실시간 interactive demo를 가장 먼저 만들 모델로는 추천 순위가 낮습니다.
+
+---
+
+# 3. 구조를 수정하거나 학습·증류 연구를 한다면 중요한 후보
+
+## 3.1 ForgeWM — game-native action과 few-step causal generation 연구에 특히 적합
+
+**공식 저장소:** `asdfo123/ForgeWM`  
+**체크포인트:** `ForgeWM/ForgeWM`
+
+ForgeWM은 초기 이미지에 **키보드와 연속 mouse delta**를 조건으로 주는 모델이며, 별도 게임패드 FPS 도메인의 checkpoint도 제공합니다. 단순한 inference 코드뿐 아니라 **bidirectional adaptation, causal training, consistency distillation, DMD 단계의 코드와 checkpoint**가 공개되어 있습니다. [arXiv](https://arxiv.org/html/2608.14022v1)
+
+이 점이 중요합니다. 최종 학생만 공개된 모델과 달리, **중간 단계 모델과 최종 학생의 차이**, **1/2/4-step 간 trade-off**, **action alignment**를 직접 분석하기 좋습니다.
+
+### 공식 속도표는 다음 조건임
+
+| 모델 | sampling steps | chunk 지연 | 처리량 |
+|---|---:|---:|---:|
+| ForgeWM-4 | 4 | 369.6 ms | 32.5 FPS |
+| ForgeWM-2 | 2 | 239.7 ms | 50.3 FPS |
+| ForgeWM-1 | 1 | 168.2 ms | 72.1 FPS |
+
+**공통 조건: H20 한 장, 640×352, 12 pixel frames/chunk, `local_attn_size=6`, VAE decode 제외.** 따라서 이 표를 “4090에서 72 FPS로 게임 플레이”라고 옮겨 쓰면 틀립니다. 또한 1-step/2-step 모델도 첫 chunk에는 별도의 4-step 초기화 설정을 사용합니다. [GitHub](https://raw.githubusercontent.com/asdfo123/ForgeWM/main/README.md)
+
+**4090 판정은 C입니다.** 소형 backbone과 single-GPU inference 경로는 있지만, 이번 조사에서 **공식적인 4090 24GB peak memory·속도 검증**은 찾지 못했습니다. [GitHub](https://raw.githubusercontent.com/asdfo123/ForgeWM/main/README.md)
+
+**내 판단:** “바로 잘 돌아가는 플레이어”보다 **모델 구조와 학습 과정을 수정할 연구 기반**이 필요하다면, 가장 먼저 smoke test할 가치가 있는 후보 중 하나입니다.
+
+---
+
+## 3.2 minWM — 단계별 checkpoint와 학습 파이프라인이 잘 드러남
+
+**공식 저장소:** `shengshu-ai/minWM`  
+**체크포인트:** `MIN-Lab/minWM`
+
+minWM은 단일 checkpoint라기보다 **interactive video world model의 학습·추론 프레임워크**입니다. Wan2.1 1.3B 계열과 HunyuanVideo-1.5 계열에 대해 bidirectional, teacher-forcing AR, causal ODE/CD, DMD 단계의 checkpoint를 제공합니다. [GitHub](https://raw.githubusercontent.com/shengshu-ai/minWM/main/README.md)
+
+다만 **입력 지원을 두 계열 사이에서 혼동하면 안 됩니다.**
+
+| 공개 실행 경로 | 기본 입력 방식 |
+|---|---|
+| **Wan Action2V** | **텍스트 + 카메라 궤적** |
+| **Hunyuan Action2V** | **이미지 + 텍스트 + 카메라 궤적** |
+
+공식 inference 설명도 Wan은 T2V, HY는 image field를 사용하는 I2V 경로로 구분합니다. 따라서 **“가벼운 Wan 1.3B 버전이니까 이미지도 바로 넣으면 되겠지”라는 가정은 피해야 합니다.** [GitHub](https://raw.githubusercontent.com/shengshu-ai/minWM/main/README.md)
+
+Wan demo는 832×480, 77프레임을 16 FPS 영상으로 저장하지만, 여기의 **16 FPS 역시 출력 영상 설정**입니다. 4090 생성 속도를 의미하지 않습니다. 공식 24GB 실행 검증도 별도로 확인하지 못했으므로 **C로 분류**했습니다. [GitHub](https://raw.githubusercontent.com/shengshu-ai/minWM/main/README.md)
+
+**내 판단:** 카메라 조건 모델에서 **bidirectional → causal → few-step 변환을 연구**하기 좋습니다. 다만 초기 이미지 입력까지 필수라면 Wan/HY 계열의 차이를 먼저 고려해야 합니다.
+
+---
+
+## 3.3 Causal Forcing / Causal Forcing++ — 키보드가 필수가 아니라면 포함할 가치가 있음
+
+**공식 저장소:** `thu-ml/Causal-Forcing`
+
+사용자 요청의 “prompt 등”을 **텍스트·이미지 기반 streaming video generation까지 포함**해서 해석하면 이 계열도 중요합니다. 공식 프로젝트는 단일 4090의 실시간 streaming generation을 명시하고, 공개 코드는 T2V/I2V, frame-wise 1/2/4-step 모델 등을 제공합니다. [thu-ml.github.io](https://thu-ml.github.io/CausalForcing.github.io/?utm_source=chatgpt.com)
+
+그러나 **기본 Causal Forcing checkpoint가 곧 키보드 action-conditioned world model은 아닙니다.** 공식 저장소도 action-conditioned WM은 minWM으로 연결합니다. 또한 기본 단기 모델과 별도 long-video checkpoint를 구분하도록 안내합니다. [GitHub](https://raw.githubusercontent.com/thu-ml/Causal-Forcing/main/README.md)
+
+따라서 역할은 다음처럼 보는 것이 좋습니다.
+
+> **이미지·프롬프트 기반 causal video backbone으로는 유용하지만, 키보드 world model로 쓰려면 별도의 action-conditioned 모델이나 학습이 필요하다.**
+
+---
+
+# 4. 작은 게임 모델과 로봇 world model도 따로 볼 필요가 있음
+
+## 4.1 DIAMOND — 비교적 가볍고, 액션→화면 관계가 명확한 게임 baseline
+
+**공식 저장소:** `eloialonso/diamond`, CSGO는 `csgo` branch
+
+CSGO 버전은 checkpoint와 spawn point 등을 자동으로 내려받아 직접 조작하는 실행 경로를 제공합니다. 공식 README에는 고품질 설정으로 **RTX 3090에서 10 FPS**를 얻었다고 명시되어 있습니다. [GitHub](https://raw.githubusercontent.com/eloialonso/diamond/csgo/README.md)
+
+장점은 **액션을 주고 다음 관측을 예측하는 문제 설정이 명확**하다는 것입니다. 반면 범용 장면 탐험 모델은 아니므로, 임의의 사진이나 텍스트로 새로운 세계를 만든다고 기대해서는 안 됩니다. 공식 배포는 학습된 CSGO 환경과 초기 상태를 중심으로 구성되어 있습니다. [GitHub](https://raw.githubusercontent.com/eloialonso/diamond/csgo/README.md)
+
+**추천 용도:** action response, rollout drift, sampling step의 영향 등을 비교적 단순한 게임 환경에서 분석.
+
+---
+
+## 4.2 Oasis-500M — 작은 공개 모델이지만, 서비스 데모와 구분해야 함
+
+**공식 저장소:** `etched-ai/open-oasis`  
+**체크포인트:** `Etched/oasis-500m`
+
+Oasis는 **500M 공개 모델과 inference script**가 있으며, 시작 영상/이미지와 게임 액션을 사용합니다. 여기서 CLI의 `prompt-path`는 **이미지나 비디오 prompt**이지 자연어 prompt를 뜻하지 않습니다. [GitHub](https://github.com/etched-ai/open-oasis)
+
+다만 공개 500M 모델과 서비스 데모의 모델·속도를 동일시하면 안 됩니다. 공식 저장소만으로는 **4090의 정확한 peak memory와 end-to-end FPS**가 확인되지 않아, 실행 가능성이 높은 소형 후보로 보되 **C로 분류**합니다. [GitHub](https://github.com/etched-ai/open-oasis)
+
+**추천 용도:** compact autoregressive game model 구조 분석. 범용 이미지·텍스트 기반 world exploration의 최우선 후보는 아닙니다.
+
+---
+
+## 4.3 Interactive World Simulator — 물체와 로봇 상호작용에서는 가장 명확한 4090 사례
+
+**공식 저장소:** `WangYixuan12/interactive_world_sim`  
+**논문:** *Interactive World Simulator for Robot Policy Training and Evaluation*
+
+이 모델은 관측 이미지를 latent로 압축하고, **action-conditioned consistency model로 다음 latent를 예측**한 뒤 다시 이미지로 디코딩합니다. 저자는 **단일 RTX 4090에서 15 FPS**, 10분 이상의 안정적인 상호작용을 보고합니다. 다만 기본 해상도는 **128×128**입니다. [yixuanwang.me](https://www.yixuanwang.me/interactive_world_sim/texts/main.pdf)
+
+중요하게도 **실제 로봇 없이 키보드로 조작할 수 있습니다.** 공식 코드에는 WASD로 end-effector를 움직이고, grasp나 bimanual rope 등 task별 checkpoint를 불러오는 실행 경로가 있습니다. 최소 inference GPU로 RTX 2080을 안내합니다. [GitHub](https://raw.githubusercontent.com/WangYixuan12/interactive_world_sim/main/README.md)
+
+**내 판단:** 관심이 “카메라가 이동하는 세계”보다 **물체를 밀고, 집고, 놓은 뒤 상태가 유지되는 세계**라면 강력한 후보입니다. 다만 task-specific 저해상도 모델이므로, 범용 720p world model과 FPS만 놓고 순위를 매기면 안 됩니다.
+
+---
+
+## 4.4 CLAP — 다양한 로봇·언어 조건에 유리하지만 실시간 모델은 아님
+
+**공식 저장소:** `omni-CLAP/clap`
+
+CLAP은 end-effector pose, latent action, 언어 조건 등의 모드를 제공합니다. 공식 문서상 **단일 12GB 이상 GPU에서 eval/replay/teleop 실행 가능**, 모델 단독 메모리는 약 10GB입니다. 다만 이 conditioning 방식들은 **서로 다른 모드**이지 모든 입력을 동시에 지원한다는 의미는 아닙니다. [GitHub](https://raw.githubusercontent.com/omni-CLAP/clap/main/README.md)
+
+속도표는 **11 total frames, 25 denoising steps**의 nominal prediction 기준으로 A100-80GB에서 약 **2.88초/chunk**, H200에서 약 **1.49초/chunk**를 보고합니다. 4090 수치는 아니지만, 게임형 실시간 모델과 다른 속도 범주라는 점은 분명합니다. [GitHub](https://raw.githubusercontent.com/omni-CLAP/clap/main/README.md)
+
+또한 world model과 OpenPI policy를 같은 GPU에서 함께 실행하면 peak memory가 24GB를 넘을 수 있습니다. **CLAP 단독 추론**과 **policy까지 포함한 전체 시스템**을 구분해야 합니다. [GitHub](https://raw.githubusercontent.com/omni-CLAP/clap/main/README.md)
+
+**추천 용도:** cross-embodiment prediction, action-conditioned physical simulation, policy 평가. 저지연 keyboard exploration의 대안으로 보기는 어렵습니다.
+
+---
+
+# 5. 유명하지만 “4090에서 바로 실행 가능”으로 분류하면 안 되는 모델
+
+이 부분이 실제 설치 시간을 아끼는 데 중요합니다.
+
+| 모델 | 주의해야 할 근거 | 이번 판단 |
+|---|---|---|
+| **DreamForge-World 0.1** | 저자는 4090에서 480p·14–15 FPS·약 4GB라는 인상적인 결과를 제시하지만, **0.1 코드와 가중치는 공개하지 않겠다고 명시** | **실행 후보에서 제외.** 구조·최적화 참고용. [DreamForge AI Lab](https://trydreamforge.com/research/) |
+| **SANA-WM** | 최신 공식 streaming 구성은 BF16 약 47.3GB, FP8 약 35.4GB, FP4 약 29.4GB. FP4는 Blackwell 필요 | **기본 전체 파이프라인은 24GB 4090 대상이 아님.** 5090 지원을 4090 지원으로 해석하면 안 됨. [NV Labs](https://nvlabs.github.io/Sana/docs/sana_wm/) |
+| **HY-WorldPlay 8B** | 공식 single-GPU AR distilled 구성에서 125프레임 기준 약 **72GB** | **8B 기본 경로는 제외.** 별도 Wan-5B 경로는 low-VRAM/single-GPU를 제공하지만, 구체적인 24GB 검증은 별도 확인 필요. [GitHub](https://raw.githubusercontent.com/Tencent-Hunyuan/HY-WorldPlay/main/README.md) |
+| **LingBot-World-Fast** | 공식 fast inference 예제가 **8 GPU**를 사용. 저메모리 NF4는 별도 base-cam 양자화 모델 | **NF4 base 실행과 fast 모델 실시간 실행을 동일시하면 안 됨.** [GitHub](https://github.com/Robbyant/lingbot-world) |
+| **Zing-0.5** | 이미지·프롬프트·키 제어를 갖췄지만 기본 추천 환경은 긴 context의 **H100 80GB급**. 작은 window 옵션만으로 24GB 검증이 성립하지 않음 | 기능은 매력적이나 **4090 실용성은 미확인**. [GitHub](https://github.com/seedleap/zing-world-model) |
+| **Matrix-Game 3.0** | 5B checkpoint, 텍스트·이미지·액션, 저비트/경량 VAE 옵션을 제공하지만 공식 4090 메모리·속도 근거가 부족 | **후속 최적화 후보.** 5B라는 parameter 수만 보고 24GB 가능으로 확정하지 않음. [GitHub](https://raw.githubusercontent.com/SkyworkAI/Matrix-Game/main/Matrix-Game-3/README.md) |
+| **DreamX-World 1.0** | 공개 코드·모델은 있지만 확인한 공식 문서에서 단일 4090의 명확한 실행 범위를 확인하지 못함 | **4090 우선 실행 목록에서는 후순위**. [GitHub](https://raw.githubusercontent.com/AMAP-ML/DreamX-World/master/README.md) |
+| **MineWorld** | 공식 저장소에 checkpoint가 일시적으로 내려갔다는 공지가 남아 있고, 개발·테스트 GPU는 A100/H100으로 안내 | **가중치 접근 상태부터 확인해야 함.** 공개 저장소만 보고 즉시 실행 가능으로 분류하지 않음. [GitHub](https://github.com/microsoft/MineWorld) |
+
+### 추가로, 이름은 world model이지만 비교 과제가 다른 경우
+
+**InSpatio-WorldFM**은 공식적으로 RTX 4090에서 **512×512, single-step 7 FPS**를 보고합니다. 다만 explicit 3D anchor와 memory를 이용한 frame/view generation의 성격이 강하고 동적 콘텐츠에 한계가 있어, **물리적 상호작용을 예측하는 video world model과는 별도 분류**하는 편이 정확합니다. [arXiv](https://arxiv.org/html/2603.11911v1?utm_source=chatgpt.com)
+
+**Matrix-Game 4.0**은 게임 엔진이 물리·게임플레이·액션을 처리하고, causal video model이 화면을 생성하는 구성을 제시합니다. 이 경우 빠른 화면 생성이 곧 **모델 자체가 world dynamics를 학습했다는 의미는 아닙니다.** 순수 action-conditioned video prediction과 동일한 실험군으로 묶지 않는 것이 좋습니다. [GitHub](https://raw.githubusercontent.com/SkyworkAI/Matrix-Game/main/Matrix-Game-4/README.md)
+
+---
+
+# 6. 어떤 입력이 필요한지에 따라 선택이 달라짐
+
+## “내 이미지 한 장에서 시작해서 WASD와 마우스로 움직이고 싶다”
+
+**Waypoint-1.5 → Matrix-Game 2.0 → ForgeWM** 순서로 검토하겠습니다. 앞의 두 모델은 소비자 GPU/24GB 실행 근거가 있고, ForgeWM은 game-native action 구조와 공개 학습 코드가 장점이지만 4090 검증이 먼저 필요합니다. [Hugging Face](https://huggingface.co/Overworld/Waypoint-1.5-1B)
+
+## “이미지 + 자연어 프롬프트 + 카메라 제어가 필요하다”
+
+**Astra → Yume-5B → GameCraft**가 우선 후보입니다. Astra는 camera trajectory 실험, Yume는 텍스트·segment 기반 조작, GameCraft는 느리더라도 고해상도 생성 결과를 비교하는 쪽으로 역할을 나누겠습니다. [GitHub](https://github.com/EternalEvan/Astra)
+
+## “캐릭터를 조작하면서 장시간 생성하고 싶다”
+
+**ABot-World-0**을 먼저 보겠습니다. 8개 키 기반 조작과 reference-character memory를 갖추고 있으며, 4090 실행도 공식 검증되어 있습니다. 다만 실제 4090 응답 지연을 먼저 확인해야 합니다. [GitHub](https://github.com/amap-cvlab/ABot-World/blob/main/FAQ.md)
+
+## “빠른 학생 모델과 느린 teacher를 비교·수정하고 싶다”
+
+**ForgeWM과 minWM**이 중요합니다. 단계별 checkpoint와 학습 경로가 공개되어 있기 때문입니다. 반면 ABot은 현재 teacher 공개 상태가 다르고, Waypoint는 우선 inference/runtime 연구 대상으로 보는 편이 안전합니다. [GitHub](https://raw.githubusercontent.com/asdfo123/ForgeWM/main/README.md)
+
+## “물체를 밀거나 집는 액션의 결과를 영상으로 예측하고 싶다”
+
+**Interactive World Simulator → CLAP**을 우선 검토하겠습니다. 전자는 가볍고 빠른 task-specific simulation, 후자는 더 다양한 action/embodiment 조건을 다루는 방향입니다. [yixuanwang.me](https://www.yixuanwang.me/interactive_world_sim/texts/main.pdf)
+
+---
+
+# 7. 4090에서 실험할 때 반드시 같이 기록할 항목
+
+이 분야에서는 숫자 하나만 비교하면 쉽게 잘못된 결론이 나옵니다. 특히 **Waypoint의 FPS 표기 불일치, ForgeWM의 VAE 제외 속도, ABot의 5090 headline, GameCraft의 playback FPS**가 대표적인 사례입니다. [arXiv](https://arxiv.org/html/2609.37107v1)
+
+내가 실험 표를 만든다면 최소한 다음 열을 넣겠습니다.
+
+| 기록 항목 | 구체적으로 무엇을 적을지 |
+|---|---|
+| **모델·버전** | checkpoint 이름, commit, precision, attention backend, 경량 VAE 사용 여부 |
+| **출력 조건** | 실제 생성 해상도, interpolation/upscaling 여부, pixel frames/chunk |
+| **처리량** | 생성된 새 pixel frame 수 ÷ wall-clock time. latent FPS와 별도 기록 |
+| **응답 지연** | 입력을 받은 시점부터 첫 새 decoded frame이 준비되는 시점까지 |
+| **메모리** | peak GPU allocated/reserved, 전체 GPU 사용량, CPU RAM, offload 여부 |
+| **문맥 조건** | KV window, sink/reference frame 수, rollout 길이 |
+| **초기화 비용** | 모델 로딩·컴파일·warmup과 steady-state를 분리 |
+| **출력 범위** | DiT만인지, VAE 포함인지, 전송·표시까지 포함인지 |
+
+그리고 quality 평가는 단순히 “몇 분 동안 생성됐는가”보다 아래 세 상황을 따로 보겠습니다.
+
+**첫째, 되돌아보기.** 앞으로 이동했다가 돌아왔을 때 문·창문·가구의 위치가 유지되는지 확인합니다.
+
+**둘째, 상태 유지.** 물체를 옮기거나 캐릭터가 행동한 뒤 카메라가 다른 곳을 봤다가 돌아와도 결과가 유지되는지 확인합니다.
+
+**셋째, 갑작스러운 입력 변경.** 전진 중 후진, 좌회전 중 우회전처럼 액션을 바꾸었을 때 몇 프레임 뒤에 반영되는지 확인합니다.
+
+텍스트 제어가 목적이면 여기에 **초기 장면 프롬프트**, **실행 중 사건 지시**, **이미 발생한 사건의 지속성**을 분리해 평가하는 것이 좋습니다. “prompt 인자가 있다”는 것만으로 이 세 기능을 모두 갖추었다고 간주하지 않는 방식입니다.
+
+---
+
+# 8. 내가 실제로 4090 한 장에서 시작한다면
+
+설치와 검증 시간을 고려하면, 처음부터 모든 모델을 돌리기보다는 다음 순서가 좋겠습니다.
+
+| 순서 | 모델 | 먼저 확인할 내용 | 공식 실행 경로 |
+|---|---|---|---|
+| **1** | **Waypoint-1.5** | 이미지 초기화, 키보드·마우스 반응, 실제 pixel FPS와 peak VRAM | `world_engine` 또는 Biome runtime. [GitHub](https://github.com/Wayfarer-Labs/world_engine) |
+| **2** | **ABot-World-0** | 최적화 설정으로 24GB 내 실행, 실제 4090 지연, 장시간 rollout | `web_client/run.sh`, 공식 Docker 환경. [GitHub](https://raw.githubusercontent.com/amap-cvlab/ABot-World/main/README.md) |
+| **3** | **Matrix-Game 2.0** | 이미지·액션 baseline, streaming과 random-action 모드 구분 | `inference_streaming.py`. [GitHub](https://raw.githubusercontent.com/SkyworkAI/Matrix-Game/main/Matrix-Game-2/README.md) |
+| **4** | **Astra** | 동일 이미지에서 카메라 경로와 prompt를 바꾸는 오프라인 비교 | `infer_demo.py`. [GitHub](https://github.com/EternalEvan/Astra) |
+| **5** | **ForgeWM** | 4090 memory smoke test 후 1/2/4-step 및 중간 checkpoint 비교 | `inference.py`, 단계별 configs. [GitHub](https://raw.githubusercontent.com/asdfo123/ForgeWM/main/README.md) |
+
+Yume-5B는 **이미지·텍스트 기반 웹 데모가 우선이거나 Windows 환경을 쓰는 경우**, Interactive World Simulator는 **물체 상호작용을 연구하는 경우** 이 순서의 앞쪽으로 올리겠습니다. [GitHub](https://raw.githubusercontent.com/stdstu12/YUME/main/README.md)
+
+**정리하면, 범용적인 4090 interactive video world model의 첫 실행 후보는 Waypoint-1.5와 ABot-World-0입니다. 이미지·프롬프트·카메라 조건 연구에는 Astra와 Yume-5B, 키보드 기반 공개 baseline에는 Matrix-Game 2.0, 내부 구조와 distillation 연구에는 ForgeWM·minWM이 중요합니다.** 다만 **“실행 가능”과 “실시간”, “긴 생성”과 “장기 기억”, “카메라 제어”와 “물리적 상호작용”을 분리해서 선택하는 것**이 핵심입니다.

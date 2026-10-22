@@ -1,0 +1,582 @@
+{
+ "result": [
+  {
+   "id": "00c5ec60df",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "new_object": 3
+   },
+   "reasons": [
+    "DRIFT(4) new_object: Frames 1-10 are a plausible continuation. The same jar and funnel sit on the wooden table while sand keeps pouring. The table shifts from parallel planks to a rounded slab edge against a grey wall, which is borderline but still reads as the same room. In frames 11-13 a tall dark navy object appears at the right edge. It looks like a person's jeans or clothing and does not belong in the scene. In frames 14-15 the jar disappears even though the table edge and wall stay in about the same place, which points to the subject vanishing rather than the camera panning away. Frame 15 is also a soft close-up of wood.",
+    "DRIFT(3) new_object: Frames 1-10 are a plausible continuation. They show the same jar, funnel and sand on a weathered wooden table, and the camera shifts to reveal the table edge against a plain grey wall. In frames 11-12, and briefly at the edge of 13, a tall dark navy vertical shape appears in the background. It looks like a person's jeans leg or dark fabric and was not in the scene. The table also changes from long straight planks to a rounded live-edge slab, which is borderline. Frames 14-15 pan down to the table surface without the jar, which is acceptable. Colour, lighting and texture stay fine. I flag drift because of the intruding dark object. It could possibly be a curtain or door frame, so confidence is moderate.",
+    "DRIFT(3) new_object: Frames 1-10 are a plausible pan: the same jar and funnel sit on a rustic wooden table, and the camera shows the table edge and a plain grey wall. The planked tabletop slowly turns into a slab with a rounded edge, which is a borderline change but still reads as the same kind of table. In frames 11-12, and as a sliver in frame 13, a dark navy object that looks like denim appears at the right edge next to the table. It looks like a person's jeans-clad leg or a dark cloth, neither of which belongs in the scene. In frames 14-15 the camera turns to the bare wood surface, which is plausible. There is no colour collapse or freeze, and the sand level stays roughly the same. The clip drifts because of the intruding dark object that starts at frame 11."
+   ]
+  },
+  {
+   "id": "0252c50206",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "new_object": 3,
+    "lighting_change": 3
+   },
+   "reasons": [
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 are a plausible continuation: the jar and funnel sit on the wooden table. In frame 3 the table turns into an outdoor deck with an ivy-covered stone wall. In frames 4-8 potted plants, trees, a bright blue sky and a white house appear. Frames 9-15 show a modern building with glass windows, a tiled roof and palm trees. The scene moves from an indoor tabletop to an outdoor garden or villa, with new buildings and objects and a sunny outdoor lighting change. The camera never returns to the jar.",
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 continue the jar-on-wooden-table scene. From frame 3 the pan shows an ivy-covered outdoor stone wall beyond the table. By frame 4 the tabletop has become a wooden deck against that wall. Frames 5-8 add potted plants, trees, bright blue sky and a distant house. The rest of the clip is an outdoor villa with glass doors and palm trees. The jar never comes back when the camera turns back. The indoor tabletop has turned into a different outdoor place with sunny sky, and buildings and trees appear that do not belong to the scene.",
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 continue the scene plausibly, with the jar and sand on the wooden table. In frame 3 the table starts turning into an outdoor deck, and a stone wall with ivy appears at the top right. Frames 4-7 show a garden with an ivy-covered stone wall and potted plants. Frames 8-15 show a bright blue sky with clouds, a white house with dark window frames, palm trees and a lawn. The indoor tabletop has become an outdoor place, and the house, trees and pots do not belong to the scene. The neutral indoor lighting also switches abruptly to bright sunshine. The camera never returns to the jar."
+   ]
+  },
+  {
+   "id": "029ad208cc",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "new_object": 3,
+    "lighting_change": 2
+   },
+   "reasons": [
+    "DRIFT(5) teleport+new_object: Frames 1-2 are fine, showing the jar and funnel on the wooden table. In frame 3 the table edge turns into an outdoor wooden deck with a lattice fence and greenery behind it. Frames 4-5 show an outdoor landscape with trees and a lake. From frame 6 on the scene is a lake, then a road with a large blue car, houses and palm trees. Frame 15 puts the jar back next to the car on the road, so the scene never returns to the tabletop. This is a clear teleport with new objects (car, houses, road).",
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 show the jar on the wooden table, which is plausible. From frame 3 on, a wooden lattice fence with greenery behind it appears at the table edge. By frames 4-5 the scene has become an outdoor garden with trees and a lake. Frames 6-14 show a sunny landscape with a lake, palm trees, houses, a road with yellow lines and a large blue car. In frame 15 the jar reappears, but it sits in the outdoor road scene. This is a clear teleport with new objects (car, houses, road) and a jump from neutral indoor light to bright blue-sky daylight.",
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 plausibly continue the jar-on-table scene. In frame 3 a wooden lattice fence with outdoor greenery shows up at the table edge. By frames 4-5 the scene has become an outdoor fence with trees and a lake. From frame 6 on, the clip shows a sunny lakeside, then a blue car, houses and a road with yellow lines, which don't belong to the tabletop scene. The last frame pastes the jar back next to the car on the road."
+   ]
+  },
+  {
+   "id": "068363da3b",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3,
+    "texture_collapse": 3
+   },
+   "reasons": [
+    "DRIFT(5) color_collapse+texture_collapse: Early frames (1-4) show the wave hitting the castle with heavy speckled noise and white haze, which could pass as spray. From frame 5 the scene washes out to saturated green and white haze. By frames 7-10 the image is mostly flat white or green, and frames 11-15 are flat cyan or white fields with no readable beach, sea or sky, and no recovery when the camera pans back.",
+    "DRIFT(5) color_collapse+texture_collapse: Frames 1-4 are plausible: the wave and spray hit the castle, with haze that spray could explain. From frame 5 on, the picture washes out into saturated green and white glows. By frame 6 more than half the frame is a flat white field, with the castle faintly visible over a cyan tint. Frames 7-10 are mostly white/green washes with no readable beach, sea or sky. Frames 11-15 are completely flat pale cyan/white fields with no scene content, and the camera never comes back to a real beach.",
+    "DRIFT(5) color_collapse+texture_collapse: Frames 1-4 plausibly show the wave curling over the castle, though they are already heavily speckled. By frame 5 the colours turn a saturated neon green with blown highlights. From frame 7 the image washes out to white/grey with almost no readable structure. Frames 8-9 show neon green over a white wash, and frame 10 turns cyan with only a faint ghost of the castle. Frames 11-15 are completely flat cyan/mint fields with no scene content: no beach, sea, sky or coastline. This is severe colour collapse, and the scene becomes unreadable."
+   ]
+  },
+  {
+   "id": "0a2120e67f",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3,
+    "texture_collapse": 3,
+    "freeze": 1,
+    "material_swap": 1
+   },
+   "reasons": [
+    "DRIFT(5) color_collapse+texture_collapse: Frames 1-4 plausibly continue the jar/funnel/table scene, with sand accumulating. From frame 5 the background washes out to white (over-exposure) and the sand turns dark. Frames 6-11 shift strongly toward green-yellow, and the jar and table dissolve into blurry silhouettes. Frame 13 is a flat saturated green field, and frames 12-15 are nearly uniform pale yellow-green with no readable scene. This is severe colour collapse, with texture collapse at the end.",
+    "DRIFT(5) color_collapse+texture_collapse+freeze: Frames 1-4 look like a plausible continuation: the same jar, funnel and wooden table, with the sand pile growing. Frame 5 is suddenly over-exposed, with a white washed-out background and a bleached funnel. After that the clip keeps degrading. The sand turns dark green and the table smears into streaks. From frame 8 the scene is a blurry green-yellow wash. Frame 13 is one flat bright-green field, and frames 14-15 are nearly flat pale yellow-green with no readable content. The camera also barely pans: the jar stays centred the whole time instead of the view turning away and back.",
+    "DRIFT(5) color_collapse+texture_collapse+material_swap: Frames 1-4 plausibly continue the jar and funnel scene on the wooden table. In frame 5 the background washes out to white. From frames 6-7 the table turns into a grass-like green texture and the sand becomes a dark green blob. By frames 8-12 the image is blown out to white and green with the jar barely readable. Frames 13-15 are flat fields of green or pale yellow with no scene left."
+   ]
+  },
+  {
+   "id": "0df103ade4",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 1
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change: The START frame has a dark, heavy overcast sky. Frame 1 is already brighter, with some blue showing. By frame 2 the sky is clear blue with scattered white cumulus clouds. From frame 6 to the end the scene is a sunny, calm beach with a flat blue sea and bright blue sky. The storm wave and the castle being destroyed are plausible, and so is the pan to the coastline. The switch from a stormy overcast sky to bright sunny weather is not plausible, so this clip drifts. The breaking wave also turns muddy brown in frames 2\u20135, but the lighting change is the main failure.",
+    "DRIFT(4) lighting_change: The START frame has a dark, overcast, stormy sky. By frame 1 the sky is already bright blue with sunlit white clouds, and it stays that way. The wave also turns from green to brownish and dies out in frames 1-5. Frames 6-15 show a calm, sunny, glassy sea on a clear day, which is an abrupt and implausible change from overcast to sunny. The beach and sand stay consistent and the castle plausibly washes away. Even so, the change in weather and lighting counts as drift.",
+    "DRIFT(4) lighting_change+teleport: The START frame has a dark, heavily overcast sky, but frame 1 already shows bright white clouds with patches of blue. From frame 2 onward the sky is a clear sunny blue with small fair-weather clouds. The large green breaking wave turns into a brownish splash in frames 1-5, and the castle shrinks away almost at once. From frame 6 on the scene is a calm, sunlit beach with flat water, which does not match the stormy surf. The lighting and weather change abruptly and implausibly, and the setting reads as a different, calm beach."
+   ]
+  },
+  {
+   "id": "161b8ae8af",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "texture_collapse": 3,
+    "color_collapse": 1
+   },
+   "reasons": [
+    "DRIFT(4) teleport+texture_collapse+color_collapse: Frames 1-3 are fine: the jar and funnel sit on the same table and sand keeps pouring. Frames 4-10 pan across the same wooden table, and a plain grey wall appears in frames 8-10, which is plausible. From frame 11 on, the tabletop turns into an endless flat plain that runs to a horizon under a pale grey sky. It reads like an outdoor landscape, not a table in a room, and the scale of the wood grain is lost. These last frames are also washed-out, desaturated and smeared, with a large flat grey band across the top. The camera never pans back to the jar.",
+    "DRIFT(4) teleport+texture_collapse: Frames 1-3 are consistent: the jar and funnel sit on the wooden table as the camera starts to pan. Frames 4-10 show more of the same wooden table, with a plain grey wall in the corner, which is plausible. From frame 11 the camera is at a grazing angle and the table turns into an endless flat plane. It meets a horizon line with a pale blue-grey sky (frames 12-14), which reads as an outdoor flat landscape, not a tabletop in a room. The wood grain there smears into streaky, noise-like texture. The jar never comes back even though the camera was commanded to pan back.",
+    "DRIFT(4) teleport+texture_collapse: Frames 1-3 show the jar and funnel on the table. Frames 4-10 pan onto the wooden table, with a grey wall at the back, which is still plausible. From frame 11 on, the tabletop turns into an endless flat plain reaching a distant horizon under a pale sky band, which looks like an outdoor desert or mudflat rather than a table in a room. The wood grain also smears into a washed-out grey-brown texture. The camera never pans back to the jar."
+   ]
+  },
+  {
+   "id": "168ae5e971",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3,
+    "lighting_change": 3,
+    "freeze": 2
+   },
+   "reasons": [
+    "DRIFT(5) color_collapse+lighting_change+freeze: Frames 1-4 are plausible continuations of the start frame: the same jar and funnel sit on the wooden table. From frame 5 a warm brightening begins. By frame 6 the scene has a yellow-cream wash. The wash keeps growing into heavy over-exposure with yellow-green flat colour fields (frames 11-15), and the funnel and jar bleach toward white or ghostly glass, starting to look like an hourglass. The lighting shift is gradual but implausible. The camera also barely pans: the jar stays centred in every frame even though a pan away and back was commanded.",
+    "DRIFT(5) color_collapse+lighting_change: Frames 1-4 plausibly continue the jar-and-funnel scene on the wooden table, and frame 5 is slightly warmer. From frame 6 the image gets steadily brighter and washes out to cream and yellow. Frames 11-15 are heavily over-exposed with a yellow-green cast, and the funnel and background fade toward flat white or yellow. The camera also barely pans: the jar stays centred the whole time.",
+    "DRIFT(5) color_collapse+lighting_change+freeze: Frames 1-4 are close continuations of the start frame. From about frame 5-6 the image steadily washes out into a yellow-white glare. By frames 11-15 it is heavily over-exposed, with large flat yellow and cream areas, and the funnel and jar fade into white. The sand turns unnaturally dark and the jar starts to look like an hourglass. The camera also never pans: the jar stays centered and the same size in all 15 frames, even though the camera was told to pan away and back."
+   ]
+  },
+  {
+   "id": "225151dccd",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3,
+    "texture_collapse": 3,
+    "freeze": 1
+   },
+   "reasons": [
+    "DRIFT(4) color_collapse+texture_collapse: Frames 1-3 plausibly continue the wave hitting the castle. Frames 4-5 are mostly white spray, and the castle is only faintly visible in frame 5. That could still be the wave engulfing it. From frame 6 to the end, the clip never recovers. Every frame is a low-contrast, washed-out whitish-grey haze over flat sand with grainy, noise-like texture. The sea, the wave, foam and the castle remains are no longer readable, and only faint distant hills show. The last frame is washed out almost to white. The camera was expected to pan back, but it never shows the same beach and sea under similar overcast lighting again.",
+    "DRIFT(4) color_collapse+texture_collapse: Frames 1-3 are plausible: the wave keeps breaking and starts to hit the castle. Frames 4-5 are covered in spray, with the castle still faintly visible, which fits the wave hitting it. From frame 6 on, the whole image stays washed out to a low-contrast grey-white haze with grainy, noise-like speckle over the sand. The sea and wave disappear, leaving a featureless flat plain with a faint distant headland. The haze never clears as the camera pans, and frame 15 is almost white. This is a sustained wash-out and texture collapse, not just normal spray or motion blur.",
+    "DRIFT(4) color_collapse+texture_collapse+freeze: Frames 1-3 are plausible: the wave hits the castle. Frames 4-5 are covered in white spray, which fits the impact, and the castle is still faintly visible. From frame 6 onward the picture washes out into a grey-white haze. The sand turns into a flat field of noise-like speckle. The green sea and the breaking waves disappear, leaving only a featureless sand plain under a milky sky. Frames 6-15 barely change apart from a slight shift of a distant headland, so the commanded pan away and back does not really happen. The haze keeps getting worse, and frame 15 is almost blown out to white."
+   ]
+  },
+  {
+   "id": "24131d9711",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "lighting_change": 3,
+    "new_object": 3
+   },
+   "reasons": [
+    "DRIFT(5) teleport+lighting_change+new_object: Frames 1-2 continue the wave-and-sandcastle scene. By frame 3 the sky is getting brighter with blue patches over a flat lagoon. Frame 4 has a bright blue sunny sky with a treeline and grass, and from frames 6-7 on the scene is an inland meadow or riverbank with forest, a dirt path and mountains, not the overcast beach. A man in a suit jacket appears in frames 8-10 and another man appears in frames 14-15. A small sandcastle reappears in frame 15 inside the meadow scene.",
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 continue the scene: the same wave and sandcastle under an overcast sky. In frame 3 the overcast sky turns bright with blue patches and a tree line appears. By frames 4-5 the view is a river or estuary channel with forest behind it. Frames 6-7 show an inland grassy field, a forest and a dirt path under a sunny blue sky, which is a different place. In frames 8-9 a man in a suit appears, and frames 10-15 show a green riverside with trees and a man in a denim jacket standing with his back to the camera. When the camera pans back at the end, the beach, sea and wave are gone. A small sandcastle shows up in the last frame, but it is out of context.",
+    "DRIFT(5) teleport+lighting_change+new_object: Frames 1-2 stay on the same sandcastle and wave. In frame 3 the wave is gone and the overcast sky suddenly turns bright blue with white clouds. A tree line shows up on the horizon and the beach becomes a flat with a river. Frames 4-5 look like a river estuary with trees, not the ocean beach. From frame 6 the scene is an inland grassy field with a forest. In frames 8-10 a man in a blazer appears. Frames 11-13 show trees, a stream and green hills. In frames 14-15 a man with a backpack appears and a sandcastle reappears in this inland landscape."
+   ]
+  },
+  {
+   "id": "255e7d343d",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 3
+   },
+   "reasons": [
+    "DRIFT(4) lighting_change+teleport: Frames 1-2 continue the scene: the same sandcastle and wave under a grey sky. From frame 3 the dark overcast sky turns into bright cumulus clouds with blue sky, and by frame 6 it is a vivid sunny blue sky. That is an abrupt, implausible lighting change. The rest of the clip stays in the new look, and after frame 11 a green lawn and a dense pine forest appear next to the beach, so it reads as a different, park-like coastline. When the camera pans back (frame 15), there is a green wave under a blue sunny sky, with no sign of the castle or the overcast mood of the start.",
+    "DRIFT(5) lighting_change+teleport: The start frame has a grey overcast sky. Frames 1-2 continue the wave and sandcastle plausibly. From frame 3, as the camera pans, the sky turns into a bright blue sky with puffy cumulus clouds, and it stays that way through frame 15. That is an abrupt overcast-to-sunny change. By frames 11-14 the setting looks like a calm lakeshore with a dense conifer forest and a green lawn next to the sand, not the stormy beach from the start. The last frame brings back a green wave but under a sunny blue sky, and the sandcastle is gone. Lighting and environment are not consistent with the start image.",
+    "DRIFT(5) lighting_change+teleport: Frames 1-2 continue the scene plausibly: the sandcastle is still under a dark, overcast sky. In frame 3 the camera pans and the sky suddenly brightens with patches of blue. By frames 4-5 it is a bright, sunny blue sky full of puffy white cumulus clouds, and it stays that way to the end. Going from dark overcast to bright sun like this is an implausible lighting change. In frames 11-14 the shoreline becomes a pine forest next to a green lawn, which looks like a lake shore rather than the original stormy sea beach. When the camera turns back in frame 15, the lighting is still sunny and the scene does not match the start."
+   ]
+  },
+  {
+   "id": "27061c136e",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3
+   },
+   "reasons": [
+    "DRIFT(3) color_collapse: Frames 1-3 continue the scene correctly: the jar, the funnel and the sand are on the brown plank table. The camera then pans onto empty table with a white background, which is still plausible. From about frame 10, the warm brown wood loses its colour and turns cool grey and smooth. In frames 11-14 a flat white field fills the upper half and the grey surface no longer looks like the rustic brown table. The last frame goes back to brown wood at a tilted angle, but the jar never comes back after the return pan. The main failure is the scene washing out to grey and white, so I classed it as colour collapse.",
+    "DRIFT(3) color_collapse: Frames 1-3 continue the start image well: the jar, the funnel and the growing sand pile are all there. By frames 4-5 the camera has panned onto empty wooden table, which is plausible. From frame 6 on, the view tilts to the table edge against a white background. The warm brown wood then gradually loses its colour. By frames 9-14 the table is a near-monochrome grey stone-like surface under a large flat white field that fills almost half of each frame. That reads as washing out to grey and white, not as the same rustic brown table. In frame 15 the camera starts to swing back and brown wood returns, but the jar never comes back into view. Because the brown-to-grey change is gradual and the white area could be the neutral background, I call this a moderate-confidence colour-collapse drift.",
+    "DRIFT(4) color_collapse: In frames 1-5 the camera pans off the jar onto the brown wooden table, which is a plausible continuation. From about frame 6 a hazy white area fills the top of the frame; on its own that could pass as a plain wall. But from frame 8 on, the brown wood steadily loses its colour and turns fully grey. By frames 11-13 the saturation is about 4, against about 83 in the START frame, and each frame is roughly half flat white and half grey, washed-out table. Frame 15 only partly gets its brown back, and the jar never reappears on the pan back. This is a wash-out to white/grey, i.e. colour collapse."
+   ]
+  },
+  {
+   "id": "2aa87fe296",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3,
+    "texture_collapse": 3,
+    "lighting_change": 1,
+    "material_swap": 1
+   },
+   "reasons": [
+    "DRIFT(5) color_collapse+texture_collapse+lighting_change: Frames 1-4 are a plausible continuation: same jar, funnel and wooden table. From frame 5 the image washes out to a cream/white over-exposure. From frame 6 it shifts to a strong green-yellow tint. By frames 7-15 the scene has collapsed into large flat white, yellow and green colour fields. The table texture disappears, the jar turns into a ghostly silhouette with a green blob, and frame 12 is nearly blank. The camera also never pans away; the jar stays centred throughout.",
+    "DRIFT(5) color_collapse+texture_collapse: Frames 1-4 plausibly continue the jar-and-funnel on the wooden table. From frame 5 the image overexposes toward white and picks up a green tint. By frames 7-15 the scene has collapsed into washed-out yellow-green flat colour: the wood texture is gone and the jar is reduced to a smeared dark silhouette. In the last frames it is barely readable.",
+    "DRIFT(5) color_collapse+material_swap+texture_collapse: Frames 1-4 are plausible: the same jar, funnel and wooden table, with the sand pile growing. From frame 5 the right side washes out to cream/white, and by frame 6 there is a strong green-yellow tint. From frames 7-15 the image is heavily over-exposed into flat yellow/green fields, and the table grain is lost. The jar and funnel turn into an hourglass-like silhouette with dark black/green sand and shadow, so the subject's material changes. The last frames are an unreadable yellow-green wash with only a faint trace of the object."
+   ]
+  },
+  {
+   "id": "2ae27a7068",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "new_object": 3,
+    "lighting_change": 1
+   },
+   "reasons": [
+    "DRIFT(5) teleport+new_object: Frames 1-2 are consistent: the jar and funnel sit on the wooden table. By frame 3 a brick wall shows at the top edge. From frame 4 on, the tabletop has become a deck or porch floor leading to a dark doorway in a brick building. Frames 6-8 show a brick facade with a window and a potted plant, and then an outdoor view with mountains. Frames 9-15 are an entirely different place: a sunny park with green grass, trees, a dirt path, a lamp post and a wooden deck railing. The tabletop scene has teleported to an outdoor landscape, and objects that do not belong to the original scene appear. The camera never returns to the jar.",
+    "DRIFT(5) teleport+new_object: Frames 1-2 continue the jar-on-table scene. Frames 3-6 pan across the planks toward a dark doorway and a brick wall, which a room wall could still explain. From frame 7 a window with a potted plant appears, and the tabletop has become a building's deck. Frame 8 onward opens onto an outdoor landscape with mountains, a lamp post, railings, grass fields, trees and a dirt path. The jar never comes back. The scene has changed from a tabletop to an outdoor park, which counts as a teleport with new objects.",
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-3 stay on the jar and wooden table. The drift starts gradually. In frames 4-6 the table turns into a large deck floor next to a brick wall with a dark doorway. That could still pass as a wall of the same room, but it is already doubtful. Frame 7 is clearly broken: it shows a building exterior with a window and a potted plant. From frame 8 on, the scene becomes a bright sunny outdoor landscape with mountains, lamp posts, a railed deck, trees, a grass field and a dirt path. None of this belongs to the tabletop scene, and the camera never returns to the jar or the table."
+   ]
+  },
+  {
+   "id": "382957a60f",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "material_swap": 3,
+    "freeze": 2
+   },
+   "reasons": [
+    "DRIFT(4) material_swap+freeze: The jar's contents change material. From about frame 3, a thick opaque white, milk-like layer sits above the sand. By frames 11\u201315 the funnel is also filled with white liquid, so the poured sand has become a white liquid. The camera also never pans away and back. The jar stays centred with nearly the same framing in all 15 frames, so the commanded motion is missing (a near-freeze of the camera). The table and background themselves stay the same.",
+    "DRIFT(5) material_swap+freeze: The pouring sand turns into a white, milk-like liquid. From frame 3 a white layer sits on top of the sand, and by frames 11-15 the funnel is full of white liquid, so the jar's contents have become a different material. The camera also never pans away: the jar stays centered in the same framing in all 15 frames, even though a pan out and back was commanded.",
+    "DRIFT(5) material_swap: Starting around frame 3, a white milk-like liquid layer shows up in the jar above the sand. It keeps growing, and by the last row the whole funnel is full of white liquid, so the poured sand has turned into a different material. The table and background stay the same. The camera also barely pans: the jar stays centered in every frame."
+   ]
+  },
+  {
+   "id": "3873662495",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 1,
+   "drift": false,
+   "categories": {
+    "texture_collapse": 1
+   },
+   "reasons": [
+    "DRIFT(3) texture_collapse: Frames 1-4 hold the jar and funnel consistently. Frames 5-10 pan across the same wooden table; a faint green, foliage-like strip at the top of frames 7-9 is small and borderline. In frames 11-15 the plank grain dissolves into a grey-pink stippled texture with irregular, polygon-like cracks under a heavy hazy band where the table meets a white wall. The surface stops reading as the same rustic plank table and looks more like smeared concrete or mud. The camera never returns to the jar. The wall itself is plausible, but the degradation of the surface texture goes beyond mild softness.",
+    "ok(3) : No clear drift. In frames 1-4 the same jar and funnel sit on the same plank table, and the sand pile is still there. From frame 5 the camera turns away from the jar and looks across the wooden table at a low angle. In frames 11-15 a blurred pale neutral wall shows behind the table, which fits the same room. The wood grain gets softer in later frames but can still be read. There is a faint greenish-grey tint at the top edge of frames 7-9. It is small and blurred, so I did not count it as a new object or a change of place. No unrelated objects appear, the lighting does not change, colours do not wash out and the frames are not frozen. The jar does not come back into view by the last frame, but the subject is allowed to leave the view.",
+    "ok(3) : Frames 1-4 show the same jar and funnel on the wooden table, with the sand pile growing. From frame 5 the camera turns away, and frames 6-15 show a low-angle view of the same weathered wooden boards with a blurred, neutral white-grey wall behind them. There is a faint greenish tint at the top of frames 7-9, but it is minor. The camera never turns back to the jar, but the brief allows the subject to leave the view. There are no foreign objects, no change of place, no colour washout and no freeze. The wood is soft and blurred but still readable. Every frame is a plausible continuation of the same tabletop scene."
+   ]
+  },
+  {
+   "id": "4c834dfd7b",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "new_object": 3,
+    "lighting_change": 3
+   },
+   "reasons": [
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 continue the jar on the wooden table plausibly. Frames 3-6 pan to the table and a rough stone/plaster wall with a wooden post; these are borderline but could still be the same room. From frame 7 the scene becomes an outdoor exterior with blue sky, plants and buildings. Frames 8-15 show a suburban house, trees, a lamppost, a paved yard and a multi-story building in bright sunlight. The camera never returns to the jar or table. This is a clear teleport with new objects (houses) and an implausible lighting change from indoor neutral light to a sunny blue sky.",
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 continue the jar-on-table scene. Frames 3-6 pan across the table to a grey plaster wall and a wooden post, which is still plausible. From frame 7 the scene turns outdoors: plants, a white exterior wall and daylight appear. Frames 8-15 show a suburban street with houses, trees, a lamp post and a bright blue sky with clouds. That is a different place, with buildings that don't belong and a sudden change from the dim indoor light to sunny outdoor light. The camera never returns to the jar.",
+    "DRIFT(5) teleport+new_object+lighting_change: Frames 1-2 continue the jar-and-table scene. In frames 3-6 the camera pans along the table to a rough stone wall and a wooden post, which is still possible for the same room. From frame 7 the scene is outdoors, with plants, bright daylight and open ground. Frames 8-15 show houses, trees and a blue sky with clouds, and the jar never comes back. The indoor tabletop has turned into an outdoor residential street (teleport), with buildings that do not belong to the scene (new object) and a sudden change to bright sunlight (lighting change)."
+   ]
+  },
+  {
+   "id": "52ecdec343",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "new_object": 3,
+    "material_swap": 3,
+    "teleport": 1
+   },
+   "reasons": [
+    "DRIFT(5) new_object+material_swap: In frame 1, a faint stemmed glass shows up next to the sand jar. By frames 2-4 it has grown into a tall clear glass cylinder on a stem. From frame 5 onward the jar, funnel and sand are gone, and the subject is a stemmed glass holding clear, water-like liquid in layers. This is not the same jar with sand in it. Small white objects also appear at the table corner in frames 6-10. The wooden table and the grey background are still plausible for the same room, but the subject has been replaced by a different object made of a different material.",
+    "DRIFT(5) new_object+material_swap+teleport: A ghostly stemmed glass shows up beside the sand jar in frame 1 and is clearly there by frames 2-3. By frame 4 the sand jar and funnel are gone. From then on the subject is a tall stemmed glass holding clear water, not the sand jar. From about frame 6 the background also changes, adding a concrete floor or ledge and a grey wall. The last frames show only a water glass with liquid rings on a pale surface, so the sand-and-jar scene has been replaced.",
+    "DRIFT(4) new_object+material_swap: From frame 1, a see-through stemmed glass that was never in the scene fades in next to the sand jar. By frames 4-5 it is a clear tall glass of water, and it stays the subject for the rest of the clip. The sand jar and funnel leave the view and never come back when the camera pans back. What remains is a glass of liquid instead of the sand-filled jar, so the subject has changed material. The wooden table edge and the concrete floor and wall that appear are plausible for the same room, but the new glass and the sand-to-water swap are clear drift."
+   ]
+  },
+  {
+   "id": "54fad49a73",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 0,
+   "drift": false,
+   "categories": {},
+   "reasons": [
+    "ok(4) : No drift. All 15 frames show the same glass jar and funnel on the same rustic plank table, with the same lighting and colours. The camera does not really pan away. Instead it pulls back in frames 1-8 and then tilts or moves in closer on the funnel in frames 9-15. That is still clear camera motion, so it is not a freeze. The funnel slowly fills with sand, which fits the pouring. In the last frames the sand stream looks slightly rope-like and the top edge of frame 15 has a thin flat band. Both are minor artifacts. There are no new objects, no change of place, no colour or texture collapse, and the subject keeps its material.",
+    "ok(4) : All 15 frames show the same glass jar and funnel on the same rustic plank table, with the same warm neutral lighting and sand still pouring. In frames 1-8 the camera sits a little further back, with the jar and funnel centred and the sand pile at the bottom of the jar. From frames 9-15 the camera moves in and down toward the funnel mouth, and the blurred background shows only more of the same planks and a plain back wall. Nothing foreign appears, the location does not change, there are no colour washouts, the material stays the same, and textures stay readable. The camera never really pans away from the subject; it mostly reframes and zooms in. Still, there is clear motion in the second half, so this is not a freeze. The only artifacts are minor: the sand stream frays a little in frame 12, and the funnel looks slightly larger after the zoom.",
+    "ok(4) : All 15 frames show the same glass jar with a funnel and sand pouring onto the same rustic wooden plank table, with consistent lighting and a similar grey background. In frames 1-9 the camera pulls back and the sand pile sits at the bottom of the jar. In frames 10-15 the camera moves up and in on the funnel, whose rim looks wider because of the new angle. That shape change fits a camera move and is not a material swap. No foreign objects, scene change, colour collapse, freeze or severe blur. The last row is only a little soft."
+   ]
+  },
+  {
+   "id": "5811560aca",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "freeze": 3,
+    "lighting_change": 3,
+    "material_swap": 1,
+    "color_collapse": 1
+   },
+   "reasons": [
+    "DRIFT(4) freeze+lighting_change+material_swap: The camera was told to pan away and back, but it never moves. The jar and funnel stay centred with the same framing in all 15 frames, so the clip is essentially frozen apart from small changes to the sand. From frame 12 the lighting changes without a plausible cause: the image gets a darker vignette and hard side shadows, then turns into a hazy yellow-green wash in frames 13-15. At the same time the glass jar fades until it is almost transparent. The sand pile turns into a dark, rounded, rock-like ball that casts its own shadow, so the jar and sand no longer look like glass and sand.",
+    "DRIFT(4) freeze+lighting_change+color_collapse: The camera never pans. In all 15 frames the jar and funnel stay centred with the same framing, so the commanded pan away and back does not happen. Only the sand pile and the lighting change. From about frame 10, and clearly from frame 11, the soft, neutral lighting turns into harsh side light with deep shadows and a dark vignette. By frames 13-15 the image has a strong yellow-green tint, the table highlights are washed out and the background is dark olive. The glass jar also fades until the sand looks like a dark lump casting a shadow. The scene stays the same place (same table, no new objects), but the lack of camera motion and the sharp lighting and colour shift count as drift.",
+    "DRIFT(4) freeze+lighting_change: The camera never pans away. The jar and funnel stay centered with almost the same framing in all 15 frames, even though a pan away and back was commanded, so the camera motion is effectively frozen. The sand pile also hardly grows. From about frame 10-11 the lighting changes in a way that doesn't fit the scene: the image gets darker, picks up a yellow-green cast with heavy vignetting and harsh side shadows, and in frames 13-15 the sand in the jar turns into a dark lump and the funnel goes dark. There are no new objects and the location doesn't change; the wooden table stays the same throughout."
+   ]
+  },
+  {
+   "id": "657a4525c3",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "new_object": 3,
+    "teleport": 3
+   },
+   "reasons": [
+    "DRIFT(5) new_object+teleport: Frames 1-2 continue the sand jar on the wooden table, although a small stray glass jar appears in frame 2. Frames 3-10 pan to a plain blue wall and corner, which is plausible. From frame 11 on, objects that do not belong to the scene appear: a large green jug, green and red apples, and woven baskets. A dark doorway with furniture also shows up, so the place now looks like a different room interior. The camera never returns to the sand jar, and the last frame is a smeared blue texture.",
+    "DRIFT(5) new_object+teleport: Frames 1-10 are plausible: the camera pans from the jar across the wooden table to a blue textured wall and a corner. A small extra jar shows up in frames 2-3, but it could have been on the table out of view. From frame 11 on, the scene becomes a different room. A large green jug, green and red apples, woven baskets, a framed dark doorway and furniture appear, and none of them were in the scene before. The camera never returns to the sand jar. Frame 15 is also a nearly flat blue texture.",
+    "DRIFT(5) new_object+teleport: Frames 1-10 are plausible. The camera pans off the sand jar across the same wooden table to a plain blue wall and corner; a small empty jar shows up in frame 2, which could just be part of the table. Starting at frame 11, when the camera should be turning back to the subject, it shows an unrelated still life instead: a green ceramic pitcher, green and red apples and woven baskets. This set sits in front of a framed doorway into a dark room with furniture. The sand jar and funnel never come back, so the scene has turned into a different interior with new objects."
+   ]
+  },
+  {
+   "id": "77d4ca9648",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "freeze": 3
+   },
+   "reasons": [
+    "DRIFT(4) freeze: All 15 later frames are near-identical: same jar+funnel centered on the same wooden table, same framing, no visible camera pan away or back despite the commanded pan. After a slight reframe (zoomed out) in frame 1 the video is static throughout; the funnel stays filled (slightly hourglass-like) and the sand pile shows little evident change. Scene, lighting and texture are otherwise consistent, so the failure is a freeze.",
+    "DRIFT(4) freeze: All 15 later frames are almost identical: the jar and funnel stay centered on the same wooden planks with the same grain in every frame. Only the sand stream changes slightly. The camera was commanded to pan away and back, but it never moves. The shot also jumps from the START framing (closer, object on the right) to a fixed wider centered view. The scene itself stays consistent, with no new objects, no change of place and no colour collapse, so the failure is a freeze.",
+    "DRIFT(4) freeze: All 15 later frames are nearly identical: the jar and funnel sit in the centre of the wooden table with the same framing throughout. The camera never pans away or back, even though the prompt commands it. The sand pile barely changes and only small sand-stream details differ. The scene stays consistent (same table, jar and lighting), but the clip is static where camera motion is expected, which counts as a freeze. It is slightly zoomed out compared with the start frame, and the funnel looks a bit more like an hourglass, but that is mild."
+   ]
+  },
+  {
+   "id": "7a56d7802d",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "freeze": 2,
+    "texture_collapse": 3,
+    "lighting_change": 1,
+    "material_swap": 3,
+    "color_collapse": 2
+   },
+   "reasons": [
+    "DRIFT(5) freeze+texture_collapse+lighting_change+material_swap: The camera never pans away. Frames 1-12 keep the jar centred with almost the same framing, only a slight zoom and gradual darkening, so the clip is essentially frozen when motion is expected. From frame 13 onward the scene breaks down: a warm yellow haze washes over the image, the funnel and jar turn ghostly and dissolve into a noisy, particle-like smear, and by frames 14-15 the jar has lost its glass structure and the lighting has shifted implausibly.",
+    "DRIFT(4) freeze+texture_collapse+color_collapse+material_swap: The camera never pans. Frames 1 to 12 keep almost the same framing of the jar and funnel, although a pan away and back was commanded, so the clip is essentially frozen. In frames 10 to 12 the sand in the bottom of the jar turns dark and blackish and the table darkens. From frame 13 the image washes out to a yellowish, overexposed tint. In frames 14 and 15 the jar and funnel break up into grainy, noise-like particles, and the glass object loses its form and turns into scattered speckle.",
+    "DRIFT(4) texture_collapse+color_collapse+material_swap: Frames 1-12 hold the same jar-and-funnel scene on the wooden table, with the sand pile growing. The camera barely pans, though. In frame 13 a yellowish haze washes over the image and the funnel and jar turn pale and translucent. By frames 14-15 the jar has dissolved into a ghostly, noisy smear with a dark blotch under it, so the subject is no longer a readable glass object."
+   ]
+  },
+  {
+   "id": "7a880feb36",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3,
+    "texture_collapse": 3
+   },
+   "reasons": [
+    "DRIFT(4) color_collapse+texture_collapse: Frames 1-4 plausibly show the green wave engulfing the sandcastle on the same beach. From frame 5 the image turns into a milky white-grey veil. Frames 6-15 stay that way: flat bands of beige sand and pale grey sky under a noise-like speckle over the whole frame. The sea, the foam and the castle remains are hard to make out, and only a faint headland shows. This does not clear as the camera turns back. In the last frames the top washes out further to near-white. Wave spray would not explain a persistent speckled haze like this.",
+    "DRIFT(4) texture_collapse+color_collapse: Frames 1-4 plausibly show the green wave hitting and eroding the sandcastle. From frame 5 the image washes out to a pale grey-white haze. Frames 6-15 carry a heavy speckle/noise overlay across the whole frame, with low contrast and flat beige sand under a washed-out grey sky. The wave and sea detail are gone and the scene is barely readable. This lasts to the end and is not normal spray or motion blur.",
+    "DRIFT(4) texture_collapse+color_collapse: Frames 1-4 look fine: the wave breaks over the castle and destroys it. From frame 5 on, the image washes out to a low-contrast grey-beige haze covered in heavy speckled, noise-like grain. The sea and wave disappear, and frames 6-15 show only a vague flat band of sand under a milky sky, with a faint headland. The grain persists for the whole rest of the clip and looks like texture and color collapse, not spray or ordinary motion blur."
+   ]
+  },
+  {
+   "id": "839f577062",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "lighting_change": 3,
+    "color_collapse": 1
+   },
+   "reasons": [
+    "DRIFT(5) teleport+lighting_change+color_collapse: Frames 1-2 continue the scene: the wave is hitting the castle under an overcast sky. Frame 3 pans to more beach and is still roughly plausible. From frame 4 on, the overcast sky turns into bright blue sky with puffy white clouds, and a treeline appears on the horizon. By frames 6-15 the place has become an inland lake or river shore, with pine forest, green meadows and rocky banks under an over-saturated deep blue sky. The sea, the surf and the beach setting are gone, and the pan back never returns to the sandcastle beach. This is a clear teleport, an abrupt lighting change and heavy over-saturation.",
+    "DRIFT(5) teleport+lighting_change: Frames 1-2 continue the scene plausibly, with the wave hitting the castle under an overcast sky. From frame 3 the dark overcast sky turns into bright cumulus with blue patches, and a vegetated treeline appears. By frames 4-6 the sky is a vivid, strongly saturated blue with sun. The setting then becomes a different place: a calm lake or river framed by a pine forest and mountains, followed by a green meadow with conifers and a sandy lakeshore (frames 6-15). The camera never returns to the sea, the wave or the castle area.",
+    "DRIFT(5) teleport+lighting_change: Frames 1-2 continue the sandcastle-and-wave scene plausibly. From frame 3 the wave disappears and the sky brightens. By frame 4 there are blue sky patches and a forest treeline behind dry, sunlit sand. Frames 6-15 show a bright sunny blue sky with cumulus clouds, pine forest, distant mountains and a calm lake or river. The last frames add a green meadow and rocky banks. This is a different inland place under different weather, not the overcast ocean beach. The sandcastle and the sea never return when the camera pans back."
+   ]
+  },
+  {
+   "id": "9b1aa9f16f",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3,
+    "texture_collapse": 3,
+    "lighting_change": 3
+   },
+   "reasons": [
+    "DRIFT(5) color_collapse+texture_collapse+lighting_change: Frames 1-4 hold up. The wave hits the castle and the camera pans to the same overcast beach. By frame 5 the upper half is washed out to white haze. Frames 6-12 turn into pale, almost featureless white/beige fields with smeared sea texture, so the overcast scene is lost. In frame 13 the sky suddenly turns clear blue, and frames 14-15 are over-exposed white with green smears. The castle and the overcast beach never come back when the camera pans back.",
+    "DRIFT(5) color_collapse+texture_collapse+lighting_change: Frames 1-4 are fine: the wave hits the castle, and the camera then pans to an overcast beach. Frame 5 already starts to wash out at the top. From frame 6 on, the video collapses into white and grey haze, with large flat pale fields and smeared foggy texture. Frames 11, 14 and 15 show blurry green smears on white. Frame 13 abruptly switches to a clear blue sky, which does not match the overcast start. The scene becomes unreadable and never recovers the castle or the stormy sea.",
+    "DRIFT(5) color_collapse+texture_collapse+lighting_change: Frames 1-3 plausibly show the wave hitting and eroding the castle, and frame 4 is a plausible pan to a flat beach. From frame 5, the upper half washes out to hazy white. Frames 6-15 break down into pale white and grey fields with blurry sand and smeared green patches, so the scene is no longer readable. Frame 12 is a flat grey field. Frame 13 abruptly shows a clear blue sky, which is inconsistent with the overcast start. The camera never returns to a coherent view of the scene."
+   ]
+  },
+  {
+   "id": "aa29467c67",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 1,
+   "drift": false,
+   "categories": {
+    "new_object": 1
+   },
+   "reasons": [
+    "ok(3) : No drift. Every frame stays on the same wooden table with the jar and funnel, and the sand keeps pouring. Frames 1-10 show the jar from different distances and angles as the camera moves. Frames 11-13 pan onto the tabletop, with a plain grey wall or background along the top edge. Frames 14-15 pan back, and the jar reappears with sand still pouring. The wood grain gets smoother and the plank seams are less visible in the middle and late frames, and the funnel's shape varies slightly. Both look like mild generation inconsistency, not a scene change or a material swap. No new objects appear, the colours stay natural, the lighting is steady and the video is not frozen.",
+    "DRIFT(3) new_object: Frames 1-10 are consistent: the same jar and funnel sit on the rustic plank table, and the sand pile grows. In frames 11-13 the camera turns toward a plain grey wall. The table there looks like a smoother slab than the planks at the start, which is still plausible. In frame 14 a second jar with its own funnel appears in the centre while the first jar is still visible at the left edge, so the subject has been duplicated. Frame 15 also shows a faint ghost jar at the right edge beside the close-up jar. The start scene had only one jar, so a second one is a new object.",
+    "ok(3) : In frames 1-10 the same jar, funnel and rustic plank table stay in view while the camera moves, and the sand pile in the jar grows plausibly. In frames 11-13 the camera turns onto the table surface. A plain light-grey wall or background band appears at the top, which the scene description allows. The wood looks smoother and blurrier there, with fewer visible plank seams, but it has the same colour and grain direction and is still readable. In frames 14-15 the camera pans back and the jar and funnel return on the plank table; the funnel is slightly reshaped. No foreign objects, change of place, colour wash-out, material swap or freeze. The softness and the small shape changes to the funnel are mild. Note: my first zoomed crops showed an unrelated beach clip because of a file-name collision in the scratchpad. I ignored those crops and judged from re-cropped copies of this file saved under unique names."
+   ]
+  },
+  {
+   "id": "b76c3dcf06",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "new_object": 3,
+    "teleport": 3
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change+new_object+teleport: Frames 1-2 keep the castle and wave, though the sky is already brightening. By frame 3 the overcast storm sky has become a bright sunny blue sky with puffy cumulus clouds, which is an abrupt, implausible lighting change. Later frames show a different place: a wide dry beach with green forested hills and calm water, and no trace of the breaking wave, foam or wet flattened sand. A blue car appears in frames 12 and 14, an object that does not belong to the scene.",
+    "DRIFT(5) lighting_change+teleport+new_object: Overcast stormy sky switches to bright sunny blue sky with puffy cumulus (starting frame 2, fully by frame 3). The scene then becomes a different place: a wide dry-sand beach or dune plain with green forested mountains, and the camera never pans back to the castle or wave. A blue car appears in frames 12 and 14.",
+    "DRIFT(5) lighting_change+teleport+new_object: Drift starts at frame 3. Frames 1-2 continue the overcast wave-and-sandcastle scene, although frame 2's sky is already getting brighter on the right. In frame 3 the overcast sky becomes a bright sunny blue sky with cumulus clouds, and it stays that way to the end. From frame 6 on, the scene turns into a different place: a wide, dry sunny beach with green forested hills and calm blue water. The breaking wave, the sandcastle and the wet foamy sand never come back, even though the camera is supposed to pan back. A blue car, which does not belong in the scene, shows up in frames 12 and 14."
+   ]
+  },
+  {
+   "id": "bbc4078e6f",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 2
+   },
+   "reasons": [
+    "DRIFT(4) lighting_change: The START sky is dark grey and overcast. By frames 1-2 it is breaking into bright white cumulus with blue gaps. From frame 3 on the sky is clear and sunny blue, with a lush green treeline on the horizon. Frames 6-15 stay under a bright blue sky with small white clouds, an abrupt and implausible change from overcast to sunny. The breaking wave also never dissipates: it becomes a flat green wall of water across the whole horizon. The castle is never destroyed and looks rebuilt in later frames, but the clear failure is the lighting/weather change.",
+    "DRIFT(4) lighting_change+teleport: The start frame has a dark grey overcast sky. By frame 1 the sky has already turned into bright white cumulus clouds with blue patches, and from frame 3 on it is a clear blue sky, which is an abrupt and implausible lighting change. From about frame 3 onward, a green tree line appears along the horizon. By frames 6-15 the open ocean coastline looks like a lagoon or river bank backed by vegetation, with a flat green wave wall and bushes on the right, so the place no longer reads as the same beach. The castle also keeps standing while repeated waves hit it, but the main failures are the lighting change and the change of setting.",
+    "DRIFT(4) lighting_change+teleport: The START frame has a dark grey overcast sky. Frame 1 already brightens to white cumulus with patches of blue. From frame 2 on, the sky is a clear, sunny blue, and a green treeline appears on the horizon. That is an abrupt, implausible lighting change. In frames 6-15 the breaking wave turns into a static green band across the horizon with trees on it, so the setting looks more like a river or lake with a grassy bank than an open ocean beach (partial teleport). The sandcastle mostly survives and stays recognisable, but the sky and scene have clearly moved away from the start image."
+   ]
+  },
+  {
+   "id": "c210ba18f0",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "lighting_change": 3,
+    "new_object": 2
+   },
+   "reasons": [
+    "DRIFT(5) teleport+lighting_change: Frames 1-2 are a plausible continuation: the wave reaches the castle and the pan shows more beach. From frame 3 the overcast sky turns into a bright blue sky with cumulus clouds, and a pine forest and grass appear inland. By frames 6-14 the beach has become a grassy meadow with a dirt path, a conifer forest and a mountain range, a different place with sunny lighting. In frame 15 the camera pans back and the sandcastle and wave return, but they now sit next to the grass field under a blue sky, so the scene does not match the start.",
+    "DRIFT(5) teleport+lighting_change+new_object: Frames 1-2 are plausible: the wave hits the castle, and the camera starts turning along the beach. From frame 3, the overcast sea and beach turn into an inland scene with a conifer forest line, green shrubs and a bright blue sky with cumulus clouds. By frames 4-14 the place is a grassy meadow with a forest and mountains under sunny blue skies. That is a teleport to a different place plus an abrupt lighting change, and the forest and mountains do not belong to the scene. In frame 15 the sandcastle and wave return on the left, but they are pasted into the meadow scene.",
+    "DRIFT(5) teleport+lighting_change+new_object: The overcast beach turns into an inland meadow. From frame 3 a pine forest and grassland appear where the coastline should be, and the overcast sky changes to bright sunny blue with cumulus clouds. By frames 6 to 14 the scene is a green field with mountains and forest, with no sea or wave in view. Frame 15 swings back to a sandcastle and wave, but it sits next to a grass field under a blue sky, which does not match the start frame."
+   ]
+  },
+  {
+   "id": "c992c71b27",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 3,
+    "new_object": 1
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change+teleport+new_object: This clip drifts. Frames 1-2 continue the scene as expected: the wave hits the sandcastle under a grey overcast sky. From frame 3 the dark stormy sky turns into bright white cumulus clouds, and frames 4-6 show a sunny blue sky over a dry, empty sand dune. The sea and wave are gone, so the lighting change is sudden and implausible. From frames 7-8 onward the place changes: green grassland, a tree line and a calm river reflecting the blue sky appear, which looks like an inland river landscape, not the same beach. In frame 15 a wave appears again next to the river and grass, which does not fit the scene.",
+    "DRIFT(5) lighting_change+teleport: Frames 1-2 are fine: the castle is being hit by the wave. From frame 3 the dark overcast sky turns into bright cumulus clouds, and by frame 4 there is a vivid blue sky. That is an abrupt, implausible lighting change. From frame 6 the scene stops being a beach: green grassland, trees and a calm river reflecting the sky appear, so the camera is now in a different inland landscape. The last frame pastes the wave back in beside the river and grass, and the sky is still blue. The scene never returns to the original overcast beach.",
+    "DRIFT(5) lighting_change+teleport: Frames 1-2 are a plausible continuation: the wave is still hitting the castle under an overcast sky. By frame 3, the dark grey overcast has turned into bright white cumulus with blue patches, and from frame 4 on the sky is saturated blue with fair-weather clouds, an abrupt lighting change. From frames 7-8 the beach becomes a dry sand dune beside a calm inland river, with a green grassy field and a tree line. The sea, coastline and castle are gone, so the scene has moved to a different place. The last frame pastes the wave back in, but against the river-and-meadow background, so the scene never returns to the original beach."
+   ]
+  },
+  {
+   "id": "d2bca5d991",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "color_collapse": 3,
+    "lighting_change": 3,
+    "texture_collapse": 3,
+    "material_swap": 3
+   },
+   "reasons": [
+    "DRIFT(5) color_collapse+lighting_change+texture_collapse+material_swap: Frames 1-2 are plausible: the same overcast beach, wave and castle. At frame 3 the overcast sky turns clear blue, the wave becomes an over-saturated green and the castle takes on a dark green coating. Frames 4-5 wash out to white and the castle fades. Frame 6 is a saturated green blob. From frame 7 to the end the frames are flat white, pale green or pale yellow with no readable beach, sea or castle, so the camera never comes back to the scene.",
+    "DRIFT(5) color_collapse+lighting_change+material_swap+texture_collapse: Frames 1-2 are plausible: the wave hits and the castle is reduced to a sand block. In frame 3 the overcast sky turns hazy bright blue and the castle turns dark green, as if made of the wave's water. Frames 4-5 wash out toward white. By frame 6 the castle is a saturated green smear. Frames 7-15 are almost entirely flat pale white/cyan/yellow-green fields with blobs of saturated green and yellow. No readable beach scene remains, and the camera never pans back to it.",
+    "DRIFT(5) color_collapse+lighting_change+material_swap+texture_collapse: Frames 1\u20132 are plausible: the castle is reduced to a sand block as the wave hits, still under an overcast sky. In frame 3 the sky turns bright blue and hazy, and the castle becomes a dark green-black textured object instead of sand. Frames 4\u20135 wash out toward white. Frame 6 has an oversaturated green blob, and frame 10 shows a smeared green shape. Frames 7\u201315 are almost flat white, pale green or yellow, with no readable scene."
+   ]
+  },
+  {
+   "id": "d3a0bbda9e",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 2,
+   "drift": true,
+   "categories": {
+    "teleport": 2,
+    "lighting_change": 2,
+    "new_object": 1
+   },
+   "reasons": [
+    "ok(3) : In frames 1-2 the green wave crashes into the castle. From frame 3 on, the camera pans along the beach and a coastline comes into view: distant hills, then a green grassy headland behind a pebble strip. The same sandcastle stays recognisable in frames 3-13 while it gets washed and moves out of view to the right. The last frames show wet, flattened sand with foam, which matches the expected result of the wave. The sky stays overcast throughout. It goes from dark storm clouds to a paler grey, but it never turns sunny. A small white hut appears far off at the foot of the hill in frames 12-13. It is minor and plausible on a coast. Two things are borderline and could count as a slow change of place: the stormy open coast from the start turns into a calm cove with green hills, and the camera never clearly turns back to the sea. However, the castle stays continuous and nothing clearly breaks the scene, so I judge this as no drift.",
+    "DRIFT(3) teleport+lighting_change: Frames 1-5 look plausible: the wave hits the castle, there is foam, and the dark stormy sky continues. Frames 3-5 already add green fields and hills behind the beach. From frame 6 the scene changes character. The dark storm clouds suddenly become a bright, flat white sky. A large, lush grass-covered hill fills the background right behind the sand. By frames 11-15 the open sea with the big breaking wave is mostly gone. The view is a calm sandy cove below green hills, and a small white structure appears in frame 12. This reads more like a different, pastoral coastal location with different lighting than the same stormy beach seen under a camera pan. There is no colour collapse, freeze or texture collapse. The castle stays sand and mostly intact, then leaves the view.",
+    "DRIFT(4) teleport+new_object+lighting_change: Frames 1-3 fit the scene: the green wave crashes over the castle and distant hills appear under a stormy sky. From frame 4-5 a green grassy hillside starts growing on the right. By frame 6 it fills the whole background right behind the castle, even though the castle has barely moved in the frame. So the camera did not pan to new scenery; the background changed around the castle, and the sky jumps from dark storm clouds to bright, pale overcast. Frames 11-15 show a different place: a lush vegetated hillside above a calm, shallow shore with a gravel bank, where no ocean or breaking surf is visible. A small white building or vehicle appears on the far shore in frames 12-13. The camera never comes back to the original sea view."
+   ]
+  },
+  {
+   "id": "d4f2724bde",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 2,
+   "drift": true,
+   "categories": {
+    "teleport": 2,
+    "lighting_change": 1,
+    "freeze": 1
+   },
+   "reasons": [
+    "DRIFT(3) teleport+lighting_change: Frames 1-5 are plausible: the wave hits the castle, the foam spreads, and the camera pans along the same stormy beach. From frame 6 onward the sea and foam disappear for good. The rest of the clip (frames 6-15) is a flat, empty expanse of sand stretching to the horizon, which looks like a desert or tidal flat rather than the same shoreline. The dark storm clouds also give way to a lighter, blue-grey sky with small white fair-weather clouds. The camera never pans back to the sea or the castle area, and those last 10 frames barely change, so the scene has settled into a different, featureless place.",
+    "ok(3) : Frames 1-5 show the wave hitting and washing away the castle. The foam runs up the beach and the camera turns away from the sea. Frames 6-15 show a wide, flat stretch of the same beach with ripples in the sand and a low horizon. The sky stays overcast grey-blue, a bit lighter than the stormy start, and the change happens gradually. Nothing new appears, colours stay normal, the subject doesn't turn into another material, the texture stays readable, and the view keeps shifting slowly, so it isn't frozen. The weak point is that the camera never turns back to the sea or the castle area. That doesn't match any of the drift categories, since the frames are still a plausible continuation of the same beach.",
+    "DRIFT(3) freeze+teleport: Frames 1-5 are plausible: the wave hits the castle, it disappears under foam, and the camera pans right along the wet beach. From frame 6 to frame 15, though, the clip stays on an almost identical view of a featureless flat sand plain with a distant horizon. The camera is supposed to pan back, but the sea, the surf and the castle site never come back into view. The beach settles into a static, water-less sand flat, and the sky goes from dark storm grey to a lighter blue-grey. Ten near-identical frames with no return to the original scene count as freeze/degenerate drift rather than a real pan continuation."
+   ]
+  },
+  {
+   "id": "e1a0eb2f55",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "new_object": 3
+   },
+   "reasons": [
+    "DRIFT(5) new_object: A person in a yellow jacket pushing a black stroller or cart shows up in frame 1, right next to the sandcastle as the wave hits. This person is not in the START image and does not belong to the scene. They stay in view in frames 1 to 14 and walk across the beach, and in frame 15 the black cart is still visible at the right edge. The beach, sea and overcast sky stay consistent. The sun rays that break through in the later frames are dramatic but still plausible, so the drift comes only from the added person and cart.",
+    "DRIFT(5) new_object: From frame 1, a person in a yellow jacket and red trousers pushing a black stroller or cart appears beside the sandcastle. Neither is in the start image. The figure stays in view across most of the clip, walking along the beach, and is still partly visible at the right edge in frame 15. The beach, sea and overcast sky stay consistent. Later frames add dramatic sun rays through storm clouds, which is plausible under this sky. The clear failure is the new person and stroller.",
+    "DRIFT(5) new_object: From frame 1 onward, a person in a yellow jacket and red patterned trousers appears beside the sandcastle. They push a black stroller or cart, which is also missing from the START image. Both then stay in view as the camera pans across the empty beach, and they walk through frames 6-14. The beach, sea, overcast sky and distant headland stay consistent, and the added light shafts count as mild. The person and the stroller are clearly objects that do not belong to the scene."
+   ]
+  }
+ ]
+}

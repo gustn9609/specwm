@@ -1,0 +1,125 @@
+{
+ "source": "scripts/boundary_jump.py (diffs, ratios); threshold r > 1.5; videos under lingbot-world-v2/specwm_out",
+ "arms": {
+  "teacher 832 (s1234)": {
+   "clips": 12,
+   "globs": [
+    "cmp10/*/uniform4_s1234/video.mp4"
+   ],
+   "boundary_k": 3,
+   "boundary_n": 144,
+   "boundary_ratio_mean": 1.104,
+   "control_k": 6,
+   "control_n": 288,
+   "control_ratio_mean": 1.0926
+  },
+  "704 separate": {
+   "clips": 36,
+   "globs": [
+    "fused/*/dg704_s1234/cloud/spec.mp4",
+    "fused/*/dg704_s4321/cloud/spec.mp4",
+    "fused/*/dg704_s9999/cloud/spec.mp4"
+   ],
+   "boundary_k": 15,
+   "boundary_n": 432,
+   "boundary_ratio_mean": 1.1351,
+   "control_k": 18,
+   "control_n": 864,
+   "control_ratio_mean": 1.1051
+  },
+  "704 fused": {
+   "clips": 36,
+   "globs": [
+    "fused/*/fc704_s1234/cloud/spec.mp4",
+    "fused/*/fc704_s4321/cloud/spec.mp4",
+    "fused/*/fc704_s9999/cloud/spec.mp4"
+   ],
+   "boundary_k": 50,
+   "boundary_n": 432,
+   "boundary_ratio_mean": 1.2414,
+   "control_k": 20,
+   "control_n": 864,
+   "control_ratio_mean": 1.0888
+  },
+  "704 fused + partial 1": {
+   "clips": 36,
+   "globs": [
+    "fused/*/pc1_704_s1234/cloud/spec.mp4",
+    "fused/*/pc1_704_s4321/cloud/spec.mp4",
+    "fused/*/pc1_704_s9999/cloud/spec.mp4"
+   ],
+   "boundary_k": 19,
+   "boundary_n": 432,
+   "boundary_ratio_mean": 1.1489,
+   "control_k": 22,
+   "control_n": 864,
+   "control_ratio_mean": 1.1023
+  },
+  "704 fused + partial 2": {
+   "clips": 36,
+   "globs": [
+    "fused/*/pc2_704_s1234/cloud/spec.mp4",
+    "fused/*/pc2_704_s4321/cloud/spec.mp4",
+    "fused/*/pc2_704_s9999/cloud/spec.mp4"
+   ],
+   "boundary_k": 17,
+   "boundary_n": 432,
+   "boundary_ratio_mean": 1.1395,
+   "control_k": 13,
+   "control_n": 864,
+   "control_ratio_mean": 1.0848
+  },
+  "832 fused (s1234)": {
+   "clips": 12,
+   "globs": [
+    "fused/*/f832_n0_500_s1234/video.mp4"
+   ],
+   "boundary_k": 10,
+   "boundary_n": 144,
+   "boundary_ratio_mean": 1.1925,
+   "control_k": 2,
+   "control_n": 288,
+   "control_ratio_mean": 1.0869
+  },
+  "832 fused + partial 1 (s1234)": {
+   "clips": 12,
+   "globs": [
+    "fused/*/pc1_832_s1234/cloud/spec.mp4"
+   ],
+   "boundary_k": 0,
+   "boundary_n": 144,
+   "boundary_ratio_mean": 1.1148,
+   "control_k": 4,
+   "control_n": 288,
+   "control_ratio_mean": 1.108
+  },
+  "672 fused": {
+   "clips": 36,
+   "globs": [
+    "fused/*/fc672_s1234/cloud/spec.mp4",
+    "fused/*/fc672_s4321/cloud/spec.mp4",
+    "fused/*/fc672_s9999/cloud/spec.mp4"
+   ],
+   "boundary_k": 51,
+   "boundary_n": 432,
+   "boundary_ratio_mean": 1.2495,
+   "control_k": 32,
+   "control_n": 864,
+   "control_ratio_mean": 1.1215
+  },
+  "576 fused": {
+   "clips": 36,
+   "globs": [
+    "fused/*/fc576_s1234/cloud/spec.mp4",
+    "fused/*/fc576_s4321/cloud/spec.mp4",
+    "fused/*/fc576_s9999/cloud/spec.mp4"
+   ],
+   "boundary_k": 79,
+   "boundary_n": 432,
+   "boundary_ratio_mean": 1.3036,
+   "control_k": 26,
+   "control_n": 864,
+   "control_ratio_mean": 1.0937
+  }
+ }
+}

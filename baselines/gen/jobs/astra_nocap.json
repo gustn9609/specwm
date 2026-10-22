@@ -1,0 +1,758 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__billiard_break__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__billiard_break__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__billiard_break__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__billiard_break__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__billiard_break__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__billiard_break__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__billiard_break__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__bowling_inertia__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__bowling_inertia__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__bowling_inertia__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__bowling_inertia__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__bowling_inertia__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__bowling_inertia__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__bowling_inertia__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__domino_falling__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__domino_falling__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__domino_falling__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__domino_falling__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__domino_falling__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__domino_falling__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/domino_falling.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__domino_falling__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "domino_falling"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_greatwall__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_greatwall__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_greatwall__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_greatwall__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_greatwall__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_greatwall__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_greatwall__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_lake__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_lake__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_lake__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_lake__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_lake__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_lake__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_lake__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__inflating_balloon__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__newtons_cradle__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ }
+]

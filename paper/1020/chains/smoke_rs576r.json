@@ -1,0 +1,46 @@
+{
+ "set": "neutral_832",
+ "arm": "rs576r",
+ "tasks": [
+  {
+   "id": "neutral_832__balloon_block_cut__P1",
+   "base": "neutral_832__balloon_block_cut__P1",
+   "image": "/home/hk28965/specwm/baselines/tasks/neutral_832/img/balloon_block_cut.png",
+   "video_WM": "",
+   "camera_WM": "The hand holding the scissors cuts the string.",
+   "pose": "program",
+   "action": "/home/hk28965/specwm/baselines/tasks/neutral_832/neutral_832__balloon_block_cut__P1",
+   "program": "P1",
+   "scene": "balloon_block_cut",
+   "set": "neutral_832",
+   "res": "832x480",
+   "area": 399361,
+   "rule": "stretch",
+   "frames": 165,
+   "src_image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+   "suffix": "",
+   "caption": "scene .txt",
+   "scenes_from": "scenes/neutral/FROZEN.json"
+  },
+  {
+   "id": "neutral_832__balloon_block_cut__P3",
+   "base": "neutral_832__balloon_block_cut__P3",
+   "image": "/home/hk28965/specwm/baselines/tasks/neutral_832/img/balloon_block_cut.png",
+   "video_WM": "",
+   "camera_WM": "The hand holding the scissors cuts the string.",
+   "pose": "program",
+   "action": "/home/hk28965/specwm/baselines/tasks/neutral_832/neutral_832__balloon_block_cut__P3",
+   "program": "P3",
+   "scene": "balloon_block_cut",
+   "set": "neutral_832",
+   "res": "832x480",
+   "area": 399361,
+   "rule": "stretch",
+   "frames": 165,
+   "src_image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+   "suffix": "",
+   "caption": "scene .txt",
+   "scenes_from": "scenes/neutral/FROZEN.json"
+  }
+ ]
+}

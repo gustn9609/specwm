@@ -1,0 +1,110 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__easy_lake__P5",
+  "prompt": "",
+  "scene": "easy_lake",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__easy_urban_rain__P1",
+  "prompt": "",
+  "scene": "easy_urban_rain",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__easy_urban_rain__P2",
+  "prompt": "",
+  "scene": "easy_urban_rain",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__easy_urban_rain__P2p",
+  "prompt": "",
+  "scene": "easy_urban_rain",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__easy_urban_rain__P3",
+  "prompt": "",
+  "scene": "easy_urban_rain",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__easy_urban_rain__P4",
+  "prompt": "",
+  "scene": "easy_urban_rain",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__easy_urban_rain__P4p",
+  "prompt": "",
+  "scene": "easy_urban_rain",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__easy_urban_rain__P5",
+  "prompt": "",
+  "scene": "easy_urban_rain",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__inflating_balloon__P1",
+  "prompt": "",
+  "scene": "inflating_balloon",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__inflating_balloon__P2",
+  "prompt": "",
+  "scene": "inflating_balloon",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__inflating_balloon__P2p",
+  "prompt": "",
+  "scene": "inflating_balloon",
+  "set": "neutral_abot"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/abot/neutral_abot__inflating_balloon__P3",
+  "prompt": "",
+  "scene": "inflating_balloon",
+  "set": "neutral_abot"
+ }
+]

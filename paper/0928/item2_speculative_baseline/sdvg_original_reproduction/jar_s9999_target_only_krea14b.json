@@ -1,0 +1,25 @@
+{
+ "task": "sand_filling_up_jar",
+ "seed": 9999,
+ "mode": "target",
+ "tau": null,
+ "num_blocks": 13,
+ "gen_s": 68.8,
+ "accepted": 0,
+ "rejected": 13,
+ "scores": [
+  1.1767,
+  1.3091,
+  1.2555,
+  1.2717,
+  1.3581,
+  1.1659,
+  1.1661,
+  0.5546,
+  0.5835,
+  0.3145,
+  -0.8271,
+  0.4942
+ ],
+ "prompt": "a glass jar with a funnel on a rustic wooden table, sand pouring into the jar, blurred neutral indoor background, natural light"
+}

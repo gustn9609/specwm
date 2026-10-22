@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__pouring_water_into_cup__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P2_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__traffic_light_green__P2p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ }
+]

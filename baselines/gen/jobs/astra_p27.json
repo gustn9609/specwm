@@ -1,0 +1,11 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/traffic_light_green.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__traffic_light_green__P5",
+  "prompt": "While the cars are out of view, the traffic light changes from red to green.",
+  "set": "neutral_832",
+  "scene": "traffic_light_green"
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/alien_command_center.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__alien_command_center__P6_long/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__alien_command_center__P6_long",
+  "seed": 1234,
+  "program": "P6",
+  "name": "wp__alien_command_center__P6_long",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/ancient_standing_stones.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__ancient_standing_stones__P6_long/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__ancient_standing_stones__P6_long",
+  "seed": 1234,
+  "program": "P6",
+  "name": "wp__ancient_standing_stones__P6_long",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/default.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P6_long/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P6_long",
+  "seed": 1234,
+  "program": "P6",
+  "name": "wp__default__P6_long",
+  "k_yaw": null
+ }
+]

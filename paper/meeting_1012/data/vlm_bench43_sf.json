@@ -1,0 +1,3098 @@
+{
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/balloon_block_cut/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/balloon_block_cut/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bicycle_tire_pump/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bicycle_tire_pump/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/billiard_break/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/billiard_break/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bowling_inertia/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bowling_inertia/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/domino_falling/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/domino_falling/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drawbridge_rising/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drawbridge_rising/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 60.0,
+"quality": 8.0,
+"raw": [
+"60",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drinking_fountain_button/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drinking_fountain_button/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_dragon_night/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_dragon_night/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_greatwall/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_greatwall/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_lake/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 9.0,
+"raw": [
+"75",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_lake/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_stonehenge_sunset/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 0.0,
+"quality": 7.0,
+"raw": [
+"0",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_stonehenge_sunset/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_urban_rain/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_urban_rain/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_foam_paper_cup_burst/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_foam_paper_cup_burst/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_sponge_water/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_sponge_water/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/gas_pump_nozzle_trigger/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/gas_pump_nozzle_trigger/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush_10/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush_10/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon_09/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon_09/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch_opposite/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch_opposite/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/newtons_cradle/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/newtons_cradle/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/paper_over_spill/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/paper_over_spill/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pedestrians_enter_crosswalk/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pedestrians_enter_crosswalk/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/plastic_bottle_hand_crush/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/plastic_bottle_hand_crush/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pouring_water_into_cup/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pouring_water_into_cup/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/railroad_crossing_gates/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/railroad_crossing_gates/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/seesaw_balance/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/seesaw_balance/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 60.0,
+"quality": 7.0,
+"raw": [
+"60",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn_opposite/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn_opposite/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/spray_foam/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/spray_foam/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control_opposite/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control_opposite/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprint_start_gun/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprint_start_gun/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp_opposite/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp_opposite/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/syringe_hydraulic/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/syringe_hydraulic/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tape_retract/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tape_retract/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tea_dilution/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tea_dilution/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tire_inflate/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 60.0,
+"quality": 8.0,
+"raw": [
+"60",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tire_inflate/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/traffic_light_green/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/traffic_light_green/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/upipe_equilibrium/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 9.0,
+"raw": [
+"75",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/upipe_equilibrium/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 100.0,
+"quality": 8.0,
+"raw": [
+"100",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/wet_pan_stove_on/sf24_s1234/video.mp4": {
+"label": "sf24",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/wet_pan_stove_on/sf24_s4321/video.mp4": {
+"label": "sf24",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/balloon_block_cut/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/balloon_block_cut/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bicycle_tire_pump/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bicycle_tire_pump/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/billiard_break/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/billiard_break/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bowling_inertia/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bowling_inertia/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/domino_falling/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/domino_falling/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drawbridge_rising/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drawbridge_rising/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 8.0,
+"raw": [
+"85",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drinking_fountain_button/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drinking_fountain_button/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_dragon_night/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_dragon_night/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_greatwall/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_greatwall/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_lake/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_lake/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_stonehenge_sunset/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_stonehenge_sunset/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 7.0,
+"raw": [
+"0",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_urban_rain/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_urban_rain/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_foam_paper_cup_burst/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_foam_paper_cup_burst/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_sponge_water/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_sponge_water/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/gas_pump_nozzle_trigger/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/gas_pump_nozzle_trigger/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 8.0,
+"raw": [
+"85",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush_10/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush_10/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon_09/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon_09/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch_opposite/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch_opposite/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/newtons_cradle/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/newtons_cradle/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/paper_over_spill/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/paper_over_spill/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pedestrians_enter_crosswalk/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pedestrians_enter_crosswalk/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/plastic_bottle_hand_crush/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/plastic_bottle_hand_crush/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pouring_water_into_cup/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pouring_water_into_cup/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/railroad_crossing_gates/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/railroad_crossing_gates/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/seesaw_balance/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/seesaw_balance/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 60.0,
+"quality": 7.0,
+"raw": [
+"60",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn_opposite/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn_opposite/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/spray_foam/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/spray_foam/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control_opposite/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control_opposite/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprint_start_gun/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprint_start_gun/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp_opposite/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp_opposite/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/syringe_hydraulic/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/syringe_hydraulic/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tape_retract/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tape_retract/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 60.0,
+"quality": 7.0,
+"raw": [
+"60",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tea_dilution/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tea_dilution/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tire_inflate/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 60.0,
+"quality": 8.0,
+"raw": [
+"60",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tire_inflate/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/traffic_light_green/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 9.0,
+"raw": [
+"30",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/traffic_light_green/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/upipe_equilibrium/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 85.0,
+"quality": 9.0,
+"raw": [
+"85",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/upipe_equilibrium/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/wet_pan_stove_on/uniform4_s1234/video.mp4": {
+"label": "uniform4",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/wet_pan_stove_on/uniform4_s4321/video.mp4": {
+"label": "uniform4",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/balloon_block_cut/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/balloon_block_cut/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bicycle_tire_pump/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bicycle_tire_pump/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/billiard_break/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/billiard_break/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bowling_inertia/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bowling_inertia/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/domino_falling/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/domino_falling/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drawbridge_rising/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drawbridge_rising/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drinking_fountain_button/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drinking_fountain_button/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_dragon_night/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_dragon_night/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_greatwall/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_greatwall/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_lake/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 9.0,
+"raw": [
+"75",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_lake/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_stonehenge_sunset/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 0.0,
+"quality": 7.0,
+"raw": [
+"0",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_stonehenge_sunset/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 0.0,
+"quality": 7.0,
+"raw": [
+"0",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_urban_rain/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_urban_rain/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_foam_paper_cup_burst/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_foam_paper_cup_burst/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_sponge_water/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_sponge_water/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/gas_pump_nozzle_trigger/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/gas_pump_nozzle_trigger/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 8.0,
+"raw": [
+"85",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush_10/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush_10/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon_09/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon_09/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 6.0,
+"raw": [
+"30",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 3.0,
+"raw": [
+"65",
+"3"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch_opposite/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 60.0,
+"quality": 6.0,
+"raw": [
+"60",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch_opposite/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/newtons_cradle/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/newtons_cradle/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/paper_over_spill/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/paper_over_spill/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pedestrians_enter_crosswalk/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pedestrians_enter_crosswalk/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/plastic_bottle_hand_crush/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/plastic_bottle_hand_crush/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pouring_water_into_cup/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pouring_water_into_cup/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/railroad_crossing_gates/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/railroad_crossing_gates/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/seesaw_balance/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/seesaw_balance/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn_opposite/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn_opposite/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/spray_foam/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/spray_foam/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control_opposite/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control_opposite/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprint_start_gun/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprint_start_gun/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp_opposite/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp_opposite/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/syringe_hydraulic/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/syringe_hydraulic/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tape_retract/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tape_retract/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tea_dilution/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tea_dilution/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tire_inflate/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tire_inflate/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/traffic_light_green/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/traffic_light_green/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/upipe_equilibrium/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 8.0,
+"raw": [
+"85",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/upipe_equilibrium/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/wet_pan_stove_on/uniform2_s1234/video.mp4": {
+"label": "uniform2",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/wet_pan_stove_on/uniform2_s4321/video.mp4": {
+"label": "uniform2",
+"drift": 60.0,
+"quality": 7.0,
+"raw": [
+"60",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/balloon_block_cut/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/balloon_block_cut/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bicycle_tire_pump/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bicycle_tire_pump/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/billiard_break/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/billiard_break/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bowling_inertia/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/bowling_inertia/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/domino_falling/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/domino_falling/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drawbridge_rising/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drawbridge_rising/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drinking_fountain_button/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/drinking_fountain_button/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_dragon_night/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_dragon_night/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_greatwall/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_greatwall/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_lake/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_lake/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_stonehenge_sunset/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_stonehenge_sunset/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_urban_rain/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/easy_urban_rain/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_foam_paper_cup_burst/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_foam_paper_cup_burst/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_sponge_water/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/expanding_sponge_water/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/gas_pump_nozzle_trigger/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/gas_pump_nozzle_trigger/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 8.0,
+"raw": [
+"85",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush_10/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/hydraulic_press_can_crush_10/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon_09/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/inflating_balloon_09/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 6.0,
+"raw": [
+"65",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch_opposite/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/lightbulb_and_switch_opposite/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/newtons_cradle/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/newtons_cradle/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/paper_over_spill/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/paper_over_spill/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pedestrians_enter_crosswalk/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pedestrians_enter_crosswalk/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/plastic_bottle_hand_crush/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/plastic_bottle_hand_crush/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pouring_water_into_cup/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/pouring_water_into_cup/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/railroad_crossing_gates/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/railroad_crossing_gates/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/seesaw_balance/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/seesaw_balance/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn_opposite/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 60.0,
+"quality": 7.0,
+"raw": [
+"60",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/shower_knob_turn_opposite/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/spray_foam/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/spray_foam/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 8.0,
+"raw": [
+"85",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control_opposite/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprinkler_valve_control_opposite/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprint_start_gun/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/sprint_start_gun/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp_opposite/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/string_pull_lamp_opposite/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/syringe_hydraulic/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 85.0,
+"quality": 8.0,
+"raw": [
+"85",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/syringe_hydraulic/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tape_retract/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tape_retract/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tea_dilution/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tea_dilution/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 8.0,
+"raw": [
+"65",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tire_inflate/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 60.0,
+"quality": 8.0,
+"raw": [
+"60",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/tire_inflate/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/traffic_light_green/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/traffic_light_green/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/upipe_equilibrium/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/upipe_equilibrium/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/wet_pan_stove_on/sforacle_s1234/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/bench43_sf/wet_pan_stove_on/sforacle_s4321/video.mp4": {
+"label": "sforacle",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+}
+}

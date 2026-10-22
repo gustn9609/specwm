@@ -1,0 +1,41 @@
+{
+ "jobs": 3,
+ "ok": 3,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 5.8,
+ "warmup_s": 152.9,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 151.9,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/wp/alien_command_center.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__alien_command_center__P6_long",
+   "status": "ok",
+   "frames": 3600,
+   "ttff_s": 0.481,
+   "steady_fps_e2e": 36.34,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 99.46
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__ancient_standing_stones__P6_long",
+   "status": "ok",
+   "frames": 3600,
+   "ttff_s": 0.467,
+   "steady_fps_e2e": 43.13,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 83.9
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P6_long",
+   "status": "ok",
+   "frames": 3600,
+   "ttff_s": 0.466,
+   "steady_fps_e2e": 32.54,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 111.06
+  }
+ ],
+ "date": "2026-10-20T14:22:17"
+}

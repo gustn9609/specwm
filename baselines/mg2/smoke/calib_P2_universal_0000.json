@@ -1,0 +1,28 @@
+{
+ "video": "/home/hk28965/specwm/baselines/mg2/smoke/universal_0000__P2/video.mp4",
+ "program": "P2",
+ "fps": 12,
+ "frames": 120,
+ "commanded_mouse_yaw_median": 0.1,
+ "commanded_deg_per_frame": 1.4999998807907104,
+ "commanded_deg_per_s": 17.999998092651367,
+ "realized_deg_per_frame_da3": 1.4201263192659115,
+ "realized_deg_per_s_da3": 17.04151583119094,
+ "realized_total_deg_da3": 169.54717107209467,
+ "realized_per_segment_deg_per_frame": [
+  1.4299356703032102,
+  1.4148505447826678,
+  1.3990844100542663,
+  1.5647257656897686
+ ],
+ "sign_ok": true,
+ "flow_median_px_per_frame": -9.632536888122559,
+ "da3_fx_px": 251.30561065673828,
+ "K_mouse_per_deg_frame": 0.0704162711748711,
+ "largest_unsaturated_yaw_deg_per_s": 17.04151583119094,
+ "program_saturated": true,
+ "da3_model": "/home/hk28965/specwm/hf/DA3NESTED-GIANT-LARGE-1.1",
+ "stride": 1,
+ "res": 504,
+ "method": "DA3 (DA3NESTED-GIANT-LARGE-1.1) poses of the MG2 clip -> per-frame yaw via atan2(Rr[0,2],Rr[2,2]); K = |commanded mouse yaw| / |realized deg per frame|; largest unsaturated rate = cap / K * fps"
+}

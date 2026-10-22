@@ -1,0 +1,155 @@
+{
+ "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/examples03/uniform4/video.mp4": [
+  {
+   "f0": 0,
+   "f1": 23,
+   "sharp": 746.3,
+   "change": 10.07,
+   "dist_ref": null
+  },
+  {
+   "f0": 24,
+   "f1": 47,
+   "sharp": 676.5,
+   "change": 9.61,
+   "dist_ref": null
+  },
+  {
+   "f0": 48,
+   "f1": 71,
+   "sharp": 425.7,
+   "change": 13.5,
+   "dist_ref": null
+  },
+  {
+   "f0": 72,
+   "f1": 95,
+   "sharp": 405.1,
+   "change": 4.77,
+   "dist_ref": null
+  },
+  {
+   "f0": 96,
+   "f1": 119,
+   "sharp": 412.0,
+   "change": 1.45,
+   "dist_ref": null
+  },
+  {
+   "f0": 120,
+   "f1": 143,
+   "sharp": 393.7,
+   "change": 4.55,
+   "dist_ref": null
+  },
+  {
+   "f0": 144,
+   "f1": 152,
+   "sharp": 358.9,
+   "change": 7.67,
+   "dist_ref": null
+  }
+ ],
+ "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/examples03/published/video.mp4": [
+  {
+   "f0": 0,
+   "f1": 23,
+   "sharp": 721.9,
+   "change": 10.01,
+   "dist_ref": 14.0
+  },
+  {
+   "f0": 24,
+   "f1": 47,
+   "sharp": 651.9,
+   "change": 7.95,
+   "dist_ref": 25.1
+  },
+  {
+   "f0": 48,
+   "f1": 71,
+   "sharp": 877.9,
+   "change": 15.67,
+   "dist_ref": 32.9
+  },
+  {
+   "f0": 72,
+   "f1": 95,
+   "sharp": 1408.2,
+   "change": 12.18,
+   "dist_ref": 40.9
+  },
+  {
+   "f0": 96,
+   "f1": 119,
+   "sharp": 1471.6,
+   "change": 8.33,
+   "dist_ref": 43.9
+  },
+  {
+   "f0": 120,
+   "f1": 143,
+   "sharp": 1304.2,
+   "change": 9.24,
+   "dist_ref": 45.1
+  },
+  {
+   "f0": 144,
+   "f1": 152,
+   "sharp": 1045.8,
+   "change": 10.54,
+   "dist_ref": 46.4
+  }
+ ],
+ "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/examples03/calibrated/video.mp4": [
+  {
+   "f0": 0,
+   "f1": 23,
+   "sharp": 690.5,
+   "change": 10.7,
+   "dist_ref": 11.5
+  },
+  {
+   "f0": 24,
+   "f1": 47,
+   "sharp": 556.6,
+   "change": 9.22,
+   "dist_ref": 23.7
+  },
+  {
+   "f0": 48,
+   "f1": 71,
+   "sharp": 463.2,
+   "change": 13.91,
+   "dist_ref": 27.1
+  },
+  {
+   "f0": 72,
+   "f1": 95,
+   "sharp": 555.6,
+   "change": 6.46,
+   "dist_ref": 23.5
+  },
+  {
+   "f0": 96,
+   "f1": 119,
+   "sharp": 588.1,
+   "change": 3.04,
+   "dist_ref": 25.2
+  },
+  {
+   "f0": 120,
+   "f1": 143,
+   "sharp": 653.5,
+   "change": 5.43,
+   "dist_ref": 27.5
+  },
+  {
+   "f0": 144,
+   "f1": 152,
+   "sharp": 588.8,
+   "change": 7.93,
+   "dist_ref": 30.3
+  }
+ ]
+}

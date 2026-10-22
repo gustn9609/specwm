@@ -1,0 +1,50 @@
+{
+ "cfg6reuse_semc100": {
+  "name": "replace (baseline)",
+  "switch": 1.6724242424242424,
+  "switch_max": 3.62,
+  "same": 1.2633333333333332,
+  "to_base": 0.4912179487179487,
+  "flicker": 19.620494206746418,
+  "motion": 12.175507227579752,
+  "time": 755.6333333333332,
+  "corrected": 5.166666666666667,
+  "n_switch": 33
+ },
+ "cfg6reuse_semc100_blsoft05": {
+  "name": "soft update 0.5",
+  "switch": 1.5411428571428571,
+  "switch_max": 3.15,
+  "same": 1.5113513513513512,
+  "to_base": 0.5667307692307691,
+  "flicker": 22.62010129292806,
+  "motion": 14.133076985677084,
+  "time": 807.7166666666667,
+  "corrected": 5.333333333333333,
+  "n_switch": 35
+ },
+ "cfg6reuse_semc100_bllow4": {
+  "name": "low-freq only, 4x4",
+  "switch": 1.468529411764706,
+  "switch_max": 3.97,
+  "same": 1.3339473684210523,
+  "to_base": 0.679923076923077,
+  "flicker": 29.25195089975993,
+  "motion": 17.95721975962321,
+  "time": 748.3499999999999,
+  "corrected": 5.166666666666667,
+  "n_switch": 34
+ },
+ "cfg6reuse_semc100_bllow8": {
+  "name": "low-freq only, 8x8",
+  "switch": 1.3660714285714286,
+  "switch_max": 2.7,
+  "same": 1.2895454545454546,
+  "to_base": 0.747871794871795,
+  "flicker": 34.414329528808594,
+  "motion": 20.959272702534992,
+  "time": 817.4499999999999,
+  "corrected": 4.833333333333333,
+  "n_switch": 28
+ }
+}

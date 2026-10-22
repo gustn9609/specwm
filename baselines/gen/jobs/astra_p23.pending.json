@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P4",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P4p",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/newtons_cradle.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__newtons_cradle__P5",
+  "prompt": "The left-most ball is released from its elevated position.",
+  "set": "neutral_832",
+  "scene": "newtons_cradle"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__pouring_water_into_cup__P1",
+  "prompt": "A hand tilts a pitcher over an empty glass, beginning to pour water into it.",
+  "set": "neutral_832",
+  "scene": "pouring_water_into_cup"
+ }
+]

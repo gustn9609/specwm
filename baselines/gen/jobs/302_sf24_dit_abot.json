@@ -1,0 +1,56 @@
+{
+ "set": "abot",
+ "arm": "sf24",
+ "tier": 8,
+ "res": "1280x704",
+ "area": 901121,
+ "n": 2,
+ "made": "2026-10-19 (audit)",
+ "why": "[10/19 audit] validation of the spec_early fps correction: 2 clips (first frozen scene, P1 + P2) re-run with STREAM_DECODE=0 (no side-stream decode in the chunk timer) and RUNS_SUFFIX=_dit -> runs/ours_sf24_abot_dit; gen/dit_check.py compares with the frozen steady_fps_gen_dit",
+ "ids": [
+  "abot__ruins_explorer_3rd__P1",
+  "abot__ruins_explorer_3rd__P2"
+ ],
+ "tasks": [
+  {
+   "id": "abot__ruins_explorer_3rd__P1",
+   "base": "abot__ruins_explorer_3rd__P1",
+   "image": "/home/hk28965/specwm/baselines/tasks/abot/img/ruins_explorer_3rd.png",
+   "video_WM": "",
+   "camera_WM": "A realistic outdoor world scene with a navigable path, natural lighting, detailed ground texture, and stable forward motion.",
+   "pose": "program",
+   "action": "/home/hk28965/specwm/baselines/tasks/abot/abot__ruins_explorer_3rd__P1",
+   "program": "P1",
+   "scene": "ruins_explorer_3rd",
+   "set": "abot",
+   "res": "1280x704",
+   "area": 901121,
+   "rule": "fit",
+   "frames": 165,
+   "src_image": "/home/hk28965/specwm/baselines/scenes/abot/ruins_explorer_3rd.png",
+   "suffix": "",
+   "caption": "scene .txt",
+   "scenes_from": "scenes/abot/FROZEN.json"
+  },
+  {
+   "id": "abot__ruins_explorer_3rd__P2",
+   "base": "abot__ruins_explorer_3rd__P2",
+   "image": "/home/hk28965/specwm/baselines/tasks/abot/img/ruins_explorer_3rd.png",
+   "video_WM": "",
+   "camera_WM": "A realistic outdoor world scene with a navigable path, natural lighting, detailed ground texture, and stable forward motion.",
+   "pose": "program",
+   "action": "/home/hk28965/specwm/baselines/tasks/abot/abot__ruins_explorer_3rd__P2",
+   "program": "P2",
+   "scene": "ruins_explorer_3rd",
+   "set": "abot",
+   "res": "1280x704",
+   "area": 901121,
+   "rule": "fit",
+   "frames": 165,
+   "src_image": "/home/hk28965/specwm/baselines/scenes/abot/ruins_explorer_3rd.png",
+   "suffix": "",
+   "caption": "scene .txt",
+   "scenes_from": "scenes/abot/FROZEN.json"
+  }
+ ]
+}

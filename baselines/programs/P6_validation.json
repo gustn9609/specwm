@@ -1,0 +1,115 @@
+{
+ "pid": "P6",
+ "ok": true,
+ "checks": [
+  "PASS P6 ours: c2w 961 (RPE reference, 60 s at 16 fps), generated 969 poses = 243 latents = 81 chunks",
+  "PASS P6 c2w per 5-s segment: yaw [0.0, 80.0, 80.0, -0.0, -0.0, -0.0, -80.0, -80.0, -60.0, 60.0, -0.0, -0.0] deg, fwd [5.0, 5.0, 0.0, 5.0, 0.0, -5.0, 0.0, 5.0, 5.0, 0.0, 0.0, 5.0] u = the program",
+  "PASS P6 heading after each segment [0.0, 80.0, 160.0, 160.0, 160.0, 160.0, 80.0, -0.0, -60.0, -0.0, -0.0, -0.0] deg: back at the start heading at t=40 s and at the end; |yaw rate| <= 16 deg/s",
+  "PASS P6 back-up retraces segment 4: pose at t=30 s == pose at t=15 s (position [2.927999973297119, 0.0, 8.552000045776367])",
+  "PASS P6 c2w_969[:961] == c2w; intrinsics [416, 416, 416, 240] x 961",
+  "PASS P6 waypoint: 900 calls (75 per 5-s segment, no straddling call), buttons W / S / none per segment as the program, mouse-x per segment / K = segment yaw, max |mouse x| 72.5 units/call",
+  "PASS P6 waypoint: identical actions to the runner's encoder (waypoint/encode_program.py encode_via_convert, 60 s)",
+  "PASS P6 mg2: 729 frames generated (183 latents), 720 written; unsaturated (max |mouse| 0.0939 < 0.10)",
+  "PASS P6 mg2: calib.json K 0.0704 == convert K (run_mg2.py reads calib.json)",
+  "PASS P6 abot: 61 blocks / 729 frames; identical keys to abot/encode_abot.py encode_abot(c2w, n_blocks=61) on the same c2w; keys W W W W W WL WL WL WL WL WL L L L L WL W W W W W - - - - S S S S S SJ J J J J WJ WJ WJ WJ WJ WJ WJ WJ WJ WJ L L L L L L - - - - W W W W W W; switches at [4.75, 10.75, 14.75, 15.75, 20.75, 24.75, 29.75, 30.75, 34.75, 44.75, 50.75, 54.75] s"
+ ],
+ "layout": {
+  "clip_s": 60.0,
+  "seg_s": 5.0,
+  "n_segments": 12,
+  "ours": {
+   "fps": 16,
+   "n_frames_written": 961,
+   "n_latents_generated": 243,
+   "n_chunks": 81,
+   "n_frames_generated": 969
+  },
+  "waypoint": {
+   "fps": 60,
+   "frames_per_call": 4,
+   "n_calls": 900,
+   "n_poses": 3601,
+   "n_frames_written": 3600
+  },
+  "mg2": {
+   "fps": 12,
+   "n_frames_written": 720,
+   "n_frames_generated": 729,
+   "n_latents": 183
+  },
+  "abot": {
+   "fps": 12,
+   "first_block_frames": 9,
+   "frames_per_block": 12,
+   "n_blocks": 61,
+   "n_frames_generated": 729,
+   "n_frames_written": 720
+  }
+ },
+ "heading_after_segment_deg": [
+  0.0,
+  80.0,
+  160.0,
+  160.0,
+  160.0,
+  160.0,
+  80.0,
+  -0.0,
+  -60.0,
+  -0.0,
+  -0.0,
+  -0.0
+ ],
+ "position_end": [
+  3.558000087738037,
+  0.0,
+  21.20400047302246
+ ],
+ "max_dist_from_start": 21.5,
+ "summary": {
+  "waypoint": {
+   "calls": 900,
+   "mouse_x_values": [
+    -72.53,
+    -54.4,
+    0.0,
+    54.4,
+    72.53
+   ]
+  },
+  "mg2": {
+   "frames": 729,
+   "keys_fwd_back_left_right": [
+    368,
+    60,
+    0,
+    0
+   ],
+   "mouse_yaw_values": [
+    -0.0939,
+    -0.0704,
+    0.0,
+    0.0704,
+    0.0939
+   ]
+  },
+  "abot": {
+   "blocks": 61,
+   "keys": "W W W W W WL WL WL WL WL WL L L L L WL W W W W W - - - - S S S S S SJ J J J J WJ WJ WJ WJ WJ WJ WJ WJ WJ WJ L L L L L L - - - - W W W W W W",
+   "switch_times_s": [
+    4.75,
+    10.75,
+    14.75,
+    15.75,
+    20.75,
+    24.75,
+    29.75,
+    30.75,
+    34.75,
+    44.75,
+    50.75,
+    54.75
+   ]
+  }
+ }
+}

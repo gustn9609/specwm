@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_urban_rain__P5",
+  "prompt": "A cinematic first-person walk through a hyper-realistic urban alley in heavy rain: water streams down the graffiti-covered corrugated wall, puddles ripple on the ground, grey overcast sky, drops streak across the lens as the camera moves forward.",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P1",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P2",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__inflating_balloon__P2p",
+  "prompt": "A hand opens the valve of the helium tank, and helium is pumped into the balloon.",
+  "set": "neutral_832",
+  "scene": "inflating_balloon"
+ }
+]

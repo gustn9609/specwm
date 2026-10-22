@@ -1,0 +1,18 @@
+sand_f/sdvg_t-2p5_ir_s1234                   gen   144  motion(median)  19.5  boundary/inside max  2.2x  flicker(mean)  36.1  plan DCDDDDDDDDDDD
+sand_f/sdvg_t-2p5_ir_s4321                   gen   142  motion(median)  15.6  boundary/inside max  1.4x  flicker(mean)  25.6  plan DCDDDDDDDDDDD
+sand_f/sdvg_t-2p5_ir_s9999                   gen   151  motion(median)  18.9  boundary/inside max  1.4x  flicker(mean)  31.1  plan DCDDDDDDDDDDD
+sandca/sdvg_t-2p5_ir_s1234                   gen   139  motion(median)  14.5  boundary/inside max  1.5x  flicker(mean)  23.6  plan DCDDDDDDDDDDD
+sandca/sdvg_t-2p5_ir_s4321                   gen   139  motion(median)  17.6  boundary/inside max  1.5x  flicker(mean)  30.0  plan DCDDDDDDDDDDD
+sandca/sdvg_t-2p5_ir_s9999                   gen   138  motion(median)  16.4  boundary/inside max  1.8x  flicker(mean)  25.1  plan DCDDDDDDDDDDD
+sand_f/sdvg_t-2p5_ir_s1234                           motion  22.1 flicker  36.8 ssim4 0.433 maxboundary  2.2x  drift(max) 0.43  to_base(mean) 0.47
+sand_f/sdvg_t-2p5_ir_s4321                           motion  15.4 flicker  25.8 ssim4 0.480 maxboundary  1.4x  drift(max) 0.63  to_base(mean) 0.71
+sand_f/sdvg_t-2p5_ir_s9999                           motion  18.8 flicker  31.3 ssim4 0.446 maxboundary  1.4x  drift(max) 0.56  to_base(mean) 0.51
+sandca/sdvg_t-2p5_ir_s1234                           motion  15.0 flicker  23.8 ssim4 0.503 maxboundary  1.5x  drift(max) 0.35  to_base(mean) 0.56
+sandca/sdvg_t-2p5_ir_s4321                           motion  18.3 flicker  30.3 ssim4 0.486 maxboundary  1.5x  drift(max) 0.57  to_base(mean) 0.60
+sandca/sdvg_t-2p5_ir_s9999                           motion  16.0 flicker  25.5 ssim4 0.543 maxboundary  1.8x  drift(max) 0.14  to_base(mean) 0.26
+sharp sand_f s1234  base 4.89  run 10.15
+sharp sand_f s4321  base 15.86  run 11.76
+sharp sand_f s9999  base 4.16  run 10.30
+sharp sandca s1234  base 7.82  run 10.78
+sharp sandca s4321  base 10.25  run 12.72
+sharp sandca s9999  base 8.51  run 11.26

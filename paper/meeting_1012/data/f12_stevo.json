@@ -1,0 +1,406 @@
+{
+ "source": "lingbot-world-v2/specwm_out/stevo38/eval_runs/lingbot_b38_<arm>/summary.json (tasks[].llm_evals.openai__qwen3-vl-32b)",
+ "protocol": "StEvo-Bench subset, 38 camera-WM tasks, seed 1234, local Qwen3-VL-32B judge (3-vote majority, 32 frames); not comparable to the paper's Gemini leaderboard",
+ "ci": "Wilson 95 % score interval, n = 38",
+ "paired_test": "exact two-sided McNemar on physical_inaccuracy; only_a = tasks flagged for a but not b; uncorrected",
+ "not_run": [
+  "SDVG tau -2.2 (disk)",
+  "ours teacher-parity mode (cw07_safe; time)"
+ ],
+ "arms": {
+  "teacher": {
+   "physical_inaccuracy": {
+    "k": 26,
+    "n": 38,
+    "frac": 0.6842,
+    "lo": 0.5254,
+    "hi": 0.8092
+   },
+   "occlusion_done": {
+    "k": 13,
+    "n": 38,
+    "frac": 0.3421,
+    "lo": 0.2121,
+    "hi": 0.5011
+   },
+   "trigger_applied": {
+    "k": 17,
+    "n": 38,
+    "frac": 0.4474,
+    "lo": 0.3015,
+    "hi": 0.6029
+   },
+   "control_success": {
+    "k": 5,
+    "n": 38,
+    "frac": 0.1316,
+    "lo": 0.0575,
+    "hi": 0.2733
+   },
+   "state_evol": {
+    "k": 3,
+    "n": 38,
+    "frac": 0.0789,
+    "lo": 0.0272,
+    "hi": 0.208
+   },
+   "task_success": {
+    "k": 3,
+    "n": 38,
+    "frac": 0.0789,
+    "lo": 0.0272,
+    "hi": 0.208
+   }
+  },
+  "student": {
+   "physical_inaccuracy": {
+    "k": 38,
+    "n": 38,
+    "frac": 1.0,
+    "lo": 0.9082,
+    "hi": 1.0
+   },
+   "occlusion_done": {
+    "k": 16,
+    "n": 38,
+    "frac": 0.4211,
+    "lo": 0.2785,
+    "hi": 0.5781
+   },
+   "trigger_applied": {
+    "k": 15,
+    "n": 38,
+    "frac": 0.3947,
+    "lo": 0.256,
+    "hi": 0.5528
+   },
+   "control_success": {
+    "k": 5,
+    "n": 38,
+    "frac": 0.1316,
+    "lo": 0.0575,
+    "hi": 0.2733
+   },
+   "state_evol": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   },
+   "task_success": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   }
+  },
+  "sdvg07": {
+   "physical_inaccuracy": {
+    "k": 27,
+    "n": 38,
+    "frac": 0.7105,
+    "lo": 0.5524,
+    "hi": 0.83
+   },
+   "occlusion_done": {
+    "k": 7,
+    "n": 38,
+    "frac": 0.1842,
+    "lo": 0.0922,
+    "hi": 0.3342
+   },
+   "trigger_applied": {
+    "k": 23,
+    "n": 38,
+    "frac": 0.6053,
+    "lo": 0.4472,
+    "hi": 0.744
+   },
+   "control_success": {
+    "k": 4,
+    "n": 38,
+    "frac": 0.1053,
+    "lo": 0.0417,
+    "hi": 0.2413
+   },
+   "state_evol": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   },
+   "task_success": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   }
+  },
+  "mg2": {
+   "physical_inaccuracy": {
+    "k": 30,
+    "n": 38,
+    "frac": 0.7895,
+    "lo": 0.6365,
+    "hi": 0.8893
+   },
+   "occlusion_done": {
+    "k": 37,
+    "n": 38,
+    "frac": 0.9737,
+    "lo": 0.8651,
+    "hi": 0.9953
+   },
+   "trigger_applied": {
+    "k": 9,
+    "n": 38,
+    "frac": 0.2368,
+    "lo": 0.1299,
+    "hi": 0.3921
+   },
+   "control_success": {
+    "k": 9,
+    "n": 38,
+    "frac": 0.2368,
+    "lo": 0.1299,
+    "hi": 0.3921
+   },
+   "state_evol": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   },
+   "task_success": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   }
+  },
+  "wp": {
+   "physical_inaccuracy": {
+    "k": 35,
+    "n": 38,
+    "frac": 0.9211,
+    "lo": 0.792,
+    "hi": 0.9728
+   },
+   "occlusion_done": {
+    "k": 2,
+    "n": 38,
+    "frac": 0.0526,
+    "lo": 0.0146,
+    "hi": 0.1729
+   },
+   "trigger_applied": {
+    "k": 10,
+    "n": 38,
+    "frac": 0.2632,
+    "lo": 0.1497,
+    "hi": 0.4201
+   },
+   "control_success": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   },
+   "state_evol": {
+    "k": 1,
+    "n": 38,
+    "frac": 0.0263,
+    "lo": 0.0047,
+    "hi": 0.1349
+   },
+   "task_success": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   }
+  },
+  "ours832": {
+   "physical_inaccuracy": {
+    "k": 21,
+    "n": 38,
+    "frac": 0.5526,
+    "lo": 0.3971,
+    "hi": 0.6985
+   },
+   "occlusion_done": {
+    "k": 12,
+    "n": 38,
+    "frac": 0.3158,
+    "lo": 0.1908,
+    "hi": 0.4746
+   },
+   "trigger_applied": {
+    "k": 15,
+    "n": 38,
+    "frac": 0.3947,
+    "lo": 0.256,
+    "hi": 0.5528
+   },
+   "control_success": {
+    "k": 3,
+    "n": 38,
+    "frac": 0.0789,
+    "lo": 0.0272,
+    "hi": 0.208
+   },
+   "state_evol": {
+    "k": 2,
+    "n": 38,
+    "frac": 0.0526,
+    "lo": 0.0146,
+    "hi": 0.1729
+   },
+   "task_success": {
+    "k": 2,
+    "n": 38,
+    "frac": 0.0526,
+    "lo": 0.0146,
+    "hi": 0.1729
+   }
+  },
+  "ours704": {
+   "physical_inaccuracy": {
+    "k": 26,
+    "n": 38,
+    "frac": 0.6842,
+    "lo": 0.5254,
+    "hi": 0.8092
+   },
+   "occlusion_done": {
+    "k": 9,
+    "n": 38,
+    "frac": 0.2368,
+    "lo": 0.1299,
+    "hi": 0.3921
+   },
+   "trigger_applied": {
+    "k": 14,
+    "n": 38,
+    "frac": 0.3684,
+    "lo": 0.2338,
+    "hi": 0.5272
+   },
+   "control_success": {
+    "k": 3,
+    "n": 38,
+    "frac": 0.0789,
+    "lo": 0.0272,
+    "hi": 0.208
+   },
+   "state_evol": {
+    "k": 2,
+    "n": 38,
+    "frac": 0.0526,
+    "lo": 0.0146,
+    "hi": 0.1729
+   },
+   "task_success": {
+    "k": 0,
+    "n": 38,
+    "frac": 0.0,
+    "lo": 0.0,
+    "hi": 0.0918
+   }
+  }
+ },
+ "paired_physical_inaccuracy": {
+  "teacher_vs_mg2": {
+   "only_a": 4,
+   "only_b": 8,
+   "p": 0.3877
+  },
+  "teacher_vs_wp": {
+   "only_a": 3,
+   "only_b": 12,
+   "p": 0.0352
+  },
+  "teacher_vs_student": {
+   "only_a": 0,
+   "only_b": 12,
+   "p": 0.0005
+  },
+  "sdvg07_vs_mg2": {
+   "only_a": 5,
+   "only_b": 8,
+   "p": 0.5811
+  },
+  "sdvg07_vs_wp": {
+   "only_a": 3,
+   "only_b": 11,
+   "p": 0.0574
+  },
+  "sdvg07_vs_student": {
+   "only_a": 0,
+   "only_b": 11,
+   "p": 0.001
+  },
+  "ours832_vs_mg2": {
+   "only_a": 3,
+   "only_b": 12,
+   "p": 0.0352
+  },
+  "ours832_vs_wp": {
+   "only_a": 3,
+   "only_b": 17,
+   "p": 0.0026
+  },
+  "ours832_vs_student": {
+   "only_a": 0,
+   "only_b": 17,
+   "p": 0.0
+  },
+  "ours704_vs_mg2": {
+   "only_a": 5,
+   "only_b": 9,
+   "p": 0.424
+  },
+  "ours704_vs_wp": {
+   "only_a": 3,
+   "only_b": 12,
+   "p": 0.0352
+  },
+  "ours704_vs_student": {
+   "only_a": 0,
+   "only_b": 12,
+   "p": 0.0005
+  },
+  "ours832_vs_teacher": {
+   "only_a": 3,
+   "only_b": 8,
+   "p": 0.2266
+  },
+  "ours704_vs_teacher": {
+   "only_a": 5,
+   "only_b": 5,
+   "p": 1.0
+  },
+  "sdvg07_vs_teacher": {
+   "only_a": 4,
+   "only_b": 3,
+   "p": 1.0
+  }
+ },
+ "order_in_figure": [
+  "ours832",
+  "teacher",
+  "ours704",
+  "sdvg07",
+  "mg2",
+  "wp",
+  "student"
+ ]
+}

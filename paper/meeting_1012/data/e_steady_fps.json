@@ -1,0 +1,209 @@
+{
+ "orig_draft": {
+  "clips": 6,
+  "steady_period_s": 1.5784,
+  "steady_fps": 7.602,
+  "per_clip_period_s": [
+   1.5908,
+   1.5912,
+   1.5913,
+   1.5635,
+   1.566,
+   1.5659
+  ],
+  "fps_mean_whole_clip": 8.182,
+  "whole_over_steady": 1.076
+ },
+ "orig_target": {
+  "clips": 6,
+  "steady_period_s": 5.8505,
+  "steady_fps": 2.051,
+  "per_clip_period_s": [
+   5.9288,
+   5.9338,
+   5.9294,
+   5.7706,
+   5.7722,
+   5.7664
+  ],
+  "fps_mean_whole_clip": 2.247,
+  "whole_over_steady": 1.095
+ },
+ "orig_sdvg07": {
+  "clips": 6,
+  "steady_period_s": 7.4803,
+  "steady_fps": 1.604,
+  "per_clip_period_s": [
+   7.5769,
+   7.5771,
+   7.5731,
+   7.3801,
+   7.3832,
+   7.3875
+  ],
+  "fps_mean_whole_clip": 1.825,
+  "whole_over_steady": 1.138
+ },
+ "orig_sdvg22": {
+  "clips": 6,
+  "steady_period_s": 7.4764,
+  "steady_fps": 1.605,
+  "per_clip_period_s": [
+   7.5795,
+   7.5731,
+   7.5755,
+   7.3765,
+   7.3774,
+   7.3797
+  ],
+  "fps_mean_whole_clip": 2.135,
+  "whole_over_steady": 1.33
+ },
+ "opt_draft": {
+  "clips": 6,
+  "steady_period_s": 1.2168,
+  "steady_fps": 9.862,
+  "per_clip_period_s": [
+   1.2238,
+   1.2272,
+   1.2253,
+   1.2098,
+   1.2078,
+   1.2082
+  ],
+  "fps_mean_whole_clip": 10.442,
+  "whole_over_steady": 1.059
+ },
+ "opt_target": {
+  "clips": 6,
+  "steady_period_s": 3.1552,
+  "steady_fps": 3.803,
+  "per_clip_period_s": [
+   3.1846,
+   3.1936,
+   3.1881,
+   3.12,
+   3.1251,
+   3.1257
+  ],
+  "fps_mean_whole_clip": 4.165,
+  "whole_over_steady": 1.095
+ },
+ "opt_sdvg07": {
+  "clips": 6,
+  "steady_period_s": 4.4297,
+  "steady_fps": 2.709,
+  "per_clip_period_s": [
+   4.4654,
+   4.4674,
+   4.4673,
+   4.394,
+   4.388,
+   4.389
+  ],
+  "fps_mean_whole_clip": 3.048,
+  "whole_over_steady": 1.125
+ },
+ "opt_sdvg22": {
+  "clips": 6,
+  "steady_period_s": 3.3989,
+  "steady_fps": 3.531,
+  "per_clip_period_s": [
+   4.4659,
+   2.418,
+   4.474,
+   4.3798,
+   2.3841,
+   2.389
+  ],
+  "fps_mean_whole_clip": 3.698,
+  "whole_over_steady": 1.048
+ },
+ "tp_ours704": {
+  "clips": 5,
+  "steady_period_s": 1.2034,
+  "steady_fps": 9.971,
+  "per_clip_period_s": [
+   1.2034,
+   1.2049,
+   1.2056,
+   1.1594,
+   1.1629
+  ],
+  "fps_mean_whole_clip": 10.82,
+  "whole_over_steady": 1.085
+ },
+ "tp_ours832": {
+  "clips": 5,
+  "steady_period_s": 1.8767,
+  "steady_fps": 6.394,
+  "per_clip_period_s": [
+   1.8767,
+   1.8868,
+   1.8846,
+   1.8452,
+   1.8468
+  ],
+  "fps_mean_whole_clip": 6.932,
+  "whole_over_steady": 1.084
+ },
+ "tp_c704_fused": {
+  "clips": 6,
+  "steady_period_s": 1.0626,
+  "steady_fps": 11.293,
+  "per_clip_period_s": [
+   1.0811,
+   1.0818,
+   1.0829,
+   1.0435,
+   1.0435,
+   1.0441
+  ],
+  "fps_mean_whole_clip": 12.023,
+  "whole_over_steady": 1.065
+ },
+ "tp_c704_sep": {
+  "clips": 5,
+  "steady_period_s": 1.4005,
+  "steady_fps": 8.569,
+  "per_clip_period_s": [
+   1.4005,
+   1.4062,
+   1.4054,
+   1.3522,
+   1.3526
+  ],
+  "fps_mean_whole_clip": 9.328,
+  "whole_over_steady": 1.089
+ },
+ "tp_u2_832_sep": {
+  "clips": 6,
+  "steady_period_s": 2.1418,
+  "steady_fps": 5.603,
+  "per_clip_period_s": [
+   2.1588,
+   2.1628,
+   2.1626,
+   2.1201,
+   2.1206,
+   2.1247
+  ],
+  "fps_mean_whole_clip": 6.07,
+  "whole_over_steady": 1.083
+ },
+ "tp_c576_pc1": {
+  "clips": 6,
+  "steady_period_s": 0.747,
+  "steady_fps": 16.065,
+  "per_clip_period_s": [
+   0.748,
+   0.7469,
+   0.7466,
+   0.747,
+   0.7472,
+   0.7469
+  ],
+  "fps_mean_whole_clip": 17.068,
+  "whole_over_steady": 1.062
+ }
+}

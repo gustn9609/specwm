@@ -1,0 +1,949 @@
+{
+ "version": "2026-10-17b (PROTOCOL v1; measured values merged 10/16-17; Waypoint K_yaw 68 FINAL fit, Astra translation VERIFIED, 7 programs incl. P2p/P4p)",
+ "yaw_pitch_convention": {
+  "yaw_deg": "atan2(Rr[0,2], Rr[2,2]) with Rr = R_i^T R_{i+1}, c2w OpenCV (x right, y down, z forward)",
+  "pitch_deg": "asin(-Rr[1,2]); positive = camera up (ABot I, MG2 +mouse[0], Waypoint +mouse[1])",
+  "translation": "tr = R_i^T (t_{i+1} - t_i); tr[2] > 0 forward (W), tr[0] > 0 strafe right (D)",
+  "positive_yaw_maps_to": "ABot key L, Waypoint +mouse[0], MG2 +mouse[1], Astra M[0,2] < 0 (its 'Rotate Right' form)",
+  "geometric_note": "positive yaw rotates the forward axis toward camera +x = the camera pans RIGHT (content flows left) in OpenCV c2w; PROTOCOL.md \u00a72 labels it RIGHT since 10/17 (the 10/16 text said 'left'). Verified on the baselines' own P2 outputs: Waypoint (DA3, waypoint/smoke/calib_da3.json 'camera pans RIGHT'), MG2 (DA3, mg2/smoke/calib_P2_universal_0000.json sign_ok), ABot (L key = web_client/config.py \u53f3, smoke frames), Astra (astra/calib_astra.json direction_check: content moves LEFT = camera pans RIGHT). Code: StEvo generator 'right-30' = +48 deg/s by this formula, Matrix-Game-2 utils/conditions.py camera_r = [0, +0.1], tools/waypoint/run_waypoint.py '--mouse-x (right turn)', Astra cam_type 3 'Rotate Right' = Ry(-0.03) relative = our +yaw.",
+  "source": "tools/waypoint/poses_to_actions.py, tools/mg2/poses_to_cond.py, tools/abot/poses_to_keys.py (read 2026-10-16)"
+ },
+ "ours": {
+  "fps": 16,
+  "n_frames_10s": 161,
+  "n_frames_written": 161,
+  "n_frames_generated": 165,
+  "n_latents_generated": 42,
+  "n_chunks": 14,
+  "chunk_frames": 12,
+  "latent_frames_per_chunk": 3,
+  "frames_note": "lingbot-world-v2/specwm/binding_v2.py prepare() rounds the latent count DOWN to a multiple of the chunk size (3): 161 poses -> 41 -> 39 latents = 153 frames = 9.5 s (the 10/16 sf1p3b smoke timing.json reports frames 153). A 10 s clip therefore needs 165 poses and --frames 165 -> 42 latents = 14 chunks = 165 frames; the clip is trimmed to its first 161 frames (10 s) for the metrics. programs/<P>.npz carries c2w (161, the RPE reference) and c2w_165 (the same program continued for 4 frames at the last segment's rate).",
+  "kv_window": "18 latent frames (baselines/run_ours.sh --window 18); 12 when the output area is above 600000 px, i.e. at ABot's 1280x704 (window 18 does not fit in 96 GB there, facts \u00a742); Waypoint 1024x512, MG2 640x352 and Astra 832x480 run with 18",
+  "intrinsics": "per frame [fx, fy, cx, cy] = [0.5 W, 0.5 W, W/2, H/2] = [416, 416, 416, 240] at the 832x480 reference frame (PROTOCOL \u00a72; 90 deg horizontal FOV; = lingbot-world-v2/examples/03 fx 415.5); our loader (wan/image2video.py) assumes intrinsics.npy is for 832x480 and rescales to the generation size; baselines/make_tasks.py writes the same [416, 416, 416, 240]",
+  "intrinsics_note": "the 10/16 build of programs/<P>.npz wrote fx = 0.9 W (748.8) by mistake (fixed 10/17); data/stevo/actions/* use fx = 502.9 (0.60 W)",
+  "translation": "normalised per video: relative translations / max |t| (wan/utils/cam_utils.py compute_relative_poses normalize_trans=True), so only the shape of the path matters for ours",
+  "source": "PROTOCOL.md \u00a72 + rule 8; lingbot-world-v2/wan/image2video.py L608-709; wan/utils/cam_utils.py L56-75; specwm/binding_v2.py L105-135; baselines/run_ours.sh (window rule)"
+ },
+ "waypoint": {
+  "K_yaw_units_per_deg_per_call": 68.0,
+  "K_yaw": 68.0,
+  "unit": "mouse-x units per degree of yaw per 4-frame call (15 calls/s); mouse = [K_yaw*dyaw_deg, K_yaw*dpitch_deg]; positive mouse x = camera pans right",
+  "fps": 60,
+  "frames_per_call": 4,
+  "calls_10s": 150,
+  "buttons": {
+   "W": 87,
+   "S": 83,
+   "A": 65,
+   "D": 68
+  },
+  "button_rule": "a button is set when |sum of the call's 4 per-frame camera-frame translations| > 4 * 0.25 * median(per-frame speed > 0); W if tr_z > |tr_x|, S if -tr_z > |tr_x|, else D (tr_x > 0) / A",
+  "mouse": "[K_yaw * yaw_deg_per_call, K_yaw * pitch_deg_per_call]; raw, unclipped (K 68: P2: 81.6 units/call, P2p: 72.6, P3: 54.4)",
+  "boundary_note": "at 60 fps a 2.5 s segment is 37.5 calls, so calls 37 and 112 straddle the P4/P4p/P5 switches (their mouse/translation sums to the average of both segments); the effective switch time for Waypoint is 2.533 s / 7.533 s",
+  "source": "K_yaw 68 (10/17 FINAL): proportional least-squares fit total_yaw = c * mouse_units over eight 10-s P2 clips of highland_castle_loch generated through baselines/waypoint/run.sh with 64-95 mouse units/call (K 53.6/64.7/66/69/79, seeds 1234/1235; DA3 pose recovery baselines/waypoint/calib_yaw.py -> waypoint/smoke/calib_da3.json, fit waypoint/smoke/kyaw_fit.json): c = 2.214 deg/unit -> K = 150/c = 67.8 -> 68 (affine 67.8, power-law 67.9). Direct clips bracket it: K 66 -> 161/168 deg, K 69 -> 203/176, K 79 -> 220/207 (the 10/16 one-clip proposal 79 over-rotates). The realised turn at a fixed input varies ~6 % rms between seeds and processes, so K is a fit, not a one-clip value; expected P2 pan at K 68 = 181 +- 11 deg. Response ~linear in 64-95 units/call (exponent 0.97), ramps over the first ~2 s. fps: tools/waypoint/Waypoint-1.5-1B/config.yaml inference_fps 60, temporal_compression 4 (15 calls/s)",
+  "k_yaw_previous": "118 (10/9, invalid: start image re-appended every call); 79 (10/16, one-clip DA3 proposal, over-rotates 207-220 deg)",
+  "measured_on": "baselines/waypoint/smoke (highland_castle_loch, P2, seed 1234) + constant-mouse sweep; DA3 pose recovery (calib_yaw.py)",
+  "date": "2026-10-17T00:45",
+  "measurements": {
+   "P2_k118": {
+    "mouse_x_per_call": 141.6,
+    "calls": 150.0,
+    "yaw_total_deg": 269.68,
+    "yaw_deg_per_call": 1.7979,
+    "K_yaw_units_per_deg": 78.8,
+    "phase_shift_px_per_frame": -1.606,
+    "da3_fx_px_at_full_width": 597.5,
+    "flow_yaw_deg_per_call": 0.6161,
+    "K_yaw_from_flow": 229.8
+   },
+   "m0": {
+    "mouse_x_per_call": 0.0,
+    "calls": 30.0,
+    "yaw_total_deg": -0.02,
+    "yaw_deg_per_call": -0.0007,
+    "K_yaw_units_per_deg": -0.0,
+    "phase_shift_px_per_frame": 0.0,
+    "da3_fx_px_at_full_width": 948.6,
+    "flow_yaw_deg_per_call": -0.0001,
+    "K_yaw_from_flow": -0.0
+   },
+   "m60": {
+    "mouse_x_per_call": 60.0,
+    "calls": 30.0,
+    "yaw_total_deg": 24.12,
+    "yaw_deg_per_call": 0.8039,
+    "K_yaw_units_per_deg": 74.6,
+    "phase_shift_px_per_frame": -1.711,
+    "da3_fx_px_at_full_width": 829.9,
+    "flow_yaw_deg_per_call": 0.4726,
+    "K_yaw_from_flow": 127.0
+   },
+   "m120": {
+    "mouse_x_per_call": 120.0,
+    "calls": 30.0,
+    "yaw_total_deg": 34.02,
+    "yaw_deg_per_call": 1.1339,
+    "K_yaw_units_per_deg": 105.8,
+    "phase_shift_px_per_frame": -1.583,
+    "da3_fx_px_at_full_width": 753.4,
+    "flow_yaw_deg_per_call": 0.4816,
+    "K_yaw_from_flow": 249.2
+   },
+   "m240": {
+    "mouse_x_per_call": 240.0,
+    "calls": 30.0,
+    "yaw_total_deg": 71.03,
+    "yaw_deg_per_call": 2.3678,
+    "K_yaw_units_per_deg": 101.4,
+    "phase_shift_px_per_frame": -1.726,
+    "da3_fx_px_at_full_width": 634.8,
+    "flow_yaw_deg_per_call": 0.6231,
+    "K_yaw_from_flow": 385.2
+   },
+   "m480": {
+    "mouse_x_per_call": 480.0,
+    "calls": 30.0,
+    "yaw_total_deg": 139.0,
+    "yaw_deg_per_call": 4.6333,
+    "K_yaw_units_per_deg": 103.6,
+    "phase_shift_px_per_frame": -2.003,
+    "da3_fx_px_at_full_width": 604.5,
+    "flow_yaw_deg_per_call": 0.7594,
+    "K_yaw_from_flow": 632.1
+   },
+   "P2_k79": {
+    "mouse_x_per_call": 94.80020904541016,
+    "calls": 150.0,
+    "yaw_total_deg": 219.62,
+    "yaw_deg_per_call": 1.4641,
+    "K_yaw_units_per_deg": 64.7,
+    "phase_shift_px_per_frame": -2.597,
+    "da3_fx_px_at_full_width": 670.6,
+    "flow_yaw_deg_per_call": 0.8875,
+    "K_yaw_from_flow": 106.8
+   },
+   "b_P2_k54": {
+    "mouse_x_per_call": 64.32014465332031,
+    "calls": 150.0,
+    "yaw_total_deg": 150.78,
+    "yaw_deg_per_call": 1.0052,
+    "K_yaw_units_per_deg": 64.0,
+    "phase_shift_px_per_frame": -2.152,
+    "da3_fx_px_at_full_width": 660.3,
+    "flow_yaw_deg_per_call": 0.747,
+    "K_yaw_from_flow": 86.1
+   },
+   "b_P2_k65": {
+    "mouse_x_per_call": 77.64016723632812,
+    "calls": 150.0,
+    "yaw_total_deg": 165.38,
+    "yaw_deg_per_call": 1.1025,
+    "K_yaw_units_per_deg": 70.4,
+    "phase_shift_px_per_frame": -2.115,
+    "da3_fx_px_at_full_width": 667.3,
+    "flow_yaw_deg_per_call": 0.7265,
+    "K_yaw_from_flow": 106.9
+   },
+   "b_P2_k79": {
+    "mouse_x_per_call": 94.80020904541016,
+    "calls": 150.0,
+    "yaw_total_deg": 206.59,
+    "yaw_deg_per_call": 1.3773,
+    "K_yaw_units_per_deg": 68.8,
+    "phase_shift_px_per_frame": -2.702,
+    "da3_fx_px_at_full_width": 657.7,
+    "flow_yaw_deg_per_call": 0.9414,
+    "K_yaw_from_flow": 100.7
+   },
+   "b_P3_k54": {
+    "mouse_x_per_call": 42.88033676147461,
+    "calls": 150.0,
+    "yaw_total_deg": 81.75,
+    "yaw_deg_per_call": 0.545,
+    "K_yaw_units_per_deg": 78.7,
+    "phase_shift_px_per_frame": -0.917,
+    "da3_fx_px_at_full_width": 777.6,
+    "flow_yaw_deg_per_call": 0.2701,
+    "K_yaw_from_flow": 158.7
+   },
+   "b_P3_k65": {
+    "mouse_x_per_call": 51.76040267944336,
+    "calls": 150.0,
+    "yaw_total_deg": 102.77,
+    "yaw_deg_per_call": 0.6852,
+    "K_yaw_units_per_deg": 75.5,
+    "phase_shift_px_per_frame": -1.179,
+    "da3_fx_px_at_full_width": 781.1,
+    "flow_yaw_deg_per_call": 0.3459,
+    "K_yaw_from_flow": 149.6
+   },
+   "b_P3_k79": {
+    "mouse_x_per_call": 63.200496673583984,
+    "calls": 150.0,
+    "yaw_total_deg": 149.57,
+    "yaw_deg_per_call": 0.9972,
+    "K_yaw_units_per_deg": 63.4,
+    "phase_shift_px_per_frame": -1.296,
+    "da3_fx_px_at_full_width": 740.4,
+    "flow_yaw_deg_per_call": 0.4012,
+    "K_yaw_from_flow": 157.5
+   },
+   "b_P2_k69": {
+    "mouse_x_per_call": 82.80018615722656,
+    "calls": 150.0,
+    "yaw_total_deg": 203.1,
+    "yaw_deg_per_call": 1.354,
+    "K_yaw_units_per_deg": 61.2,
+    "phase_shift_px_per_frame": -2.472,
+    "da3_fx_px_at_full_width": 703.6,
+    "flow_yaw_deg_per_call": 0.8053,
+    "K_yaw_from_flow": 102.8
+   },
+   "b_P2_k69_rep": {
+    "mouse_x_per_call": 82.80018615722656,
+    "calls": 150.0,
+    "yaw_total_deg": 203.1,
+    "yaw_deg_per_call": 1.354,
+    "K_yaw_units_per_deg": 61.2,
+    "phase_shift_px_per_frame": -2.472,
+    "da3_fx_px_at_full_width": 703.6,
+    "flow_yaw_deg_per_call": 0.8053,
+    "K_yaw_from_flow": 102.8
+   },
+   "b_P2_k69_s1235": {
+    "mouse_x_per_call": 82.80018615722656,
+    "calls": 150.0,
+    "yaw_total_deg": 175.94,
+    "yaw_deg_per_call": 1.1729,
+    "K_yaw_units_per_deg": 70.6,
+    "phase_shift_px_per_frame": -2.091,
+    "da3_fx_px_at_full_width": 719.4,
+    "flow_yaw_deg_per_call": 0.6662,
+    "K_yaw_from_flow": 124.3
+   },
+   "b_P3_k69": {
+    "mouse_x_per_call": 55.20043182373047,
+    "calls": 150.0,
+    "yaw_total_deg": 105.75,
+    "yaw_deg_per_call": 0.705,
+    "K_yaw_units_per_deg": 78.3,
+    "phase_shift_px_per_frame": 0.528,
+    "da3_fx_px_at_full_width": 772.2,
+    "flow_yaw_deg_per_call": -0.1566,
+    "K_yaw_from_flow": -352.4
+   },
+   "b_P2_k66": {
+    "mouse_x_per_call": 79.20018005371094,
+    "calls": 150.0,
+    "yaw_total_deg": 161.13,
+    "yaw_deg_per_call": 1.0742,
+    "K_yaw_units_per_deg": 73.7,
+    "phase_shift_px_per_frame": -2.144,
+    "da3_fx_px_at_full_width": 681.2,
+    "flow_yaw_deg_per_call": 0.7211,
+    "K_yaw_from_flow": 109.8
+   },
+   "b_P2_k66_s1235": {
+    "mouse_x_per_call": 79.20018005371094,
+    "calls": 150.0,
+    "yaw_total_deg": 168.22,
+    "yaw_deg_per_call": 1.1214,
+    "K_yaw_units_per_deg": 70.6,
+    "phase_shift_px_per_frame": -2.117,
+    "da3_fx_px_at_full_width": 655.7,
+    "flow_yaw_deg_per_call": 0.74,
+    "K_yaw_from_flow": 107.0
+   },
+   "b_P3_k66": {
+    "mouse_x_per_call": 52.8004150390625,
+    "calls": 150.0,
+    "yaw_total_deg": 108.5,
+    "yaw_deg_per_call": 0.7234,
+    "K_yaw_units_per_deg": 73.0,
+    "phase_shift_px_per_frame": -1.001,
+    "da3_fx_px_at_full_width": 780.5,
+    "flow_yaw_deg_per_call": 0.294,
+    "K_yaw_from_flow": 179.6
+   }
+  },
+  "verification": "VERIFIED 10/17 on GPU 4 (baselines/waypoint/smoke/{wp__highland_castle_loch__P2_k79, batch_k, batch_k69, batch_k66}; fit in smoke/kyaw_fit.json): P2 realised pan vs K: 53.6 -> 151, 64.7 -> 165, 66 -> 161/168, 69 -> 203/176, 79 -> 220/207 deg (commanded 180); K = 68 is the fit through all of them (expected 181 deg); P3 (12 deg/s + W) realised 108.5 deg at K 66, 105.8 at K 69, 149.6 at K 79 (commanded 120): ~0.9x at the final K, i.e. slightly sublinear relative to P2, and noisy because the forward walk runs into the hillside on this starter (texture-only frames at 6-9 s)",
+  "source_previous": "K_yaw 118: 10/9 optical-flow calibration on Waypoint's own outputs (paper/meeting_1012/research_mg2_waypoint_eval.md L166, tools/waypoint/poses_to_actions.py) \u2014 INVALID, those runs re-appended the start image every call (baselines/waypoint/ENV.md); fps: tools/waypoint/Waypoint-1.5-1B/config.yaml inference_fps 60, temporal_compression 4 (latent fps 15)",
+  "measurements_note": "labels: P2_k118 + m* = 10/16 smoke (bicubic stretch); P2_k79 = 10/17 single-clip run.sh verify; b_* = 10/17 batch-mode runs (BILINEAR stretch; b_P2_k69 and b_P2_k69_rep are the same seed in one process = identical); mouse_x_per_call = K * 1.2 (P2) or K * 0.8 (P3) units; yaw_total_deg from DA3 over 150 calls",
+  "fit": "smoke/kyaw_fit.json: c = 2.214 deg/unit, K_proportional 67.8, K_affine 67.6, K_powerlaw 67.9, residual rms 11 deg over 8 clips"
+ },
+ "mg2": {
+  "K_per_deg_per_frame": 0.0704,
+  "K_flow_1009": 0.067,
+  "K_per_deg_per_frame_da3": 0.0704,
+  "clip": 0.1,
+  "K_decision": "10/17: the ACTIVE K is the DA3 value 0.0704 measured on MG2's own P2 output (PROTOCOL rule 3: calibrate on the baseline's outputs); the 10/9 optical-flow value 0.067 is kept as K_flow_1009 (0.1 mouse ~ 1.5 deg/frame, paper/meeting_1012/research_mg2_waypoint_eval.md L243). The two differ by 5 %; at 0.0704 the 18 deg/s programs (P2, P4) exceed the 0.1 cap on every moving frame (1.5 deg/frame -> 0.1056), so P2p/P4p (16 deg/s -> 0.0939, unsaturated) are run for all models (PROTOCOL \u00a72)",
+  "fps": 12,
+  "n_frames_generated": 129,
+  "n_frames_written": 120,
+  "n_frames_10s": 120,
+  "n_frames_note": "MG2 needs frames % 4 == 1 and latents % 3 == 0: 121 frames = 31 latents is not generable; 129 frames (33 latents, 10.67 s) are generated and the first 120 (10.0 s at 12 fps) written (baselines/mg2/run_mg2.py --frames 129 --keep-frames 120)",
+  "largest_unsaturated_yaw_deg_per_s": 17.04,
+  "keyboard": "[fwd, back, left, right] one-hot per frame; set when |tr| > 0.25 * median(per-frame speed > 0); frame 0 = all zero",
+  "mouse": "[K * pitch_deg_per_frame, K * yaw_deg_per_frame] clipped to +-clip; frame 0 = [0, 0]",
+  "saturation_note": "K 0.0704: 18 deg/s = 1.5 deg/frame -> 0.1056 -> clipped to 0.1 on 100 % of the moving frames of P2/P4 (effective 17.04 deg/s, reported in timing.json control.saturated); 16 deg/s (P2p/P4p) -> 0.0939, unsaturated; 12 deg/s (P3) -> 0.0704",
+  "measurement_da3": {
+   "date": "2026-10-16 23:50 UTC",
+   "video": "/home/hk28965/specwm/baselines/mg2/smoke/universal_0000__P2/video.mp4",
+   "program": "P2",
+   "commanded_mouse_yaw": 0.1,
+   "commanded_deg_per_s": 17.999998092651367,
+   "realized_deg_per_frame": 1.4201,
+   "realized_deg_per_s": 17.04,
+   "realized_total_deg": 169.5,
+   "per_segment_deg_per_frame": [
+    1.4299,
+    1.4149,
+    1.3991,
+    1.5647
+   ],
+   "sign_ok": true,
+   "flow_median_px_per_frame": -9.633,
+   "da3_model": "/home/hk28965/specwm/hf/DA3NESTED-GIANT-LARGE-1.1",
+   "method": "DA3 (DA3NESTED-GIANT-LARGE-1.1) poses of the MG2 clip -> per-frame yaw via atan2(Rr[0,2],Rr[2,2]); K = |commanded mouse yaw| / |realized deg per frame|; largest unsaturated rate = cap / K * fps",
+   "program_saturated_at_K_0067": true
+  },
+  "source": "K: DA3 on MG2's own P2 output (baselines/mg2/calib_da3.py -> smoke/calib_P2_universal_0000.json, merged by calib_merge.py); clip: the official bench uses CAM_VALUE = 0.1 (Matrix-Game-2/utils/conditions.py, camera_r = [0, +0.1]); fps: official Matrix-Game-2/utils/visualize.py writes 12 fps (the 10/9-10/12 runs wrote 16 fps); frames: baselines/mg2/run_mg2.py; rules: tools/mg2/poses_to_cond.py"
+ },
+ "abot": {
+  "fps": 12,
+  "first_block_frames": 9,
+  "frames_per_block": 12,
+  "blocks_10s": 11,
+  "n_frames_generated": 129,
+  "n_frames_written": 120,
+  "block_frames": "block 0 = decoded frames [0, 9) (the start image + 2 latent frames x 4), block b >= 1 = [9 + 12 (b-1), 9 + 12 b); 11 blocks = 129 frames (10.75 s), the first 120 (10.0 s) written (baselines/abot/bench_abot.py --blocks 11 --keep-frames 120)",
+  "keys": "WASDIJKL",
+  "key_meaning": "W/S forward/back, A/D strafe left/right, I/K camera up/down, J/L camera left/right (web_client/config.py)",
+  "rot_thr_deg_per_block": 2.0,
+  "trans_rule": "a move key when |block translation| > 0.25 * median(per-frame speed > 0) * (motions in the block); W/S if |tr_z| >= |tr_x| else D/A",
+  "boundary_note": "blocks take the NET motion of their frames (tools/abot/poses_to_keys.py rule), so a block straddling a 2.5 s program switch keeps the majority key: block 2 = frames [21, 33) holds 9 frames of segment 0 + 3 of segment 1, block 7 = [81, 93) 9 of segment 2 + 3 of segment 3. The ABot input therefore switches at the block boundaries 33 / 57 / 93 = 2.75 / 4.75 / 7.75 s (frame index / 12 fps, frame 0 = the start image at t = 0; counted from the first generated frame these are 2.67 / 4.67 / 7.67 s \u2014 abot/ENV.md's '6.67 s' for the P5 S->W switch is a typo for 7.67). keys_per_program / effective_switches below are computed from the encoding",
+  "source": "baselines/abot/encode_abot.py + bench_abot.py (the runner, 10/16); fps: tools/abot/web_client/config.py VIDEO_FPS = 12; block = 3 latent frames = 12 decoded frames, first block 9 (abot/ENV.md)",
+  "measurements": {
+   "P2_desert_valley_3rd_T5resident": {
+    "video": "/home/hk28965/specwm/baselines/runs/abot/abot__desert_valley_3rd__P2/video.mp4",
+    "program": "P2",
+    "keys_held": "L",
+    "fps": 12,
+    "frames_used": 119,
+    "seconds": 9.833,
+    "yaw_total_deg": 184.31,
+    "yaw_deg_per_frame": 1.5619,
+    "yaw_deg_per_s": 18.74,
+    "yaw_deg_by_second": [
+     23.07,
+     20.63,
+     20.48,
+     17.26,
+     18.11,
+     18.23,
+     19.1,
+     16.89,
+     16.88
+    ],
+    "pitch_total_deg": -0.6,
+    "commanded": {
+     "program": "P2",
+     "yaw_total_deg": 177.0,
+     "yaw_deg_per_s": 18.0,
+     "pitch_total_deg": 0.0
+    },
+    "realised_over_commanded": 1.0413,
+    "sign_ok": true,
+    "direction": "camera pans RIGHT (+yaw by the converters' formula; content flows left)",
+    "phase_shift_px_per_frame": -2.625,
+    "flow_direction": "content flows left -> camera pans RIGHT",
+    "flow_yaw_deg_per_s": 2.47,
+    "da3_fx_px_at_full_width": 730.2,
+    "da3_model": "/home/hk28965/specwm/hf/DA3NESTED-GIANT-LARGE-1.1",
+    "stride": 2,
+    "win": 16,
+    "res": 504,
+    "method": "DA3 (DA3NESTED-GIANT-LARGE-1.1) w2c poses on windows of 16 frames sampled every 2 (shared boundary frame); per-step yaw = atan2(Rr[0,2],Rr[2,2]), Rr = R_i^T R_{i+1}, R = w2c^T; summed over the first 119 frames",
+    "date": "2026-10-17 00:33 UTC"
+   },
+   "P2_desert_valley_3rd_t5offload": {
+    "video": "/home/hk28965/specwm/baselines/runs/abot_t5offload/abot__desert_valley_3rd__P2/video.mp4",
+    "program": "P2",
+    "keys_held": "L",
+    "fps": 12,
+    "frames_used": 119,
+    "seconds": 9.833,
+    "yaw_total_deg": 184.31,
+    "yaw_deg_per_frame": 1.5619,
+    "yaw_deg_per_s": 18.74,
+    "yaw_deg_by_second": [
+     23.07,
+     20.63,
+     20.48,
+     17.26,
+     18.11,
+     18.23,
+     19.1,
+     16.89,
+     16.88
+    ],
+    "pitch_total_deg": -0.6,
+    "commanded": {
+     "program": "P2",
+     "yaw_total_deg": 177.0,
+     "yaw_deg_per_s": 18.0,
+     "pitch_total_deg": 0.0
+    },
+    "realised_over_commanded": 1.0413,
+    "sign_ok": true,
+    "direction": "camera pans RIGHT (+yaw by the converters' formula; content flows left)",
+    "phase_shift_px_per_frame": -2.625,
+    "flow_direction": "content flows left -> camera pans RIGHT",
+    "flow_yaw_deg_per_s": 2.47,
+    "da3_fx_px_at_full_width": 730.2,
+    "da3_model": "/home/hk28965/specwm/hf/DA3NESTED-GIANT-LARGE-1.1",
+    "stride": 2,
+    "win": 16,
+    "res": 504,
+    "method": "DA3 (DA3NESTED-GIANT-LARGE-1.1) w2c poses on windows of 16 frames sampled every 2 (shared boundary frame); per-step yaw = atan2(Rr[0,2],Rr[2,2]), Rr = R_i^T R_{i+1}, R = w2c^T; summed over the first 119 frames",
+    "date": "2026-10-17 00:33 UTC"
+   }
+  },
+  "L_key_yaw_deg_per_s_da3": 18.74,
+  "L_pan_direction": "camera pans RIGHT (+yaw by the converters' formula; content flows left)",
+  "P2_realised_over_commanded": 1.0413,
+  "block_layout_note": "run.sh/bench_abot.py use ABot's real layout: block 0 = 9 decoded frames (start image + 2 latent frames x 4), then 12 per block; 11 blocks = 129 generated, first 120 (10.0 s) written; the streaming VAE is reset per stream (10/17 fix), block 0 = 9 frames asserted",
+  "measured_on": "DA3 pose recovery (baselines/abot/calib_da3.py) of ABot's own P2 clip(s) P2_desert_valley_3rd_T5resident, P2_desert_valley_3rd_t5offload; primary = P2_desert_valley_3rd_T5resident",
+  "date": "2026-10-17T00:39",
+  "keys_per_program": {
+   "P1": "W W W W W W W W W W W",
+   "P2": "L L L L L L L L L L L",
+   "P3": "WL WL WL WL WL WL WL WL WL WL WL",
+   "P4": "WL WL WL WJ WJ WJ WJ WJ WL WL WL",
+   "P5": "W W W - - S S S W W W",
+   "P2p": "L L L L L L L L L L L",
+   "P4p": "WL WL WL WJ WJ WJ WJ WJ WL WL WL"
+  },
+  "effective_switches": {
+   "P1": {
+    "blocks": [],
+    "frames": [],
+    "times_s": []
+   },
+   "P2": {
+    "blocks": [],
+    "frames": [],
+    "times_s": []
+   },
+   "P3": {
+    "blocks": [],
+    "frames": [],
+    "times_s": []
+   },
+   "P4": {
+    "blocks": [
+     3,
+     8
+    ],
+    "frames": [
+     33,
+     93
+    ],
+    "times_s": [
+     2.75,
+     7.75
+    ]
+   },
+   "P5": {
+    "blocks": [
+     3,
+     5,
+     8
+    ],
+    "frames": [
+     33,
+     57,
+     93
+    ],
+    "times_s": [
+     2.75,
+     4.75,
+     7.75
+    ]
+   },
+   "P2p": {
+    "blocks": [],
+    "frames": [],
+    "times_s": []
+   },
+   "P4p": {
+    "blocks": [
+     3,
+     8
+    ],
+    "frames": [
+     33,
+     93
+    ],
+    "times_s": [
+     2.75,
+     7.75
+    ]
+   }
+  }
+ },
+ "astra": {
+  "fps": 20,
+  "n_frames_10s": 201,
+  "n_frames_written": 201,
+  "latent_stride": 4,
+  "latents_for_201_frames": 50,
+  "embedding_rows": 57,
+  "embedding_rows_npz": 51,
+  "latents_generated": 56,
+  "latents_per_block": 8,
+  "blocks": 7,
+  "n_frames_generated": 225,
+  "steps": 50,
+  "resolution": [
+   832,
+   480
+  ],
+  "fps_source": "tools/astra/Astra/scripts/infer_demo.py: imageio.get_writer(output_path, fps=20); latent stride 4 (Wan2.1 VAE) -> 5 latent frames per second",
+  "latents_note": "run.sh generates 7 FULL blocks of 8 latents (56 = 225 frames) and cuts the video to 201 frames (10.05 s); a partial 2-latent final block (50 = 6x8+2) collapsed into noise in the 10/16 P2 smoke (astra/ENV.md). The program embedding handed to the official sliding-window code has 57 rows = 1 + 56 (entry 0 = condition latent, 1..56 = the program continued over all 225 generated frames: astra_gen.py calls program_to_astra.build(pid, 20, 225)); with a 51-row (201-frame) embedding the official code zero-pads on the CPU and crashes at block 7 (torch.cat device mismatch, infer_demo.py L934), and a zero 3x4 is not 'no motion' (10/17). programs/<P>.npz astra_emb keeps the 51-row 10 s version (program_to_astra.build(pid, 20, 201)) = rows 0..50 of the runner's 57 (checked by validate)",
+  "pose_format": "one 13-vector per latent j: flattened 3x4 M_j + mask (0; the inference code overwrites it); M_j = E[4j+4] @ inv(E[4j]) on the training extrinsics = motion latent j -> j+1 (train_single.py create_sekai_pose_embeddings; infer_demo.py real-pose path)",
+  "mapping_from_protocol_c2w": "T_rel = inv(c2w[4j]) @ c2w[4j+4] (OpenCV camera-frame relative c2w); M_j = S T_rel[:3,:] S' with S = diag(1,-1,-1), S' = diag(1,-1,-1,1): protocol +yaw (pan right) -> M[0,2] < 0 = Astra 'Rotate Right' (cam_type 3 = Ry(-0.03)); forward +z -> M[2,3] < 0 = Astra 'Move Forward' (cam_type 1: M[2,3] = -0.03). Strafe / pitch signs not exercised by the programs (unverified)",
+  "rotation": "exact: yaw_deg_per_latent = yaw_deg_per_s * 4 / 20 (P2: 3.6 deg = 0.0628 rad per latent; P2p: 3.2 deg; Astra's presets: 0.03 rad = 1.72 deg per latent = 8.6 deg/s)",
+  "translation_units_per_u": 0.15,
+  "translation_rule": "1 u/s == Astra's own preset forward speed 0.03 per latent step (cam_type 1/4/5/6 forward_speed) = 0.03 * 20 / 4 = 0.15 units/s, i.e. 0.0075 per video frame at 20 fps",
+  "translation_status": "VERIFIED 10/17 on Astra's OWN outputs with DA3 metric poses (astra/calib_da3.py -> astra/calib_astra.json, merged into calib.json['astra'] as measurement_da3 / translation_status_da3 / u_scale_decision_da3): 1 Astra unit ~ 7.3 m; its preset forward speed 0.03 per latent (= u_scale 0.15 for 1 u/s) realises 1.1 m/s walking speed on P1. Under combined motion (P3) Astra drops almost all translation whatever the scale (0.00 / 0.11 / 0.17 m/s at 1x / 2x / 3x the preset), so its realised P3 forward/turn ratio cannot be matched to ours by the unit; the INPUT ratio at 0.15 (0.092 m/deg) matches ours' realised 0.080 m/deg within 15 %, so u_scale 0.15 (Astra's own operating point, PROTOCOL rule 3) is KEPT and frozen",
+  "translation_note": "(superseded 10/17; was: 0.12 per second at 16 fps) 1 u/s = 0.03 per latent step = 0.15 units/s at Astra's native 20 fps; a turning + moving latent step is the chord of the 4-frame arc (P4: 0.029987 instead of 0.03)",
+  "rotation_check": "VERIFIED 10/17 (DA3 poses + median DIS optical flow on Astra's own clips, rotation_check_da3): the radians-per-latent mapping is exact while the generated view is still faithful (P2 first 2.5 s: 18.2 deg/s for 18 commanded; P3 first 5 s: 11.3-13.0 deg/s for 12) and the realised pan rises to 1.5-1.9x once the content is hallucinated (P2 whole clip 272.6 deg instead of 180; P3 178.7 instead of 120) \u2014 treated as drift behaviour (scored by RPE-Rot), not re-calibrated: rotation_scale 1.0. Astra's own demo turns are 0.03 rad per latent = 1.72 deg = 8.6 deg/s; P2 (3.6 deg per latent) is 2.1x the demo rate, P2p (3.2 deg) 1.9x",
+  "direction_check": "VERIFIED 10/16 (frames) + 10/17 (DA3 + flow, direction_check_da3): P2 smoke (garden_1, seed 1234, baselines/astra/smoke/garden_1_P2_lat50) \u2014 scene content moves LEFT on screen from the first generated frames (flow -15 px/frame) = camera pans RIGHT, as the protocol's +yaw demands; Astra's own cam_type 4 ('left') example moves content RIGHT; P1 flow divergence +0.63 px/frame = forward",
+  "presets_closest": {
+   "P1": 1,
+   "P2": 3,
+   "P2p": 3,
+   "P3": 5,
+   "P4": "6 (left then right: opposite order, one reversal)",
+   "P4p": "6",
+   "P5": "none"
+  },
+  "source": "baselines/astra/program_to_astra.py + run.sh + astra_gen.py (the runner; 57-row embedding); baselines/astra/calib_astra.json + calib_da3.py (10/17 DA3 calibration of translation / rotation / direction); tools/astra/Astra/scripts/infer_demo.py L295-655 (presets), L863-905 (overlay semantics), L934 (zero-pad crash), train_single.py L366-385; commit 3fb82e1 (2026-10-16)",
+  "model": "astra",
+  "written": "2026-10-17 01:20 UTC (frozen-baseline protocol v1). Measured constants + decision for the Astra baseline; merged into baselines/calib.json['astra'] by baselines/astra/calib_merge.py. Key layout follows calib.json['_merge']: 'measurement_da3' and 'translation_units_per_u_da3' are FILE_OWNED (survive `convert.py build`), the other *_da3 keys are unknown to convert.py (kept as they are); the active constants below equal convert.CALIB['astra'] (no conflict).",
+  "translation_units_per_u_da3": 0.15,
+  "embedding_rows_da3": 57,
+  "embedding_rows_note_da3": "10/17: the embedding handed to the official sliding window has 1 + 56 rows (program built for all 225 generated frames, program_to_astra.build(pid, 20, 225)); with the 51-row (201-frame) embedding the official code zero-pads on the CPU and crashes at block 7 (torch.cat device mismatch, infer_demo.py L934), and a zero 3x4 is not 'no motion'. convert.CALIB['astra'].embedding_rows = 51 is stale.",
+  "official_stack_da3": "attention = torch SDPA (neither flash-attn nor SageAttention in Astra/requirements.txt; wan_video_dit_moe.flash_attention falls through); 50 denoising steps per 8-latent block hard-coded (infer_demo.py L1140 set_timesteps(50)), FlowMatchScheduler(shift=5, sigma_min=0, extra_one_step=True), no CFG, MoE 3 experts top-1, bf16, tiled Wan2.1 VAE",
+  "translation_status_da3": "VERIFIED 10/17 on Astra's own outputs with DA3 metric poses (measurement_da3): 1 Astra unit ~ 7.3 m, its preset forward (0.03/latent = u_scale 0.15 for 1 u/s) = 1.1 m/s walking speed on P1; under combined motion (P3) Astra drops almost all translation whatever the scale (0.00 / 0.11 / 0.17 m/s at 1x / 2x / 3x preset), so its REALISED P3 forward/turn ratio (<= 0.010 m/deg) cannot be matched to ours' 0.080 m/deg by the unit; the INPUT ratio at 0.15 (0.092 m/deg) matches ours within 15 %, and 0.15 is kept.",
+  "rotation_check_da3": "VERIFIED 10/17: the radians-per-latent mapping is exact while the generated view is still faithful (P2 first 2.5 s: 18.2 deg/s for 18 commanded; P3 first 5 s: 11.3-13.0 deg/s for 12), and the realised pan rises to 1.5-1.9x once the content is hallucinated (P2 whole clip 272.6 deg instead of 180; P3 178.7 deg instead of 120). Same picture from DA3 poses and from median DIS optical flow at DA3's focal length. Treated as drift behaviour (scored by RPE-Rot), not re-calibrated: rotation_scale 1.0. Pan direction right = correct (content flows left, flow -15 px/frame).",
+  "direction_check_da3": "VERIFIED 10/16 (frames) + 10/17 (DA3 + flow): +yaw -> camera pans RIGHT; P1 flow divergence +0.63 px/frame = forward",
+  "u_scale_decision_da3": {
+   "task": "set u_scale (Astra units per program unit per second) so that P3's forward/turn ratio matches ours",
+   "ours_reference": "14B teacher (4-step, FP8) on garden_1 stretched to 832x480 at area 399360: P3 realised 0.32 m/s forward, 4.0 deg/s yaw -> 0.080 m/deg (= the commanded 0.0833 u/deg with 1 u ~ 0.96 m: ours executes the arc shape at 1/3 of the rate); P1 0.27 m/s",
+   "astra_response": {
+    "P1_u0.15": "pure forward 0.03 units/latent -> 1.10 m/s (segments 1.04 / 1.15 / 1.13 m/s, windows 0.94-1.31) => 7.3 m per Astra unit",
+    "P3_u0.15": "forward 0.03 + yaw 2.4 deg per latent -> forward 0.00 m/s (segments -0.06 / -0.14 / +0.21 / 0.00), yaw 17.9 deg/s (11.3 / 13.0 / 22.9 / 24.3), lateral +0.23 => 0.000 m/deg",
+    "P3_u0.30": "forward 0.06 + yaw 2.4 -> forward 0.11 m/s (0.11 / 0.05 / 0.33 / -0.05; windows median 0.006), yaw 18.1 deg/s (11.7 / 13.2 / 25.8 / 21.8) => 0.006 m/deg",
+    "P3_u0.45": "forward 0.09 + yaw 2.4 -> forward 0.17 m/s (0.17 / 0.01 / 0.29 / 0.19; windows median 0.18), yaw 16.3 deg/s (12.0 / 11.9 / 17.9 / 23.5), lateral +0.49 => 0.010 m/deg; clip still coherent (hallucinated street with blossoms), no visible dolly"
+   },
+   "ratio_match": "NOT reachable: a linear extrapolation of the weak P3 translation response (0.06 m/s per +0.15 u_scale) would need u_scale ~ 2.4 = 16x Astra's preset (0.48 units/latent) for ours' 0.96 m/s at 12 deg/s, far outside its training motion; Astra executes rotation and suppresses translation when both are commanded (P1 alone moves at 1.1 m/s).",
+   "input_ratio_match": "at u_scale 0.15 Astra's INPUT per latent is 0.22 m (7.3 m/unit x 0.03) per 2.4 deg = 0.092 m/deg vs ours' realised 0.080 (ratio-matched input u_scale 0.131; 0.20 with the drifted yaw gain 1.5) - 0.15 lies inside that band and inside DA3's +-15 % metric-scale spread",
+   "chosen": 0.15,
+   "why": "Astra's own preset forward speed (its 'held W key', PROTOCOL \u00a72 keyboard rule and rule 3: the baseline at its native operating point), equal to the input-ratio match within the measurement error; larger values do not buy translation on P3 and are outside the model's demo range; keeps the frozen P1/P3 clips valid. Override for experiments: run.sh U_SCALE=x / astra_gen.py --u-scale.",
+   "consequence_for_metrics": "Astra's RPE-Trans on P3/P4/P5 will reflect the dropped translation; P2/P3 RPE-Rot the 1.5x drifted pan; both are the model's behaviour at the protocol's rates (18 deg/s = 2.1x its preset), a slower P2' is the fair complement (PROTOCOL rule 2)"
+  },
+  "measurement_da3": {
+   "date": "2026-10-17 00:58-01:15 UTC",
+   "method": "baselines/astra/calib_da3.py: Depth Anything 3 (DA3NESTED-GIANT-LARGE-1.1, /home/hk28965/specwm/hf) on windows of 16 frames sampled every 2nd (one shared frame), nested model = metric (translations scaled by its per-window scale_factor, is_metric 1); per-step camera-frame motion with the converters' formulas (c2w = inv(w2c), yaw = atan2(Rr[0,2], Rr[2,2]), tr = R_i^T (t_{i+1}-t_i), forward = tr[2]); per 2.5 s segment and per window; cross-checks: phase-correlation shift and DIS optical flow (median horizontal px/frame for the pan at DA3's fx, radial divergence for forward). DA3 peak 9.4 GiB. Results: baselines/astra/calib/da3_calib.json (+ da3_calib*.log, batch_*.log, ours_teacher.log, strips/)",
+   "clips": {
+    "astra_P2_lat56": {
+     "video": "baselines/runs/astra/astra__garden_1__P2/video.mp4",
+     "commanded_deg_per_s": 18.0,
+     "realised_deg_per_s": 27.25,
+     "realised_total_deg": 272.6,
+     "per_segment_deg_per_s": [
+      18.24,
+      35.79,
+      27.51,
+      27.49
+     ],
+     "flow_per_segment_deg_per_s_fx650": [
+      16.7,
+      31.5,
+      27.0,
+      29.0
+     ],
+     "flow_median_px_per_frame": -15.1,
+     "da3_fx_px": "576-727",
+     "pitch_total_deg": -14.8,
+     "fwd_m_per_s": 0.378,
+     "yaw_gain": 1.514,
+     "sign_ok": true
+    },
+    "astra_P1_u0.15": {
+     "video": "baselines/astra/calib/garden_1_P1_u0.15/video.mp4",
+     "commanded_units_per_latent": 0.03,
+     "fwd_m_per_s_segments": [
+      1.039,
+      1.154,
+      1.127,
+      -0.905
+     ],
+     "fwd_m_per_s_clean_0_7.5s": 1.1,
+     "fwd_m_per_latent_clean": 0.22,
+     "windows_fwd_m_per_s": [
+      1.076,
+      0.941,
+      1.154,
+      1.306,
+      1.057,
+      -1.534,
+      0.038
+     ],
+     "lateral_m_per_s_clean": -0.47,
+     "yaw_deg_per_s_clean": 1.4,
+     "flow_divergence_px_per_frame": 0.63,
+     "m_per_astra_unit": 7.3,
+     "scene_cut_frame": 170,
+     "note": "segment 3 / windows 6-7 are after Astra's scene cut (8.45 s) and excluded"
+    },
+    "astra_P3_u0.15": {
+     "video": "baselines/runs/astra/astra__garden_1__P3/video.mp4",
+     "commanded": "fwd 0.03 units/latent, yaw 2.4 deg/latent (12 deg/s)",
+     "fwd_m_per_s": 0.002,
+     "fwd_m_per_s_segments": [
+      -0.062,
+      -0.145,
+      0.208,
+      0.005
+     ],
+     "yaw_deg_per_s": 17.87,
+     "yaw_deg_per_s_segments": [
+      11.31,
+      12.97,
+      22.85,
+      24.34
+     ],
+     "realised_total_deg": 178.7,
+     "lateral_m_per_s": 0.231,
+     "flow_divergence_px_per_frame": -0.02,
+     "m_per_deg": 0.0001
+    },
+    "astra_P3_u0.30": {
+     "video": "baselines/astra/calib/garden_1_P3_u0.30/video.mp4",
+     "commanded": "fwd 0.06 units/latent, yaw 2.4 deg/latent",
+     "fwd_m_per_s": 0.108,
+     "fwd_m_per_s_segments": [
+      0.11,
+      0.049,
+      0.327,
+      -0.053
+     ],
+     "windows_fwd_median": 0.006,
+     "yaw_deg_per_s": 18.12,
+     "yaw_deg_per_s_segments": [
+      11.72,
+      13.17,
+      25.81,
+      21.79
+     ],
+     "lateral_m_per_s": -0.298,
+     "m_per_deg": 0.006
+    },
+    "astra_P3_u0.45": {
+     "video": "baselines/astra/calib/garden_1_P3_u0.45/video.mp4",
+     "commanded": "fwd 0.09 units/latent, yaw 2.4 deg/latent",
+     "fwd_m_per_s": 0.167,
+     "fwd_m_per_s_segments": [
+      0.171,
+      0.015,
+      0.289,
+      0.194
+     ],
+     "windows_fwd_median": 0.182,
+     "yaw_deg_per_s": 16.31,
+     "yaw_deg_per_s_segments": [
+      12.02,
+      11.86,
+      17.86,
+      23.51
+     ],
+     "lateral_m_per_s": 0.486,
+     "flow_divergence_px_per_frame": 0.1,
+     "m_per_deg": 0.01
+    },
+    "ours_P3_teacher": {
+     "video": "baselines/astra/calib/ours_teacher/calib_garden_1_P3/spec.mp4",
+     "arm": "two_machine --role solo teacher nodes 0,250,500,750 fp8 window 18, area 399360, 832x464, 153 frames @16 fps, garden_1 stretched to 832x480, official prompt",
+     "fwd_m_per_s": 0.322,
+     "fwd_m_per_s_segments": [
+      0.445,
+      0.319,
+      0.259,
+      0.25
+     ],
+     "yaw_deg_per_s": 4.03,
+     "yaw_deg_per_s_segments": [
+      5.97,
+      3.95,
+      3.51,
+      2.36
+     ],
+     "yaw_gain": 0.336,
+     "flow_yaw_deg_per_s_fx416": 4.9,
+     "m_per_deg": 0.08,
+     "m_per_deg_segments": [
+      0.075,
+      0.081,
+      0.074,
+      0.106
+     ],
+     "m_per_u": 0.32
+    },
+    "ours_P1_teacher": {
+     "video": "baselines/astra/calib/ours_teacher/calib_garden_1_P1/spec.mp4",
+     "fwd_m_per_s": 0.265,
+     "fwd_m_per_s_segments": [
+      0.316,
+      0.235,
+      0.25,
+      0.258
+     ],
+     "yaw_deg_per_s": -0.24,
+     "m_per_u": 0.26
+    }
+   },
+   "timing_frozen_config": {
+    "load_s": 11.3,
+    "warm_block_s": 22.0,
+    "block_s_steady": 25.2,
+    "s_per_step_steady": 0.503,
+    "gen_s_56_latents": 173,
+    "decode_s_225_frames": 21.1,
+    "e2e_s": 195,
+    "ttff_s": 26.0,
+    "steady_fps_gen": 1.27,
+    "steady_fps_e2e": 1.12,
+    "peak_alloc_GiB": 14.86,
+    "peak_reserved_GiB": 16.13,
+    "gpu": "RTX PRO 6000 Blackwell (GPU 5), batch of 2 clips 424 s, 1 clip 223 s"
+   }
+  },
+  "merged_from": "baselines/astra/calib_astra.json",
+  "merged_at": "2026-10-17 01:17 UTC",
+  "previous_convert_py_entry": {
+   "fps": 20,
+   "n_frames_10s": 201,
+   "n_frames_written": 201,
+   "latent_stride": 4,
+   "latents_for_201_frames": 50,
+   "embedding_rows": 51,
+   "latents_generated": 56,
+   "latents_per_block": 8,
+   "blocks": 7,
+   "n_frames_generated": 225,
+   "steps": 50,
+   "resolution": [
+    832,
+    480
+   ],
+   "fps_source": "tools/astra/Astra/scripts/infer_demo.py: imageio.get_writer(output_path, fps=20); latent stride 4 (Wan2.1 VAE) -> 5 latent frames per second",
+   "latents_note": "run.sh generates 7 FULL blocks of 8 latents (56 = 225 frames) and cuts the video to 201 frames (10.05 s); a partial 2-latent final block (50 = 6x8+2) collapsed into noise in the 10/16 P2 smoke (astra/ENV.md). The program embedding handed to the official sliding-window code has 51 rows (entry 0 = condition latent, 1..50 = the 10 s program; program_to_astra.build(pid, 20, 201))",
+   "pose_format": "one 13-vector per latent j: flattened 3x4 M_j + mask (0; the inference code overwrites it); M_j = E[4j+4] @ inv(E[4j]) on the training extrinsics = motion latent j -> j+1 (train_single.py create_sekai_pose_embeddings; infer_demo.py real-pose path)",
+   "mapping_from_protocol_c2w": "T_rel = inv(c2w[4j]) @ c2w[4j+4] (OpenCV camera-frame relative c2w); M_j = S T_rel[:3,:] S' with S = diag(1,-1,-1), S' = diag(1,-1,-1,1): protocol +yaw (pan right) -> M[0,2] < 0 = Astra 'Rotate Right' (cam_type 3 = Ry(-0.03)); forward +z -> M[2,3] < 0 = Astra 'Move Forward' (cam_type 1: M[2,3] = -0.03). Strafe / pitch signs not exercised by the programs (unverified)",
+   "rotation": "exact: yaw_deg_per_latent = yaw_deg_per_s * 4 / 20 (P2: 3.6 deg = 0.0628 rad per latent; P2p: 3.2 deg; Astra's presets: 0.03 rad = 1.72 deg per latent = 8.6 deg/s)",
+   "translation_units_per_u": 0.15,
+   "translation_rule": "1 u/s == Astra's own preset forward speed 0.03 per latent step (cam_type 1/4/5/6 forward_speed) = 0.03 * 20 / 4 = 0.15 units/s, i.e. 0.0075 per video frame at 20 fps",
+   "translation_status": "UNVERIFIED against the metric scale of Astra's training data (SpatialVID / MegaSaM poses); PROTOCOL rule 3 asks for DA3 pose recovery of Astra's OWN outputs (scripts/rpe_da3.py) to calibrate the ratio before freezing \u2014 not done in the 10/16 smoke",
+   "translation_note": "(superseded 10/17; was: 0.12 per second at 16 fps) 1 u/s = 0.03 per latent step = 0.15 units/s at Astra's native 20 fps; a turning + moving latent step is the chord of the 4-frame arc (P4: 0.029987 instead of 0.03)",
+   "rotation_check": "Astra demo turns are 0.03 rad per latent step = 1.72 deg per latent = 8.6 deg/s at 20 fps; P2 (18 deg/s = 3.6 deg per latent) is 2.1x faster than the demo, P2p (16 deg/s) 1.9x",
+   "direction_check": "VERIFIED 10/16: P2 smoke (garden_1, seed 1234, baselines/astra/smoke/garden_1_P2_lat50) \u2014 scene content moves LEFT on screen from the first generated frames = camera pans RIGHT, as the protocol's +yaw demands; Astra's own cam_type 4 ('left') example moves content RIGHT. Pan RATE (180 deg / 10 s) not measured (needs DA3)",
+   "presets_closest": {
+    "P1": 1,
+    "P2": 3,
+    "P2p": 3,
+    "P3": 5,
+    "P4": "6 (left then right: opposite order, one reversal)",
+    "P4p": "6",
+    "P5": "none"
+   },
+   "source": "baselines/astra/program_to_astra.py + calib_astra.json + run.sh (the runner); tools/astra/Astra/scripts/infer_demo.py L295-655 (presets), L863-905 (overlay semantics), train_single.py L366-385; commit 3fb82e1 (2026-10-16)"
+  }
+ },
+ "sf1p3b": {
+  "date": "2026-10-17",
+  "verifier": "Speculative Forcing training-free verifier (arXiv 2610.22347 Sec. 3.3.1 / App. A) on LingBot-World 2.0 1.3B causal-fast, 832x480, 3-latent-frame chunks, sink 6 / window 18, 4-step schedule; token = 16 ch x 2x2 latent patch (64-dim); scores / median token norm of the current draft (--tf-norm draft), 9x9 spatial + forward temporal Gaussian smoothing (specwm/early_exit_tf.py)",
+  "eps": 0.24,
+  "published": {
+   "tau_red": 0.375,
+   "tau_stab": 0.3,
+   "source": "paper's LingBot values (arm A, PROTOCOL rule 9)"
+  },
+  "calibrated": {
+   "tau_red": 0.2919,
+   "tau_stab": 0.3112,
+   "rule": "per scene (programs P1 + P2 pooled): tau = quantile of the smoothed training-free score at the ORACLE acceptance rate P(rel_k <= eps), rel_k = ||x0^(k) - x0^(4)|| / median token norm of x0^(4) along the 1.3B's OWN 4-step rollout (no token accepted during the calibration run: --tau-red -1 --tau-stab -1 --tf-calib, i.e. the context of every chunk is the uniform:4 output); tau_red from step k = 1, tau_stab from the pooled k = 2, 3 tokens (one tau_stab at both steps as in the paper); frozen value = MEDIAN over the 3 scenes",
+   "measurement": "baselines/sf1p3b/calib_1017/cal.sh (GPU 5, 2026-10-17 00:08-00:13, one process, seed 1234, 13 chunks x 4680 tokens per clip, 6 clips = 355134 tokens); analysis calib_analyze.py -> calib_summary.json",
+   "scenes": [
+    "balloon_block_cut",
+    "easy_lake",
+    "pouring_water_into_cup"
+   ],
+   "programs": [
+    "P1",
+    "P2"
+   ],
+   "per_scene": {
+    "balloon_block_cut": {
+     "tau_red": 0.2919,
+     "tau_stab": 0.3112,
+     "tau_stab_k2": 0.3133,
+     "tau_stab_k3": 0.3092,
+     "tokens": 117624,
+     "oracle_acc_k1": 0.54,
+     "oracle_acc_k2": 0.675,
+     "oracle_acc_k3": 0.824
+    },
+    "easy_lake": {
+     "tau_red": 0.2556,
+     "tau_stab": 0.273,
+     "tau_stab_k2": 0.2714,
+     "tau_stab_k3": 0.2757,
+     "tokens": 117624,
+     "oracle_acc_k1": 0.802,
+     "oracle_acc_k2": 0.873,
+     "oracle_acc_k3": 0.942
+    },
+    "pouring_water_into_cup": {
+     "tau_red": 0.2936,
+     "tau_stab": 0.3225,
+     "tau_stab_k2": 0.3213,
+     "tau_stab_k3": 0.3235,
+     "tokens": 119886,
+     "oracle_acc_k1": 0.463,
+     "oracle_acc_k2": 0.514,
+     "oracle_acc_k3": 0.596
+    }
+   },
+   "per_run": {
+    "sf1p3b__balloon_block_cut__P1": {
+     "prog": "P1",
+     "oracle_acc_k1": 0.273,
+     "tau_red_match": 0.2624,
+     "tau_stab_match_k23": 0.3049,
+     "auroc_k1": 0.773,
+     "auroc_k23": 0.88
+    },
+    "sf1p3b__balloon_block_cut__P2": {
+     "prog": "P2",
+     "oracle_acc_k1": 0.807,
+     "tau_red_match": 0.3455,
+     "tau_stab_match_k23": 0.3658,
+     "auroc_k1": 0.923,
+     "auroc_k23": 0.97
+    },
+    "sf1p3b__easy_lake__P1": {
+     "prog": "P1",
+     "oracle_acc_k1": 0.813,
+     "tau_red_match": 0.2661,
+     "tau_stab_match_k23": 0.2662,
+     "auroc_k1": 0.813,
+     "auroc_k23": 0.957
+    },
+    "sf1p3b__easy_lake__P2": {
+     "prog": "P2",
+     "oracle_acc_k1": 0.791,
+     "tau_red_match": 0.2498,
+     "tau_stab_match_k23": 0.2798,
+     "auroc_k1": 0.858,
+     "auroc_k23": 0.945
+    },
+    "sf1p3b__pouring_water_into_cup__P1": {
+     "prog": "P1",
+     "oracle_acc_k1": 0.089,
+     "tau_red_match": 0.2911,
+     "tau_stab_match_k23": 0.3213,
+     "auroc_k1": 0.781,
+     "auroc_k23": 0.935
+    },
+    "sf1p3b__pouring_water_into_cup__P2": {
+     "prog": "P2",
+     "oracle_acc_k1": 0.837,
+     "tau_red_match": 0.2978,
+     "tau_stab_match_k23": 0.3276,
+     "auroc_k1": 0.95,
+     "auroc_k23": 0.975
+    }
+   },
+   "pooled_all": {
+    "tokens": 355134,
+    "oracle_acc_k1": 0.601,
+    "tau_red_match_pooled": 0.281,
+    "tau_stab_match_pooled_k23": 0.3041,
+    "auroc_k1": 0.914,
+    "auroc_k2": 0.96,
+    "auroc_k3": 0.973
+   },
+   "predicted_on_dense_scores": {
+    "note": "sequential rule applied to the dense-draft scores of the 6 calibration clips (approximation: frozen tokens change later drafts in a real run)",
+    "published": {
+     "step1_acc": 0.777,
+     "step1_precision": 0.743,
+     "mean_steps_est": 1.573,
+     "frac_accepted_with_gap_gt_eps": 0.209
+    },
+    "calibrated": {
+     "step1_acc": 0.619,
+     "step1_precision": 0.854,
+     "mean_steps_est": 1.855,
+     "frac_accepted_with_gap_gt_eps": 0.128
+    }
+   }
+  },
+  "smoke_1016_note": "smoke_1016/tf calibrated the same scores along the COLLAPSING published-threshold rollout of examples/03 (oracle step-1 rate 0.15, matched tau_red 0.231): not used for the frozen values"
+ },
+ "_merge": {
+  "policy": "calib.json = merge(file, convert.CALIB): every key of the file survives (keys unknown to convert.py are kept as they are); keys in FILE_OWNED (raw measurements: K_per_deg_per_frame_10_09, K_per_deg_per_frame_da3, date, k_yaw_previous, largest_unsaturated_yaw_deg_per_s, measured_on, measurement_da3, measurements, source_previous, translation_units_per_u_da3, verification) keep the file's value; all other keys (the ACTIVE constants = decisions, and documentation) take convert.CALIB's value, so re-calibrating a constant means recording the measurement in the file AND changing CALIB; every disagreement is listed in _merge.decisions and the previous file is kept as calib.json.prev",
+  "last_build": "2026-10-17 01:45:30 UTC",
+  "previous_file": "calib.json.prev",
+  "decisions": [
+   "version: code wins: \"2026-10-17b (PROTOCOL v1; measured values merged 10/16-17; Waypoin...  [file had \"2026-10-17 (PROTOCOL v1; measured values merged 10/16-17)\"]",
+   "waypoint.mouse: code wins: \"[K_yaw * yaw_deg_per_call, K_yaw * pitch_deg_per_call]; raw, uncli...  [file had \"[K_yaw * yaw_deg_per_call, K_yaw * pitch_deg_per_call]; raw, uncli...]",
+   "waypoint.source: code wins: \"K_yaw 68 (10/17 FINAL): proportional least-squares fit total_yaw =...  [file had \"10/17 FINAL: proportional least-squares fit total_yaw = c * mouse_...]",
+   "waypoint.k_yaw_previous: file (measured) wins: \"118 (10/9, invalid: start image re-appended every call); 79 (10/16...  [code default \"118 (10/9 optical-flow calibration, paper/meeting_1012/research_mg...]",
+   "waypoint.date: file (measured) wins: \"2026-10-17T00:45\"  [code default \"2026-10-16T22:40\"]",
+   "waypoint.measurements: file (measured) wins: {\"P2_k118\": {\"mouse_x_per_call\": 141.6, \"calls\": 150.0, \"yaw_total_...  [code default {\"P2_k118\": {\"mouse_x_per_call\": 141.6, \"calls\": 150.0, \"yaw_total_...]",
+   "waypoint.verification: file (measured) wins: \"VERIFIED 10/17 on GPU 4 (baselines/waypoint/smoke/{wp__highland_ca...  [code default \"VERIFIED 10/17 on GPU 4 (baselines/waypoint/smoke/{wp__highland_ca...]",
+   "kept file key waypoint.source_previous (unknown to convert.CALIB)",
+   "kept file key waypoint.measurements_note (unknown to convert.CALIB)",
+   "kept file key waypoint.fit (unknown to convert.CALIB)",
+   "kept file key abot.measurements (unknown to convert.CALIB)",
+   "kept file key abot.L_key_yaw_deg_per_s_da3 (unknown to convert.CALIB)",
+   "kept file key abot.L_pan_direction (unknown to convert.CALIB)",
+   "kept file key abot.P2_realised_over_commanded (unknown to convert.CALIB)",
+   "kept file key abot.block_layout_note (unknown to convert.CALIB)",
+   "kept file key abot.measured_on (unknown to convert.CALIB)",
+   "kept file key abot.date (unknown to convert.CALIB)",
+   "kept file key astra.model (unknown to convert.CALIB)",
+   "kept file key astra.written (unknown to convert.CALIB)",
+   "kept file key astra.translation_units_per_u_da3 (unknown to convert.CALIB)",
+   "kept file key astra.embedding_rows_da3 (unknown to convert.CALIB)",
+   "kept file key astra.embedding_rows_note_da3 (unknown to convert.CALIB)",
+   "kept file key astra.official_stack_da3 (unknown to convert.CALIB)",
+   "kept file key astra.translation_status_da3 (unknown to convert.CALIB)",
+   "kept file key astra.rotation_check_da3 (unknown to convert.CALIB)",
+   "kept file key astra.direction_check_da3 (unknown to convert.CALIB)",
+   "kept file key astra.u_scale_decision_da3 (unknown to convert.CALIB)",
+   "kept file key astra.measurement_da3 (unknown to convert.CALIB)",
+   "astra.presets_closest: code wins: {\"P1\": 1, \"P2\": 3, \"P2p\": 3, \"P3\": 5, \"P4\": \"6 (left then right: op...  [file had {\"P1\": 1, \"P2\": 3, \"P3\": 5, \"P4\": \"6 (left then right: opposite ord...]",
+   "astra.source: code wins: \"baselines/astra/program_to_astra.py + run.sh + astra_gen.py (the r...  [file had \"tools/astra/Astra/scripts/infer_demo.py L295-655 (presets), L934 (...]",
+   "kept file key astra.merged_from (unknown to convert.CALIB)",
+   "kept file key astra.merged_at (unknown to convert.CALIB)",
+   "kept file key astra.previous_convert_py_entry (unknown to convert.CALIB)",
+   "kept file section 'sf1p3b' (unknown to convert.CALIB)"
+  ],
+  "warnings": []
+ }
+}

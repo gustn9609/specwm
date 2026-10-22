@@ -1,0 +1,326 @@
+{
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/balloon_block_cut_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/billiard_break_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/domino_falling_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/easy_lake_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/easy_urban_rain_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/newtons_cradle_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/pouring_water_into_cup_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/seesaw_balance_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/shower_knob_turn_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/tea_dilution_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/tire_inflate_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/traffic_light_green_s7/cs1/spec.mp4": {
+"label": "cs1",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/balloon_block_cut_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/billiard_break_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/domino_falling_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 85.0,
+"quality": 7.0,
+"raw": [
+"85",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/easy_lake_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/easy_urban_rain_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/newtons_cradle_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/pouring_water_into_cup_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/seesaw_balance_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/shower_knob_turn_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/tea_dilution_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/tire_inflate_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 85.0,
+"quality": 8.0,
+"raw": [
+"85",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/traffic_light_green_s7/cs2/spec.mp4": {
+"label": "cs2",
+"drift": 30.0,
+"quality": 9.0,
+"raw": [
+"30",
+"9"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/balloon_block_cut_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/billiard_break_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/domino_falling_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/easy_lake_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/easy_urban_rain_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/newtons_cradle_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/pouring_water_into_cup_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/seesaw_balance_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 75.0,
+"quality": 8.0,
+"raw": [
+"75",
+"8"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/shower_knob_turn_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/tea_dilution_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 65.0,
+"quality": 7.0,
+"raw": [
+"65",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/tire_inflate_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 30.0,
+"quality": 7.0,
+"raw": [
+"30",
+"7"
+]
+},
+"/home/hk28965/specwm/lingbot-world-v2/specwm_out/chunk1_probe/traffic_light_green_s7/cs3/spec.mp4": {
+"label": "cs3",
+"drift": 30.0,
+"quality": 8.0,
+"raw": [
+"30",
+"8"
+]
+}
+}

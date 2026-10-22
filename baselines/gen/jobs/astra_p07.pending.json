@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P3",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P4",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P4p",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P5",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ }
+]

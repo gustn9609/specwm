@@ -1,0 +1,362 @@
+[
+ {
+  "area": 399360,
+  "grid": [
+   6,
+   58,
+   106
+  ],
+  "prefix": 3,
+  "latents": 6,
+  "tokens": 9222,
+  "expert": "high",
+  "cfg": 0,
+  "sec": 1.664,
+  "peak_gb": 74.0
+ },
+ {
+  "area": 399360,
+  "grid": [
+   6,
+   58,
+   106
+  ],
+  "prefix": 3,
+  "latents": 6,
+  "tokens": 9222,
+  "expert": "high",
+  "cfg": 1,
+  "sec": 3.324,
+  "peak_gb": 74.0
+ },
+ {
+  "area": 399360,
+  "grid": [
+   6,
+   58,
+   106
+  ],
+  "prefix": 3,
+  "latents": 6,
+  "tokens": 9222,
+  "expert": "low",
+  "cfg": 0,
+  "sec": 1.664,
+  "peak_gb": 74.0
+ },
+ {
+  "area": 399360,
+  "grid": [
+   6,
+   58,
+   106
+  ],
+  "prefix": 3,
+  "latents": 6,
+  "tokens": 9222,
+  "expert": "low",
+  "cfg": 1,
+  "sec": 3.33,
+  "peak_gb": 74.0
+ },
+ {
+  "area": 399360,
+  "grid": [
+   12,
+   58,
+   106
+  ],
+  "prefix": 9,
+  "latents": 12,
+  "tokens": 18444,
+  "expert": "high",
+  "cfg": 0,
+  "sec": 3.728,
+  "peak_gb": 78.3
+ },
+ {
+  "area": 399360,
+  "grid": [
+   12,
+   58,
+   106
+  ],
+  "prefix": 9,
+  "latents": 12,
+  "tokens": 18444,
+  "expert": "high",
+  "cfg": 1,
+  "sec": 7.468,
+  "peak_gb": 78.3
+ },
+ {
+  "area": 399360,
+  "grid": [
+   12,
+   58,
+   106
+  ],
+  "prefix": 9,
+  "latents": 12,
+  "tokens": 18444,
+  "expert": "low",
+  "cfg": 0,
+  "sec": 3.734,
+  "peak_gb": 78.3
+ },
+ {
+  "area": 399360,
+  "grid": [
+   12,
+   58,
+   106
+  ],
+  "prefix": 9,
+  "latents": 12,
+  "tokens": 18444,
+  "expert": "low",
+  "cfg": 1,
+  "sec": 7.473,
+  "peak_gb": 78.3
+ },
+ {
+  "area": 399360,
+  "grid": [
+   21,
+   58,
+   106
+  ],
+  "prefix": 18,
+  "latents": 21,
+  "tokens": 32277,
+  "expert": "high",
+  "cfg": 0,
+  "sec": 7.495,
+  "peak_gb": 84.7
+ },
+ {
+  "area": 399360,
+  "grid": [
+   21,
+   58,
+   106
+  ],
+  "prefix": 18,
+  "latents": 21,
+  "tokens": 32277,
+  "expert": "high",
+  "cfg": 1,
+  "sec": 14.993,
+  "peak_gb": 84.7
+ },
+ {
+  "area": 399360,
+  "grid": [
+   21,
+   58,
+   106
+  ],
+  "prefix": 18,
+  "latents": 21,
+  "tokens": 32277,
+  "expert": "low",
+  "cfg": 0,
+  "sec": 7.493,
+  "peak_gb": 84.7
+ },
+ {
+  "area": 399360,
+  "grid": [
+   21,
+   58,
+   106
+  ],
+  "prefix": 18,
+  "latents": 21,
+  "tokens": 32277,
+  "expert": "low",
+  "cfg": 1,
+  "sec": 14.988,
+  "peak_gb": 84.7
+ },
+ {
+  "area": 184320,
+  "grid": [
+   6,
+   38,
+   72
+  ],
+  "prefix": 3,
+  "latents": 6,
+  "tokens": 4104,
+  "expert": "high",
+  "cfg": 0,
+  "sec": 0.699,
+  "peak_gb": 71.6
+ },
+ {
+  "area": 184320,
+  "grid": [
+   6,
+   38,
+   72
+  ],
+  "prefix": 3,
+  "latents": 6,
+  "tokens": 4104,
+  "expert": "high",
+  "cfg": 1,
+  "sec": 1.397,
+  "peak_gb": 71.6
+ },
+ {
+  "area": 184320,
+  "grid": [
+   6,
+   38,
+   72
+  ],
+  "prefix": 3,
+  "latents": 6,
+  "tokens": 4104,
+  "expert": "low",
+  "cfg": 0,
+  "sec": 0.698,
+  "peak_gb": 71.6
+ },
+ {
+  "area": 184320,
+  "grid": [
+   6,
+   38,
+   72
+  ],
+  "prefix": 3,
+  "latents": 6,
+  "tokens": 4104,
+  "expert": "low",
+  "cfg": 1,
+  "sec": 1.397,
+  "peak_gb": 71.6
+ },
+ {
+  "area": 184320,
+  "grid": [
+   12,
+   38,
+   72
+  ],
+  "prefix": 9,
+  "latents": 12,
+  "tokens": 8208,
+  "expert": "high",
+  "cfg": 0,
+  "sec": 1.457,
+  "peak_gb": 73.5
+ },
+ {
+  "area": 184320,
+  "grid": [
+   12,
+   38,
+   72
+  ],
+  "prefix": 9,
+  "latents": 12,
+  "tokens": 8208,
+  "expert": "high",
+  "cfg": 1,
+  "sec": 2.913,
+  "peak_gb": 73.5
+ },
+ {
+  "area": 184320,
+  "grid": [
+   12,
+   38,
+   72
+  ],
+  "prefix": 9,
+  "latents": 12,
+  "tokens": 8208,
+  "expert": "low",
+  "cfg": 0,
+  "sec": 1.456,
+  "peak_gb": 73.5
+ },
+ {
+  "area": 184320,
+  "grid": [
+   12,
+   38,
+   72
+  ],
+  "prefix": 9,
+  "latents": 12,
+  "tokens": 8208,
+  "expert": "low",
+  "cfg": 1,
+  "sec": 2.912,
+  "peak_gb": 73.5
+ },
+ {
+  "area": 184320,
+  "grid": [
+   21,
+   38,
+   72
+  ],
+  "prefix": 18,
+  "latents": 21,
+  "tokens": 14364,
+  "expert": "high",
+  "cfg": 0,
+  "sec": 2.828,
+  "peak_gb": 76.4
+ },
+ {
+  "area": 184320,
+  "grid": [
+   21,
+   38,
+   72
+  ],
+  "prefix": 18,
+  "latents": 21,
+  "tokens": 14364,
+  "expert": "high",
+  "cfg": 1,
+  "sec": 5.655,
+  "peak_gb": 76.4
+ },
+ {
+  "area": 184320,
+  "grid": [
+   21,
+   38,
+   72
+  ],
+  "prefix": 18,
+  "latents": 21,
+  "tokens": 14364,
+  "expert": "low",
+  "cfg": 0,
+  "sec": 2.827,
+  "peak_gb": 76.4
+ },
+ {
+  "area": 184320,
+  "grid": [
+   21,
+   38,
+   72
+  ],
+  "prefix": 18,
+  "latents": 21,
+  "tokens": 14364,
+  "expert": "low",
+  "cfg": 1,
+  "sec": 5.654,
+  "peak_gb": 76.4
+ }
+]

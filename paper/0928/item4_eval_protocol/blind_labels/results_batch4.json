@@ -1,0 +1,279 @@
+{
+ "summary": "SDVG port blind labels: 3 independent raters (one agent per rater, all 18 sheets each)",
+ "result": [
+  {
+   "id": "5802ba70f8",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 2,
+   "drift": true,
+   "categories": {
+    "freeze": 2
+   },
+   "reasons": [
+    "ok(3) : Stays on the same jar, funnel and wooden table throughout; sand remains sand. Camera motion is weak (jar almost always centered) and one frame shows mild ghosting, but nothing clearly drifts.",
+    "DRIFT(3) freeze: The camera stays on the jar for the whole clip instead of stepping back and turning 360 degrees, so the scene is essentially static apart from small shifts and one ghosted double-jar frame.",
+    "DRIFT(3) freeze: The jar stays centered in every frame with only small shifts; the camera never turns away despite the commanded 360 turn. A late frame shows a ghosted double funnel."
+   ]
+  },
+  {
+   "id": "6aa24ae2a1",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "new_object": 3,
+    "teleport": 3
+   },
+   "reasons": [
+    "DRIFT(5) new_object+teleport: A person in white holding an orange object appears, and the view becomes a room interior with dark wooden cabinets, a window and a brick wall.",
+    "DRIFT(5) new_object+teleport: A white-clad figure holding an orange object appears, and later frames show a window and a brick-wall room interior that do not belong to the tabletop scene.",
+    "DRIFT(5) teleport+new_object: The camera reveals a room interior with dark wooden cabinets, windows and a brick wall, and a person in white holding an object appears."
+   ]
+  },
+  {
+   "id": "833fc8f955",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "new_object": 3
+   },
+   "reasons": [
+    "DRIFT(5) teleport+new_object: The scene turns into a porch/room with a painted cabinet, potted plants and an open door to an outdoor garden. None of this belongs to the tabletop scene.",
+    "DRIFT(5) teleport+new_object: The scene becomes a room with a dark wooden door, a painted cabinet with potted plants, and an open doorway to an outdoor garden, none of which belong to the tabletop scene.",
+    "DRIFT(5) teleport+new_object: The scene becomes a room with a painted cabinet, potted plants and an open door onto a green garden. It never returns to the jar."
+   ]
+  },
+  {
+   "id": "f96153183c",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "material_swap": 3,
+    "freeze": 1
+   },
+   "reasons": [
+    "DRIFT(5) material_swap: The sand in the jar turns into amber/brown liquid from the middle frames onward.",
+    "DRIFT(5) material_swap+freeze: The sand in the jar turns into amber liquid, like honey or oil, that darkens over time, and the camera barely leaves the jar despite the commanded turn.",
+    "DRIFT(5) material_swap: The sand in the jar turns into amber/brown liquid from the second row on. The camera also barely leaves the jar."
+   ]
+  },
+  {
+   "id": "1eb0ad219a",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "material_swap": 3
+   },
+   "reasons": [
+    "DRIFT(4) material_swap: In two middle frames the jar contents become orange liquid before reverting to sand. The table and plain grey wall shown during the pan are otherwise plausible.",
+    "DRIFT(5) material_swap: The sand in the jar turns into an orange-yellow liquid, like juice, in two frames. The table and plain wall views are otherwise plausible.",
+    "DRIFT(4) material_swap: Table and plain grey wall views are plausible, but in two frames the jar is filled with yellow liquid instead of sand."
+   ]
+  },
+  {
+   "id": "2a2e2a2594",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 0,
+   "drift": false,
+   "categories": {},
+   "reasons": [
+    "ok(4) : The camera pans across the same wooden table to a plain blue-grey wall and returns to the jar at the end. There are no new objects or material changes.",
+    "ok(4) : The camera turns across the same rustic table to a plain blue-grey plaster wall and corner, then returns to the jar at the end, which is a plausible continuation of the same room.",
+    "ok(4) : The camera pans across the same wooden table to a plain grey-blue wall and returns to the sand jar. Nothing foreign appears; the wall's slight blue tint is mild."
+   ]
+  },
+  {
+   "id": "25699d0657",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 2,
+   "drift": true,
+   "categories": {
+    "freeze": 2
+   },
+   "reasons": [
+    "ok(3) : The same jar and table appear in every frame, and the sand pile grows. Camera turning is minimal but frames are not identical, and grain colour varies only slightly.",
+    "DRIFT(3) freeze: The camera never turns away from the jar despite the commanded 360-degree turn; the frames stay centered on the jar with only small view shifts. The sand also briefly turns into darker, coarser granules.",
+    "DRIFT(3) freeze: The jar stays centered in nearly every frame with only small viewpoint changes, so the commanded 360 turn never happens. The sand content varies a little."
+   ]
+  },
+  {
+   "id": "b8c555f9ea",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 0,
+   "drift": false,
+   "categories": {},
+   "reasons": [
+    "ok(3) : The pan shows more of the wooden table and a dark wood-panelled wall of the room, then returns to the jar. There is some ghosting of the jar near the end, but no clear drift.",
+    "ok(2) : The camera stays on the same wooden table and shows dark wooden wall paneling, then returns to the jar. The jar's funnel shape and the sand level shift somewhat, and one frame has a ghosted jar, but nothing clearly foreign appears.",
+    "ok(3) : The pan shows more of the wooden table and a dark wooden plank wall/door of a dim room, then returns to the jar. The jar shape varies and one frame is ghosted, but nothing clearly foreign appears."
+   ]
+  },
+  {
+   "id": "2c55c10314",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "new_object": 3
+   },
+   "reasons": [
+    "DRIFT(5) teleport+new_object: The background becomes a furnished room interior with a doorway to another room, windows, a shelf, a pot on a stool and a cabinet with decor.",
+    "DRIFT(5) teleport+new_object: The tabletop turns into a furnished room interior with windows, a doorway into another lit room, a stool with a black pot, and shelves.",
+    "DRIFT(5) teleport+new_object: The scene becomes a furnished room with doorways, a window, a radiator, a black pot on a stool and a shelf with ornaments."
+   ]
+  },
+  {
+   "id": "454fc632de",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 0,
+   "drift": false,
+   "categories": {},
+   "reasons": [
+    "ok(3) : The wave destroys the castle, and the camera pans over flat wet beach, sea and overcast sky, then returns to breaking surf. One frame is a large white spray blob, plausibly wave foam.",
+    "ok(4) : The wave destroys the castle, leaving flat wet sand, and the camera pans over the same beach, sea and distant headland under consistent overcast lighting. One frame is spray or mist, which is plausible.",
+    "ok(3) : Castle is washed away and the camera pans over the same overcast beach, sea and a distant headland, then back to the surf. One frame has a large white spray/mist blob, but it reads as wave spray, and the lighting stays consistent."
+   ]
+  },
+  {
+   "id": "7c2d6dfadf",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 3
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change+teleport: The overcast sky becomes a bright sunny blue sky, and the sea becomes turquoise tropical water with a tree-lined shore.",
+    "DRIFT(5) lighting_change+teleport: The stormy beach becomes a sunny tropical lagoon with turquoise water and a tree-lined shore, a clear change of place and weather.",
+    "DRIFT(5) lighting_change+teleport: The overcast sky turns bright sunny blue, and the sea becomes turquoise tropical water with a tree-lined shore, which looks like a different coast."
+   ]
+  },
+  {
+   "id": "7bedc5f088",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 1,
+    "color_collapse": 1
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change+teleport: The overcast sky switches to a saturated blue sky with repeated cartoonish clouds over a dune-like sand expanse.",
+    "DRIFT(5) lighting_change+color_collapse: The overcast sky switches to an oversaturated deep-blue sky with rows of repeated cartoonish clouds over a flat desert-like sand plain.",
+    "DRIFT(5) lighting_change: From the second row on, the overcast sky becomes a saturated blue sky with repeated cartoonish cumulus clouds over dry dunes, an abrupt weather/lighting change."
+   ]
+  },
+  {
+   "id": "4ca8606f45",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 2,
+   "drift": true,
+   "categories": {
+    "texture_collapse": 2
+   },
+   "reasons": [
+    "DRIFT(2) texture_collapse: Mid-clip the camera seems submerged in the wave, and one frame is an unreadable blurry smear of foam. The rest (overcast sea, distant wooded headland) stays plausible, so this is borderline.",
+    "ok(2) : The wave engulfs the castle and the camera, leaving open sea and flat wet sand under a consistent overcast sky. One frame is an unreadable underwater-like blur, but it reads as camera immersion in the wave rather than a collapse.",
+    "DRIFT(3) texture_collapse: Mostly a plausible overcast coast, but mid-clip frames become an unreadable greenish underwater-like smear. The pine-forested headland is borderline plausible."
+   ]
+  },
+  {
+   "id": "7b19926a99",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 1
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change: The overcast sky turns into bright blue sunny sky over a pine-forest coastline. The castle reappears intact and enlarged after the wave instead of being destroyed.",
+    "DRIFT(3) lighting_change: The stormy overcast sky gradually becomes a clear blue sky with cumulus clouds. A pine-lined coast appears, which could still pass as the same shoreline, and the castle stays intact.",
+    "DRIFT(5) lighting_change+teleport: The sky turns bright blue with a dense conifer forest, grassy banks and mountains. The castle survives the wave intact and reappears, and the scene looks like a lake/river shore rather than the original beach."
+   ]
+  },
+  {
+   "id": "5d02a53fbc",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "lighting_change": 3
+   },
+   "reasons": [
+    "DRIFT(5) teleport+lighting_change: The beach becomes an inland landscape with pine forest, snow-capped mountains, a grassy meadow and a river, under bright blue sky.",
+    "DRIFT(5) teleport+lighting_change: The beach turns into an inland landscape with a pine forest, snow-capped mountains, grassland and a river under a clear blue sky, a different place with different weather.",
+    "DRIFT(5) teleport+lighting_change: The beach becomes an inland landscape with pine forest, snow-capped mountains, grass and a river under a bright blue sky."
+   ]
+  },
+  {
+   "id": "1359091807",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "texture_collapse": 2
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change: The overcast sky abruptly becomes a bright sunny blue sky with puffy clouds and saturated blue sea, while the castle stays mostly intact and in view.",
+    "DRIFT(4) lighting_change+texture_collapse: The overcast sky turns bright blue and sunny, and near the end the castle becomes a ghostly, semi-transparent smear before it disappears.",
+    "DRIFT(5) lighting_change+texture_collapse: The overcast sky becomes bright blue with puffy clouds and saturated blue sea. The castle stays in frame during the whole 'turn', and late frames show a ghosted/blurred castle."
+   ]
+  },
+  {
+   "id": "4ebba880d2",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change: The overcast sky switches to a bright sunny blue sky with saturated blue water. The castle stays centered and intact rather than the camera turning away.",
+    "DRIFT(4) lighting_change: Looks almost the same as e0e70f9ccb: the overcast storm turns into a bright blue sunny sky mid-clip while the beach and castle stay otherwise consistent.",
+    "DRIFT(5) lighting_change: Abrupt change from overcast to a bright sunny blue sky and saturated turquoise sea. The castle stays intact and in view throughout, which doesn't fit the commanded 360 turn."
+   ]
+  },
+  {
+   "id": "e0e70f9ccb",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change: The overcast stormy light becomes a bright sunny blue sky with saturated blue sea partway through the clip.",
+    "DRIFT(4) lighting_change: From the second row on, the grey overcast sky turns into a bright sunny blue sky with puffy clouds and saturated turquoise water, a sudden and implausible weather change.",
+    "DRIFT(5) lighting_change: Overcast turns into a bright sunny blue sky with saturated blue water. The castle persists in view throughout rather than leaving during the turn."
+   ]
+  }
+ ]
+}

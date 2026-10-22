@@ -1,0 +1,56 @@
+{
+ "set": "astra",
+ "arm": "sf24",
+ "tier": 8,
+ "res": "832x480",
+ "area": 399361,
+ "n": 2,
+ "made": "2026-10-19 (audit)",
+ "why": "[10/19 audit] validation of the spec_early fps correction: 2 clips (first frozen scene, P1 + P2) re-run with STREAM_DECODE=0 (no side-stream decode in the chunk timer) and RUNS_SUFFIX=_dit -> runs/ours_sf24_astra_dit; gen/dit_check.py compares with the frozen steady_fps_gen_dit",
+ "ids": [
+  "astra__garden_1__P1",
+  "astra__garden_1__P2"
+ ],
+ "tasks": [
+  {
+   "id": "astra__garden_1__P1",
+   "base": "astra__garden_1__P1",
+   "image": "/home/hk28965/specwm/baselines/tasks/astra/img/garden_1.png",
+   "video_WM": "",
+   "camera_WM": "A sunlit European street lined with historic buildings and vibrant greenery creates a warm, charming, and inviting atmosphere. The scene shows a picturesque open square paved with red bricks, surrounded by classic narrow townhouses featuring tall windows, gabled roofs, and dark-painted facades. On the right side, a lush arrangement of potted plants and blooming flowers adds rich color and texture to the foreground. A vintage-style streetlamp stands prominently near the center-right, contributing to the timeless character of the street. Mature trees frame the background, their leaves glowing in the warm afternoon sunlight. Bicycles are visible along the edges of the buildings, reinforcing the urban yet leisurely feel. The sky is bright blue with scattered clouds, and soft sun flares enter the frame from the left, enhancing the scene\u2019s inviting, peaceful mood.",
+   "pose": "program",
+   "action": "/home/hk28965/specwm/baselines/tasks/astra/astra__garden_1__P1",
+   "program": "P1",
+   "scene": "garden_1",
+   "set": "astra",
+   "res": "832x480",
+   "area": 399361,
+   "rule": "stretch",
+   "frames": 165,
+   "src_image": "/home/hk28965/specwm/baselines/scenes/astra/garden_1.png",
+   "suffix": "",
+   "caption": "scene .txt",
+   "scenes_from": "scenes/astra/FROZEN.json"
+  },
+  {
+   "id": "astra__garden_1__P2",
+   "base": "astra__garden_1__P2",
+   "image": "/home/hk28965/specwm/baselines/tasks/astra/img/garden_1.png",
+   "video_WM": "",
+   "camera_WM": "A sunlit European street lined with historic buildings and vibrant greenery creates a warm, charming, and inviting atmosphere. The scene shows a picturesque open square paved with red bricks, surrounded by classic narrow townhouses featuring tall windows, gabled roofs, and dark-painted facades. On the right side, a lush arrangement of potted plants and blooming flowers adds rich color and texture to the foreground. A vintage-style streetlamp stands prominently near the center-right, contributing to the timeless character of the street. Mature trees frame the background, their leaves glowing in the warm afternoon sunlight. Bicycles are visible along the edges of the buildings, reinforcing the urban yet leisurely feel. The sky is bright blue with scattered clouds, and soft sun flares enter the frame from the left, enhancing the scene\u2019s inviting, peaceful mood.",
+   "pose": "program",
+   "action": "/home/hk28965/specwm/baselines/tasks/astra/astra__garden_1__P2",
+   "program": "P2",
+   "scene": "garden_1",
+   "set": "astra",
+   "res": "832x480",
+   "area": 399361,
+   "rule": "stretch",
+   "frames": 165,
+   "src_image": "/home/hk28965/specwm/baselines/scenes/astra/garden_1.png",
+   "suffix": "",
+   "caption": "scene .txt",
+   "scenes_from": "scenes/astra/FROZEN.json"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "M1056_K5120_N5120": {
+  "bf16": 0.24124622344970703,
+  "fp8_scaled_mm": 0.14177799224853516,
+  "int4_dequant_bf16_linear": 0.5353164672851562,
+  "int4_dequant_fp8_scaled_mm": 0.8062982559204102,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ },
+ "M1056_K5120_N13824": {
+  "bf16": 0.45578479766845703,
+  "fp8_scaled_mm": 0.3050994873046875,
+  "int4_dequant_bf16_linear": 1.6265058517456055,
+  "int4_dequant_fp8_scaled_mm": 2.67669677734375,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ },
+ "M1056_K13824_N5120": {
+  "bf16": 0.6173419952392578,
+  "fp8_scaled_mm": 0.3546476364135742,
+  "int4_dequant_bf16_linear": 1.817464828491211,
+  "int4_dequant_fp8_scaled_mm": 2.7908754348754883,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ },
+ "M3168_K5120_N5120": {
+  "bf16": 0.45200347900390625,
+  "fp8_scaled_mm": 0.3991842269897461,
+  "int4_dequant_bf16_linear": 0.7564210891723633,
+  "int4_dequant_fp8_scaled_mm": 1.0593700408935547,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ },
+ "M3168_K5120_N13824": {
+  "bf16": 1.2155866622924805,
+  "fp8_scaled_mm": 0.7903432846069336,
+  "int4_dequant_bf16_linear": 2.421269416809082,
+  "int4_dequant_fp8_scaled_mm": 3.19826602935791,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ },
+ "M3168_K13824_N5120": {
+  "bf16": 1.2006664276123047,
+  "fp8_scaled_mm": 1.384725570678711,
+  "int4_dequant_bf16_linear": 2.370610237121582,
+  "int4_dequant_fp8_scaled_mm": 3.7871837615966797,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ },
+ "M4680_K5120_N5120": {
+  "bf16": 0.6019687652587891,
+  "fp8_scaled_mm": 0.6777381896972656,
+  "int4_dequant_bf16_linear": 0.9108972549438477,
+  "int4_dequant_fp8_scaled_mm": 1.2814712524414062,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ },
+ "M4680_K5120_N13824": {
+  "bf16": 1.5943479537963867,
+  "fp8_scaled_mm": 1.235499382019043,
+  "int4_dequant_bf16_linear": 2.876148223876953,
+  "int4_dequant_fp8_scaled_mm": 3.667111396789551,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ },
+ "M4680_K13824_N5120": {
+  "bf16": 1.9570350646972656,
+  "fp8_scaled_mm": 1.9888067245483398,
+  "int4_dequant_bf16_linear": 3.1877851486206055,
+  "int4_dequant_fp8_scaled_mm": 4.432640075683594,
+  "int4_tinygemm": "n/a: Expected B.size(1) == k / (B_innerKTiles * kKTileSize) to be true, but got false.  (Could this error message be improved"
+ }
+}

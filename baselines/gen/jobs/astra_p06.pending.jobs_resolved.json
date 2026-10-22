@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/astra/garden_3.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/astra__garden_3__P5",
+  "prompt": "An autumn park avenue with a paved path leading into the distance between rows of tall trees in golden, orange and red foliage, fallen leaves scattered over the grass and the edges of the path, yellow-leaved shrubs on the left, soft hazy sunlight filtering through the canopy, a warm, quiet and nostalgic atmosphere.",
+  "set": "astra",
+  "scene": "garden_3"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P1",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P2",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__balloon_block_cut__P2p",
+  "prompt": "The hand holding the scissors cuts the string.",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ }
+]

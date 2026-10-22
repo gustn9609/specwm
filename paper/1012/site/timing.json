@@ -1,0 +1,150 @@
+{
+ "prompts": [
+  "easy_lake",
+  "easy_greatwall",
+  "easy_stonehenge_sunset",
+  "easy_urban_rain",
+  "easy_dragon_night",
+  "pouring_water_into_cup",
+  "domino_falling",
+  "hourglass_accumulation",
+  "newtons_cradle",
+  "billiard_break"
+ ],
+ "arms": [
+  {
+   "key": "t14_4",
+   "label": "14B teacher, 4 steps",
+   "res": "832\u00d7480",
+   "gen": [
+    29.8,
+    30.1,
+    29.93,
+    29.91,
+    29.89,
+    32.33,
+    32.34,
+    32.33,
+    32.31,
+    32.33
+   ],
+   "steady_median": 31.2,
+   "fps": 4.9,
+   "recompile": []
+  },
+  {
+   "key": "t14_2",
+   "label": "14B, 2 steps",
+   "res": "832\u00d7480",
+   "gen": [
+    17.84,
+    18.06,
+    17.94,
+    17.97,
+    18.0,
+    18.97,
+    18.98,
+    18.98,
+    18.98,
+    18.99
+   ],
+   "steady_median": 18.5,
+   "fps": 8.3,
+   "recompile": []
+  },
+  {
+   "key": "t14_576",
+   "label": "14B, 2 steps + SR (ours)",
+   "res": "576\u00d7320 \u2192 832\u00d7480",
+   "gen": [
+    6.81,
+    32.81,
+    6.81,
+    6.83,
+    6.82,
+    19.35,
+    8.59,
+    8.59,
+    8.58,
+    8.58
+   ],
+   "steady_median": 7.7,
+   "fps": 19.9,
+   "recompile": [
+    1,
+    5
+   ]
+  },
+  {
+   "key": "s13_4",
+   "label": "1.3B student, 4 steps",
+   "res": "832\u00d7480",
+   "gen": [
+    29.06,
+    39.66,
+    12.84,
+    12.78,
+    12.76,
+    24.17,
+    14.73,
+    14.81,
+    14.73,
+    14.75
+   ],
+   "steady_median": 14.7,
+   "fps": 10.4,
+   "recompile": [
+    0,
+    1,
+    5
+   ]
+  },
+  {
+   "key": "s13_576",
+   "label": "1.3B student, 2 steps + SR",
+   "res": "576\u00d7320 \u2192 832\u00d7480",
+   "gen": [
+    31.65,
+    29.48,
+    4.71,
+    4.64,
+    4.75,
+    23.66,
+    5.43,
+    5.48,
+    5.43,
+    5.44
+   ],
+   "steady_median": 5.4,
+   "fps": 28.2,
+   "recompile": [
+    0,
+    1,
+    5
+   ]
+  },
+  {
+   "key": "anchor",
+   "label": "anchor split: 14B step 1 + 1.3B 2 steps",
+   "res": "832\u00d7480, 2 GPUs",
+   "gen": [
+    15.46,
+    45.79,
+    15.45,
+    15.44,
+    15.43,
+    40.59,
+    20.56,
+    20.55,
+    20.57,
+    20.57
+   ],
+   "steady_median": 18.0,
+   "fps": 8.5,
+   "recompile": [
+    1,
+    5
+   ]
+  }
+ ]
+}

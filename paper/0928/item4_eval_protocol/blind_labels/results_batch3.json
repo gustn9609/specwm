@@ -1,0 +1,194 @@
+{
+ "result": [
+  {
+   "id": "abe2100094",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 0,
+   "drift": false,
+   "categories": {},
+   "reasons": [
+    "ok(3) : No drift. Frames 1-2 show the jar and funnel on the rustic table, and the sand pile is growing. From frame 3 the camera pans away over the same weathered wooden surface. From frame 6 a wooden edge or baseboard comes into view with a plain grey wall behind it. Frames 11-15 show that plain wall over wooden planks. This matches 'more of the same table, the floor or a plain wall of the same room'. The colour and lighting stay warm and neutral throughout, and no foreign objects appear. The camera never turns back to the jar, but that is not one of the drift criteria. The last frame has some mild smearing at the top, and the geometry where the table meets the wall is a little odd. Neither is severe enough to count as texture collapse or teleport.",
+    "ok(3) : Frames 1-2 show the jar with the sand pile growing. The camera then pans off onto the same weathered wooden planks (frames 3-5). From frame 6 it shows a wooden edge or baseboard against a plain grey mottled wall (frames 6-15). The expected scene allows more table, the floor or a plain wall of the same room, so this is a plausible continuation. No foreign objects, windows or furniture appear. Colour and lighting stay consistent, and the texture stays readable apart from mild blur in the last frame. The camera never pans back to the jar, but that is not one of the drift criteria. My confidence is moderate because the tabletop merging into a floor-plus-wall view looks a bit like a room interior.",
+    "ok(3) : The camera pans away from the jar across the same weathered wooden surface, then shows where the wood meets a plain grey plastered wall. The rubric lists a plain wall of the same room as a plausible continuation. No new objects, furniture or windows appear, and the colours and lighting stay consistent. Later frames get softer, and the last frame has a mild smear near the top, but the scene is still readable. The jar never comes back into view, but the rubric allows the subject to leave the view. Borderline only because the tabletop reads more like a floor meeting a wall by the end."
+   ]
+  },
+  {
+   "id": "5b10be1579",
+   "scene": "jar",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "new_object": 1
+   },
+   "reasons": [
+    "DRIFT(5) teleport: Frames 1-5 are fine: the camera pans off the jar across the same wooden table. Frame 6 shows a grey wall-like background, which is still plausible. From frame 7 a sea horizon starts to appear behind the table. By frames 8-15 the background is open ocean with breaking waves, and the table surface looks like a beach or sand, so the room has become a seaside. The camera never returns to the jar, and the last frame is a wave over a sandy or wooden foreground.",
+    "DRIFT(5) teleport+new_object: Frames 1-6 are a plausible pan across the same wooden table with a grey wall behind it. From frame 7, a blue-grey sky and a sea horizon start to show at the top. By frames 8-15 the background is plainly an ocean with breaking waves, so the tabletop has turned into a beach or seaside scene. The camera never pans back to the jar. This is a clear change of location.",
+    "DRIFT(5) teleport: Frames 1-6 are a plausible pan across the same wooden table toward a grey wall. From frame 7, an ocean horizon starts to replace the wall. From frame 8 onward the background is clearly the sea with breaking waves, so the tabletop has turned into a beach or seaside scene. The jar never comes back when the camera turns back."
+   ]
+  },
+  {
+   "id": "3bd0b1fbfe",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 3
+   },
+   "reasons": [
+    "DRIFT(5) lighting_change+teleport: Frames 1-2 continue the scene: the same green wave hits the sandcastle under an overcast sky. In frame 3 the wave disappears and the heavy grey overcast suddenly becomes a bright sunny blue sky with scattered white clouds. From frame 4 on, the scene is a tropical beach with turquoise water. Later frames add a distant island with buildings and a vegetated headland. The lighting stays sunny through the end. The camera never returns to the overcast storm beach or to the castle area. This is an abrupt, implausible weather change, and the location effectively becomes a different, tropical place.",
+    "DRIFT(5) lighting_change+teleport: Frames 1-2 plausibly continue the overcast scene of the wave hitting the sandcastle. From frame 3 on, the heavy overcast sky suddenly becomes a bright sunny blue sky with white cumulus clouds. The grey-green stormy sea also turns into calm, tropical turquoise water. Later frames show a different tropical coastline, with a distant island and buildings (frames 9-10) and a green vegetated headland (frame 13). When the camera turns back, the sandcastle, big wave and overcast lighting never return; the scene stays a sunny Caribbean-style beach. This is an abrupt, implausible lighting change and a change of location.",
+    "DRIFT(5) lighting_change+teleport: The start frame shows a heavy overcast sky over dark green water. Frames 1-2 still show the castle and the wave under grey cloud. From frame 3 on, the sky turns bright blue with scattered white cumulus and the sea turns turquoise. By frames 4-15 the clip looks like a sunny tropical beach, which is an abrupt and implausible lighting and weather change. The camera never returns to the overcast scene with the castle. Later frames also add a distant island with a city skyline (frames 9-10) and a vegetated headland (frame 13) in this different-looking tropical setting."
+   ]
+  },
+  {
+   "id": "cb3971f030",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "color_collapse": 2
+   },
+   "reasons": [
+    "DRIFT(4) lighting_change+color_collapse: Frame 1 plausibly continues the scene: dark overcast sky, the castle and the wave hitting. From frames 3-4 onward, the dark storm clouds give way to a bright, pale blue, mostly clear sky over a turquoise sea. That abrupt change from overcast to sunny is implausible. From about frame 6 to the end, the lower half of every frame is a large, nearly flat white foam field. The beach, sand and castle never return, even though the camera should pan back. The last frames all show the same sea horizon over white foam, very different from the stormy start frame.",
+    "DRIFT(4) lighting_change: Frames 1-2 keep the wave, the castle and the dark overcast sky. From frame 3 on, the storm clouds shrink to one corner. By frame 4 the sky is a clear, bright pale blue and the sea is calm turquoise. That weather stays for the rest of the clip, including the frames where the camera should be panning back. The whole scene has turned into a bright, sunny, washed-out shoreline covered in white foam, which is an implausible change from the stormy grey start. The castle disappearing is fine, since the wave could have destroyed it. The problem is the jump from overcast to a sunny blue sky.",
+    "DRIFT(4) lighting_change+color_collapse: The start frame has a dark, heavily overcast storm sky. By frames 3-4 the sky turns into a clear, bright pale-blue sky, and it stays clear through frame 15. That is an abrupt, implausible change from overcast to sunny. From frame 6 on, the lower half of every frame is a large, nearly flat white foam field with no sand or castle debris left in view. Frames 10-15 are almost the same as each other: a thin horizon band of teal sea over a white wash. The camera never turns back to show the original beach or castle area under the original lighting. The first frames (the wave hitting the castle and the spray) are plausible, but the scene then washes out and the lighting changes."
+   ]
+  },
+  {
+   "id": "55911bf635",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "new_object": 2
+   },
+   "reasons": [
+    "DRIFT(4) lighting_change: Frames 1-2 plausibly continue the start: the green wave crashes into the castle under a dark overcast sky. From frame 3 the huge wave disappears and the sea goes flat and calm. The sky then brightens steadily. By frame 6 it is a pale blue sky, and in frames 11-15 it is bright sunny blue with white cumulus clouds. This is the implausible overcast-to-sunny change. The castle is damaged in frames 3-6, then looks largely intact again with all its towers in frames 8-14. That restoration is suspicious too. The beach and sand stay the same place, so it is not a teleport.",
+    "DRIFT(4) lighting_change+new_object: Frames 1-3 plausibly continue the scene: the wave hits the castle under the same overcast sky. From about frame 4 the sky starts clearing, and by frame 6 the heavy overcast has become a bright blue sky with scattered clouds. That stays through frame 15, an abrupt and implausible lighting change. In frames 5-7 the castle is flattened and damaged, but in frames 8-14 it is whole again, taller and with fresh spires, which contradicts the wave destroying it. Dark rocks that were not in the scene also appear in the lower left of frames 9-11.",
+    "DRIFT(4) lighting_change+new_object: Frames 1-2 plausibly show the wave crashing on the castle under a stormy overcast sky. From frame 3 the sky brightens, and by frame 6 the dark storm clouds have become a bright blue sky with light cumulus, which lasts to the end. That is an implausible overcast-to-sunny lighting shift. The partly destroyed castle (frames 4-6) also rebuilds itself, standing intact with all its towers in frames 8-14. Dark rocks that were never in the scene appear at the lower left from frame 9. The camera also barely pans away from the castle."
+   ]
+  },
+  {
+   "id": "63d3c99714",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 1
+   },
+   "reasons": [
+    "DRIFT(4) lighting_change: Frames 1-5 are plausible: the wave hits the castle under an overcast sky, and the sky slowly brightens. From frame 6 on, the dark stormy sky suddenly turns into a bright, clear pale-blue sky. The scene also becomes a wide, calm, sunlit sand flat with distant mountains, and the big green surf is gone. This change in lighting and weather is abrupt and not plausible. The castle also stays mostly intact and centred, so the commanded pan away and back barely happens.",
+    "DRIFT(4) lighting_change+teleport: Frames 1-5 look like a plausible continuation: dark overcast sky, the wave's spray hitting the castle. From frame 6 on, the dark storm sky abruptly becomes a bright pale-blue sky with light clouds. The big green breaking sea also vanishes. What replaces it is a huge flat sand plain with a distant mountain range, which reads as a different landscape rather than the same stormy beach. The castle also stays mostly intact and centred even though foam keeps hitting it. The camera never really pans away from the castle.",
+    "DRIFT(3) lighting_change: Frames 1-5 match the start: a stormy overcast beach, with spray hitting the castle. From frame 6 on, the dark storm clouds are gone. The sky becomes a bright, pale blue haze over a wide, flat sand plain with blue mountains in the distance, and the big green breaking wave never appears again. The castle also stays mostly whole, and in frame 10 it even looks rebuilt. The change from a dark stormy sky to a bright, hazy, mostly clear sky is too big to explain by the camera turning. There are no new objects and no collapse of colour or texture."
+   ]
+  },
+  {
+   "id": "1e60783870",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 2
+   },
+   "reasons": [
+    "DRIFT(3) lighting_change: Frames 1-4 plausibly show the wave hitting and partly flattening the castle, and the camera then pans along the same beach toward a distant headland. However, the heavy, dark storm-overcast sky of the START brightens progressively over frames 1-5 into a bright partly-sunny sky with large blue patches and cumulus clouds, with sunlit dry sand. The giant green breaking wave also gives way to a calm, shallow turquoise sea with tiny waves (frames 6-15). The result reads like a calm, sunny day rather than the stormy scene, and the camera never returns to the castle. This is borderline because the change is gradual and clouds remain, but the stormy-to-sunny shift is large.",
+    "DRIFT(3) teleport+lighting_change: Frames 1-4 are a plausible continuation: the wave hits the castle and the camera pans across the wet beach. By frame 5 the castle is gone and the sky has turned into bright fair-weather cumulus with blue patches. From frame 6 on, a large mountain range shows up with a calm turquoise bay. The stormy dark-green surf from the start never comes back, and the camera never returns to the castle or its remains. The last frames look like a different calm, sunny coast, not the stormy beach seen from another angle. The overcast sky also brightens to partly sunny without a plausible cause.",
+    "DRIFT(3) lighting_change+teleport: Frames 1-4 are plausible: the wave hits the castle and the sandcastle stays partly intact. From frame 3 the dark overcast sky gets brighter and turns into fair-weather cumulus with blue patches. By frame 5 the castle and the stormy surf are gone, leaving a bright, sunlit, empty beach that runs flat to the horizon. From frame 6 on, the scene becomes a calm turquoise bay with a large mountain range, lit by bright sun and a mostly blue sky. The storm, the big green breaking wave and the rough sea never come back, and the camera never returns to the castle or its remains. A distant headland would be plausible on its own, but together with the change from storm to fair weather and from rough surf to a calm tropical-coloured bay, this looks like a different beach under different weather, not the same scene seen during a pan."
+   ]
+  },
+  {
+   "id": "4fa12b6ba6",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "lighting_change": 3,
+    "freeze": 1
+   },
+   "reasons": [
+    "DRIFT(4) teleport+lighting_change: Frames 1-2 plausibly continue the start frame: the wave hits the sandcastle under grey clouds. From frame 3 the overcast sky turns bright blue with scattered cumulus. From frame 4 onward the sea and wave are gone. The scene becomes a wide dry sand plain with distant mountains. By frames 11-15 it also shows a green tree line, which looks like an inland flat or river plain rather than the same beach. The camera never pans back to the castle or the sea. This is a change of place plus an implausible switch from overcast to a sunny sky.",
+    "DRIFT(4) lighting_change+teleport+freeze: The first three frames still show the castle and the wave, but the dark overcast sky already starts turning blue. From frame 4 on, the sea, wave and castle are gone. The shot becomes a wide, dry, flat sand plain under a bright blue sky with fluffy clouds, which is an implausible jump from the stormy start. Frames 6 to 15 settle on an inland view: a sand flat, a mountain range and, in the last row, a green treeline, with no ocean or surf anywhere. It reads more like a tidal flat or desert valley than the same beach. The camera never pans back to the sea or castle, and frames 6 to 15 are nearly identical.",
+    "DRIFT(4) teleport+lighting_change: The start frame has a dark overcast sky with a green wave breaking on the castle. By frames 2-3 the sky has turned bright blue with white clouds, which is an implausible jump from the storm lighting. From frame 4 on, the sea and wave are gone. The scene becomes a huge dry flat sand plain with mountain ranges and, in the last row, a tree line. That looks like an inland plain or dry flat, not the same beach and sea. The camera never pans back to the castle or the ocean."
+   ]
+  },
+  {
+   "id": "295f2397c0",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "lighting_change": 3
+   },
+   "reasons": [
+    "DRIFT(4) teleport+lighting_change: Frames 1-5 are plausible: the wave hits the castle, then the camera pans across wet, flattened beach sand toward a distant headland. From frame 6 the sea is gone entirely. The scene becomes an inland sand-dune plain with forested mountain ranges, a green treeline and, in frames 10-15, a blue lake or lagoon. The camera never pans back to the sea or the castle. The sky also shifts from dark stormy overcast to bright white cloud with blue patches. This reads as a different place (dunes by a lake), not the same beach.",
+    "DRIFT(4) teleport+lighting_change: Frames 1-5 are consistent: the wave hits the castle, then the camera shows the wet beach and a distant headland. From about frame 7 the sea is gone and the scene turns into an inland plain of dry sand with a forested treeline under mountains. Frames 10-15 show a lake or lagoon with green forest, like a desert or dune landscape rather than the same beach. The sky also changes from dark, stormy overcast to bright white with blue patches. The camera never comes back to the sea or the castle.",
+    "DRIFT(4) teleport+lighting_change: Frames 1-5 still fit the start image: the wave hits the castle, then the camera pans onto the wet beach, with the distant headland and a strip of sea in view. From frame 6 on, the breaking sea is gone and the scene becomes a wide, dry dune plain in front of forested hills. By frames 11-15 there is a calm inland lake or river lined with green forest and mountains, which looks like a different place rather than the same coastline. The camera never pans back to the sea or the castle. The sky also changes from a dark stormy overcast to bright white clouds with blue patches (frames 11-15), which is inconsistent with the start lighting."
+   ]
+  },
+  {
+   "id": "e4019cac88",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 1
+   },
+   "reasons": [
+    "DRIFT(3) lighting_change: Frames 1-4 continue the start plausibly: the green breaking wave slides out to the left as the camera turns, and the distant headland appears. From about frame 5-6, though, the dark, stormy overcast scene becomes a bright, pale sky with blue patches over a calm turquoise, tropical-looking surf, with no trace of the huge wave. That is an implausible lighting and weather shift, well beyond 'similar lighting'. The castle also rebuilds itself after the wave hit, larger and more symmetric than in the start frame (frames 5-10), before foam breaks it up and leaves flat sand (frames 11-15). The ending is consistent with the event. The drift comes mainly from the lighting and mood change, with some castle inconsistency. There is no freeze, no colour collapse and no unreadable texture.",
+    "DRIFT(3) lighting_change: The START frame shows a dark, stormy overcast sky and a huge dark-green breaking wave. By frames 3-4 the wave is gone without doing much damage. The castle stays centred, stays intact and even gets bigger and more ornate. The sky brightens to a pale, washed-out light overcast. From frames 6-15 the sea turns bright turquoise, like a calm tropical beach, and small islands appear on the horizon. The camera never really pans away: the castle stays in the middle of the frame the whole time. So the change in weather and colour happens over the same view rather than from turning to a new part of the scene, which makes it an implausible lighting/weather change. The castle is worn away and gone by frames 13-15, which is a plausible outcome of the wave.",
+    "DRIFT(4) lighting_change+teleport: Frames 1-3 continue the stormy scene. From frame 4 the giant green wave disappears without having any effect. The castle grows larger and becomes fully intact, and the dark storm sky turns into bright pale sky. By frames 6-10 the scene is a calm tropical-looking beach with a turquoise sea under light, partly blue skies, which is a different setting and weather from the stormy start. The camera barely pans; the castle stays centered. Frames 11-15 then wear the castle down on the calm beach, so the destruction does not follow from the original wave."
+   ]
+  },
+  {
+   "id": "7daa108cfe",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "teleport": 3,
+    "lighting_change": 3
+   },
+   "reasons": [
+    "DRIFT(3) teleport+lighting_change: Frames 1-3 show the wave hitting the castle, which is plausible. In frames 4-5 the camera pans right onto the beach and a distant headland, which also fits. From frame 6 on, the ocean and the wave are gone. The scene settles into a huge dry tidal-flat or plain with a mountain range across the horizon. In frames 11-15, where the camera should be turning back toward the sea and castle, there is still only flat sand with puddles and mountains. No sea, wave or castle remains, so the place looks like a different landscape. The dark, stormy overcast sky also turns into a much brighter, washed-out white cloud cover.",
+    "DRIFT(3) teleport+lighting_change: Frames 1-5 are a plausible pan to the right: the wave and castle slide out of view, and more of the beach and the distant headland appear. After that the scene never returns. In frames 6-15 the view settles on a nearly static, endless flat sand plain with mountains along the whole horizon. The camera was commanded to pan back, but the sea, the breaking wave, the foam and the castle area never reappear. Instead the shore turns into what looks like an inland tidal flat or desert plain. The stormy dark overcast sky of the start also becomes a bright, washed white-blue sky. On balance the environment has turned into a different landscape, which counts as a teleport, rather than showing the same beach again.",
+    "DRIFT(3) teleport+lighting_change: Frames 1 to 3 continue the scene plausibly: the wave hits the castle and the camera pans right. Frames 4 and 5 are still plausible, showing the same beach with a sea horizon and a headland. From frame 6 on, the ocean and the big breaking wave are gone. What remains is a wide, flat sand plain that reaches distant mountains, which looks like a different place (a tidal flat or desert) and not the stormy surf beach. The dark stormy sky has also turned into bright white clouds with some blue. When the camera should pan back (frames 11 to 15), it shows the same generic flat sand plain again, with no sea, no wave and no castle site."
+   ]
+  },
+  {
+   "id": "1a74510883",
+   "scene": "castle",
+   "n": 3,
+   "drift_votes": 3,
+   "drift": true,
+   "categories": {
+    "lighting_change": 3,
+    "teleport": 2
+   },
+   "reasons": [
+    "DRIFT(4) lighting_change+teleport: Frames 1-3 fit the scene: the castle, the green wave and the dark overcast sky are all there. From frames 4-5 the camera pans right and the stormy grey sky becomes a pale blue fair-weather sky with small scattered clouds. That is a big weather change that does not make sense for this scene. From frame 5 to the end, the picture shows a wide, clean, dry sand flat with a calm sea far away. There is no breaking surf, foam, wet sand or castle debris. Even in the later frames, where the camera should turn back, the stormy surf scene never returns. The clip has turned into a different, calm sunny beach.",
+    "DRIFT(4) lighting_change+teleport: Frames 1-3 plausibly continue the scene: the castle and the breaking wave under a stormy sky, with the camera panning right along the beach. From frame 4 to frame 5 the dark overcast sky turns into a pale blue sky with light, scattered clouds. The rough surf becomes a flat, calm sea with a distant headland, so it reads as a different calm, sunny beach. Frames 6-15 are near-identical views of empty sand under blue sky. The camera never returns to the castle or the wave. This is an implausible lighting and weather change, and the setting effectively swaps to another beach.",
+    "DRIFT(4) lighting_change: Frames 1-3 are a plausible continuation: the same sandcastle, green wave and dark overcast sky, with the camera panning right. Frame 4 is a transition, and from frame 5 on the heavy grey storm clouds are gone. The sky becomes pale or bright blue with light scattered clouds, and it stays that way through frame 15, including the pan-back frames. The breaking wave and foam also disappear, leaving a calm distant sea over dry, even sand. The castle area never comes back into view, and the scene looks like a calm sunny beach rather than the stormy one it started as. This matches the abrupt overcast-to-blue-sky lighting change."
+   ]
+  }
+ ]
+}

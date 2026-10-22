@@ -1,0 +1,41 @@
+{
+ "program": "P2",
+ "segments": [
+  [
+   0,
+   18,
+   0
+  ],
+  [
+   0,
+   18,
+   0
+  ],
+  [
+   0,
+   18,
+   0
+  ],
+  [
+   0,
+   18,
+   0
+  ]
+ ],
+ "fps_calls": 15.0,
+ "seconds": 10.0,
+ "calls": 150,
+ "c2w_poses": 601,
+ "k_yaw": 79.0,
+ "k_yaw_source": "calib.json",
+ "total_yaw_deg": 179.9999741613865,
+ "total_pitch_deg": 0.0,
+ "mouse_x_per_call_abs_max": 94.80020904541016,
+ "buttons_WSAD": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "encoder": "baselines/convert.py (program_to_c2w @60 fps + encode_waypoint, K from calib.json)"
+}

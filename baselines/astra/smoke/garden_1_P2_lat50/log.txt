@@ -1,0 +1,65 @@
+GPU before: ['6, 0 MiB, 0 %, NVIDIA RTX PRO 6000 Blackwell Server Edition']
+Loading models from: /home/hk28965/specwm/tools/astra/Astra/models/Wan-AI/Wan2.1-T2V-1.3B/diffusion_pytorch_model.safetensors
+    model_name: wan_video_dit model_class: WanModelMoe
+        This model is initialized with extra kwargs: {'has_image_input': False, 'patch_size': [1, 2, 2], 'in_dim': 16, 'dim': 1536, 'ffn_dim': 8960, 'freq_dim': 256, 'text_dim': 4096, 'out_dim': 16, 'num_heads': 12, 'num_layers': 30, 'eps': 1e-06}
+    The following models are loaded: ['wan_video_dit'].
+Loading models from: /home/hk28965/specwm/tools/astra/Astra/models/Wan-AI/Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth
+    model_name: wan_video_text_encoder model_class: WanTextEncoder
+    The following models are loaded: ['wan_video_text_encoder'].
+Loading models from: /home/hk28965/specwm/tools/astra/Astra/models/Wan-AI/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth
+    model_name: wan_video_vae model_class: WanVideoVAE
+    The following models are loaded: ['wan_video_vae'].
+Using wan_video_text_encoder from /home/hk28965/specwm/tools/astra/Astra/models/Wan-AI/Wan2.1-T2V-1.3B/models_t5_umt5-xxl-enc-bf16.pth.
+Using wan_video_dit from /home/hk28965/specwm/tools/astra/Astra/models/Wan-AI/Wan2.1-T2V-1.3B/diffusion_pytorch_model.safetensors.
+Using wan_video_vae from /home/hk28965/specwm/tools/astra/Astra/models/Wan-AI/Wan2.1-T2V-1.3B/Wan2.1_VAE.pth.
+No wan_video_image_encoder models available.
+Astra ckpt: 1139 tensors; missing 0, unexpected 0
+loaded in 10.8 s, 13.76 GiB allocated (T5 + DiT + VAE resident)
+/home/hk28965/specwm/tools/astra/venv/lib/python3.11/site-packages/torchvision/transforms/v2/_deprecated.py:42: UserWarning: The transform `ToTensor()` is deprecated and will be removed in a future release. Instead, please use `v2.Compose([v2.ToImage(), v2.ToDtype(torch.float32, scale=True)])`.Output is equivalent up to float precision.
+  warnings.warn(
+VAE encoding:   0%|          | 0/18 [00:00<?, ?it/s]VAE encoding:   6%|▌         | 1/18 [00:00<00:03,  5.15it/s]VAE encoding:  22%|██▏       | 4/18 [00:00<00:00, 15.63it/s]VAE encoding:  39%|███▉      | 7/18 [00:00<00:00, 20.07it/s]VAE encoding:  61%|██████    | 11/18 [00:00<00:00, 24.19it/s]VAE encoding:  83%|████████▎ | 15/18 [00:00<00:00, 27.55it/s]VAE encoding: 100%|██████████| 18/18 [00:00<00:00, 24.05it/s]
+input: image 0.84 s, prompt 0.14 s (870 chars); latent (16, 1, 60, 104)
+🔧 MoE Camera mask update:
+  - History frames: 1
+  - Valid condition frames: 1
+  - Modality type: sekai
+warm-up block 22.0 s
+🔧 MoE Camera mask update:
+  - History frames: 1
+  - Valid condition frames: 1
+  - Modality type: sekai
+block 1: 8 latents in 21.84 s (0.437 s/step)
+VAE decoding:   0%|          | 0/18 [00:00<?, ?it/s]VAE decoding:   6%|▌         | 1/18 [00:00<00:04,  3.89it/s]VAE decoding:  11%|█         | 2/18 [00:00<00:03,  4.54it/s]VAE decoding:  17%|█▋        | 3/18 [00:00<00:03,  4.80it/s]VAE decoding:  22%|██▏       | 4/18 [00:00<00:02,  4.93it/s]VAE decoding:  28%|██▊       | 5/18 [00:01<00:02,  5.01it/s]VAE decoding:  33%|███▎      | 6/18 [00:01<00:02,  5.46it/s]VAE decoding:  39%|███▉      | 7/18 [00:01<00:02,  5.36it/s]VAE decoding:  44%|████▍     | 8/18 [00:01<00:01,  5.29it/s]VAE decoding:  50%|█████     | 9/18 [00:01<00:01,  5.24it/s]VAE decoding:  56%|█████▌    | 10/18 [00:01<00:01,  5.22it/s]VAE decoding:  61%|██████    | 11/18 [00:02<00:01,  5.20it/s]VAE decoding:  67%|██████▋   | 12/18 [00:02<00:01,  5.71it/s]VAE decoding:  72%|███████▏  | 13/18 [00:02<00:00,  6.04it/s]VAE decoding:  78%|███████▊  | 14/18 [00:02<00:00,  6.39it/s]VAE decoding:  83%|████████▎ | 15/18 [00:02<00:00,  6.66it/s]VAE decoding:  89%|████████▉ | 16/18 [00:02<00:00,  6.86it/s]VAE decoding:  94%|█████████▍| 17/18 [00:02<00:00,  7.00it/s]VAE decoding: 100%|██████████| 18/18 [00:03<00:00,  7.51it/s]VAE decoding: 100%|██████████| 18/18 [00:03<00:00,  5.83it/s]
+🔧 MoE Camera mask update:
+  - History frames: 9
+  - Valid condition frames: 9
+  - Modality type: sekai
+block 2: 8 latents in 25.16 s (0.503 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 17
+  - Valid condition frames: 17
+  - Modality type: sekai
+block 3: 8 latents in 25.11 s (0.502 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 25
+  - Valid condition frames: 20
+  - Modality type: sekai
+block 4: 8 latents in 25.12 s (0.502 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 33
+  - Valid condition frames: 20
+  - Modality type: sekai
+block 5: 8 latents in 25.11 s (0.502 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 41
+  - Valid condition frames: 20
+  - Modality type: sekai
+block 6: 8 latents in 25.11 s (0.502 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 49
+  - Valid condition frames: 20
+  - Modality type: sekai
+block 7: 2 latents in 8.21 s (0.164 s/step)
+VAE decoding:   0%|          | 0/18 [00:00<?, ?it/s]VAE decoding:   6%|▌         | 1/18 [00:01<00:20,  1.22s/it]VAE decoding:  11%|█         | 2/18 [00:02<00:19,  1.19s/it]VAE decoding:  17%|█▋        | 3/18 [00:03<00:17,  1.19s/it]VAE decoding:  22%|██▏       | 4/18 [00:04<00:16,  1.18s/it]VAE decoding:  28%|██▊       | 5/18 [00:05<00:15,  1.18s/it]VAE decoding:  33%|███▎      | 6/18 [00:06<00:12,  1.06s/it]VAE decoding:  39%|███▉      | 7/18 [00:07<00:12,  1.10s/it]VAE decoding:  44%|████▍     | 8/18 [00:09<00:11,  1.13s/it]VAE decoding:  50%|█████     | 9/18 [00:10<00:10,  1.14s/it]VAE decoding:  56%|█████▌    | 10/18 [00:11<00:09,  1.15s/it]VAE decoding:  61%|██████    | 11/18 [00:12<00:08,  1.16s/it]VAE decoding:  67%|██████▋   | 12/18 [00:13<00:06,  1.05s/it]VAE decoding:  72%|███████▏  | 13/18 [00:14<00:04,  1.02it/s]VAE decoding:  78%|███████▊  | 14/18 [00:15<00:03,  1.08it/s]VAE decoding:  83%|████████▎ | 15/18 [00:15<00:02,  1.13it/s]VAE decoding:  89%|████████▉ | 16/18 [00:16<00:01,  1.16it/s]VAE decoding:  94%|█████████▍| 17/18 [00:17<00:00,  1.18it/s]VAE decoding: 100%|██████████| 18/18 [00:18<00:00,  1.29it/s]VAE decoding: 100%|██████████| 18/18 [00:18<00:00,  1.00s/it]
+{"frames": 201, "gen_s": 155.64987477095565, "e2e_s": 175.00220717996126, "ttff_s": 25.956312233000062, "steady_fps_gen": 1.2738398997720073, "steady_fps_e2e": 1.1409795816353503, "peak_alloc_GiB": 14.859629154205322, "peak_reserved_GiB": 16.134765625, "load_s": 10.817102856992278}
+GPU after: ['6, 17225 MiB, 0 %, NVIDIA RTX PRO 6000 Blackwell Server Edition']

@@ -1,0 +1,96 @@
+{
+ "label": "cs2_u2_704",
+ "clips": 6,
+ "frames": 942,
+ "server_ms": {
+  "count": 942,
+  "mean": 1146.9264437367303,
+  "std": 166.52042029731422,
+  "min": 481.63,
+  "p50": 1174.37,
+  "p90": 1363.04,
+  "p95": 1364.2865,
+  "p99": 1367.27,
+  "p99_9": 1369.74,
+  "max": 1369.74,
+  "target_ms": 750.0,
+  "miss_rate": 0.9554140127388535,
+  "jitter_mean": 46.41235919234857,
+  "jitter_p95": 187.98000000000002,
+  "jitter_max": 815.3200000000002,
+  "miss_rate_1000ms": 0.8407643312101911
+ },
+ "fps_mean": 8.75,
+ "chunk_period_ms_mean": 940.0833333333334,
+ "first_frame_ms_mean": 499.73333333333335,
+ "prepare_s_mean": 4.48,
+ "gen_s_mean": 18.360000000000003,
+ "per_clip": [
+  {
+   "dir": "/home/hk28965/specwm/lingbot-world-v2/specwm_out/timing_cs/sand_filling_up_jar/cs2_u2_704_s1234",
+   "frames": 157,
+   "first_frame_ms": 517.3,
+   "prepare_s": 4.46,
+   "fps": 8.4,
+   "chunk_period_ms": 977.2,
+   "gen_s": 19.08,
+   "accepted": null,
+   "max_gap_ms": 836.8
+  },
+  {
+   "dir": "/home/hk28965/specwm/lingbot-world-v2/specwm_out/timing_cs/sand_filling_up_jar/cs2_u2_704_s4321",
+   "frames": 157,
+   "first_frame_ms": 516.6,
+   "prepare_s": 4.47,
+   "fps": 8.39,
+   "chunk_period_ms": 979.0,
+   "gen_s": 19.12,
+   "accepted": null,
+   "max_gap_ms": 836.0
+  },
+  {
+   "dir": "/home/hk28965/specwm/lingbot-world-v2/specwm_out/timing_cs/sand_filling_up_jar/cs2_u2_704_s9999",
+   "frames": 157,
+   "first_frame_ms": 516.8,
+   "prepare_s": 4.44,
+   "fps": 8.39,
+   "chunk_period_ms": 978.8,
+   "gen_s": 19.11,
+   "accepted": null,
+   "max_gap_ms": 836.0
+  },
+  {
+   "dir": "/home/hk28965/specwm/lingbot-world-v2/specwm_out/timing_cs/sandcastle_wave_impact/cs2_u2_704_s1234",
+   "frames": 157,
+   "first_frame_ms": 483.1,
+   "prepare_s": 4.56,
+   "fps": 9.11,
+   "chunk_period_ms": 901.6,
+   "gen_s": 17.61,
+   "accepted": null,
+   "max_gap_ms": 762.5
+  },
+  {
+   "dir": "/home/hk28965/specwm/lingbot-world-v2/specwm_out/timing_cs/sandcastle_wave_impact/cs2_u2_704_s4321",
+   "frames": 157,
+   "first_frame_ms": 483.0,
+   "prepare_s": 4.53,
+   "fps": 9.1,
+   "chunk_period_ms": 902.1,
+   "gen_s": 17.62,
+   "accepted": null,
+   "max_gap_ms": 762.3
+  },
+  {
+   "dir": "/home/hk28965/specwm/lingbot-world-v2/specwm_out/timing_cs/sandcastle_wave_impact/cs2_u2_704_s9999",
+   "frames": 157,
+   "first_frame_ms": 481.6,
+   "prepare_s": 4.42,
+   "fps": 9.11,
+   "chunk_period_ms": 901.8,
+   "gen_s": 17.62,
+   "accepted": null,
+   "max_gap_ms": 761.7
+  }
+ ]
+}

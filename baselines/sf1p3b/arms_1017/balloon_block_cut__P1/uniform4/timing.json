@@ -1,0 +1,137 @@
+{
+ "model": "LingBot-World 2.0 1.3B causal-fast + Speculative Forcing training-free verifier (sf1p3b_tf, token-wise early exit)",
+ "ckpt": "lingbot-world-v2-1.3b-causal-fast (HF snapshot 7e36a5f919f86cb4255cc9bfc30adb44963fbde1); T5/VAE/assets from lingbot-world-v2-14b-causal-fast",
+ "precision": "bf16 weights + activations (no FP8), fp32 x0/verifier",
+ "attention": "SageAttention (dense forwards: step 1, clean commit) / SDPA flash (active-token forwards, fast_patch.ACTIVE)",
+ "vae": "Wan2.1_VAE.pth (full decode after generation; --stream-decode 1 = second VAE instance decoding every committed chunk on a side stream)",
+ "resolution_out": "832x464",
+ "frames": 153,
+ "fps_native": 16,
+ "frames_per_call_or_chunk": 12,
+ "steps": "4-step schedule t=[1000, 937.5, 833.3, 625] with token-wise early exit: mean_steps 4.000",
+ "mean_steps": 4.0,
+ "gen_s": 15.764,
+ "gen_s_wall": 15.76,
+ "e2e_s": 29.924,
+ "prepare_s": 5.76,
+ "decode_s": 8.4,
+ "ttff_s": 6.221,
+ "steady_fps_gen": 9.3,
+ "steady_fps_e2e": 9.31,
+ "chunk_s": [
+  0.583,
+  0.934,
+  1.114,
+  1.168,
+  1.229,
+  1.292,
+  1.29,
+  1.29,
+  1.292,
+  1.29,
+  1.289,
+  1.29,
+  1.704
+ ],
+ "peak_alloc_GiB": 28.07,
+ "peak_reserved_GiB": 39.4,
+ "text_encoder_resident": true,
+ "kv_window": 18,
+ "kv_sink": 6,
+ "latent_frames_per_chunk": 3,
+ "warm": true,
+ "seed": 1234,
+ "task": "sf1p3b__balloon_block_cut__P1",
+ "mode": "uniform:4",
+ "tau_red": null,
+ "tau_stab": null,
+ "tf_norm": null,
+ "verifier": "training-free (arXiv 2610.22347 \u00a73.3.1): step 1 redundancy vs clean tokens in the KV window + image latent, steps 2-3 stability; 9x9 spatial + forward temporal Gaussian smoothing; 64-dim latent tokens, distances / median token norm of the draft",
+ "per_chunk_commit_hist": [
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ],
+  [
+   0,
+   0,
+   0,
+   4524
+  ]
+ ],
+ "times": {
+  "denoise": 11.11,
+  "commit": 1.42,
+  "verify": 0.0
+ },
+ "stream_decode": 1,
+ "source": "/home/hk28965/specwm/baselines/sf1p3b/arms_1017/balloon_block_cut__P1/uniform4/raw/sf1p3b__balloon_block_cut__P1/sf1p3b_uniform4_s1234"
+}

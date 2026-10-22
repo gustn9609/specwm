@@ -1,0 +1,482 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_beach_00.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_beach_00__P1",
+  "set": "mg2",
+  "scene": "mc_beach_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_beach_00.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_beach_00__P2",
+  "set": "mg2",
+  "scene": "mc_beach_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_beach_00.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_beach_00__P2p",
+  "set": "mg2",
+  "scene": "mc_beach_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_beach_00.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_beach_00__P3",
+  "set": "mg2",
+  "scene": "mc_beach_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_beach_00.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_beach_00__P4",
+  "set": "mg2",
+  "scene": "mc_beach_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_beach_00.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_beach_00__P4p",
+  "set": "mg2",
+  "scene": "mc_beach_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_beach_00.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_beach_00__P5",
+  "set": "mg2",
+  "scene": "mc_beach_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_desert_00.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_desert_00__P1",
+  "set": "mg2",
+  "scene": "mc_desert_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_desert_00.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_desert_00__P2",
+  "set": "mg2",
+  "scene": "mc_desert_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_desert_00.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_desert_00__P2p",
+  "set": "mg2",
+  "scene": "mc_desert_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_desert_00.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_desert_00__P3",
+  "set": "mg2",
+  "scene": "mc_desert_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_desert_00.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_desert_00__P4",
+  "set": "mg2",
+  "scene": "mc_desert_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_desert_00.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_desert_00__P4p",
+  "set": "mg2",
+  "scene": "mc_desert_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_desert_00.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_desert_00__P5",
+  "set": "mg2",
+  "scene": "mc_desert_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_forest_00.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_forest_00__P1",
+  "set": "mg2",
+  "scene": "mc_forest_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_forest_00.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_forest_00__P2",
+  "set": "mg2",
+  "scene": "mc_forest_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_forest_00.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_forest_00__P2p",
+  "set": "mg2",
+  "scene": "mc_forest_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_forest_00.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_forest_00__P3",
+  "set": "mg2",
+  "scene": "mc_forest_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_forest_00.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_forest_00__P4",
+  "set": "mg2",
+  "scene": "mc_forest_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_forest_00.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_forest_00__P4p",
+  "set": "mg2",
+  "scene": "mc_forest_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_forest_00.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_forest_00__P5",
+  "set": "mg2",
+  "scene": "mc_forest_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_hills_00.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_hills_00__P1",
+  "set": "mg2",
+  "scene": "mc_hills_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_hills_00.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_hills_00__P2",
+  "set": "mg2",
+  "scene": "mc_hills_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_hills_00.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_hills_00__P2p",
+  "set": "mg2",
+  "scene": "mc_hills_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_hills_00.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_hills_00__P3",
+  "set": "mg2",
+  "scene": "mc_hills_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_hills_00.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_hills_00__P4",
+  "set": "mg2",
+  "scene": "mc_hills_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_hills_00.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_hills_00__P4p",
+  "set": "mg2",
+  "scene": "mc_hills_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/mc_hills_00.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__mc_hills_00__P5",
+  "set": "mg2",
+  "scene": "mc_hills_00"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0000.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0000__P1",
+  "set": "mg2",
+  "scene": "universal_0000"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0000.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0000__P2",
+  "set": "mg2",
+  "scene": "universal_0000"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0000.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0000__P2p",
+  "set": "mg2",
+  "scene": "universal_0000"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0000.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0000__P3",
+  "set": "mg2",
+  "scene": "universal_0000"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0000.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0000__P4",
+  "set": "mg2",
+  "scene": "universal_0000"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0000.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0000__P4p",
+  "set": "mg2",
+  "scene": "universal_0000"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0000.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0000__P5",
+  "set": "mg2",
+  "scene": "universal_0000"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0001.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0001__P1",
+  "set": "mg2",
+  "scene": "universal_0001"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0001.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0001__P2",
+  "set": "mg2",
+  "scene": "universal_0001"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0001.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0001__P2p",
+  "set": "mg2",
+  "scene": "universal_0001"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0001.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0001__P3",
+  "set": "mg2",
+  "scene": "universal_0001"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0001.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0001__P4",
+  "set": "mg2",
+  "scene": "universal_0001"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0001.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0001__P4p",
+  "set": "mg2",
+  "scene": "universal_0001"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0001.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0001__P5",
+  "set": "mg2",
+  "scene": "universal_0001"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0002.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0002__P1",
+  "set": "mg2",
+  "scene": "universal_0002"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0002.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0002__P2",
+  "set": "mg2",
+  "scene": "universal_0002"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0002.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0002__P2p",
+  "set": "mg2",
+  "scene": "universal_0002"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0002.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0002__P3",
+  "set": "mg2",
+  "scene": "universal_0002"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0002.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0002__P4",
+  "set": "mg2",
+  "scene": "universal_0002"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0002.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0002__P4p",
+  "set": "mg2",
+  "scene": "universal_0002"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0002.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0002__P5",
+  "set": "mg2",
+  "scene": "universal_0002"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0003.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0003__P1",
+  "set": "mg2",
+  "scene": "universal_0003"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0003.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0003__P2",
+  "set": "mg2",
+  "scene": "universal_0003"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0003.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0003__P2p",
+  "set": "mg2",
+  "scene": "universal_0003"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0003.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0003__P3",
+  "set": "mg2",
+  "scene": "universal_0003"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0003.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0003__P4",
+  "set": "mg2",
+  "scene": "universal_0003"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0003.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0003__P4p",
+  "set": "mg2",
+  "scene": "universal_0003"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0003.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0003__P5",
+  "set": "mg2",
+  "scene": "universal_0003"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0004.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0004__P1",
+  "set": "mg2",
+  "scene": "universal_0004"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0004.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0004__P2",
+  "set": "mg2",
+  "scene": "universal_0004"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0004.png",
+  "program": "P2p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0004__P2p",
+  "set": "mg2",
+  "scene": "universal_0004"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0004.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0004__P3",
+  "set": "mg2",
+  "scene": "universal_0004"
+ }
+]

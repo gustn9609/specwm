@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P4",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P4p",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_greatwall__P5",
+  "prompt": "A sweeping cinematic journey along the Great Wall of China, winding through golden autumn hills under a brilliant blue sky.",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_lake.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_lake__P1",
+  "prompt": "A serene lakeside scene at Lake Wanaka: a lone willow tree stands in calm turquoise water, snow-capped mountains rise in the distance under a bright sky with drifting white clouds. Gentle ripples spread across the surface as the camera glides smoothly forward over the water toward the tree.",
+  "set": "neutral_832",
+  "scene": "easy_lake"
+ }
+]

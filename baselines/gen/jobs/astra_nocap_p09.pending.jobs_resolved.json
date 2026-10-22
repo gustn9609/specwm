@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_dragon_night__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_greatwall.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_greatwall__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_greatwall"
+ }
+]

@@ -1,0 +1,68 @@
+{
+ "jobs": 6,
+ "ok": 6,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 3.5,
+ "warmup_s": 28.3,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 27.4,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/wp/highland_castle_loch.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k/wp__highland_castle_loch__P2_k79",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.563,
+   "steady_fps_e2e": 39.15,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.79
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k/wp__highland_castle_loch__P2_k65",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.535,
+   "steady_fps_e2e": 39.39,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.67
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k/wp__highland_castle_loch__P2_k54",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.482,
+   "steady_fps_e2e": 40.06,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.36
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k/wp__highland_castle_loch__P3_k79",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.518,
+   "steady_fps_e2e": 39.57,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.59
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k/wp__highland_castle_loch__P3_k65",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.495,
+   "steady_fps_e2e": 37.82,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.26
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k/wp__highland_castle_loch__P3_k54",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.574,
+   "steady_fps_e2e": 48.56,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 12.85
+  }
+ ],
+ "date": "2026-10-17T00:36:00"
+}

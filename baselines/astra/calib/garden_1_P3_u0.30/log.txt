@@ -1,0 +1,44 @@
+GPU before: ['5, 14941 MiB, 0 %, NVIDIA RTX PRO 6000 Blackwell Server Edition']
+input: image 0.88 s, prompt 0.10 s (870 chars); latent (16, 1, 60, 104)
+🔧 MoE Camera mask update:
+  - History frames: 1
+  - Valid condition frames: 1
+  - Modality type: sekai
+warm-up block 22.0 s
+🔧 MoE Camera mask update:
+  - History frames: 1
+  - Valid condition frames: 1
+  - Modality type: sekai
+block 1: 8 latents in 21.81 s (0.436 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 9
+  - Valid condition frames: 9
+  - Modality type: sekai
+block 2: 8 latents in 25.18 s (0.504 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 17
+  - Valid condition frames: 17
+  - Modality type: sekai
+block 3: 8 latents in 25.13 s (0.503 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 25
+  - Valid condition frames: 20
+  - Modality type: sekai
+block 4: 8 latents in 25.14 s (0.503 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 33
+  - Valid condition frames: 20
+  - Modality type: sekai
+block 5: 8 latents in 25.14 s (0.503 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 41
+  - Valid condition frames: 20
+  - Modality type: sekai
+block 6: 8 latents in 25.14 s (0.503 s/step)
+🔧 MoE Camera mask update:
+  - History frames: 49
+  - Valid condition frames: 20
+  - Modality type: sekai
+block 7: 8 latents in 25.16 s (0.503 s/step)
+{"frames": 201, "gen_s": 172.6979663830134, "e2e_s": 194.80589278193656, "ttff_s": 25.915428287000395, "steady_fps_gen": 1.2724316714267971, "steady_fps_e2e": 1.1222781854656267, "peak_alloc_GiB": 14.862826347351074, "peak_reserved_GiB": 16.130859375, "load_s": 11.294293759972788}
+GPU after: ['5, 17221 MiB, 0 %, NVIDIA RTX PRO 6000 Blackwell Server Edition']

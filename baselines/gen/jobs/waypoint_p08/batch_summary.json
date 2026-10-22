@@ -1,0 +1,194 @@
+{
+ "jobs": 20,
+ "ok": 20,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 3.1,
+ "warmup_s": 17.3,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 16.3,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/neutral/inflating_balloon.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__inflating_balloon__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.526,
+   "steady_fps_e2e": 38.45,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.03
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__inflating_balloon__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.501,
+   "steady_fps_e2e": 38.92,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.82
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__inflating_balloon__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.461,
+   "steady_fps_e2e": 39.68,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.49
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__inflating_balloon__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.514,
+   "steady_fps_e2e": 39.4,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.65
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__inflating_balloon__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.462,
+   "steady_fps_e2e": 38.2,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.07
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__inflating_balloon__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.504,
+   "steady_fps_e2e": 48.62,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 12.77
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__inflating_balloon__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.47,
+   "steady_fps_e2e": 39.65,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.51
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__newtons_cradle__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.477,
+   "steady_fps_e2e": 38.69,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.89
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__newtons_cradle__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.491,
+   "steady_fps_e2e": 37.62,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.34
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__newtons_cradle__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.503,
+   "steady_fps_e2e": 38.09,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.16
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__newtons_cradle__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.486,
+   "steady_fps_e2e": 37.1,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.56
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__newtons_cradle__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.484,
+   "steady_fps_e2e": 36.96,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.62
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__newtons_cradle__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.478,
+   "steady_fps_e2e": 33.45,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.31
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__newtons_cradle__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.494,
+   "steady_fps_e2e": 37.61,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.35
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.465,
+   "steady_fps_e2e": 35.21,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 17.41
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.505,
+   "steady_fps_e2e": 32.7,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.75
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.475,
+   "steady_fps_e2e": 37.83,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.24
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.462,
+   "steady_fps_e2e": 31.24,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 19.56
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.464,
+   "steady_fps_e2e": 31.34,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 19.5
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.48,
+   "steady_fps_e2e": 36.42,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.86
+  }
+ ],
+ "date": "2026-10-17T02:37:56"
+}

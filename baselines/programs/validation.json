@@ -1,0 +1,2198 @@
+{
+ "a": {
+  "P1": {
+   "c2w16": {
+    "n": 161,
+    "total_yaw_deg": 0.0,
+    "total_fwd_u": 10.0,
+    "yaw_per_s": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "K832": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ]
+   },
+   "waypoint": {
+    "n_calls": 150,
+    "W": 150,
+    "S": 0,
+    "none": 0,
+    "yaw_sum_deg": 0.0,
+    "pitch_sum_deg": 0.0,
+    "pos": 0,
+    "neg": 0,
+    "mouse_x_abs_max": 0.0
+   },
+   "mg2": {
+    "n_frames": 129,
+    "fwd": 128,
+    "back": 0,
+    "left": 0,
+    "right": 0,
+    "yaw_sum_10s_deg_clipped": 0.0,
+    "yaw_sum_10s_deg_unclipped": 0.0,
+    "pos": 0,
+    "neg": 0,
+    "saturated_frames": 0,
+    "moving_frames": 0,
+    "saturated_frac_of_moving": 0.0,
+    "max_abs_unclipped": 0.0
+   },
+   "abot": {
+    "n_blocks": 11,
+    "counts": {
+     "W": 11,
+     "A": 0,
+     "S": 0,
+     "D": 0,
+     "I": 0,
+     "J": 0,
+     "K": 0,
+     "L": 0
+    },
+    "keys": "W W W W W W W W W W W",
+    "switch_frames": [],
+    "switch_times_s": []
+   },
+   "astra": {
+    "rows": 51,
+    "yaw_per_latent_deg": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "tz_per_latent": [
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03
+    ],
+    "u_scale": 0.15
+   },
+   "ours": {
+    "n_frames_written": 161,
+    "n_frames_generated": 165,
+    "n_latents": 42
+   }
+  },
+  "P2": {
+   "c2w16": {
+    "n": 161,
+    "total_yaw_deg": 180.0,
+    "total_fwd_u": 0.0,
+    "yaw_per_s": [
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0
+    ],
+    "fwd_per_s": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "K832": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ]
+   },
+   "waypoint": {
+    "n_calls": 150,
+    "W": 0,
+    "S": 0,
+    "none": 150,
+    "yaw_sum_deg": 179.99997520446777,
+    "pitch_sum_deg": 0.0,
+    "pos": 150,
+    "neg": 0,
+    "mouse_x_abs_max": 81.60018157958984
+   },
+   "mg2": {
+    "n_frames": 129,
+    "fwd": 0,
+    "back": 0,
+    "left": 0,
+    "right": 0,
+    "yaw_sum_10s_deg_clipped": 170.45454545454547,
+    "yaw_sum_10s_deg_unclipped": 179.99997912821445,
+    "pos": 128,
+    "neg": 0,
+    "saturated_frames": 128,
+    "moving_frames": 128,
+    "saturated_frac_of_moving": 1.0,
+    "max_abs_unclipped": 0.10560020059347153
+   },
+   "abot": {
+    "n_blocks": 11,
+    "counts": {
+     "W": 0,
+     "A": 0,
+     "S": 0,
+     "D": 0,
+     "I": 0,
+     "J": 0,
+     "K": 0,
+     "L": 11
+    },
+    "keys": "L L L L L L L L L L L",
+    "switch_frames": [],
+    "switch_times_s": []
+   },
+   "astra": {
+    "rows": 51,
+    "yaw_per_latent_deg": [
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6
+    ],
+    "tz_per_latent": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "u_scale": 0.15
+   },
+   "ours": {
+    "n_frames_written": 161,
+    "n_frames_generated": 165,
+    "n_latents": 42
+   }
+  },
+  "P3": {
+   "c2w16": {
+    "n": 161,
+    "total_yaw_deg": 119.99998474121094,
+    "total_fwd_u": 10.0,
+    "yaw_per_s": [
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "K832": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ]
+   },
+   "waypoint": {
+    "n_calls": 150,
+    "W": 150,
+    "S": 0,
+    "none": 0,
+    "yaw_sum_deg": 119.9999906876508,
+    "pitch_sum_deg": 0.0,
+    "pos": 150,
+    "neg": 0,
+    "mouse_x_abs_max": 54.40042495727539
+   },
+   "mg2": {
+    "n_frames": 129,
+    "fwd": 128,
+    "back": 0,
+    "left": 0,
+    "right": 0,
+    "yaw_sum_10s_deg_clipped": 119.99997649003159,
+    "yaw_sum_10s_deg_unclipped": 119.99997649003159,
+    "pos": 128,
+    "neg": 0,
+    "saturated_frames": 0,
+    "moving_frames": 128,
+    "saturated_frac_of_moving": 0.0,
+    "max_abs_unclipped": 0.0704001784324646
+   },
+   "abot": {
+    "n_blocks": 11,
+    "counts": {
+     "W": 11,
+     "A": 0,
+     "S": 0,
+     "D": 0,
+     "I": 0,
+     "J": 0,
+     "K": 0,
+     "L": 11
+    },
+    "keys": "WL WL WL WL WL WL WL WL WL WL WL",
+    "switch_frames": [],
+    "switch_times_s": []
+   },
+   "astra": {
+    "rows": 51,
+    "yaw_per_latent_deg": [
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4,
+     2.4
+    ],
+    "tz_per_latent": [
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03
+    ],
+    "u_scale": 0.15
+   },
+   "ours": {
+    "n_frames_written": 161,
+    "n_frames_generated": 165,
+    "n_latents": 42
+   }
+  },
+  "P4": {
+   "c2w16": {
+    "n": 161,
+    "total_yaw_deg": 0.0,
+    "total_fwd_u": 10.0,
+    "yaw_per_s": [
+     18.0,
+     18.0,
+     0.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -0.0,
+     18.0,
+     18.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "K832": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ]
+   },
+   "waypoint": {
+    "n_calls": 150,
+    "W": 150,
+    "S": 0,
+    "none": 0,
+    "yaw_sum_deg": 0.0,
+    "pitch_sum_deg": 0.0,
+    "pos": 75,
+    "neg": 75,
+    "mouse_x_abs_max": 81.60018157958984
+   },
+   "mg2": {
+    "n_frames": 129,
+    "fwd": 128,
+    "back": 0,
+    "left": 0,
+    "right": 0,
+    "yaw_sum_10s_deg_clipped": 0.0,
+    "yaw_sum_10s_deg_unclipped": 0.0,
+    "pos": 68,
+    "neg": 60,
+    "saturated_frames": 128,
+    "moving_frames": 128,
+    "saturated_frac_of_moving": 1.0,
+    "max_abs_unclipped": 0.10560019314289093
+   },
+   "abot": {
+    "n_blocks": 11,
+    "counts": {
+     "W": 11,
+     "A": 0,
+     "S": 0,
+     "D": 0,
+     "I": 0,
+     "J": 5,
+     "K": 0,
+     "L": 6
+    },
+    "keys": "WL WL WL WJ WJ WJ WJ WJ WL WL WL",
+    "switch_frames": [
+     33,
+     93
+    ],
+    "switch_times_s": [
+     2.75,
+     7.75
+    ]
+   },
+   "astra": {
+    "rows": 51,
+    "yaw_per_latent_deg": [
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     0.0,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -3.6,
+     -0.0,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6,
+     3.6
+    ],
+    "tz_per_latent": [
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03
+    ],
+    "u_scale": 0.15
+   },
+   "ours": {
+    "n_frames_written": 161,
+    "n_frames_generated": 165,
+    "n_latents": 42
+   }
+  },
+  "P5": {
+   "c2w16": {
+    "n": 161,
+    "total_yaw_deg": 0.0,
+    "total_fwd_u": 2.5,
+    "yaw_per_s": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     0.5,
+     0.0,
+     0.0,
+     -1.0,
+     -1.0,
+     0.0,
+     1.0,
+     1.0
+    ],
+    "K832": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ]
+   },
+   "waypoint": {
+    "n_calls": 150,
+    "W": 75,
+    "S": 37,
+    "none": 38,
+    "yaw_sum_deg": 0.0,
+    "pitch_sum_deg": 0.0,
+    "pos": 0,
+    "neg": 0,
+    "mouse_x_abs_max": 0.0
+   },
+   "mg2": {
+    "n_frames": 129,
+    "fwd": 68,
+    "back": 30,
+    "left": 0,
+    "right": 0,
+    "yaw_sum_10s_deg_clipped": 0.0,
+    "yaw_sum_10s_deg_unclipped": 0.0,
+    "pos": 0,
+    "neg": 0,
+    "saturated_frames": 0,
+    "moving_frames": 0,
+    "saturated_frac_of_moving": 0.0,
+    "max_abs_unclipped": 0.0
+   },
+   "abot": {
+    "n_blocks": 11,
+    "counts": {
+     "W": 6,
+     "A": 0,
+     "S": 3,
+     "D": 0,
+     "I": 0,
+     "J": 0,
+     "K": 0,
+     "L": 0
+    },
+    "keys": "W W W - - S S S W W W",
+    "switch_frames": [
+     33,
+     57,
+     93
+    ],
+    "switch_times_s": [
+     2.75,
+     4.75,
+     7.75
+    ]
+   },
+   "astra": {
+    "rows": 51,
+    "yaw_per_latent_deg": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "tz_per_latent": [
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.015,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     -0.03,
+     0.0,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03
+    ],
+    "u_scale": 0.15
+   },
+   "ours": {
+    "n_frames_written": 161,
+    "n_frames_generated": 165,
+    "n_latents": 42
+   }
+  },
+  "P2p": {
+   "c2w16": {
+    "n": 161,
+    "total_yaw_deg": 159.99998474121094,
+    "total_fwd_u": 0.0,
+    "yaw_per_s": [
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0
+    ],
+    "fwd_per_s": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "K832": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ]
+   },
+   "waypoint": {
+    "n_calls": 150,
+    "W": 0,
+    "S": 0,
+    "none": 150,
+    "yaw_sum_deg": 159.99998429242302,
+    "pitch_sum_deg": 0.0,
+    "pos": 150,
+    "neg": 0,
+    "mouse_x_abs_max": 72.53366088867188
+   },
+   "mg2": {
+    "n_frames": 129,
+    "fwd": 0,
+    "back": 0,
+    "left": 0,
+    "right": 0,
+    "yaw_sum_10s_deg_clipped": 159.9999692883681,
+    "yaw_sum_10s_deg_unclipped": 159.9999692883681,
+    "pos": 128,
+    "neg": 0,
+    "saturated_frames": 0,
+    "moving_frames": 128,
+    "saturated_frac_of_moving": 0.0,
+    "max_abs_unclipped": 0.09386686980724335
+   },
+   "abot": {
+    "n_blocks": 11,
+    "counts": {
+     "W": 0,
+     "A": 0,
+     "S": 0,
+     "D": 0,
+     "I": 0,
+     "J": 0,
+     "K": 0,
+     "L": 11
+    },
+    "keys": "L L L L L L L L L L L",
+    "switch_frames": [],
+    "switch_times_s": []
+   },
+   "astra": {
+    "rows": 51,
+    "yaw_per_latent_deg": [
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2
+    ],
+    "tz_per_latent": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "u_scale": 0.15
+   },
+   "ours": {
+    "n_frames_written": 161,
+    "n_frames_generated": 165,
+    "n_latents": 42
+   }
+  },
+  "P4p": {
+   "c2w16": {
+    "n": 161,
+    "total_yaw_deg": 0.0,
+    "total_fwd_u": 10.0,
+    "yaw_per_s": [
+     16.0,
+     16.0,
+     -0.0,
+     -16.0,
+     -16.0,
+     -16.0,
+     -16.0,
+     0.0,
+     16.0,
+     16.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "K832": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ]
+   },
+   "waypoint": {
+    "n_calls": 150,
+    "W": 150,
+    "S": 0,
+    "none": 0,
+    "yaw_sum_deg": 0.0,
+    "pitch_sum_deg": 0.0,
+    "pos": 75,
+    "neg": 75,
+    "mouse_x_abs_max": 72.53351593017578
+   },
+   "mg2": {
+    "n_frames": 129,
+    "fwd": 128,
+    "back": 0,
+    "left": 0,
+    "right": 0,
+    "yaw_sum_10s_deg_clipped": 0.0,
+    "yaw_sum_10s_deg_unclipped": 0.0,
+    "pos": 68,
+    "neg": 60,
+    "saturated_frames": 0,
+    "moving_frames": 128,
+    "saturated_frac_of_moving": 0.0,
+    "max_abs_unclipped": 0.09386681020259857
+   },
+   "abot": {
+    "n_blocks": 11,
+    "counts": {
+     "W": 11,
+     "A": 0,
+     "S": 0,
+     "D": 0,
+     "I": 0,
+     "J": 5,
+     "K": 0,
+     "L": 6
+    },
+    "keys": "WL WL WL WJ WJ WJ WJ WJ WL WL WL",
+    "switch_frames": [
+     33,
+     93
+    ],
+    "switch_times_s": [
+     2.75,
+     7.75
+    ]
+   },
+   "astra": {
+    "rows": 51,
+    "yaw_per_latent_deg": [
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     -0.0,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     -3.2,
+     0.0,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2,
+     3.2
+    ],
+    "tz_per_latent": [
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.03
+    ],
+    "u_scale": 0.15
+   },
+   "ours": {
+    "n_frames_written": 161,
+    "n_frames_generated": 165,
+    "n_latents": 42
+   }
+  }
+ },
+ "b": {
+  "easy_lake": {
+   "waypoint": {
+    "identical_json": true,
+    "summary": "calls 38, W/S/A/D [3, 0, 19, 5], yaw sum 128.923",
+    "old_script_stdout": "easy_lake 38 calls; total yaw 129 deg, pitch -1 deg; W/S/A/D calls 3/0/19/5"
+   },
+   "mg2": {
+    "identical_json": true,
+    "summary": "frames 153, fwd/back/left/right [11, 3, 65, 25], yaw sum 128.923, max|mouse| 0.6440 (37 entries > 0.1)",
+    "old_script_stdout": "easy_lake 153 frames; total yaw 129 pitch -1; fwd/back/left/right frames 11/3/65/25"
+   },
+   "abot": {
+    "identical_json": true,
+    "summary": "blocks 14, counts W/A/S/D/I/J/K/L [1, 10, 0, 2, 5, 2, 3, 11]",
+    "old_script_stdout": "easy_lake 14 blocks; key counts W/A/S/D/I/J/K/L = [1, 10, 0, 2, 5, 2, 3, 11] ; total yaw 149 deg pitch -1 deg"
+   }
+  },
+  "easy_greatwall": {
+   "waypoint": {
+    "identical_json": true,
+    "summary": "calls 38, W/S/A/D [21, 13, 1, 2], yaw sum -124.010",
+    "old_script_stdout": "easy_greatwall 38 calls; total yaw -124 deg, pitch -9 deg; W/S/A/D calls 21/13/1/2"
+   },
+   "mg2": {
+    "identical_json": true,
+    "summary": "frames 153, fwd/back/left/right [79, 57, 8, 2], yaw sum -124.010, max|mouse| 0.7675 (89 entries > 0.1)",
+    "old_script_stdout": "easy_greatwall 153 frames; total yaw -124 pitch -9; fwd/back/left/right frames 79/57/8/2"
+   },
+   "abot": {
+    "identical_json": true,
+    "summary": "blocks 14, counts W/A/S/D/I/J/K/L [7, 0, 6, 0, 1, 7, 3, 6]",
+    "old_script_stdout": "easy_greatwall 14 blocks; key counts W/A/S/D/I/J/K/L = [7, 0, 6, 0, 1, 7, 3, 6] ; total yaw -65 deg pitch -4 deg"
+   }
+  },
+  "balloon_block_cut": {
+   "waypoint": {
+    "identical_json": true,
+    "summary": "calls 38, W/S/A/D [0, 3, 0, 0], yaw sum 300.000",
+    "old_script_stdout": "balloon_block_cut 38 calls; total yaw 300 deg, pitch 0 deg; W/S/A/D calls 0/3/0/0"
+   },
+   "mg2": {
+    "identical_json": true,
+    "summary": "frames 153, fwd/back/left/right [0, 12, 0, 0], yaw sum 300.000, max|mouse| 0.2010 (140 entries > 0.1)",
+    "old_script_stdout": "balloon_block_cut 153 frames; total yaw 300 pitch 0; fwd/back/left/right frames 0/12/0/0"
+   },
+   "abot": {
+    "identical_json": true,
+    "summary": "blocks 14, counts W/A/S/D/I/J/K/L [0, 0, 1, 0, 0, 3, 0, 10]",
+    "old_script_stdout": "balloon_block_cut 14 blocks; key counts W/A/S/D/I/J/K/L = [0, 0, 1, 0, 0, 3, 0, 10] ; total yaw 276 deg pitch 0 deg"
+   }
+  },
+  "traffic_light_green": {
+   "waypoint": {
+    "identical_json": true,
+    "summary": "calls 38, W/S/A/D [0, 3, 0, 0], yaw sum -300.000",
+    "old_script_stdout": "traffic_light_green 38 calls; total yaw -300 deg, pitch 0 deg; W/S/A/D calls 0/3/0/0"
+   },
+   "mg2": {
+    "identical_json": true,
+    "summary": "frames 153, fwd/back/left/right [0, 12, 0, 0], yaw sum -300.000, max|mouse| 0.2010 (140 entries > 0.1)",
+    "old_script_stdout": "traffic_light_green 153 frames; total yaw -300 pitch 0; fwd/back/left/right frames 0/12/0/0"
+   },
+   "abot": {
+    "identical_json": true,
+    "summary": "blocks 14, counts W/A/S/D/I/J/K/L [0, 0, 1, 0, 0, 10, 0, 3]",
+    "old_script_stdout": "traffic_light_green 14 blocks; key counts W/A/S/D/I/J/K/L = [0, 0, 1, 0, 0, 10, 0, 3] ; total yaw -276 deg pitch 0 deg"
+   }
+  }
+ },
+ "ok": true,
+ "npz_summary": {
+  "P1": {
+   "c2w": {
+    "frames": 161,
+    "frames_165": 165,
+    "intrinsics": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ],
+    "total_yaw_deg": 0.0,
+    "total_fwd_u": 10.0,
+    "yaw_per_s": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ours": {
+    "fps": 16,
+    "generated": 165,
+    "latents": 42,
+    "written": 161
+   },
+   "waypoint": {
+    "calls": 150,
+    "K_yaw": 68.0,
+    "mouse_x_per_call": [
+     0.0
+    ],
+    "yaw_sum_deg": 0.0,
+    "W": 150,
+    "S": 0,
+    "none": 0
+   },
+   "mg2": {
+    "frames_generated": 129,
+    "written": 120,
+    "K": 0.0704,
+    "keys_fwd_back_left_right": [
+     128,
+     0,
+     0,
+     0
+    ],
+    "mouse_yaw_values": [
+     0.0
+    ],
+    "saturated_frames": "0/0 moving (0 %)",
+    "max_abs_unclipped": 0.0,
+    "yaw_sum_10s_deg_clipped": 0.0
+   },
+   "abot": {
+    "blocks": 11,
+    "generated": 129,
+    "written": 120,
+    "keys": "W W W W W W W W W W W",
+    "switch_frames": [],
+    "switch_times_s": []
+   },
+   "astra": {
+    "fps": 20,
+    "frames_written": 201,
+    "latents_generated": 56,
+    "emb_rows": 51,
+    "c2w_frames": 201,
+    "u_scale": 0.15,
+    "yaw_per_latent_deg": [
+     0.0
+    ],
+    "tz_per_latent": [
+     0.03
+    ]
+   },
+   "consistent_with_fresh_encoding": true
+  },
+  "P2": {
+   "c2w": {
+    "frames": 161,
+    "frames_165": 165,
+    "intrinsics": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ],
+    "total_yaw_deg": 180.0,
+    "total_fwd_u": 0.0,
+    "yaw_per_s": [
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0,
+     18.0
+    ],
+    "fwd_per_s": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ours": {
+    "fps": 16,
+    "generated": 165,
+    "latents": 42,
+    "written": 161
+   },
+   "waypoint": {
+    "calls": 150,
+    "K_yaw": 68.0,
+    "mouse_x_per_call": [
+     81.6
+    ],
+    "yaw_sum_deg": 180.0,
+    "W": 0,
+    "S": 0,
+    "none": 150
+   },
+   "mg2": {
+    "frames_generated": 129,
+    "written": 120,
+    "K": 0.0704,
+    "keys_fwd_back_left_right": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "mouse_yaw_values": [
+     0.0,
+     0.1
+    ],
+    "saturated_frames": "128/128 moving (100 %)",
+    "max_abs_unclipped": 0.1056,
+    "yaw_sum_10s_deg_clipped": 170.45
+   },
+   "abot": {
+    "blocks": 11,
+    "generated": 129,
+    "written": 120,
+    "keys": "L L L L L L L L L L L",
+    "switch_frames": [],
+    "switch_times_s": []
+   },
+   "astra": {
+    "fps": 20,
+    "frames_written": 201,
+    "latents_generated": 56,
+    "emb_rows": 51,
+    "c2w_frames": 201,
+    "u_scale": 0.15,
+    "yaw_per_latent_deg": [
+     3.6
+    ],
+    "tz_per_latent": [
+     0.0
+    ]
+   },
+   "consistent_with_fresh_encoding": true
+  },
+  "P3": {
+   "c2w": {
+    "frames": 161,
+    "frames_165": 165,
+    "intrinsics": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ],
+    "total_yaw_deg": 120.0,
+    "total_fwd_u": 10.0,
+    "yaw_per_s": [
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0,
+     12.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ours": {
+    "fps": 16,
+    "generated": 165,
+    "latents": 42,
+    "written": 161
+   },
+   "waypoint": {
+    "calls": 150,
+    "K_yaw": 68.0,
+    "mouse_x_per_call": [
+     54.4
+    ],
+    "yaw_sum_deg": 120.0,
+    "W": 150,
+    "S": 0,
+    "none": 0
+   },
+   "mg2": {
+    "frames_generated": 129,
+    "written": 120,
+    "K": 0.0704,
+    "keys_fwd_back_left_right": [
+     128,
+     0,
+     0,
+     0
+    ],
+    "mouse_yaw_values": [
+     0.0,
+     0.0704
+    ],
+    "saturated_frames": "0/128 moving (0 %)",
+    "max_abs_unclipped": 0.0704,
+    "yaw_sum_10s_deg_clipped": 120.0
+   },
+   "abot": {
+    "blocks": 11,
+    "generated": 129,
+    "written": 120,
+    "keys": "WL WL WL WL WL WL WL WL WL WL WL",
+    "switch_frames": [],
+    "switch_times_s": []
+   },
+   "astra": {
+    "fps": 20,
+    "frames_written": 201,
+    "latents_generated": 56,
+    "emb_rows": 51,
+    "c2w_frames": 201,
+    "u_scale": 0.15,
+    "yaw_per_latent_deg": [
+     2.4
+    ],
+    "tz_per_latent": [
+     0.03
+    ]
+   },
+   "consistent_with_fresh_encoding": true
+  },
+  "P4": {
+   "c2w": {
+    "frames": 161,
+    "frames_165": 165,
+    "intrinsics": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ],
+    "total_yaw_deg": 0.0,
+    "total_fwd_u": 10.0,
+    "yaw_per_s": [
+     18.0,
+     18.0,
+     0.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -18.0,
+     -0.0,
+     18.0,
+     18.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ours": {
+    "fps": 16,
+    "generated": 165,
+    "latents": 42,
+    "written": 161
+   },
+   "waypoint": {
+    "calls": 150,
+    "K_yaw": 68.0,
+    "mouse_x_per_call": [
+     -81.6,
+     -0.0,
+     81.6
+    ],
+    "yaw_sum_deg": 0.0,
+    "W": 150,
+    "S": 0,
+    "none": 0
+   },
+   "mg2": {
+    "frames_generated": 129,
+    "written": 120,
+    "K": 0.0704,
+    "keys_fwd_back_left_right": [
+     128,
+     0,
+     0,
+     0
+    ],
+    "mouse_yaw_values": [
+     -0.1,
+     0.0,
+     0.1
+    ],
+    "saturated_frames": "128/128 moving (100 %)",
+    "max_abs_unclipped": 0.1056,
+    "yaw_sum_10s_deg_clipped": 0.0
+   },
+   "abot": {
+    "blocks": 11,
+    "generated": 129,
+    "written": 120,
+    "keys": "WL WL WL WJ WJ WJ WJ WJ WL WL WL",
+    "switch_frames": [
+     33,
+     93
+    ],
+    "switch_times_s": [
+     2.75,
+     7.75
+    ]
+   },
+   "astra": {
+    "fps": 20,
+    "frames_written": 201,
+    "latents_generated": 56,
+    "emb_rows": 51,
+    "c2w_frames": 201,
+    "u_scale": 0.15,
+    "yaw_per_latent_deg": [
+     -3.6,
+     0.0,
+     3.6
+    ],
+    "tz_per_latent": [
+     0.03
+    ]
+   },
+   "consistent_with_fresh_encoding": true
+  },
+  "P5": {
+   "c2w": {
+    "frames": 161,
+    "frames_165": 165,
+    "intrinsics": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ],
+    "total_yaw_deg": 0.0,
+    "total_fwd_u": 2.5,
+    "yaw_per_s": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     0.5,
+     0.0,
+     0.0,
+     -1.0,
+     -1.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ours": {
+    "fps": 16,
+    "generated": 165,
+    "latents": 42,
+    "written": 161
+   },
+   "waypoint": {
+    "calls": 150,
+    "K_yaw": 68.0,
+    "mouse_x_per_call": [
+     0.0
+    ],
+    "yaw_sum_deg": 0.0,
+    "W": 75,
+    "S": 37,
+    "none": 38
+   },
+   "mg2": {
+    "frames_generated": 129,
+    "written": 120,
+    "K": 0.0704,
+    "keys_fwd_back_left_right": [
+     68,
+     30,
+     0,
+     0
+    ],
+    "mouse_yaw_values": [
+     0.0
+    ],
+    "saturated_frames": "0/0 moving (0 %)",
+    "max_abs_unclipped": 0.0,
+    "yaw_sum_10s_deg_clipped": 0.0
+   },
+   "abot": {
+    "blocks": 11,
+    "generated": 129,
+    "written": 120,
+    "keys": "W W W - - S S S W W W",
+    "switch_frames": [
+     33,
+     57,
+     93
+    ],
+    "switch_times_s": [
+     2.75,
+     4.75,
+     7.75
+    ]
+   },
+   "astra": {
+    "fps": 20,
+    "frames_written": 201,
+    "latents_generated": 56,
+    "emb_rows": 51,
+    "c2w_frames": 201,
+    "u_scale": 0.15,
+    "yaw_per_latent_deg": [
+     0.0
+    ],
+    "tz_per_latent": [
+     -0.03,
+     0.0,
+     0.015,
+     0.03
+    ]
+   },
+   "consistent_with_fresh_encoding": true
+  },
+  "P2p": {
+   "c2w": {
+    "frames": 161,
+    "frames_165": 165,
+    "intrinsics": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ],
+    "total_yaw_deg": 160.0,
+    "total_fwd_u": 0.0,
+    "yaw_per_s": [
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0,
+     16.0
+    ],
+    "fwd_per_s": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ours": {
+    "fps": 16,
+    "generated": 165,
+    "latents": 42,
+    "written": 161
+   },
+   "waypoint": {
+    "calls": 150,
+    "K_yaw": 68.0,
+    "mouse_x_per_call": [
+     72.53
+    ],
+    "yaw_sum_deg": 160.0,
+    "W": 0,
+    "S": 0,
+    "none": 150
+   },
+   "mg2": {
+    "frames_generated": 129,
+    "written": 120,
+    "K": 0.0704,
+    "keys_fwd_back_left_right": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "mouse_yaw_values": [
+     0.0,
+     0.0939
+    ],
+    "saturated_frames": "0/128 moving (0 %)",
+    "max_abs_unclipped": 0.0939,
+    "yaw_sum_10s_deg_clipped": 160.0
+   },
+   "abot": {
+    "blocks": 11,
+    "generated": 129,
+    "written": 120,
+    "keys": "L L L L L L L L L L L",
+    "switch_frames": [],
+    "switch_times_s": []
+   },
+   "astra": {
+    "fps": 20,
+    "frames_written": 201,
+    "latents_generated": 56,
+    "emb_rows": 51,
+    "c2w_frames": 201,
+    "u_scale": 0.15,
+    "yaw_per_latent_deg": [
+     3.2
+    ],
+    "tz_per_latent": [
+     0.0
+    ]
+   },
+   "consistent_with_fresh_encoding": true
+  },
+  "P4p": {
+   "c2w": {
+    "frames": 161,
+    "frames_165": 165,
+    "intrinsics": [
+     416.0,
+     416.0,
+     416.0,
+     240.0
+    ],
+    "total_yaw_deg": 0.0,
+    "total_fwd_u": 10.0,
+    "yaw_per_s": [
+     16.0,
+     16.0,
+     -0.0,
+     -16.0,
+     -16.0,
+     -16.0,
+     -16.0,
+     0.0,
+     16.0,
+     16.0
+    ],
+    "fwd_per_s": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "ours": {
+    "fps": 16,
+    "generated": 165,
+    "latents": 42,
+    "written": 161
+   },
+   "waypoint": {
+    "calls": 150,
+    "K_yaw": 68.0,
+    "mouse_x_per_call": [
+     -72.53,
+     0.0,
+     72.53
+    ],
+    "yaw_sum_deg": 0.0,
+    "W": 150,
+    "S": 0,
+    "none": 0
+   },
+   "mg2": {
+    "frames_generated": 129,
+    "written": 120,
+    "K": 0.0704,
+    "keys_fwd_back_left_right": [
+     128,
+     0,
+     0,
+     0
+    ],
+    "mouse_yaw_values": [
+     -0.0939,
+     0.0,
+     0.0939
+    ],
+    "saturated_frames": "0/128 moving (0 %)",
+    "max_abs_unclipped": 0.0939,
+    "yaw_sum_10s_deg_clipped": 0.0
+   },
+   "abot": {
+    "blocks": 11,
+    "generated": 129,
+    "written": 120,
+    "keys": "WL WL WL WJ WJ WJ WJ WJ WL WL WL",
+    "switch_frames": [
+     33,
+     93
+    ],
+    "switch_times_s": [
+     2.75,
+     7.75
+    ]
+   },
+   "astra": {
+    "fps": 20,
+    "frames_written": 201,
+    "latents_generated": 56,
+    "emb_rows": 51,
+    "c2w_frames": 201,
+    "u_scale": 0.15,
+    "yaw_per_latent_deg": [
+     -3.2,
+     -0.0,
+     3.2
+    ],
+    "tz_per_latent": [
+     0.03
+    ]
+   },
+   "consistent_with_fresh_encoding": true
+  }
+ },
+ "calib_merge": {
+  "decisions": [
+   "version: code wins: \"2026-10-17b (PROTOCOL v1; measured values merged 10/16-17; Waypoin...  [file had \"2026-10-17 (PROTOCOL v1; measured values merged 10/16-17)\"]",
+   "waypoint.mouse: code wins: \"[K_yaw * yaw_deg_per_call, K_yaw * pitch_deg_per_call]; raw, uncli...  [file had \"[K_yaw * yaw_deg_per_call, K_yaw * pitch_deg_per_call]; raw, uncli...]",
+   "waypoint.source: code wins: \"K_yaw 68 (10/17 FINAL): proportional least-squares fit total_yaw =...  [file had \"10/17 FINAL: proportional least-squares fit total_yaw = c * mouse_...]",
+   "waypoint.k_yaw_previous: file (measured) wins: \"118 (10/9, invalid: start image re-appended every call); 79 (10/16...  [code default \"118 (10/9 optical-flow calibration, paper/meeting_1012/research_mg...]",
+   "waypoint.date: file (measured) wins: \"2026-10-17T00:45\"  [code default \"2026-10-16T22:40\"]",
+   "waypoint.measurements: file (measured) wins: {\"P2_k118\": {\"mouse_x_per_call\": 141.6, \"calls\": 150.0, \"yaw_total_...  [code default {\"P2_k118\": {\"mouse_x_per_call\": 141.6, \"calls\": 150.0, \"yaw_total_...]",
+   "waypoint.verification: file (measured) wins: \"VERIFIED 10/17 on GPU 4 (baselines/waypoint/smoke/{wp__highland_ca...  [code default \"VERIFIED 10/17 on GPU 4 (baselines/waypoint/smoke/{wp__highland_ca...]",
+   "kept file key waypoint.source_previous (unknown to convert.CALIB)",
+   "kept file key waypoint.measurements_note (unknown to convert.CALIB)",
+   "kept file key waypoint.fit (unknown to convert.CALIB)",
+   "kept file key abot.measurements (unknown to convert.CALIB)",
+   "kept file key abot.L_key_yaw_deg_per_s_da3 (unknown to convert.CALIB)",
+   "kept file key abot.L_pan_direction (unknown to convert.CALIB)",
+   "kept file key abot.P2_realised_over_commanded (unknown to convert.CALIB)",
+   "kept file key abot.block_layout_note (unknown to convert.CALIB)",
+   "kept file key abot.measured_on (unknown to convert.CALIB)",
+   "kept file key abot.date (unknown to convert.CALIB)",
+   "kept file key astra.model (unknown to convert.CALIB)",
+   "kept file key astra.written (unknown to convert.CALIB)",
+   "kept file key astra.translation_units_per_u_da3 (unknown to convert.CALIB)",
+   "kept file key astra.embedding_rows_da3 (unknown to convert.CALIB)",
+   "kept file key astra.embedding_rows_note_da3 (unknown to convert.CALIB)",
+   "kept file key astra.official_stack_da3 (unknown to convert.CALIB)",
+   "kept file key astra.translation_status_da3 (unknown to convert.CALIB)",
+   "kept file key astra.rotation_check_da3 (unknown to convert.CALIB)",
+   "kept file key astra.direction_check_da3 (unknown to convert.CALIB)",
+   "kept file key astra.u_scale_decision_da3 (unknown to convert.CALIB)",
+   "kept file key astra.measurement_da3 (unknown to convert.CALIB)",
+   "astra.presets_closest: code wins: {\"P1\": 1, \"P2\": 3, \"P2p\": 3, \"P3\": 5, \"P4\": \"6 (left then right: op...  [file had {\"P1\": 1, \"P2\": 3, \"P3\": 5, \"P4\": \"6 (left then right: opposite ord...]",
+   "astra.source: code wins: \"baselines/astra/program_to_astra.py + run.sh + astra_gen.py (the r...  [file had \"tools/astra/Astra/scripts/infer_demo.py L295-655 (presets), L934 (...]",
+   "kept file key astra.merged_from (unknown to convert.CALIB)",
+   "kept file key astra.merged_at (unknown to convert.CALIB)",
+   "kept file key astra.previous_convert_py_entry (unknown to convert.CALIB)",
+   "kept file section 'sf1p3b' (unknown to convert.CALIB)"
+  ],
+  "warnings": []
+ },
+ "built": "2026-10-17 01:45:30 UTC"
+}

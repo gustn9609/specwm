@@ -1,0 +1,56 @@
+{
+ "set": "wp",
+ "arm": "sf24",
+ "tier": 8,
+ "res": "1024x512",
+ "area": 524289,
+ "n": 2,
+ "made": "2026-10-19 (audit)",
+ "why": "[10/19 audit] validation of the spec_early fps correction: 2 clips (first frozen scene, P1 + P2) re-run with STREAM_DECODE=0 (no side-stream decode in the chunk timer) and RUNS_SUFFIX=_dit -> runs/ours_sf24_wp_dit; gen/dit_check.py compares with the frozen steady_fps_gen_dit",
+ "ids": [
+  "wp__abandoned_city_runner__P1",
+  "wp__abandoned_city_runner__P2"
+ ],
+ "tasks": [
+  {
+   "id": "wp__abandoned_city_runner__P1",
+   "base": "wp__abandoned_city_runner__P1",
+   "image": "/home/hk28965/specwm/baselines/tasks/wp/img/abandoned_city_runner.png",
+   "video_WM": "",
+   "camera_WM": "",
+   "pose": "program",
+   "action": "/home/hk28965/specwm/baselines/tasks/wp/wp__abandoned_city_runner__P1",
+   "program": "P1",
+   "scene": "abandoned_city_runner",
+   "set": "wp",
+   "res": "1024x512",
+   "area": 524289,
+   "rule": "stretch",
+   "frames": 165,
+   "src_image": "/home/hk28965/specwm/baselines/scenes/wp/abandoned_city_runner.png",
+   "suffix": "",
+   "caption": "scene .txt",
+   "scenes_from": "scenes/wp/FROZEN.json"
+  },
+  {
+   "id": "wp__abandoned_city_runner__P2",
+   "base": "wp__abandoned_city_runner__P2",
+   "image": "/home/hk28965/specwm/baselines/tasks/wp/img/abandoned_city_runner.png",
+   "video_WM": "",
+   "camera_WM": "",
+   "pose": "program",
+   "action": "/home/hk28965/specwm/baselines/tasks/wp/wp__abandoned_city_runner__P2",
+   "program": "P2",
+   "scene": "abandoned_city_runner",
+   "set": "wp",
+   "res": "1024x512",
+   "area": 524289,
+   "rule": "stretch",
+   "frames": 165,
+   "src_image": "/home/hk28965/specwm/baselines/scenes/wp/abandoned_city_runner.png",
+   "suffix": "",
+   "caption": "scene .txt",
+   "scenes_from": "scenes/wp/FROZEN.json"
+  }
+ ]
+}

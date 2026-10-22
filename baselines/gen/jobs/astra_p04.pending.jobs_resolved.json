@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/astra/garden_2.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/astra__garden_2__P4p",
+  "prompt": "A sunlit city park with a winding brick path curving through bright green lawns, tall deciduous trees with lush canopies, a classic black lamp post in the left foreground, a wooden park bench and a dark metal trash bin beside the path in the middle distance, an iron fence and white flowering shrubs in the background, warm afternoon light filtering through the leaves, a calm and peaceful atmosphere.",
+  "set": "astra",
+  "scene": "garden_2"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/astra/garden_2.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/astra__garden_2__P5",
+  "prompt": "A sunlit city park with a winding brick path curving through bright green lawns, tall deciduous trees with lush canopies, a classic black lamp post in the left foreground, a wooden park bench and a dark metal trash bin beside the path in the middle distance, an iron fence and white flowering shrubs in the background, warm afternoon light filtering through the leaves, a calm and peaceful atmosphere.",
+  "set": "astra",
+  "scene": "garden_2"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/astra/garden_3.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/astra__garden_3__P1",
+  "prompt": "An autumn park avenue with a paved path leading into the distance between rows of tall trees in golden, orange and red foliage, fallen leaves scattered over the grass and the edges of the path, yellow-leaved shrubs on the left, soft hazy sunlight filtering through the canopy, a warm, quiet and nostalgic atmosphere.",
+  "set": "astra",
+  "scene": "garden_3"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/astra/garden_3.png",
+  "program": "P2",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/astra__garden_3__P2",
+  "prompt": "An autumn park avenue with a paved path leading into the distance between rows of tall trees in golden, orange and red foliage, fallen leaves scattered over the grass and the edges of the path, yellow-leaved shrubs on the left, soft hazy sunlight filtering through the canopy, a warm, quiet and nostalgic atmosphere.",
+  "set": "astra",
+  "scene": "garden_3"
+ }
+]

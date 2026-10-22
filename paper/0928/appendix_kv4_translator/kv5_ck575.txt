@@ -1,0 +1,39 @@
+sand_f/plkl_kv5_ck575_cr_never_s1234         gen    69  motion(median)   5.9  boundary/inside max  3.3x  flicker(mean)  11.7  plan DDDDDDDDDDDDD
+sand_f/plkl_kv5_ck575_cr_never_s4321         gen    68  motion(median)   6.2  boundary/inside max  3.8x  flicker(mean)  14.9  plan DDDDDDDDDDDDD
+Traceback (most recent call last):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hk28965/specwm/lingbot-world-v2/specwm_out/spec_v0/sand_filling_up_jar/plkl_kv5_ck575_c
+sand_f/plkl_kv5_ck575_cr_never_s1234                 motion   7.1 flicker  11.8 ssim4 0.799 maxboundary  3.3x  drift(max) 0.43  to_base(mean) 0.39
+sand_f/plkl_kv5_ck575_cr_never_s4321                 motion   8.9 flicker  14.8 ssim4 0.733 maxboundary  3.8x  drift(max) 0.39  to_base(mean) 0.79
+Traceback (most recent call last):
+  File "/home/hk28965/specwm/scripts/temporal_eval.py", line 39, in <module>
+    r, _ = analyse(os.path.join(run, "video.mp4"), bf); r["gen_s"] = json.load(open(os.path.join(run, "spec_v0.json")))["gen_s"] if os.path.exists(os.path.join(run, "spec_v0.json")) else None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hk28965/specwm/scripts/temporal_eval.py", line 25, in analyse
+    V = [np.asarray(f) for f in imageio.get_reader(path)]; n = len(V); Vf = [v.astype(np.float32) for v in V]
+                                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hk28965/specwm/venv/lib/python3.12/site-packages/imageio/v2.py", line 290, in get_reader
+    image_file = imopen(uri, "r" + mode, **imopen_args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hk28965/specwm/venv/lib/python3.12/site-packages/imageio/core/imopen.py", line 113, in imopen
+    request = Request(uri, io_mode, format_hint=format_hint, extension=extension)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hk28965/specwm/venv/lib/python3.12/site-packages/imageio/core/request.py", line 251, in __init__
+    self._parse_uri(uri)
+  File "/home/hk28965/specwm/venv/lib/python3.12/site-packages/imageio/core/request.py", line 411, in _parse_uri
+    raise FileNotFoundError(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hk28965/specwm/lingbot-world-v2/specwm_out/spec_v0/sand_filling_up_jar/plkl_kv5_ck575_cr_never_s9999/video.mp4'
+sharp sand_f s1234  base 4.89  run 4.03
+sharp sand_f s4321  base 15.86  run 6.37
+Traceback (most recent call last):
+  File "<stdin>", line 9, in <module>
+  File "/home/hk28965/specwm/venv/lib/python3.12/site-packages/imageio/v2.py", line 290, in get_reader
+    image_file = imopen(uri, "r" + mode, **imopen_args)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hk28965/specwm/venv/lib/python3.12/site-packages/imageio/core/imopen.py", line 113, in imopen
+    request = Request(uri, io_mode, format_hint=format_hint, extension=extension)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hk28965/specwm/venv/lib/python3.12/site-packages/imageio/core/request.py", line 251, in __init__
+    self._parse_uri(uri)
+  File "/home/hk28965/specwm/venv/lib/python3.12/site-packages/imageio/core/request.py", line 411, in _parse_uri
+    raise FileNotFoundError(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/hk28965/specwm/lingbot-world-v2/specwm_out/spec_v0/sand_filling_up_jar/plkl_kv5_ck575_cr_never_s9999/video.mp4'

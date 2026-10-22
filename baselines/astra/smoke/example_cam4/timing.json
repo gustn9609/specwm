@@ -1,0 +1,67 @@
+{
+ "model": "Astra (Wan2.1-T2V-1.3B + Astra MoE/FramePack DiT)",
+ "ckpt": "EvanEternal/Astra models/Astra/checkpoints/diffusion_pytorch_model.ckpt sha256 5ca9c5e0..., Wan2.1-T2V-1.3B DiT 96b6b242..., T5 umt5-xxl bf16 7cace0da..., Wan2.1_VAE 38071ab5...",
+ "commit": "3fb82e1939bfcf87d6e27a7da57d8b55ff9cb393",
+ "precision": "bf16 (DiT, T5, VAE; ModelManager torch_dtype bfloat16)",
+ "attention": "torch F.scaled_dot_product_attention (flash_attn / sageattention not installed; wan_video_dit_moe.flash_attention fallback)",
+ "vae": "Wan2.1_VAE.pth, tiled encode/decode tile (34,34) stride (18,16), one decode of the whole clip at the end (official)",
+ "resolution_out": [
+  832,
+  480
+ ],
+ "frames": 97,
+ "fps_native": 20,
+ "frames_per_call_or_chunk": 32,
+ "latents_per_block": 8,
+ "steps": 50,
+ "cfg": "none (official default)",
+ "gen_s": 72.32133727095788,
+ "e2e_s": 82.11445875198115,
+ "ttff_s": 25.991229079954792,
+ "ttff_decode_s": 3.178798206965439,
+ "ttff_first_block_frames": 33,
+ "steady_fps_gen": 1.2679715469499448,
+ "steady_fps_e2e": 1.1367918180897265,
+ "decode_s": 8.827709150034934,
+ "decode_s_per_block_est": 2.912233946403277,
+ "image_encode_s": 0.8432860579923727,
+ "prompt_encode_s": 0.12212627299595624,
+ "load_s": 10.60525812197011,
+ "warm_s": 21.962588709022384,
+ "block_s": [
+  21.847018542001024,
+  25.257254608965013,
+  25.217064119991846
+ ],
+ "block_latents": [
+  8,
+  8,
+  8
+ ],
+ "s_per_step_steady": 0.5047431872895686,
+ "peak_alloc_GiB": 14.85053825378418,
+ "peak_reserved_GiB": 16.1328125,
+ "mem_after_load_GiB": 13.75816822052002,
+ "text_encoder_resident": true,
+ "kv_window": "FramePack context: 1 start + 16 (4x) + 2 (2x) + 1 (1x) history latents per block; history kept up to max_history 100 latents",
+ "warm": true,
+ "seed": 1234,
+ "program": "cam:4",
+ "camera": {
+  "kind": "astra_preset",
+  "cam_type": 4
+ },
+ "prompt_chars": 870,
+ "image": "/home/hk28965/specwm/baselines/scenes/astra/garden_1.png",
+ "ckpt_load": {
+  "missing": 0,
+  "unexpected": 0,
+  "n_tensors": 1139
+ },
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "gpu_smi_before": [
+  "6, 17223 MiB, 0 %, NVIDIA RTX PRO 6000 Blackwell Server Edition"
+ ],
+ "torch": "2.8.0+cu128",
+ "notes": "timings on a SHARED GPU (see gpu_smi_before: another job resident) are upper bounds; e2e_s = image+prompt encode + all blocks + final decode; ttff_s adds a separate decode of the first block (excluded from e2e_s); steady fps from the full 8-latent blocks after the first"
+}

@@ -1,0 +1,50 @@
+{
+ "jobs": 4,
+ "ok": 4,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 3.3,
+ "warmup_s": 19.2,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 18.3,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/wp/highland_castle_loch.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k69/wp__highland_castle_loch__P2_k69",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.462,
+   "steady_fps_e2e": 38.98,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.76
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k69/wp__highland_castle_loch__P2_k69_s1235",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.514,
+   "steady_fps_e2e": 39.75,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.51
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k69/wp__highland_castle_loch__P3_k69",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.435,
+   "steady_fps_e2e": 40.2,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.27
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k69/wp__highland_castle_loch__P2_k69_rep",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.499,
+   "steady_fps_e2e": 39.54,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.58
+  }
+ ],
+ "date": "2026-10-17T00:40:56"
+}

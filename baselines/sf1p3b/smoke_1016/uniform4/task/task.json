@@ -1,0 +1,16 @@
+[
+ {
+  "id": "sf1p3b__image__03",
+  "base": "sf1p3b__image__03",
+  "image": "/home/hk28965/specwm/baselines/sf1p3b/smoke_1016/uniform4/task/image.jpg",
+  "video_WM": "",
+  "camera_WM": "",
+  "pose": "program",
+  "action": "/home/hk28965/specwm/baselines/sf1p3b/smoke_1016/uniform4/task",
+  "program": "03",
+  "scene": "image",
+  "set": "sf1p3b",
+  "poses_from": "/home/hk28965/specwm/lingbot-world-v2/examples/03",
+  "n_poses": 269
+ }
+]

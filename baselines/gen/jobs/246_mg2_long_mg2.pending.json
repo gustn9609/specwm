@@ -1,0 +1,26 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0001.png",
+  "program": "P6",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0001__P6_long",
+  "set": "mg2",
+  "scene": "universal_0001"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0002.png",
+  "program": "P6",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0002__P6_long",
+  "set": "mg2",
+  "scene": "universal_0002"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/mg2/universal_0003.png",
+  "program": "P6",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/mg2/mg2__universal_0003__P6_long",
+  "set": "mg2",
+  "scene": "universal_0003"
+ }
+]

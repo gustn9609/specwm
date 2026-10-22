@@ -1,0 +1,194 @@
+{
+ "jobs": 20,
+ "ok": 20,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 3.3,
+ "warmup_s": 18.4,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 17.5,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/wp/ancient_standing_stones.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__ancient_standing_stones__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.568,
+   "steady_fps_e2e": 38.17,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.18
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.526,
+   "steady_fps_e2e": 38.86,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.87
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.505,
+   "steady_fps_e2e": 38.97,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.8
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.518,
+   "steady_fps_e2e": 38.27,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.1
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.552,
+   "steady_fps_e2e": 36.63,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.83
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.585,
+   "steady_fps_e2e": 47.21,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 13.22
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.552,
+   "steady_fps_e2e": 38.84,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.9
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.541,
+   "steady_fps_e2e": 37.68,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.36
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.532,
+   "steady_fps_e2e": 38.18,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.15
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.625,
+   "steady_fps_e2e": 37.99,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.32
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.549,
+   "steady_fps_e2e": 36.9,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.71
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.516,
+   "steady_fps_e2e": 37.02,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.63
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.533,
+   "steady_fps_e2e": 33.16,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.52
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.549,
+   "steady_fps_e2e": 33.18,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.52
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.489,
+   "steady_fps_e2e": 32.93,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.6
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.987,
+   "steady_fps_e2e": 29.96,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 20.9
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.545,
+   "steady_fps_e2e": 36.6,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.84
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.544,
+   "steady_fps_e2e": 27.12,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 22.54
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.529,
+   "steady_fps_e2e": 28.88,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 21.18
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.55,
+   "steady_fps_e2e": 34.17,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.01
+  }
+ ],
+ "date": "2026-10-17T02:29:51"
+}

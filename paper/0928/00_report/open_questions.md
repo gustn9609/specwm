@@ -1,0 +1,9 @@
+- Which target should 'unbiased' name in the report to the professor: T_H^c9 (the runs in flight), full-prefix T_H, T_B (Base finish + Base chunk 0, needs new code), or should item 3 be reported as a no-go with respect to Base-70?
+- Base-70 timing: the brief says ~600 s, but every log shows 2,766-3,111 s on one GPU (8 runs). Is 600 s a multi-GPU sequence-parallel figure? Also, the brief says 8xH100 while the logs show 94.97 GiB GPUs (RTX PRO 6000 per the memory note). Which should the report state?
+- Keep running the 14 remaining specstep runs (~2.7 h on GPUs 2,3)? At best they match the target-only law and give no speed-up. Alternative: cut to 3 seeds per prompt and add the target-only null arm (--policy never --bguide 1 --bguide-nodes 0,1,2 --ctx 9 --resident), which is not queued.
+- GPUs 2,3: the memory note says GPUs 0-3 may be used only while the user explicitly allows it (allowed 9/24 ~11:30 PM CDT for a specific comparison). Please confirm the specstep queue on 2,3 is OK.
+- Email: who sends it, and cc whom (Guandao; Diana?). The signature needs Hyunsoo's last name, program and UT address. Galashov's address is not printed in the paper.
+- Stage A (CIFAR-10): use the third-party tree-specdiff code before the authors reply? Which checkpoint, and which GPU once 4-7 are free?
+- Item 4: which primary binary function to pre-register (VLM rubric, camera trajectory, object persistence with expected outcome, or a fixed DINO-NN)? Is there budget for ~24-29 more Base-70 seeds per prompt (~41 GPU-h), plus ~30 GPU-h if DINO-NN calibration seeds are needed?
+- Is systems parallelism of the exact target (3 Base replicas, ~1.7-2.7x, 1-2 days of engineering, UNVERIFIED) worth building, given plan->render is already faster on 1-2 GPUs?
+- Should the 2 finished T_H^c9 videos be judged by eye before anything else? No agent could view them.

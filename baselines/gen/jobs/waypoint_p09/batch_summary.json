@@ -1,0 +1,86 @@
+{
+ "jobs": 8,
+ "ok": 8,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 3.4,
+ "warmup_s": 17.4,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 16.5,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/neutral/pouring_water_into_cup.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__pouring_water_into_cup__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.522,
+   "steady_fps_e2e": 38.69,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.93
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.497,
+   "steady_fps_e2e": 37.82,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.26
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.451,
+   "steady_fps_e2e": 39.37,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.6
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.478,
+   "steady_fps_e2e": 37.67,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.3
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.454,
+   "steady_fps_e2e": 37.54,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.33
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.533,
+   "steady_fps_e2e": 48.31,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 12.88
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.493,
+   "steady_fps_e2e": 39.84,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.46
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__traffic_light_green__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.758,
+   "steady_fps_e2e": 39.11,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.0
+  }
+ ],
+ "date": "2026-10-17T02:33:19"
+}

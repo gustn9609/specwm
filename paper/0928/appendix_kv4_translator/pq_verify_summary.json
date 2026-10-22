@@ -1,0 +1,152 @@
+{
+ "all arms|0.6247|Base only (mean)": {
+  "n": 103,
+  "auc_severe": 0.5098280098280098,
+  "auc_drift": 0.6653290529695024
+ },
+ "all arms|0.6247|Fast only (mean)": {
+  "n": 103,
+  "auc_severe": 0.48812448812448817,
+  "auc_drift": 0.6902086677367576
+ },
+ "all arms|0.6247|p/q: Base - Fast (mean)": {
+  "n": 103,
+  "auc_severe": 0.5847665847665847,
+  "auc_drift": 0.4695024077046549
+ },
+ "all arms|0.6247|p/q: Base - Fast (max)": {
+  "n": 103,
+  "auc_severe": 0.524160524160524,
+  "auc_drift": 0.46950240770465484
+ },
+ "all arms|0.6247|p/q: Base / Fast (mean ratio)": {
+  "n": 103,
+  "auc_severe": 0.5573300573300574,
+  "auc_drift": 0.43258426966292135
+ },
+ "all arms|0.8331|Base only (mean)": {
+  "n": 103,
+  "auc_severe": 0.4782964782964783,
+  "auc_drift": 0.6211878009630818
+ },
+ "all arms|0.8331|Fast only (mean)": {
+  "n": 103,
+  "auc_severe": 0.43243243243243246,
+  "auc_drift": 0.6396468699839486
+ },
+ "all arms|0.8331|p/q: Base - Fast (mean)": {
+  "n": 103,
+  "auc_severe": 0.5655200655200655,
+  "auc_drift": 0.5136436597110754
+ },
+ "all arms|0.8331|p/q: Base - Fast (max)": {
+  "n": 103,
+  "auc_severe": 0.481981981981982,
+  "auc_drift": 0.4991974317817014
+ },
+ "all arms|0.8331|p/q: Base / Fast (mean ratio)": {
+  "n": 103,
+  "auc_severe": 0.5438165438165439,
+  "auc_drift": 0.47592295345104335
+ },
+ "all arms|0.9373|Base only (mean)": {
+  "n": 103,
+  "auc_severe": 0.49385749385749383,
+  "auc_drift": 0.6685393258426967
+ },
+ "all arms|0.9373|Fast only (mean)": {
+  "n": 103,
+  "auc_severe": 0.47665847665847666,
+  "auc_drift": 0.557784911717496
+ },
+ "all arms|0.9373|p/q: Base - Fast (mean)": {
+  "n": 103,
+  "auc_severe": 0.5487305487305487,
+  "auc_drift": 0.637239165329053
+ },
+ "all arms|0.9373|p/q: Base - Fast (max)": {
+  "n": 103,
+  "auc_severe": 0.5954135954135954,
+  "auc_drift": 0.6998394863563403
+ },
+ "all arms|0.9373|p/q: Base / Fast (mean ratio)": {
+  "n": 103,
+  "auc_severe": 0.5507780507780509,
+  "auc_drift": 0.6565008025682183
+ },
+ "without exact-spec / null arms|0.6247|Base only (mean)": {
+  "n": 88,
+  "auc_severe": 0.5797562268150503,
+  "auc_drift": 0.7249034749034751
+ },
+ "without exact-spec / null arms|0.6247|Fast only (mean)": {
+  "n": 88,
+  "auc_severe": 0.460519342872284,
+  "auc_drift": 0.6814671814671814
+ },
+ "without exact-spec / null arms|0.6247|p/q: Base - Fast (mean)": {
+  "n": 88,
+  "auc_severe": 0.7037625861155272,
+  "auc_drift": 0.5337837837837838
+ },
+ "without exact-spec / null arms|0.6247|p/q: Base - Fast (max)": {
+  "n": 88,
+  "auc_severe": 0.6640169581346052,
+  "auc_drift": 0.5598455598455598
+ },
+ "without exact-spec / null arms|0.6247|p/q: Base / Fast (mean ratio)": {
+  "n": 88,
+  "auc_severe": 0.6878643349231585,
+  "auc_drift": 0.4951737451737452
+ },
+ "without exact-spec / null arms|0.8331|Base only (mean)": {
+  "n": 88,
+  "auc_severe": 0.5983041865394807,
+  "auc_drift": 0.7287644787644787
+ },
+ "without exact-spec / null arms|0.8331|Fast only (mean)": {
+  "n": 88,
+  "auc_severe": 0.41971383147853736,
+  "auc_drift": 0.6351351351351351
+ },
+ "without exact-spec / null arms|0.8331|p/q: Base - Fast (mean)": {
+  "n": 88,
+  "auc_severe": 0.6979332273449921,
+  "auc_drift": 0.5936293436293436
+ },
+ "without exact-spec / null arms|0.8331|p/q: Base - Fast (max)": {
+  "n": 88,
+  "auc_severe": 0.6184419713831478,
+  "auc_drift": 0.5974903474903475
+ },
+ "without exact-spec / null arms|0.8331|p/q: Base / Fast (mean ratio)": {
+  "n": 88,
+  "auc_severe": 0.6841547429782723,
+  "auc_drift": 0.5608108108108107
+ },
+ "without exact-spec / null arms|0.9373|Base only (mean)": {
+  "n": 88,
+  "auc_severe": 0.597244303126656,
+  "auc_drift": 0.748069498069498
+ },
+ "without exact-spec / null arms|0.9373|Fast only (mean)": {
+  "n": 88,
+  "auc_severe": 0.42448330683624796,
+  "auc_drift": 0.5279922779922781
+ },
+ "without exact-spec / null arms|0.9373|p/q: Base - Fast (mean)": {
+  "n": 88,
+  "auc_severe": 0.6815050344462109,
+  "auc_drift": 0.7335907335907337
+ },
+ "without exact-spec / null arms|0.9373|p/q: Base - Fast (max)": {
+  "n": 88,
+  "auc_severe": 0.6650768415474297,
+  "auc_drift": 0.7586872586872586
+ },
+ "without exact-spec / null arms|0.9373|p/q: Base / Fast (mean ratio)": {
+  "n": 88,
+  "auc_severe": 0.6846846846846846,
+  "auc_drift": 0.7606177606177607
+ }
+}

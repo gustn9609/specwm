@@ -1,0 +1,40 @@
+{
+ "program": "P2",
+ "segments": [
+  [
+   0,
+   18,
+   0
+  ],
+  [
+   0,
+   18,
+   0
+  ],
+  [
+   0,
+   18,
+   0
+  ],
+  [
+   0,
+   18,
+   0
+  ]
+ ],
+ "fps_calls": 15.0,
+ "seconds": 10.0,
+ "calls": 150,
+ "k_yaw": 118.0,
+ "k_yaw_source": "default (10/9 flow calibration; unverified, see ENV.md)",
+ "total_yaw_deg": 179.99999999999923,
+ "total_pitch_deg": 0.0,
+ "mouse_x_per_call_abs_max": 141.6000000000017,
+ "buttons_WSAD": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "encoder": "baselines/waypoint/encode_program.py (inline; convert.py absent)"
+}

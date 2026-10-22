@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P3_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_urban_rain.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__easy_urban_rain__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "easy_urban_rain"
+ }
+]

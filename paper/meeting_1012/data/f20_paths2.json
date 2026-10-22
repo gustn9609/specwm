@@ -1,0 +1,77 @@
+{
+ "sand_filling_up_jar": {
+  "explained": [
+   0.13924036920070648,
+   0.1008935421705246
+  ],
+  "runs": {
+   "target (14B, 4-step)": 10,
+   "draft only (1.3B, 4-step)": 10,
+   "14B uniform 2-step": 10,
+   "14B uniform 3-step": 10,
+   "ours: teacher-parity (chunk-wise 0.7 + safe commit)": 10,
+   "ours + action speculation (K = 1, 3-frame)": 10,
+   "ours + action speculation + adaptive 2-frame": 10
+  }
+ },
+ "sandcastle_wave_impact": {
+  "explained": [
+   0.1684539020061493,
+   0.08534064143896103
+  ],
+  "runs": {
+   "target (14B, 4-step)": 10,
+   "draft only (1.3B, 4-step)": 10,
+   "14B uniform 2-step": 10,
+   "14B uniform 3-step": 10,
+   "ours: teacher-parity (chunk-wise 0.7 + safe commit)": 10,
+   "ours + action speculation (K = 1, 3-frame)": 10,
+   "ours + action speculation + adaptive 2-frame": 10
+  }
+ },
+ "easy_lake": {
+  "explained": [
+   0.1676342487335205,
+   0.11023293435573578
+  ],
+  "runs": {
+   "target (14B, 4-step)": 10,
+   "draft only (1.3B, 4-step)": 10,
+   "14B uniform 2-step": 10,
+   "14B uniform 3-step": 10,
+   "ours: teacher-parity (chunk-wise 0.7 + safe commit)": 10,
+   "ours + action speculation (K = 1, 3-frame)": 10,
+   "ours + action speculation + adaptive 2-frame": 10
+  }
+ },
+ "easy_stonehenge_sunset": {
+  "explained": [
+   0.2382693886756897,
+   0.11079882085323334
+  ],
+  "runs": {
+   "target (14B, 4-step)": 10,
+   "draft only (1.3B, 4-step)": 10,
+   "14B uniform 2-step": 10,
+   "14B uniform 3-step": 10,
+   "ours: teacher-parity (chunk-wise 0.7 + safe commit)": 10,
+   "ours + action speculation (K = 1, 3-frame)": 10,
+   "ours + action speculation + adaptive 2-frame": 10
+  }
+ },
+ "pouring_water_into_cup": {
+  "explained": [
+   0.10603030771017075,
+   0.09489354491233826
+  ],
+  "runs": {
+   "target (14B, 4-step)": 10,
+   "draft only (1.3B, 4-step)": 10,
+   "14B uniform 2-step": 10,
+   "14B uniform 3-step": 10,
+   "ours: teacher-parity (chunk-wise 0.7 + safe commit)": 10,
+   "ours + action speculation (K = 1, 3-frame)": 10,
+   "ours + action speculation + adaptive 2-frame": 10
+  }
+ }
+}

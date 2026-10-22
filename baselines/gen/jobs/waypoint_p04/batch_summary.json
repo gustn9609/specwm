@@ -1,0 +1,194 @@
+{
+ "jobs": 20,
+ "ok": 20,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 3.2,
+ "warmup_s": 19.1,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 18.1,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/wp/highland_castle_loch.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__highland_castle_loch__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.498,
+   "steady_fps_e2e": 38.14,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.13
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__highland_castle_loch__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.499,
+   "steady_fps_e2e": 37.8,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.27
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__highland_castle_loch__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.434,
+   "steady_fps_e2e": 38.94,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.74
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__mountain_ruins_gun__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.464,
+   "steady_fps_e2e": 37.93,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.18
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__mountain_ruins_gun__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.48,
+   "steady_fps_e2e": 37.17,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.52
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__mountain_ruins_gun__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.512,
+   "steady_fps_e2e": 47.32,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 13.11
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__mountain_ruins_gun__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.486,
+   "steady_fps_e2e": 38.85,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.84
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__mountain_ruins_gun__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.497,
+   "steady_fps_e2e": 38.86,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.84
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__mountain_ruins_gun__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.471,
+   "steady_fps_e2e": 38.52,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.95
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__mountain_ruins_gun__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.582,
+   "steady_fps_e2e": 37.71,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.4
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shattered_cockpit_nebula__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.57,
+   "steady_fps_e2e": 37.6,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.43
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shattered_cockpit_nebula__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.524,
+   "steady_fps_e2e": 37.83,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.29
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shattered_cockpit_nebula__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.544,
+   "steady_fps_e2e": 34.03,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.07
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shattered_cockpit_nebula__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.498,
+   "steady_fps_e2e": 38.25,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.09
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shattered_cockpit_nebula__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.538,
+   "steady_fps_e2e": 35.51,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 17.33
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shattered_cockpit_nebula__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.472,
+   "steady_fps_e2e": 30.93,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 19.76
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shattered_cockpit_nebula__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.571,
+   "steady_fps_e2e": 37.02,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.68
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shipwreck_shore_revolver__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.536,
+   "steady_fps_e2e": 30.54,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 20.07
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shipwreck_shore_revolver__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.501,
+   "steady_fps_e2e": 30.51,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 20.05
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shipwreck_shore_revolver__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.497,
+   "steady_fps_e2e": 36.51,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.83
+  }
+ ],
+ "date": "2026-10-17T02:29:36"
+}

@@ -1,0 +1,25 @@
+{
+ "task": "sandcastle_wave_impact",
+ "seed": 4321,
+ "mode": "sdvg",
+ "tau": -0.7,
+ "num_blocks": 13,
+ "gen_s": 30.2,
+ "accepted": 12,
+ "rejected": 1,
+ "scores": [
+  1.6361,
+  1.6866,
+  1.6662,
+  1.4362,
+  1.2993,
+  1.4336,
+  1.4603,
+  1.4733,
+  1.4894,
+  1.3584,
+  1.2552,
+  1.1319
+ ],
+ "prompt": "an elaborate sandcastle on a beach being hit by a large green breaking wave, wet sand and sea foam, overcast sky"
+}

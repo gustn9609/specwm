@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P4",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P4p",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__billiard_break__P5",
+  "prompt": "The robot strikes the cue ball with a pool cue, sending it toward the rack of balls.",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/bowling_inertia.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__bowling_inertia__P1",
+  "prompt": "A hand releases a bowling ball, sending it rolling down the polished lane.",
+  "set": "neutral_832",
+  "scene": "bowling_inertia"
+ }
+]

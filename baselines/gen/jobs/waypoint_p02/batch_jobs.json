@@ -1,0 +1,182 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/ancient_standing_stones.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__ancient_standing_stones__P5/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__ancient_standing_stones__P5",
+  "seed": 1234,
+  "program": "P5",
+  "name": "wp__ancient_standing_stones__P5",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/default.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P1/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P1",
+  "seed": 1234,
+  "program": "P1",
+  "name": "wp__default__P1",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/default.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P2/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P2",
+  "seed": 1234,
+  "program": "P2",
+  "name": "wp__default__P2",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/default.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P2p/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P2p",
+  "seed": 1234,
+  "program": "P2p",
+  "name": "wp__default__P2p",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/default.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P3/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P3",
+  "seed": 1234,
+  "program": "P3",
+  "name": "wp__default__P3",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/default.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P4/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P4",
+  "seed": 1234,
+  "program": "P4",
+  "name": "wp__default__P4",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/default.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P4p/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P4p",
+  "seed": 1234,
+  "program": "P4p",
+  "name": "wp__default__P4p",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/default.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P5/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__default__P5",
+  "seed": 1234,
+  "program": "P5",
+  "name": "wp__default__P5",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/desert_outpost_hangar.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P1/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P1",
+  "seed": 1234,
+  "program": "P1",
+  "name": "wp__desert_outpost_hangar__P1",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/desert_outpost_hangar.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P2/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P2",
+  "seed": 1234,
+  "program": "P2",
+  "name": "wp__desert_outpost_hangar__P2",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/desert_outpost_hangar.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P2p/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P2p",
+  "seed": 1234,
+  "program": "P2p",
+  "name": "wp__desert_outpost_hangar__P2p",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/desert_outpost_hangar.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P3/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P3",
+  "seed": 1234,
+  "program": "P3",
+  "name": "wp__desert_outpost_hangar__P3",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/desert_outpost_hangar.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P4/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P4",
+  "seed": 1234,
+  "program": "P4",
+  "name": "wp__desert_outpost_hangar__P4",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/desert_outpost_hangar.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P4p/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P4p",
+  "seed": 1234,
+  "program": "P4p",
+  "name": "wp__desert_outpost_hangar__P4p",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/desert_outpost_hangar.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P5/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__desert_outpost_hangar__P5",
+  "seed": 1234,
+  "program": "P5",
+  "name": "wp__desert_outpost_hangar__P5",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/enchanted_swamp_torch.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P1/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P1",
+  "seed": 1234,
+  "program": "P1",
+  "name": "wp__enchanted_swamp_torch__P1",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/enchanted_swamp_torch.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P2/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P2",
+  "seed": 1234,
+  "program": "P2",
+  "name": "wp__enchanted_swamp_torch__P2",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/enchanted_swamp_torch.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P2p/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P2p",
+  "seed": 1234,
+  "program": "P2p",
+  "name": "wp__enchanted_swamp_torch__P2p",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/enchanted_swamp_torch.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P3/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P3",
+  "seed": 1234,
+  "program": "P3",
+  "name": "wp__enchanted_swamp_torch__P3",
+  "k_yaw": null
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/enchanted_swamp_torch.png",
+  "actions": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P4/actions.json",
+  "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__enchanted_swamp_torch__P4",
+  "seed": 1234,
+  "program": "P4",
+  "name": "wp__enchanted_swamp_torch__P4",
+  "k_yaw": null
+ }
+]

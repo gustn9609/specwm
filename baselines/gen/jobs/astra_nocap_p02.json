@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P4_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P4p_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/balloon_block_cut.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__balloon_block_cut__P5_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "balloon_block_cut"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/billiard_break.png",
+  "program": "P1",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra_nocap/neutral_832__billiard_break__P1_nocap",
+  "prompt": "",
+  "set": "neutral_832",
+  "scene": "billiard_break"
+ }
+]

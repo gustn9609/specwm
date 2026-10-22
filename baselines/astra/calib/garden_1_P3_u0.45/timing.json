@@ -1,0 +1,91 @@
+{
+ "model": "Astra (Wan2.1-T2V-1.3B + Astra MoE/FramePack DiT)",
+ "ckpt": "EvanEternal/Astra models/Astra/checkpoints/diffusion_pytorch_model.ckpt sha256 5ca9c5e0..., Wan2.1-T2V-1.3B DiT 96b6b242..., T5 umt5-xxl bf16 7cace0da..., Wan2.1_VAE 38071ab5...",
+ "commit": "3fb82e1939bfcf87d6e27a7da57d8b55ff9cb393",
+ "precision": "bf16 (DiT, T5, VAE; ModelManager torch_dtype bfloat16)",
+ "attention": "torch F.scaled_dot_product_attention (flash_attn / sageattention not installed; wan_video_dit_moe.flash_attention fallback)",
+ "vae": "Wan2.1_VAE.pth, tiled encode/decode tile (34,34) stride (18,16), one decode of the whole clip at the end (official)",
+ "resolution_out": [
+  832,
+  480
+ ],
+ "frames": 201,
+ "frames_generated": 225,
+ "latents_generated": 56,
+ "fps_native": 20,
+ "frames_per_call_or_chunk": 32,
+ "latents_per_block": 8,
+ "steps": 50,
+ "cfg": "none (official default)",
+ "gen_s": 172.33593780902447,
+ "e2e_s": 194.2856501250062,
+ "ttff_s": 25.927552282926627,
+ "ttff_decode_s": 3.1498382769641466,
+ "ttff_first_block_frames": 33,
+ "steady_fps_gen": 1.2756625754538329,
+ "steady_fps_e2e": 1.1256525425687087,
+ "decode_s": 20.997915918997023,
+ "decode_s_per_block_est": 3.3429517880990285,
+ "image_encode_s": 0.8563522219774313,
+ "prompt_encode_s": 0.09544417500728741,
+ "load_s": 11.324365887965541,
+ "warm_s": 21.91900420904858,
+ "block_s": [
+  21.82591760897776,
+  25.119335180032067,
+  25.07601264899131,
+  25.091057969024405,
+  25.081945737998467,
+  25.06824425200466,
+  25.073424411995802
+ ],
+ "block_latents": [
+  8,
+  8,
+  8,
+  8,
+  8,
+  8,
+  8
+ ],
+ "s_per_step_steady": 0.501700067333489,
+ "peak_alloc_GiB": 14.862826347351074,
+ "peak_reserved_GiB": 16.130859375,
+ "mem_after_load_GiB": 13.75816822052002,
+ "text_encoder_resident": true,
+ "kv_window": "FramePack context: 1 start + 16 (4x) + 2 (2x) + 1 (1x) history latents per block; history kept up to max_history 100 latents",
+ "warm": true,
+ "seed": 1234,
+ "program": "P3",
+ "camera": {
+  "kind": "protocol_program",
+  "program": "P3",
+  "u_scale": 0.45,
+  "n_latents": 56,
+  "fps": 20,
+  "frames_generated": 225,
+  "frames_kept": 201,
+  "convention": "M_j = S [inv(c2w[4j]) c2w[4j+4]] S, S = diag(1,-1,-1); +yaw(protocol) -> M[0,2] < 0 = Astra 'right'; forward -> M[2,3] < 0"
+ },
+ "prompt_chars": 870,
+ "image": "/home/hk28965/specwm/baselines/scenes/astra/garden_1.png",
+ "ckpt_load": {
+  "missing": 0,
+  "unexpected": 0,
+  "n_tensors": 1139
+ },
+ "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+ "gpu_smi_before": [
+  "5, 14941 MiB, 0 %, NVIDIA RTX PRO 6000 Blackwell Server Edition"
+ ],
+ "gpu_smi_after": [
+  "5, 17221 MiB, 0 %, NVIDIA RTX PRO 6000 Blackwell Server Edition"
+ ],
+ "torch": "2.8.0+cu128",
+ "notes": "timings on a SHARED GPU (see gpu_smi_before: another job resident) are upper bounds; e2e_s = image+prompt encode + all blocks + final decode; ttff_s adds a separate decode of the first block (excluded from e2e_s); steady fps from the full 8-latent blocks after the first",
+ "batch": {
+  "jobs_file": "/home/hk28965/specwm/baselines/astra/calib/batch_P3_u0.45.jobs_resolved.json",
+  "index": 0,
+  "n_jobs": 1
+ }
+}

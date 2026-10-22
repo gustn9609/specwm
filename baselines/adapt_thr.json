@@ -1,0 +1,200 @@
+{
+ "made": "2026-10-19 18:50:39",
+ "budget": 0.25,
+ "rule": "[10/19 audit] adapt25 step-1 head (gate-dir drafthead/rt2c1_bl, result.json thr head_step1 0.25 = old_thr, calibrated at 704x384 on bench-43) barely fires on the frozen sets. New threshold per evaluated set = the 75th percentile (numpy linear) of the head score sc over chunks c >= 3 of the frozen adapt25 solo runs (runs/ours_adapt25_<calibrated_on>/*/timing.json 'adapt') of a DISJOINT scene set at the same resolution: mg2 <- neutral_mg2, wp <- neutral_wp, abot <- neutral_abot, neutral_832 & neutral_832_nocap <- astra (21 clips), astra <- neutral_832; (extra, not queued) neutral_mg2 <- mg2, neutral_wp <- wp, neutral_abot <- abot. A chunk is extended when sc > thr (two_machine.py denoise), so 25 % of the calibration chunks would be extended. Used by run_ours.sh arms adapt25r / adapt25rc1hyb via two_machine --adapt-thr.",
+ "old_thr": 0.28685516119003296,
+ "old_frac_ext": {
+  "mg2": 0.0162,
+  "wp": 0.039,
+  "abot": 0.0368,
+  "astra": 0.0087,
+  "neutral_832": 0.1039,
+  "neutral_832_nocap": 0.0671,
+  "neutral_mg2": 0.0379,
+  "neutral_wp": 0.0758,
+  "neutral_abot": 0.0411
+ },
+ "old_frac_ext_hyb_dev": {
+  "mg2": 0.0097,
+  "wp": 0.0249,
+  "abot": 0.0346,
+  "astra": 0.0,
+  "neutral_832": 0.0768,
+  "neutral_832_nocap": 0.0639,
+  "neutral_mg2": 0.0292,
+  "neutral_wp": 0.0541,
+  "neutral_abot": 0.0346
+ },
+ "quantiles": {
+  "mg2": {
+   "res": "640x352",
+   "clips": 84,
+   "n_chunks": 924,
+   "p50": 0.2196,
+   "p75": 0.24055,
+   "p90": 0.26264
+  },
+  "wp": {
+   "res": "1024x512",
+   "clips": 84,
+   "n_chunks": 924,
+   "p50": 0.24785,
+   "p75": 0.26472,
+   "p90": 0.2787
+  },
+  "abot": {
+   "res": "1280x704",
+   "clips": 84,
+   "n_chunks": 924,
+   "p50": 0.22915,
+   "p75": 0.24825,
+   "p90": 0.27321
+  },
+  "astra": {
+   "res": "832x480",
+   "clips": 21,
+   "n_chunks": 231,
+   "p50": 0.2316,
+   "p75": 0.2454,
+   "p90": 0.2558
+  },
+  "neutral_832": {
+   "res": "832x480",
+   "clips": 84,
+   "n_chunks": 924,
+   "p50": 0.2511,
+   "p75": 0.27053,
+   "p90": 0.28785
+  },
+  "neutral_832_nocap": {
+   "res": "832x480",
+   "clips": 84,
+   "n_chunks": 924,
+   "p50": 0.22945,
+   "p75": 0.252,
+   "p90": 0.27979
+  },
+  "neutral_mg2": {
+   "res": "640x352",
+   "clips": 84,
+   "n_chunks": 924,
+   "p50": 0.22765,
+   "p75": 0.25112,
+   "p90": 0.26861
+  },
+  "neutral_wp": {
+   "res": "1024x512",
+   "clips": 84,
+   "n_chunks": 924,
+   "p50": 0.23335,
+   "p75": 0.25745,
+   "p90": 0.27991
+  },
+  "neutral_abot": {
+   "res": "1280x704",
+   "clips": 84,
+   "n_chunks": 924,
+   "p50": 0.22925,
+   "p75": 0.24613,
+   "p90": 0.26802
+  }
+ },
+ "p75_by_resolution": {
+  "640x352": 0.24572,
+  "1024x512": 0.2617,
+  "1280x704": 0.24693,
+  "832x480": 0.26215
+ },
+ "by_set": {
+  "mg2": {
+   "thr": 0.251125,
+   "calibrated_on": "neutral_mg2",
+   "res": "640x352",
+   "n_chunks": 924,
+   "n_clips_calib": 84,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.0162,
+   "frac_ext_new_insample": 0.1623
+  },
+  "wp": {
+   "thr": 0.25745,
+   "calibrated_on": "neutral_wp",
+   "res": "1024x512",
+   "n_chunks": 924,
+   "n_clips_calib": 84,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.039,
+   "frac_ext_new_insample": 0.3474
+  },
+  "abot": {
+   "thr": 0.246125,
+   "calibrated_on": "neutral_abot",
+   "res": "1280x704",
+   "n_chunks": 924,
+   "n_clips_calib": 84,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.0368,
+   "frac_ext_new_insample": 0.2673
+  },
+  "astra": {
+   "thr": 0.270525,
+   "calibrated_on": "neutral_832",
+   "res": "832x480",
+   "n_chunks": 924,
+   "n_clips_calib": 84,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.0087,
+   "frac_ext_new_insample": 0.0087
+  },
+  "neutral_832": {
+   "thr": 0.2454,
+   "calibrated_on": "astra",
+   "res": "832x480",
+   "n_chunks": 231,
+   "n_clips_calib": 21,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.1039,
+   "frac_ext_new_insample": 0.5574
+  },
+  "neutral_832_nocap": {
+   "thr": 0.2454,
+   "calibrated_on": "astra",
+   "res": "832x480",
+   "n_chunks": 231,
+   "n_clips_calib": 21,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.0671,
+   "frac_ext_new_insample": 0.3095
+  },
+  "neutral_mg2": {
+   "thr": 0.24055,
+   "calibrated_on": "mg2",
+   "res": "640x352",
+   "n_chunks": 924,
+   "n_clips_calib": 84,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.0379,
+   "frac_ext_new_insample": 0.3431
+  },
+  "neutral_wp": {
+   "thr": 0.264725,
+   "calibrated_on": "wp",
+   "res": "1024x512",
+   "n_chunks": 924,
+   "n_clips_calib": 84,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.0758,
+   "frac_ext_new_insample": 0.1861
+  },
+  "neutral_abot": {
+   "thr": 0.24825,
+   "calibrated_on": "abot",
+   "res": "1280x704",
+   "n_chunks": 924,
+   "n_clips_calib": 84,
+   "frac_ext_expected_on_calib": 0.25,
+   "frac_ext_old": 0.0411,
+   "frac_ext_new_insample": 0.2294
+  }
+ }
+}

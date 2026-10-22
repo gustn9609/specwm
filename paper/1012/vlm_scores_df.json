@@ -1,0 +1,542 @@
+{
+"lingbot-world-v2/specwm_out/df_ab/billiard_break/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 100.0,
+"quality": 3.0,
+"raw": [
+"100",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/domino_falling/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_dragon_night/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_greatwall/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_lake/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_stonehenge_sunset/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_urban_rain/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/hourglass_accumulation/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/newtons_cradle/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/pouring_water_into_cup/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sand_filling_up_jar/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 100.0,
+"quality": 4.0,
+"raw": [
+"100",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sandcastle_wave_impact/df_fused_n750_lag1_s1234/video.mp4": {
+"label": "df_fused_n750",
+"drift": 100.0,
+"quality": 7.0,
+"raw": [
+"100",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/billiard_break/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/domino_falling/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_dragon_night/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_greatwall/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_lake/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_stonehenge_sunset/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_urban_rain/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 0.0,
+"quality": 6.0,
+"raw": [
+"0",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/hourglass_accumulation/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/newtons_cradle/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/pouring_water_into_cup/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sand_filling_up_jar/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 100.0,
+"quality": 3.0,
+"raw": [
+"100",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sandcastle_wave_impact/df_separate_n750_lag1_s1234/video.mp4": {
+"label": "df_separate_n750",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/billiard_break/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 85.0,
+"quality": 4.0,
+"raw": [
+"85",
+"4"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/domino_falling/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_dragon_night/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_greatwall/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_lake/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 20.0,
+"quality": 9.0,
+"raw": [
+"20",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_stonehenge_sunset/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_urban_rain/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 0.0,
+"quality": 7.0,
+"raw": [
+"0",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/hourglass_accumulation/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/newtons_cradle/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/pouring_water_into_cup/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sand_filling_up_jar/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 100.0,
+"quality": 3.0,
+"raw": [
+"100",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sandcastle_wave_impact/df_fused_n850_lag1_s1234/video.mp4": {
+"label": "df_fused_n850",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/billiard_break/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 100.0,
+"quality": 3.0,
+"raw": [
+"100",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/domino_falling/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_dragon_night/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_greatwall/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_lake/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_stonehenge_sunset/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 0.0,
+"quality": 8.0,
+"raw": [
+"0",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_urban_rain/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 20.0,
+"quality": 6.0,
+"raw": [
+"20",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/hourglass_accumulation/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 85.0,
+"quality": 5.0,
+"raw": [
+"85",
+"5"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/newtons_cradle/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/pouring_water_into_cup/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 75.0,
+"quality": 7.0,
+"raw": [
+"75",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sand_filling_up_jar/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sandcastle_wave_impact/df_separate_n850_lag1_s1234/video.mp4": {
+"label": "df_separate_n850",
+"drift": 85.0,
+"quality": 6.0,
+"raw": [
+"85",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/billiard_break/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/domino_falling/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 85.0,
+"quality": 3.0,
+"raw": [
+"85",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_dragon_night/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_greatwall/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 20.0,
+"quality": 8.0,
+"raw": [
+"20",
+"8"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_lake/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 0.0,
+"quality": 9.0,
+"raw": [
+"0",
+"9"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_stonehenge_sunset/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 20.0,
+"quality": 7.0,
+"raw": [
+"20",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/easy_urban_rain/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 0.0,
+"quality": 7.0,
+"raw": [
+"0",
+"7"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/hourglass_accumulation/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/newtons_cradle/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 100.0,
+"quality": 6.0,
+"raw": [
+"100",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/pouring_water_into_cup/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sand_filling_up_jar/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 100.0,
+"quality": 3.0,
+"raw": [
+"100",
+"3"
+]
+},
+"lingbot-world-v2/specwm_out/df_ab/sandcastle_wave_impact/df_fused_n930_lag1_s1234/video.mp4": {
+"label": "df_fused_n930",
+"drift": 75.0,
+"quality": 6.0,
+"raw": [
+"75",
+"6"
+]
+}
+}

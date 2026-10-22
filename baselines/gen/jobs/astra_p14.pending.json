@@ -1,0 +1,38 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P3",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P3",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P4",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P4",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P4p",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P4p",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/neutral/easy_dragon_night.png",
+  "program": "P5",
+  "seed": 1234,
+  "out": "/home/hk28965/specwm/baselines/runs/astra/neutral_832__easy_dragon_night__P5",
+  "prompt": "This is a first-person-view video from the perspective of a rider gripping the reins of a large, green-scaled dragon flying through a dense jungle at night. A full moon lights the mist, torches flicker on the castle towers ahead, fireflies drift through the dark canopy. The dragon's neck and the rider's leather-gloved hands remain at the exact centre of the frame at constant size and distance. Neither the dragon nor the rider's hands move within the frame; only the scenery moves as the camera flies forward.",
+  "set": "neutral_832",
+  "scene": "easy_dragon_night"
+ }
+]

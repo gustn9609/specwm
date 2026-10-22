@@ -1,0 +1,194 @@
+{
+ "jobs": 20,
+ "ok": 20,
+ "skipped": 0,
+ "failed": 0,
+ "load_s": 3.4,
+ "warmup_s": 16.9,
+ "warmup_calls": 12,
+ "warmup_first_call_s": 15.9,
+ "warmup_image": "/home/hk28965/specwm/baselines/scenes/wp/shipwreck_shore_revolver.png",
+ "clips": [
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shipwreck_shore_revolver__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.456,
+   "steady_fps_e2e": 38.84,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.8
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shipwreck_shore_revolver__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.457,
+   "steady_fps_e2e": 39.78,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.44
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shipwreck_shore_revolver__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.463,
+   "steady_fps_e2e": 40.25,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.28
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/wp__shipwreck_shore_revolver__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.522,
+   "steady_fps_e2e": 40.18,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.36
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__balloon_block_cut__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.433,
+   "steady_fps_e2e": 37.68,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.26
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__balloon_block_cut__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.502,
+   "steady_fps_e2e": 49.2,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 12.62
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__balloon_block_cut__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.449,
+   "steady_fps_e2e": 40.75,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.08
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__balloon_block_cut__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.458,
+   "steady_fps_e2e": 40.47,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.19
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__balloon_block_cut__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.46,
+   "steady_fps_e2e": 39.78,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.45
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__balloon_block_cut__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.504,
+   "steady_fps_e2e": 38.98,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.8
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__balloon_block_cut__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.471,
+   "steady_fps_e2e": 38.43,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.99
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__billiard_break__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.518,
+   "steady_fps_e2e": 39.03,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.8
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__billiard_break__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.518,
+   "steady_fps_e2e": 34.78,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 17.66
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__billiard_break__P2p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.492,
+   "steady_fps_e2e": 38.87,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.84
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__billiard_break__P3",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.516,
+   "steady_fps_e2e": 35.87,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 17.14
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__billiard_break__P4",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.492,
+   "steady_fps_e2e": 32.7,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 18.73
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__billiard_break__P4p",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.494,
+   "steady_fps_e2e": 39.04,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 15.77
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__billiard_break__P5",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.501,
+   "steady_fps_e2e": 32.1,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 19.08
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__bowling_inertia__P1",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.481,
+   "steady_fps_e2e": 31.74,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 19.28
+  },
+  {
+   "out": "/home/hk28965/specwm/baselines/runs/waypoint/neutral_wp__bowling_inertia__P2",
+   "status": "ok",
+   "frames": 600,
+   "ttff_s": 0.488,
+   "steady_fps_e2e": 37.54,
+   "peak_alloc_GiB": 6.633,
+   "clip_wall_s": 16.38
+  }
+ ],
+ "date": "2026-10-17T02:35:23"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/highland_castle_loch.png",
+  "actions": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k66/wp__highland_castle_loch__P2_k66/actions.json",
+  "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k66/wp__highland_castle_loch__P2_k66",
+  "seed": 1234,
+  "program": "P2",
+  "name": "wp__highland_castle_loch__P2_k66",
+  "k_yaw": 66.0
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/highland_castle_loch.png",
+  "actions": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k66/wp__highland_castle_loch__P2_k66_s1235/actions.json",
+  "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k66/wp__highland_castle_loch__P2_k66_s1235",
+  "seed": 1235,
+  "program": "P2",
+  "name": "wp__highland_castle_loch__P2_k66_s1235",
+  "k_yaw": 66.0
+ },
+ {
+  "image": "/home/hk28965/specwm/baselines/scenes/wp/highland_castle_loch.png",
+  "actions": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k66/wp__highland_castle_loch__P3_k66/actions.json",
+  "out": "/home/hk28965/specwm/baselines/waypoint/smoke/batch_k66/wp__highland_castle_loch__P3_k66",
+  "seed": 1234,
+  "program": "P3",
+  "name": "wp__highland_castle_loch__P3_k66",
+  "k_yaw": 66.0
+ }
+]
